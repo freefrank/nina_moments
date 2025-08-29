@@ -71,7 +71,7 @@
   <!-- 显示标题（仅当不是日期格式时）和内容 -->
   {{- $title := .Title }}
   {{- $isDateTitle := false }}
-  {{- if regexMatch "^\\d{4}-\\d{2}-\\d{2}(-\\d+)?$" $title }}
+  {{- if findRE "^\\d{4}-\\d{2}-\\d{2}(-\\d+)?$" $title }}
     {{- $isDateTitle = true }}
   {{- end }}
   

@@ -67,8 +67,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 // 检查是否还有下一页
                 const nextLoadMoreBtn = doc.getElementById('load-more-btn');
                 if (nextLoadMoreBtn) {
-                    const nextNextUrl = nextLoadMoreBtn.getAttribute('data-next-url');
+                    let nextNextUrl = nextLoadMoreBtn.getAttribute('data-next-url');
                     if (nextNextUrl) {
+                        // 确保URL使用HTTPS协议
+                        if (window.location.protocol === 'https:' && nextNextUrl.startsWith('http:')) {
+                            nextNextUrl = nextNextUrl.replace('http:', 'https:');
+                        }
                         loadMoreBtn.setAttribute('data-next-url', nextNextUrl);
                     } else {
                         // 没有更多页面了

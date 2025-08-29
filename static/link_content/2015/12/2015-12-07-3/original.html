@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta http-equiv=Content-Security-Policy content=upgrade-insecure-requests>
+<title>文章</title>
+<style>
+html,body{width:100%;}
+html{min-width:320px;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-text-size-adjust:100%;}
+body,div{margin:0; padding:0;}
+.layout-box{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}
+.layout-box .box-col{-webkit-box-flex:1;-webkit-flex:1;-ms-flex:1;flex:1;width:100%;}
+.art_loading{margin:0;padding:0.3125rem 0.75rem 0.75rem;font-family:"Helvetica Neue",Helvetica,STHeiTi,sans-serif;color:#7c7c7c;background:#ffffff;}
+.dbg{height:1.0625rem;background:#f2f2f5;border-radius:0.125rem;}
+.w1{width:63%;}
+.h1{height:0.6875rem;}
+.h2{height:;}
+.h3{height:7rem;}
+.m1{margin:0 0 0.625rem;}
+.m2{margin:0 0 1.5625rem;}
+.d1{width:2.5rem;height:2.5rem;margin:0 0.75rem 0.3125rem 0;border-radius:50%;}
+.d2{width:55%;margin:0.375rem 0;}
+.layout-box .box-col.d3{height:1.5625rem;margin:0 0.25rem 1.5625rem 0;}
+.layout-box .box-col.d3:last-child{margin:0;}
+.d4{height:0.03125rem;margin:0 0 0.9375rem;border-radius:0;}
+.d5{padding:0.625rem 0;text-align:center;font-size:0.75rem;}
+.d5in{display:inline-block;position:relative;width:1.5rem;height:1.5rem;margin:0 0.625rem 0 0;-webkit-animation:loading2 1s linear infinite;-moz-animation:loading2 1s linear infinite;-o-animation:loading2 1s linear infinite;animation:loading2 1s linear infinite;vertical-align:middle;}
+.din1,.din2{display:inline-block;width:0.75rem;height:1.5rem;}
+.din1{border-top-left-radius:0.75rem; border-bottom-left-radius:0.75rem;background:-webkit-linear-gradient(top,rgba(254,114,45,1) 0%,rgba(255,222,206,1) 50%),rgba(255,248,244,1) 100%);background:linear-gradient(to bottom,rgba(254,114,45,1),rgba(255,222,206,1),rgba(255,248,244,1));}
+.din2{border-top-right-radius:0.75rem; border-bottom-right-radius:0.75rem;background:-webkit-linear-gradient(bottom,rgba(255,181,0,1) 0%,rgba(255,238,196,1) 50%),rgba(255,251,242,1) 100%);background:linear-gradient(to top,rgba(255,181,0,1),rgba(255,238,196,1),rgba(255,251,242,1));}
+.din3{position:absolute;top:0.125rem;left:0.125rem;width:1.25rem;height:1.25rem;border-radius:50%;background:#fff;}
+@-webkit-keyframes loading2{
+    0%{-webkit-transform:rotate(0deg);}
+    100%{-webkit-transform:rotate(360deg);}
+}
+@-moz-keyframes loading2{
+    0%{-moz-transform:rotate(0deg);}
+    100%{-moz-transform:rotate(360deg);}
+}
+@-o-keyframes loading2{
+    0%{-o-transform:rotate(0deg);}
+    100%{-o-transform:rotate(360deg);}
+}
+@keyframes loading2{
+    0%{transform:rotate(0deg);}
+    100%{transform:rotate(360deg);}
+}
+</style>
+<link href="//h5.sinaimg.cn/apps/media/css/article_201603211025.css" type="text/css" rel="stylesheet" charset="utf-8" />
+<script type="text/javascript">
+        var $CONFIG = {
+			'__st': +new Date(),
+			'version': 3		};
+</script>
+</head>
+<body>
+<div class="art_loading" node-type="loadBox">
+    <div class="layout-box">
+        <div class="dbg d1"></div>
+        <div class="box-col">
+            <div class="dbg h1 d2"></div>
+            <div class="dbg h1 d2"></div>
+        </div>
+    </div>
+    <div class="dbg d4"></div>
+    <div class="dbg h2 m1"></div>
+    <div class="dbg h2 m2 w1"></div>
+    <div class="layout-box">
+        <div class="box-col dbg d3"></div>
+        <div class="box-col dbg d3"></div>
+        <div class="box-col dbg d3"></div>
+        <div class="box-col dbg d3"></div>
+    </div>
+    <div class="dbg h2 m1"></div>
+    <div class="dbg h2 m1"></div>
+    <div class="m1 d5" node-type="loadText">
+        <div class="d5in">
+			<div class="din1"></div><div class="din2"></div><div class="din3"></div>
+		</div>加载中...
+    </div>
+    <div class="dbg h3 m2"></div>
+    <div class="dbg h2 m1"></div>
+    <div class="dbg h2 m1"></div>
+    <div class="dbg h2 m2 w1"></div>
+    <div class="dbg h2 m1"></div>
+    <div class="dbg h2 m1"></div>
+    <div class="dbg h2 m2 w1"></div>
+</div>
+<div class="art_wrap" node-type="wrap">
+	<div class="art_con" node-type="content" style="display:none;"></div>
+	<div class="art_list" node-type="recommend" style="display:none;"></div>
+	<div node-type="third_module" style="display:none;"></div>
+	<div class="art_talk" node-type="cmtArea" style="display:none;"></div>
+	<div class="more" node-type="cmtMore" style="display:none;"></div>
+</div>
+<script type="text/javascript" src="//h5.sinaimg.cn/apps/media/js/jquery.min.js"></script>
+<script type="text/javascript" data-main="js/page/article/show/offline"  src="//h5.sinaimg.cn/apps/media/js/page/article/show/offline_201603211025.js"></script>
+<script>
+if (location.href.indexOf("cid=1001603982343420389503") >= 0 ) {
+    window.location = "https://huati.weibo.cn/about/convention#emcee_rule";
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+baseURL: 'https://USERNAME.github.io/REPOSITORY-NAME'
+languageCode: 'zh-cn'
+title: '我的朋友圈时光机'
+theme: 'PaperMod'
+
+params:
+  env: production
+  title: '我的朋友圈时光机'
+  description: '整理的社交媒体内容归档'
+  keywords: [朋友圈, 社交媒体, 归档, 时光机]
+  author: 'Me'
+  
+  # 首页配置
+  homeInfoParams:
+    Title: '欢迎来到我的朋友圈时光机 👋'
+    Content: '这里收录了我的社交媒体内容，按时间整理。包含文字、图片和链接内容。'
+
+  # 社交链接
+  socialIcons:
+    - name: github
+      url: 'https://github.com/USERNAME'
+
+  # 搜索功能
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# 菜单配置
+menu:
+  main:
+    - identifier: posts
+      name: 所有文章
+      url: /posts/
+      weight: 10
+    - identifier: archive
+      name: 归档
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: 搜索
+      url: /search/
+      weight: 30
+
+# 输出格式
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# 分页
+paginate: 10
+
+# Markdown配置
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    lineNos: true
+    style: github
+
+# 分类法
+taxonomies:
+  category: categories
+  tag: tags
+  series: series

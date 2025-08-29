@@ -30,7 +30,7 @@
 </header>
 {{- end }}
 
-{{- if .Content }}
+{{- if and .Content (not .IsHome) }}
 <div class="post-content">
   {{- if not (.Param "disableAnchoredHeadings") }}
   {{- partial "anchored_headings.html" .Content -}}
@@ -47,12 +47,69 @@
 
 {{- $paginator := .Paginate $pages }}
 
-{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+<!-- 主页布局 -->
+{{- if .IsHome }}
+<!-- home-info横跨整个宽度 -->
+{{- if and site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
 {{- partial "home_info.html" . }}
 {{- end }}
 
-<!-- 信息流容器 -->
+<!-- 侧边栏 + 信息流布局 -->
+<div class="page-layout">
+  <!-- 左侧时间线侧边栏 -->
+  <div class="timeline-sidebar" id="sidebar">
+    <h3>时间线</h3>
+    <div class="year-filter" id="year-filter">
+      {{- /* 收集所有年份和月份 */ -}}
+      {{- $yearMonths := dict }}
+      {{- range $pages }}
+        {{- $year := .Date.Format "2006" }}
+        {{- $month := .Date.Format "01" }}
+        {{- $monthName := .Date.Format "01月" }}
+        {{- if not (index $yearMonths $year) }}
+          {{- $yearMonths = merge $yearMonths (dict $year (slice)) }}
+        {{- end }}
+        {{- $months := index $yearMonths $year }}
+        {{- $monthKey := printf "%s|%s" $month $monthName }}
+        {{- if not (in $months $monthKey) }}
+          {{- $months = $months | append $monthKey }}
+          {{- $yearMonths = merge $yearMonths (dict $year $months) }}
+        {{- end }}
+      {{- end }}
+      
+      {{- /* 按年份显示（简单排序） */ -}}
+      {{- range $year, $months := $yearMonths }}
+        {{- $sortedMonths := sort $months }}
+      <div class="year-group">
+        <button class="year-btn" data-year="{{ $year }}">
+          <span class="year-text">{{ $year }}</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="{{ $year }}" style="display: none;">
+          {{- range $sortedMonths }}
+          {{- $parts := split . "|" }}
+          {{- $monthNum := index $parts 0 }}
+          {{- $monthName := index $parts 1 }}
+          <button class="month-btn" data-year="{{ $year }}" data-month="{{ $monthNum }}">
+            {{ $monthName }}
+          </button>
+          {{- end }}
+        </div>
+      </div>
+      {{- end }}
+    </div>
+  </div>
+
+  <!-- 右侧信息流 -->
+  <div class="main-content">
+    <div class="social-feed" id="social-feed">
+{{- else }}
+<!-- 非首页保持原有布局 -->
+{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+{{- partial "home_info.html" . }}
+{{- end }}
 <div class="social-feed" id="social-feed">
+{{- end }}
 {{- $term := .Data.Term }}
 {{- range $index, $page := $paginator.Pages }}
 
@@ -73,9 +130,9 @@
   <div class="feed-content">
     {{- $fullContent := .Content | plainify | htmlUnescape }}
     {{- $contentLength := len $fullContent }}
-    {{- if gt $contentLength 100 }}
-      {{- /* 截取前100个字符 */ -}}
-      {{- $shortContent := substr $fullContent 0 100 }}
+    {{- if gt $contentLength 300 }}
+      {{- /* 截取前300个字符 */ -}}
+      {{- $shortContent := substr $fullContent 0 300 }}
       {{- /* 尝试在空格处截断，避免截断单词 */ -}}
       {{- $words := split $shortContent " " }}
       {{- if gt (len $words) 1 }}
@@ -98,6 +155,12 @@
 </article>
 {{- end }}
 </div>
+
+{{- if .IsHome }}
+    </div> <!-- 关闭 social-feed -->
+  </div> <!-- 关闭 main-content -->
+</div> <!-- 关闭 page-layout -->
+{{- end }}
 
 <!-- 动态加载按钮 -->
 {{- if $paginator.HasNext }}

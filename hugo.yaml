@@ -54,7 +54,8 @@ outputs:
     - JSON
 
 # 分页
-paginate: 10
+pagination:
+  pagerSize: 10
 
 # Markdown配置
 markup:

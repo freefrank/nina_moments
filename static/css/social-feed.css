@@ -1,0 +1,179 @@
+/* Twitter-like Social Feed Styles */
+
+.social-feed {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.feed-entry {
+    background: var(--entry);
+    border-radius: 0;
+    border: 1px solid var(--border);
+    border-top: none;
+    margin: 0;
+    padding: 16px 20px;
+    transition: background-color 0.2s ease;
+    position: relative;
+    cursor: pointer;
+}
+
+.feed-entry:first-child {
+    border-top: 1px solid var(--border);
+    border-radius: 12px 12px 0 0;
+}
+
+.feed-entry:last-child {
+    border-radius: 0 0 12px 12px;
+}
+
+.feed-entry:only-child {
+    border-radius: 12px;
+}
+
+.feed-entry:hover {
+    background: var(--hljs-bg);
+}
+
+.feed-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    color: var(--content);
+}
+
+.feed-content p {
+    margin: 0;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.feed-footer {
+    margin-top: 12px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+    opacity: 0.7;
+    font-size: 14px;
+}
+
+.feed-link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+/* 加载更多按钮样式 */
+.load-more-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.load-more-btn {
+    background: var(--theme);
+    color: var(--entry);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 24px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.load-more-btn:hover {
+    background: var(--content);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.load-more-btn:disabled {
+    background: var(--border);
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+/* 加载动画 */
+.loading {
+    opacity: 0.6;
+}
+
+.loading::after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 8px;
+    border: 2px solid currentColor;
+    border-top: 2px solid transparent;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+/* 隐藏传统分页 */
+.traditional-pagination {
+    display: none !important;
+}
+
+/* 移动端适配 */
+@media (max-width: 768px) {
+    .social-feed {
+        max-width: 100%;
+        margin: 0 -12px;
+    }
+    
+    .feed-entry {
+        border-left: none;
+        border-right: none;
+        border-radius: 0 !important;
+        padding: 12px 16px;
+    }
+    
+    .feed-content {
+        font-size: 15px;
+    }
+}
+
+/* 暗色模式优化 */
+[data-theme="dark"] .feed-entry {
+    border-color: #2f3336;
+}
+
+[data-theme="dark"] .feed-entry:hover {
+    background: #1a1a1a;
+}
+
+[data-theme="dark"] .feed-footer {
+    border-color: #2f3336;
+}
+
+/* 覆盖原始的post-entry样式 */
+.post-entry {
+    display: none !important;
+}
+
+/* 确保首页显示我们的信息流样式 */
+.home-feed {
+    display: block !important;
+}
+
+/* 移除不需要的元素在首页 */
+.main .page-header {
+    display: none;
+}
+
+/* 优化home-info显示 */
+.home-info {
+    margin-bottom: 20px;
+    padding: 20px;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}

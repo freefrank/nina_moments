@@ -1,0 +1,1444 @@
+# ���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж����� | ����� | ��̳ |
+
+**链接地址:** http://www.westca.com/pda/forums/op=view_topic/t=769896/lang=schinese.html#0
+**作者:** 
+**获取时间:** 2025/8/28 22:32:03
+**图片数量:** 50
+
+---
+
+## 原始HTML内容
+
+
+<div class="clever-core-ads"></div>
+<div class="clever-core-ads-alternative"></div> 
+
+<script>
+function sideSubShow(index) 
+{
+  var x = document.getElementById("sideSub" + index);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-green";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
+
+function w3_open() 
+{
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close()
+{
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";	
+}
+</script>
+<style>
+.fa {
+  display:inline-block;
+  font:normal normal normal 14px/1 FontAwesome;
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  transform:translate(0,0);
+}
+
+.fa-caret-down:before{content:"��"}
+</style>
+<div id="mySidebar" class="w3-sidebar w3-light-grey w3-animate-left" style="display:none;z-index:2000">
+ <button class="w3-button w3-block w3-left-align" onclick="w3_close()">�ر�</button>
+ <a href="pda/lang=schinese.html" class="w3-button w3-block w3-left-align">��ҳ</a> 
+ <button class="w3-button w3-block w3-left-align" onclick="sideSubShow(0)"><big>����</big> <i class="fa fa-caret-down"></i></button>
+ <div id="sideSub0" class="w3-bar-block w3-hide w3-white w3-card-4">
+  <a href="pda/news/lang=schinese.html" class="w3-bar-item w3-button">������ҳ</a>  <a href="pda/news/op=categories/lang=schinese.html" class="w3-bar-item w3-button">���ŷ���</a>  <a href="pda/news/op=focus/lang=schinese.html" class="w3-bar-item w3-button">ͷ��</a>  <a href="pda/news/op=imagenews/lang=schinese.html" class="w3-bar-item w3-button">ͼƬ����</a>  <a href="pda/news/op=hot/lang=schinese.html" class="w3-bar-item w3-button">��������</a>  <a href="pda/news/op=top_commented/lang=schinese.html" class="w3-bar-item w3-button">��������</a>  <a href="pda/news/op=newest/lang=schinese.html" class="w3-bar-item w3-button">��������</a>  <a href="pda/news/op=view_cat/catid=351/lang=schinese.html" class="w3-bar-item w3-button">�Ժ������¸绪</a>  <a href="pda/news/op=view_cat/catid=488/lang=schinese.html" class="w3-bar-item w3-button">ר��: ʡǮ�챨</a>  <a href="pda/news/op=view_cat/catid=1060/lang=schinese.html" class="w3-bar-item w3-button">ר��: ��ѡ</a>  <a href="pda/news/op=view_cat/catid=1405/lang=schinese.html" class="w3-bar-item w3-button">ר��: ��˰</a> </div>
+ <button class="w3-button w3-block w3-left-align" onclick="sideSubShow(1)"><big>��̳</big> <i class="fa fa-caret-down"></i></button>
+ <div id="sideSub1" class="w3-bar-block w3-hide w3-white w3-card-4">
+  <a href="pda/forums/lang=schinese.html" class="w3-bar-item w3-button">��̳��ҳ</a>  <a href="pda/forums/op=list/lang=schinese.html" class="w3-bar-item w3-button">�����������̳</a>  <a href="pda/forums/op=hot/lang=schinese.html" class="w3-bar-item w3-button">��̳��������</a>  <a href="pda/forums/op=pick/lang=schinese.html" class="w3-bar-item w3-button">��̳��������</a>  <a href="pda/forums/op=view_forum/f=74/lang=schinese.html" class="w3-bar-item w3-button">������</a>  <a href="pda/forums/op=view_forum/f=61/lang=schinese.html" class="w3-bar-item w3-button">�¸绪����ҹ</a>  <a href="pda/forums/op=view_forum/f=35/lang=schinese.html" class="w3-bar-item w3-button">�����</a>  <a href="pda/forums/op=view_forum/f=49/lang=schinese.html" class="w3-bar-item w3-button">Ͷ������</a>  <a href="pda/forums/op=view_forum/f=75/lang=schinese.html" class="w3-bar-item w3-button">���ӽ���</a>  <a href="pda/forums/op=view_forum/f=73/lang=schinese.html" class="w3-bar-item w3-button">����֮��</a> </div>
+ <button class="w3-button w3-block w3-left-align" onclick="sideSubShow(2)"><big>�¸绪�ز�����</big> <i class="fa fa-caret-down"></i></button>
+ <div id="sideSub2" class="w3-bar-block w3-hide w3-white w3-card-4">
+  <a href="pda/house/lang=schinese.html" class="w3-bar-item w3-button">�ز���ҳ</a>  <a href="pda/house/op=vannews/lang=schinese.html" class="w3-bar-item w3-button">�¸绪�ز�����</a>  <a href="pda/house/op=news/lang=schinese.html" class="w3-bar-item w3-button">ȫ���ز�����</a>  <a href="pda/house/op=newhomes/lang=schinese.html" class="w3-bar-item w3-button">����¥��</a>  <a href="pda/house/op=presales/lang=schinese.html" class="w3-bar-item w3-button">¥��ת����Ϣ</a>  <a href="pda/house/op=agents/lang=schinese.html" class="w3-bar-item w3-button">�ز�����</a>  <a href="pda/house/op=house_categories/lang=schinese.html" class="w3-bar-item w3-button">�����۷�һ��</a>  <a href="pda/forums/forums/op=view_forum/f=74/lang=schinese.html" class="w3-bar-item w3-button">�ز���̳</a>  <a href="pda/house/op=experts/lang=schinese.html" class="w3-bar-item w3-button">�ز�ר��ר��</a> </div>
+ <button class="w3-button w3-block w3-left-align" onclick="sideSubShow(3)"><big>��ҳ</big> <i class="fa fa-caret-down"></i></button>
+ <div id="sideSub3" class="w3-bar-block w3-hide w3-white w3-card-4">
+  <a href="pda/yp/op=hot/lang=schinese.html" class="w3-bar-item w3-button">ȫ�������̼�</a>  <a href="pda/yp/op=search/lang=schinese.html" class="w3-bar-item w3-button">����</a>  <a href="pda/yp/op=hot_categories/lang=schinese.html" class="w3-bar-item w3-button">���ŷ���</a>  <a href="pda/yp/op=all_categories/lang=schinese.html" class="w3-bar-item w3-button">ȫ������</a>  <a href="pda/yp/op=hot_places/lang=schinese.html" class="w3-bar-item w3-button">��������</a>  <a href="pda/yp/op=all_places/lang=schinese.html" class="w3-bar-item w3-button">ȫ������</a>  <a href="pda/yp/op=view_place/id=4/lang=schinese.html" class="w3-bar-item w3-button">���¸绪���Ļ�ҳ</a>  <a href="pda/yp/op=view_place/id=2/lang=schinese.html" class="w3-bar-item w3-button">���ô����Ļ�ҳ</a> </div>
+ <button class="w3-button w3-block w3-left-align" onclick="sideSubShow(4)"><big>��Ա</big> <i class="fa fa-caret-down"></i></button>
+ <div id="sideSub4" class="w3-bar-block w3-hide w3-white w3-card-4">
+  <a href="https://www.westca.com/index.php?name=pda&amp;file=users&amp;op=login&amp;lang=schinese" class="w3-bar-item w3-button">��¼</a> </div>
+ <button class="w3-button w3-block w3-left-align" onclick="sideSubShow(5)"><big>���ڼ�����</big> <i class="fa fa-caret-down"></i></button>
+ <div id="sideSub5" class="w3-bar-block w3-hide w3-white w3-card-4">
+  <a href="tel:+16046762190" class="w3-bar-item w3-button">�绰: +1 (604) 676-2190</a>  <a href="http://www.westca.com" class="w3-bar-item w3-button">��վ: westca.com</a>  <a href="https://play.google.com/store/apps/details?id=www.westca.com" class="w3-bar-item w3-button">AndroidӦ��: ������</a>  <a href="" class="w3-bar-item w3-button">΢��: westcacom</a>  <a href="http://weibo.com/westca" class="w3-bar-item w3-button">΢��: weibo.com/westca</a>  <a href="https://twitter.com/westcacom" class="w3-bar-item w3-button">Twitter: westcacom</a>  <a href="" class="w3-bar-item w3-button">�ز�΢��: westcahouse</a>  <a href="pda/op=contact/lang=schinese.html" class="w3-bar-item w3-button">������ϵ��ʽ</a> </div>
+
+</div>
+
+<div id="topbar">
+ <div id="leftnav"><a href="pda/lang=schinese.html"><img src="./images/image_1.jpg"></a><a href="pda/forums/op=newest/lang=schinese.html">��̳</a><a href="pda/forums/op=view_forum/f=35/lang=schinese.html">�����</a></div><br>
+ <div id="title">���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����</div>
+ <div id="rightnav"><a href="javascript:void(0);" onclick="w3_open()"><img src="./images/image_2.jpg"></a></div>
+</div>
+
+<div id="content">
+ <center><div data-onpage="true" data-adpath="/339474670,22912581845/WestCa/ATF_M"></div></center><span class="graytitle">���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����</span>
+<ul class="pageitem">
+<li class="menu">
+<a href="pda/forums/op=quote/t=769896/p=8372029/lang=schinese.html">
+<img alt="¥�� / maohu" src="./images/image_3.jpg">
+<span class="name">¥�� / maohu</span>
+
+<span class="arrow"></span></a>
+</li><li class="textbox"><span class="header">ʱ��: 2017-3-02 18:14</span><p><a name="floor0"></a></p><div class="message"><script language="javascript">
+<!--
+var page_other = 20;
+//-->
+</script>
+�о����Ӱ����ɶٺͿ�������������е�31����Ծ��Ӿ����ȡ��450��ˮ�����з����Ͳ��ԣ��о�������������ɿ������о�ָ����һ��833��000������Ӿ�أ����˻���Ӿ�ص�����֮һ���д�ž���75�����򣬴�ž��ǳ�����20����Ͱţ����ô�࣡<br>
+<br>
+<br>
+<a href="http://wx2.sinaimg.cn/mw1024/9f828a8bgy1fd92fz3vrlj20mu0evnno.jpg" rel="lightbox[a]" class="gallery cboxElement"><img onload="limit_image_width(this)" src="./images/image_4.jpg" border="0"></a><br>
+<br>
+<br>
+<a href="Space/u=$b0aeb3c7cea2b2a9/lang=schinese.html">@����΢��</a>
+<script language="javascript">
+<!--
+var user_points = 0;
+var user_free = 0;
+var point_tax = 1;
+var default_baskets = 1;
+var user_id = 1;
+
+function post_action(topicid, pid, action, poster)
+{
+	if(user_id <= 1)
+	{
+		alert("����Ҫ�ȵ�¼����ִ�д˹���");
+		location.href = "https://www.westca.com/index.php?name=pda&file=users&op=login&redirect=http%3A%2F%2Fwww.westca.com%2Fpda%2Fforums%2Fop%3Dview_topic%2Ft%3D769896%2Flang%3Dschinese.html&lang=schinese";
+		return;
+	}
+
+	if(poster > 1 && (user_id == poster))
+	{
+		var form = document.createElement("form");
+		form.setAttribute("target", "_blank");
+		form.setAttribute("method", "POST");
+		form.setAttribute("action", "https://www.westca.com/Forums/pointscp/mode=post_history/lang=schinese.html");
+		form.style.visibility = "hidden";
+		
+		var hiddenField = document.createElement("input");
+		hiddenField.setAttribute("type", "hidden");
+		hiddenField.setAttribute("name", "p");
+		hiddenField.setAttribute("value", pid);	
+		form.appendChild(hiddenField);
+
+		document.body.appendChild(form);
+		form.submit();
+				
+		return;
+	}
+
+	var count = 1;
+	var ask_count = (action == "basket");
+	var points_required = 0;
+	var can_usefree = ask_count;
+	var object = action;
+	
+	if(ask_count)
+	{
+		var input = prompt("", default_baskets);
+		if(input == null)
+			return;
+		else
+		{
+			var input_value = parseInt(input);
+			if(input_value <= 0 || isNaN(input_value))
+			{
+				alert("���Ϸ�������");
+				return false;
+			}
+		}
+		
+		default_baskets = input_value;
+		count = input_value;
+		points_required = 6 * count;
+	}
+	else if(action == "dislike")
+	{
+		points_required = 50 * count;
+		object = "brick";
+	}
+	else
+		object = "like";
+
+	if(points_required)
+	{
+		var points = user_points;
+		if(ask_count)
+			points += user_free;
+		
+		if(points_required > points)
+		{
+			alert("���˺ŵ����㣬������̳����Ŭ�����Ի�ø���ı�����");
+			return false;
+		}
+		else
+		{
+			// confirm
+			var msgmask = "ʵ�ִ˲�������Ҫ����@@��������, �Ƿ�ȷ��?";
+			var msg = msgmask.replace(/@@/, points_required);
+			if(confirm(msg))
+			{
+				if(can_usefree)
+				{
+					if(user_free >= points_required)
+						user_free -= points_required;
+					else
+					{
+						user_free = 0;
+						user_points -= (points_required -user_free);
+					}
+				}
+				else
+					user_points -= points_required;
+			}
+			else
+				return false;
+		}
+	}
+	
+	var data = {"mode": "send", "count": count, "t" : topicid, "p": pid, "ajax": 1};
+	data[object] = 1;
+	// post information
+	$("body").css("cursor", "progress");
+	$.post("https://www.westca.com/Forums/pointscp/lang=schinese.html", data, function(result){
+		$("body").css("cursor", "default");
+		var list = result.split("\n");
+		var eid = "#"+action+"s_"+pid;
+
+		if(list[0] > 0)
+		{
+			var str = "("+list[2]+")";
+			var element = $(eid);
+			if(element)
+				element.text(str);
+			else
+				alert("Can not find element "+eid);
+		}
+		else
+			alert(list[1]);
+	});
+}
+//-->
+</script>
+<div class="post_button_line"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="20%" align="center" valign="top"><div class="post_button" title="��������������, ÿ����Ա��һ��" onclick="post_action(769896, 8372029, 'like', 51568)"><img align="absmiddle" src="./images/image_5.jpg"> <span id="likes_8372029"></span><br>��</div></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="�������ͻ�����������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372029, 'basket', 51568)"><img align="absmiddle" src="./images/image_6.jpg"> <span id="baskets_8372029"></span><br>����</div></td>
+<td width="20%" align="center" valign="top"><a href="pda/forums/op=report/t=769896/p=8372029/lang=schinese.html"><div class="post_button"><img border="0" src="./images/image_7.jpg"><br>Ͷ��</div></a></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="������ש��������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372029, 'dislike', 51568)"><img align="absmiddle" src="./images/image_8.jpg"> <span id="dislikes_8372029"></span><br>��</div></td>
+<td width="20%" align="center" valign="top">
+<script language="javascript">
+<!--
+function share_post_8372029()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "�о����Ӱ����ɶٺͿ�������������е�31����Ծ��Ӿ����ȡ��450��ˮ�����з����Ͳ��ԣ��о�������������ɿ������о�ָ����һ��833��000������Ӿ�أ����˻���Ӿ�ص�����֮һ���д�ž���75������",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372029/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+</script>
+<div class="addthis_toolbox post_button" onclick="share_post_8372029()" addthis:url="https://www.westca.com/pda/forums/op=quote/t=769896/p=8372029/lang=schinese.html" addthis:title="RE: �о����Ӱ����ɶٺͿ�������������е�31����Ծ��Ӿ����ȡ��450��ˮ�����з����Ͳ��ԣ��о�������������ɿ������о�ָ����һ��833��000������Ӿ�أ����˻���Ӿ�ص�����֮һ���д�ž���75������ / �о����Ӱ����ɶٺͿ�������������е�31����Ծ��Ӿ����ȡ��450��ˮ�����з����Ͳ��ԣ��о�������������ɿ������о�ָ����һ��833��000������Ӿ�أ����˻���Ӿ�ص�����֮һ���д�ž���75������" addthis:description="�о����Ӱ����ɶٺͿ�������������е�31����Ծ��Ӿ����ȡ��450��ˮ�����з����Ͳ��ԣ��о�������������ɿ������о�ָ����һ��833��000������Ӿ�أ����˻���Ӿ�ص�����֮һ���д�ž���75������"><a id="share_8372029" class="addthis_button_expanded"><img border="0" src="./images/image_9.jpg"><br>����</a>
+</div>
+<script language="javascript">
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372029");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+</script>
+</td>
+</tr>
+</tbody></table>
+</div></div><img width="0" src="./images/image_10.jpg"><p></p>
+</li><li class="store">
+<center><div data-onpage="true" data-adpath="/339474670,22912581845/WestCa/Section_M"></div></center>
+</li><li class="menu">
+<a href="pda/forums/op=quote/t=769896/p=8372040/lang=schinese.html">
+<img alt="�� 2 ¥ / ����" src="./images/image_11.jpg">
+<span class="name">�� 2 ¥ / ����</span>
+
+<span class="arrow"></span></a>
+</li><li class="textbox"><span class="header">ʱ��: 2017-3-02 18:22</span><p><a name="floor2"></a></p><div class="message">�����޾���,  �ɷֺͺ�Һ���.<div class="post_button_line"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="20%" align="center" valign="top"><div class="post_button" title="��������������, ÿ����Ա��һ��" onclick="post_action(769896, 8372040, 'like', 58509)"><img align="absmiddle" src="./images/image_12.jpg"> <span id="likes_8372040"></span><br>��</div></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="�������ͻ�����������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372040, 'basket', 58509)"><img align="absmiddle" src="./images/image_13.jpg"> <span id="baskets_8372040"></span><br>����</div></td>
+<td width="20%" align="center" valign="top"><a href="pda/forums/op=report/t=769896/p=8372040/lang=schinese.html"><div class="post_button"><img border="0" src="./images/image_14.jpg"><br>Ͷ��</div></a></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="������ש��������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372040, 'dislike', 58509)"><img align="absmiddle" src="./images/image_15.jpg"> <span id="dislikes_8372040"></span><br>��</div></td>
+<td width="20%" align="center" valign="top">
+<script language="javascript">
+<!--
+function share_post_8372040()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "�����޾���,  �ɷֺͺ�Һ���.",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372040/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+</script>
+<div class="addthis_toolbox post_button" onclick="share_post_8372040()" addthis:url="https://www.westca.com/pda/forums/op=quote/t=769896/p=8372040/lang=schinese.html" addthis:title="RE: �����޾���,  �ɷֺͺ�Һ���. / �����޾���,  �ɷֺͺ�Һ���." addthis:description="�����޾���,  �ɷֺͺ�Һ���."><a id="share_8372040" class="addthis_button_expanded"><img border="0" src="./images/image_16.jpg"><br>����</a>
+</div>
+<script language="javascript">
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372040");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+</script>
+</td>
+</tr>
+</tbody></table>
+</div></div><p></p>
+</li><li class="store">
+<center><div data-onpage="true" data-adpath="/339474670,22912581845/WestCa/Section_M"></div></center>
+</li><li class="menu">
+<a href="pda/forums/op=quote/t=769896/p=8372045/lang=schinese.html">
+<img alt="�� 3 ¥ / һ����" src="./images/image_17.jpg">
+<span class="name">�� 3 ¥ / һ����</span>
+
+<span class="arrow"></span></a>
+</li><li class="textbox"><span class="header">ʱ��: 2017-3-02 18:27</span><p><a name="floor3"></a></p><div class="message">��Ȼ�����ᳫ����Ӿ�������򣬵�����΢����Һ�ĳ�����ӾҲ����ʲô̫�����⡣<div class="post_button_line"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="20%" align="center" valign="top"><div class="post_button" title="��������������, ÿ����Ա��һ��" onclick="post_action(769896, 8372045, 'like', 34980)"><img align="absmiddle" src="./images/image_18.jpg"> <span id="likes_8372045"></span><br>��</div></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="�������ͻ�����������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372045, 'basket', 34980)"><img align="absmiddle" src="./images/image_19.jpg"> <span id="baskets_8372045"></span><br>����</div></td>
+<td width="20%" align="center" valign="top"><a href="pda/forums/op=report/t=769896/p=8372045/lang=schinese.html"><div class="post_button"><img border="0" src="./images/image_20.jpg"><br>Ͷ��</div></a></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="������ש��������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372045, 'dislike', 34980)"><img align="absmiddle" src="./images/image_21.jpg"> <span id="dislikes_8372045"></span><br>��</div></td>
+<td width="20%" align="center" valign="top">
+<script language="javascript">
+<!--
+function share_post_8372045()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "��Ȼ�����ᳫ����Ӿ�������򣬵�����΢����Һ�ĳ�����ӾҲ����ʲô̫�����⡣",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372045/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+</script>
+<div class="addthis_toolbox post_button" onclick="share_post_8372045()" addthis:url="https://www.westca.com/pda/forums/op=quote/t=769896/p=8372045/lang=schinese.html" addthis:title="RE: ��Ȼ�����ᳫ����Ӿ�������򣬵�����΢����Һ�ĳ�����ӾҲ����ʲô̫�����⡣ / ��Ȼ�����ᳫ����Ӿ�������򣬵�����΢����Һ�ĳ�����ӾҲ����ʲô̫�����⡣" addthis:description="��Ȼ�����ᳫ����Ӿ�������򣬵�����΢����Һ�ĳ�����ӾҲ����ʲô̫�����⡣"><a id="share_8372045" class="addthis_button_expanded"><img border="0" src="./images/image_22.jpg"><br>����</a>
+</div>
+<script language="javascript">
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372045");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+</script>
+</td>
+</tr>
+</tbody></table>
+</div></div><p></p>
+</li><li class="textbox"><p><a style="text-decoration: none;" target="_blank" href="http://legend.westca.com/server/adclick.php?bannerid=5594&amp;amp;zoneid=0&amp;amp;source=&amp;amp;dest=http%3A%2F%2Fwww.lipontplace.com%2F"></a></p>
+</li><li class="menu">
+<a href="pda/forums/op=quote/t=769896/p=8372091/lang=schinese.html">
+<img alt="�� 4 ¥ / ����׬��" src="./images/image_23.jpg">
+<span class="name">�� 4 ¥ / ����׬��</span>
+
+<span class="arrow"></span></a>
+</li><li class="textbox"><span class="header">ʱ��: 2017-3-02 18:59</span><p><a name="floor4"></a></p><div class="message"><script language="javascript">
+<!--
+function switch_quote(quote, image, span)
+{
+ var obj = document.getElementById(quote);
+ if(obj)
+ {
+  if(obj.style.display == "")
+  {
+   obj.style.display = "none";
+   span.innerHTML = " ...";
+   image.src = "images/plus.gif";
+  }
+  else
+  {
+   obj.style.display = "";
+   span.innerHTML = "";
+   image.src = "images/minus.gif";
+  }
+ }
+}
+
+function switch_quote_id(num)
+{
+ var image_id = "i"+num;
+ var span_id = "s"+num;
+ var obj_img = document.getElementById(image_id);
+ var obj_span = document.getElementById(span_id);
+ if(obj_span)
+  switch_quote("q"+num, obj_img, obj_span);
+}
+//-->
+</script>
+<!-- quote 1 -->
+<table width="95%" cellspacing="0" cellpadding="3" border="0" align="center" class="quote_block">
+<tbody><tr>
+ <td class="quote_head"><a href="javascript:void(0)" onclick="switch_quote_id( 1 )"><img id="i1" border="0" src="./images/image_24.jpg"></a> <span class="genmed"><b><a href="Space/u=$d2bbccf5c1fa/lang=schinese.html">һ����</a> д��:</b></span><span id="s1"></span></td>
+</tr>
+<tr id="q1">
+ <td class="quote">
+��Ȼ�����ᳫ����Ӿ�������򣬵�����΢����Һ�ĳ�����ӾҲ����ʲô̫�����⡣
+<script language="javascript">
+<!--
+switch_quote_id( 2 );
+//-->
+</script>
+
+ </td>
+</tr>
+</tbody></table>
+<!-- quote 1 -->
+<br>
+<br>
+75�����˾�һ����350ML�Ļ��������ж��������������ˡ�<br>
+<br>
+�����ǲ���Ǻ��ˮ�������Һ����ˡ� <img src="./images/image_25.jpg" alt="icon_mrgreen.gif" border="0"><div class="post_button_line"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="20%" align="center" valign="top"><div class="post_button" title="��������������, ÿ����Ա��һ��" onclick="post_action(769896, 8372091, 'like', 42661)"><img align="absmiddle" src="./images/image_26.jpg"> <span id="likes_8372091"></span><br>��</div></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="�������ͻ�����������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372091, 'basket', 42661)"><img align="absmiddle" src="./images/image_27.jpg"> <span id="baskets_8372091"></span><br>����</div></td>
+<td width="20%" align="center" valign="top"><a href="pda/forums/op=report/t=769896/p=8372091/lang=schinese.html"><div class="post_button"><img border="0" src="./images/image_28.jpg"><br>Ͷ��</div></a></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="������ש��������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372091, 'dislike', 42661)"><img align="absmiddle" src="./images/image_29.jpg"> <span id="dislikes_8372091"></span><br>��</div></td>
+<td width="20%" align="center" valign="top">
+<script language="javascript">
+<!--
+function share_post_8372091()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "75�����˾�һ����350ML�Ļ��������ж��������������ˡ������ǲ���Ǻ��ˮ�������Һ����ˡ�",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372091/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+</script>
+<div class="addthis_toolbox post_button" onclick="share_post_8372091()" addthis:url="https://www.westca.com/pda/forums/op=quote/t=769896/p=8372091/lang=schinese.html" addthis:title="RE: 75�����˾�һ����350ML�Ļ��������ж��������������ˡ������ǲ���Ǻ��ˮ�������Һ����ˡ� / 75�����˾�һ����350ML�Ļ��������ж��������������ˡ������ǲ���Ǻ��ˮ�������Һ����ˡ�" addthis:description="75�����˾�һ����350ML�Ļ��������ж��������������ˡ������ǲ���Ǻ��ˮ�������Һ����ˡ�"><a id="share_8372091" class="addthis_button_expanded"><img border="0" src="./images/image_30.jpg"><br>����</a>
+</div>
+<script language="javascript">
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372091");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+</script>
+</td>
+</tr>
+</tbody></table>
+</div></div><p></p>
+</li><li class="menu">
+<a href="pda/forums/op=quote/t=769896/p=8372118/lang=schinese.html">
+<img alt="�� 5 ¥ / һ����" src="./images/image_31.jpg">
+<span class="name">�� 5 ¥ / һ����</span>
+
+<span class="arrow"></span></a>
+</li><li class="textbox"><span class="header">ʱ��: 2017-3-02 19:13</span><p><a name="floor5"></a></p><div class="message"><!-- quote 2 -->
+<table width="95%" cellspacing="0" cellpadding="3" border="0" align="center" class="quote_block">
+<tbody><tr>
+ <td class="quote_head"><a href="javascript:void(0)" onclick="switch_quote_id( 2 )"><img id="i2" border="0" src="./images/image_32.jpg"></a> <span class="genmed"><b><a href="Space/u=Habit/lang=schinese.html">Habit</a> д��:</b></span><span id="s2"></span></td>
+</tr>
+<tr id="q2">
+ <td class="quote">
+<br>
+<br>
+75�����˾�һ����350ML�Ļ��������ж��������������ˡ�<br>
+<br>
+�����ǲ���Ǻ��ˮ�������Һ����ˡ� <img src="./images/image_33.jpg" alt="icon_mrgreen.gif" border="0">
+<script language="javascript">
+<!--
+switch_quote_id( 3 );
+//-->
+</script>
+
+ </td>
+</tr>
+</tbody></table>
+<!-- quote 2 -->
+<br>
+<br>
+�Ƽ����������ԱȽ����׵ؾ�����Ӿ���е���Һ�ͺ��ˡ�<div class="post_button_line"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="20%" align="center" valign="top"><div class="post_button" title="��������������, ÿ����Ա��һ��" onclick="post_action(769896, 8372118, 'like', 34980)"><img align="absmiddle" src="./images/image_34.jpg"> <span id="likes_8372118"></span><br>��</div></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="�������ͻ�����������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372118, 'basket', 34980)"><img align="absmiddle" src="./images/image_35.jpg"> <span id="baskets_8372118"></span><br>����</div></td>
+<td width="20%" align="center" valign="top"><a href="pda/forums/op=report/t=769896/p=8372118/lang=schinese.html"><div class="post_button"><img border="0" src="./images/image_36.jpg"><br>Ͷ��</div></a></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="������ש��������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372118, 'dislike', 34980)"><img align="absmiddle" src="./images/image_37.jpg"> <span id="dislikes_8372118"></span><br>��</div></td>
+<td width="20%" align="center" valign="top">
+<script language="javascript">
+<!--
+function share_post_8372118()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "�Ƽ����������ԱȽ����׵ؾ�����Ӿ���е���Һ�ͺ��ˡ�",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372118/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+</script>
+<div class="addthis_toolbox post_button" onclick="share_post_8372118()" addthis:url="https://www.westca.com/pda/forums/op=quote/t=769896/p=8372118/lang=schinese.html" addthis:title="RE: �Ƽ����������ԱȽ����׵ؾ�����Ӿ���е���Һ�ͺ��ˡ� / �Ƽ����������ԱȽ����׵ؾ�����Ӿ���е���Һ�ͺ��ˡ�" addthis:description="�Ƽ����������ԱȽ����׵ؾ�����Ӿ���е���Һ�ͺ��ˡ�"><a id="share_8372118" class="addthis_button_expanded"><img border="0" src="./images/image_38.jpg"><br>����</a>
+</div>
+<script language="javascript">
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372118");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+</script>
+</td>
+</tr>
+</tbody></table>
+</div></div><p></p>
+</li><li class="menu">
+<a href="pda/forums/op=quote/t=769896/p=8372289/lang=schinese.html">
+<img alt="�� 6 ¥ / ����" src="./images/image_39.jpg">
+<span class="name">�� 6 ¥ / ����</span>
+
+<span class="arrow"></span></a>
+</li><li class="textbox"><span class="header">ʱ��: 2017-3-02 20:39</span><p><a name="floor6"></a></p><div class="message">��ʲô�õ��ĵ�?<div class="post_button_line"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="20%" align="center" valign="top"><div class="post_button" title="��������������, ÿ����Ա��һ��" onclick="post_action(769896, 8372289, 'like', 58509)"><img align="absmiddle" src="./images/image_40.jpg"> <span id="likes_8372289"></span><br>��</div></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="�������ͻ�����������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372289, 'basket', 58509)"><img align="absmiddle" src="./images/image_41.jpg"> <span id="baskets_8372289"></span><br>����</div></td>
+<td width="20%" align="center" valign="top"><a href="pda/forums/op=report/t=769896/p=8372289/lang=schinese.html"><div class="post_button"><img border="0" src="./images/image_42.jpg"><br>Ͷ��</div></a></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="������ש��������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372289, 'dislike', 58509)"><img align="absmiddle" src="./images/image_43.jpg"> <span id="dislikes_8372289"></span><br>��</div></td>
+<td width="20%" align="center" valign="top">
+<script language="javascript">
+<!--
+function share_post_8372289()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "��ʲô�õ��ĵ�?",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372289/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+</script>
+<div class="addthis_toolbox post_button" onclick="share_post_8372289()" addthis:url="https://www.westca.com/pda/forums/op=quote/t=769896/p=8372289/lang=schinese.html" addthis:title="RE: ��ʲô�õ��ĵ�? / ��ʲô�õ��ĵ�?" addthis:description="��ʲô�õ��ĵ�?"><a id="share_8372289" class="addthis_button_expanded"><img border="0" src="./images/image_44.jpg"><br>����</a>
+</div>
+<script language="javascript">
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372289");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+</script>
+</td>
+</tr>
+</tbody></table>
+</div></div><p></p>
+</li><li class="menu">
+<a href="pda/forums/op=quote/t=769896/p=8372296/lang=schinese.html">
+<img alt="�� 7 ¥ / ����" src="./images/image_45.jpg">
+<span class="name">�� 7 ¥ / ����</span>
+
+<span class="arrow"></span></a>
+</li><li class="textbox"><span class="header">ʱ��: 2017-3-02 20:43</span><p><a name="floor7"></a></p><div class="message">Ϊʲô��Щ�˺��º��� ������ʶ�ϵ������� <br>
+<br>
+��Һ��������������ͬ�Ĺܵ��ų����⡣ ��Һ�Ǿ���С����ˡ���С�����պ�������Һ ,��<br>
+��ѧ�ɷ���Դ��ѪҺ ,�����˵������޾���.<br>
+<br>
+<br>
+��Ķ���������,  �ǰ�Ƥ��,  ������������ �� ������.<div class="post_button_line"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tbody><tr>
+<td width="20%" align="center" valign="top"><div class="post_button" title="��������������, ÿ����Ա��һ��" onclick="post_action(769896, 8372296, 'like', 58509)"><img align="absmiddle" src="./images/image_46.jpg"> <span id="likes_8372296"></span><br>��</div></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="�������ͻ�����������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372296, 'basket', 58509)"><img align="absmiddle" src="./images/image_47.jpg"> <span id="baskets_8372296"></span><br>����</div></td>
+<td width="20%" align="center" valign="top"><a href="pda/forums/op=report/t=769896/p=8372296/lang=schinese.html"><div class="post_button"><img border="0" src="./images/image_48.jpg"><br>Ͷ��</div></a></td>
+<td width="20%" align="center" valign="top"><div class="post_button" title="������ש��������, ��Ҫ���ѱ�����" onclick="post_action(769896, 8372296, 'dislike', 58509)"><img align="absmiddle" src="./images/image_49.jpg"> <span id="dislikes_8372296"></span><br>��</div></td>
+<td width="20%" align="center" valign="top">
+<script language="javascript">
+<!--
+function share_post_8372296()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "Ϊʲô��Щ�˺��º��� ������ʶ�ϵ������� ��Һ��������������ͬ�Ĺܵ��ų����⡣",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372296/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+</script>
+<div class="addthis_toolbox post_button" onclick="share_post_8372296()" addthis:url="https://www.westca.com/pda/forums/op=quote/t=769896/p=8372296/lang=schinese.html" addthis:title="RE: Ϊʲô��Щ�˺��º��� ������ʶ�ϵ������� ��Һ��������������ͬ�Ĺܵ��ų����⡣ / Ϊʲô��Щ�˺��º��� ������ʶ�ϵ������� ��Һ��������������ͬ�Ĺܵ��ų����⡣" addthis:description="Ϊʲô��Щ�˺��º��� ������ʶ�ϵ������� ��Һ��������������ͬ�Ĺܵ��ų����⡣"><a id="share_8372296" class="addthis_button_expanded"><img border="0" src="./images/image_50.jpg"><br>����</a>
+</div>
+<script language="javascript">
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372296");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+</script>
+</td>
+</tr>
+</tbody></table>
+</div></div><p></p>
+</li>
+</ul>
+<center><div data-onpage="true" data-adpath="/339474670,22912581845/WestCa/Section_M"></div></center><span class="graytitle">���ٻظ�</span>
+<ul class="pageitem">
+<li class="textbox"><p><a href="pda/users/op=login/lang=schinese.html">���������ο�״̬, �޷�ʵ�ִ˹���, �����˴���¼</a></p>
+</li>
+</ul>
+<center><div data-onpage="true" data-adpath="/339474670,22912581845/WestCa/Section_M"></div></center><span class="graytitle">Facebook�û�����</span>
+<ul class="pageitem">
+<li class="textbox"><p></p><div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/zh_CN/sdk.js#xfbml=1&appId=43416154977&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, "script", "facebook-jssdk"));</script>
+<div class="fb-comments" data-href="https://www.westca.com/pda/forums/op=view_topic/t=769896/app=weixin/lang=schinese.html" data-width="100%" data-numposts="5" data-colorscheme="light"></div>
+<p></p>
+</li>
+</ul>
+<center><div data-onpage="true" data-adpath="/339474670,22912581845/WestCa/Section_M"></div></center><span class="graytitle">��ع���</span>
+<ul class="pageitem">
+<li class="menu">
+<a href="pda/forums/op=view_forum/f=35/lang=schinese.html">
+<span class="name">����: �����</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a target="_blank" href="https://www.westca.com/Forums/viewtopic/t=769896/desktop=1/lang=schinese.html">
+<span class="name">ԭʼ��ҳ��</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a href="pda/forums/op=view_next/t=769896/lang=schinese.html">
+<span class="name">��һ������</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a href="pda/forums/op=view_prev/t=769896/lang=schinese.html">
+<span class="name">��һ������</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a target="_blank" href="javascript:history.go(-1);">
+<span class="name">������һҳ</span>
+
+<span class="arrow"></span></a>
+</li>
+</ul>
+<center><div data-onpage="true" data-adpath="/339474670,22912581845/WestCa/Section_M"></div></center><span class="graytitle">��̳</span>
+<ul class="pageitem">
+<li class="menu">
+<a href="pda/forums/lang=schinese.html">
+<span class="name">��̳��ҳ</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a href="pda/forums/op=list/lang=schinese.html">
+<span class="name">�����������̳</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a href="pda/forums/op=hot/lang=schinese.html">
+<span class="name">��̳��������</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a href="pda/forums/op=pick/lang=schinese.html">
+<span class="name">��̳��������</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a href="pda/forums/op=view_forum/f=74/lang=schinese.html">
+<span class="name">������</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a href="pda/forums/op=view_forum/f=61/lang=schinese.html">
+<span class="name">�¸绪����ҹ</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a href="pda/forums/op=view_forum/f=35/lang=schinese.html">
+<span class="name">�����</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a href="pda/forums/op=view_forum/f=49/lang=schinese.html">
+<span class="name">Ͷ������</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a href="pda/forums/op=view_forum/f=75/lang=schinese.html">
+<span class="name">���ӽ���</span>
+
+<span class="arrow"></span></a>
+</li><li class="menu">
+<a href="pda/forums/op=view_forum/f=73/lang=schinese.html">
+<span class="name">����֮��</span>
+
+<span class="arrow"></span></a>
+</li>
+</ul>
+<script language="javascript">
+var share_title = "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����";
+var share_link = "https://www.westca.com/pda/forums/op=view_topic/t=769896/app=weixin/lang=schinese.html";
+var share_image = "http://wx2.sinaimg.cn/mw1024/9f828a8bgy1fd92fz3vrlj20mu0evnno.jpg";
+var share_desc = "�о����Ӱ����ɶٺͿ�������������е�31����Ծ��Ӿ����ȡ��450��ˮ�����з����Ͳ��ԣ��о�������������ɿ������о�ָ����һ��833��000������Ӿ�أ����˻���Ӿ�ص�����֮һ���д�ž���75������";
+</script>
+
+</div>
+<div id="footer">
+	��������Ȩ����, �Ͻ�ת��<br><p>������Ϊ<a href="http://www.beimeicn.com">����������</a>��ý����������վ</p>
+
+<!--
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-right",
+  "content": {
+    "message": "��ǰ��վʹ��cookies��ʹ����ø��õ��������",
+    "dismiss": "�˽���"
+  }
+})});
+</script>
+-->
+
+<script type="text/javascript">
+$(function() {
+	try 
+	{
+		var obj = $("img.lazy");
+		if(obj)
+		{
+			obj.lazyload({
+				skip_invisible : false,
+				threshold : 200
+			});
+		}
+	}
+	catch(err) 
+	{
+
+	}
+});
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-4175539-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-4175539-1');
+</script>
+<br>
+	<!-- Support iWebKit by sending us traffic; please keep this footer on your page, consider it a thank you for our work :-) -->
+	<center><a class="noeffect" href="http://iwebkit.net">iWebKit skin, powered by iWebKit</a></center>
+</div>
+
+
+
+
+
+
+---
+
+## 纯文本内容
+
+function sideSubShow(index) 
+{
+  var x = document.getElementById("sideSub" + index);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+    x.previousElementSibling.className += " w3-green";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+    x.previousElementSibling.className = 
+    x.previousElementSibling.className.replace(" w3-green", "");
+  }
+}
+
+function w3_open() 
+{
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close()
+{
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";	
+}
+
+
+.fa {
+  display:inline-block;
+  font:normal normal normal 14px/1 FontAwesome;
+  font-size:inherit;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  transform:translate(0,0);
+}
+
+.fa-caret-down:before{content:"��"}
+
+
+ �ر�
+ ��ҳ 
+ ���� 
+ 
+  ������ҳ  ���ŷ���  ͷ��  ͼƬ����  ��������  ��������  ��������  �Ժ������¸绪  ר��: ʡǮ�챨  ר��: ��ѡ  ר��: ��˰ 
+ ��̳ 
+ 
+  ��̳��ҳ  �����������̳  ��̳��������  ��̳��������  ������  �¸绪����ҹ  �����  Ͷ������  ���ӽ���  ����֮�� 
+ �¸绪�ز����� 
+ 
+  �ز���ҳ  �¸绪�ز�����  ȫ���ز�����  ����¥��  ¥��ת����Ϣ  �ز�����  �����۷�һ��  �ز���̳  �ز�ר��ר�� 
+ ��ҳ 
+ 
+  ȫ�������̼�  ����  ���ŷ���  ȫ������  ��������  ȫ������  ���¸绪���Ļ�ҳ  ���ô����Ļ�ҳ 
+ ��Ա 
+ 
+  ��¼ 
+ ���ڼ����� 
+ 
+  �绰: +1 (604) 676-2190  ��վ: westca.com  AndroidӦ��: ������  ΢��: westcacom  ΢��: weibo.com/westca  Twitter: westcacom  �ز�΢��: westcahouse  ������ϵ��ʽ 
+
+
+
+
+ ��̳�����
+ ���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����
+ 
+
+
+
+ ���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����
+
+
+
+
+¥�� / maohu
+
+
+ʱ��: 2017-3-02 18:14
+<!--
+var page_other = 20;
+//-->
+
+�о����Ӱ����ɶٺͿ�������������е�31����Ծ��Ӿ����ȡ��450��ˮ�����з����Ͳ��ԣ��о�������������ɿ������о�ָ����һ��833��000������Ӿ�أ����˻���Ӿ�ص�����֮һ���д�ž���75�����򣬴�ž��ǳ�����20����Ͱţ����ô�࣡
+
+
+
+
+
+@����΢��
+
+<!--
+var user_points = 0;
+var user_free = 0;
+var point_tax = 1;
+var default_baskets = 1;
+var user_id = 1;
+
+function post_action(topicid, pid, action, poster)
+{
+	if(user_id <= 1)
+	{
+		alert("����Ҫ�ȵ�¼����ִ�д˹���");
+		location.href = "https://www.westca.com/index.php?name=pda&file=users&op=login&redirect=http%3A%2F%2Fwww.westca.com%2Fpda%2Fforums%2Fop%3Dview_topic%2Ft%3D769896%2Flang%3Dschinese.html&lang=schinese";
+		return;
+	}
+
+	if(poster > 1 && (user_id == poster))
+	{
+		var form = document.createElement("form");
+		form.setAttribute("target", "_blank");
+		form.setAttribute("method", "POST");
+		form.setAttribute("action", "https://www.westca.com/Forums/pointscp/mode=post_history/lang=schinese.html");
+		form.style.visibility = "hidden";
+		
+		var hiddenField = document.createElement("input");
+		hiddenField.setAttribute("type", "hidden");
+		hiddenField.setAttribute("name", "p");
+		hiddenField.setAttribute("value", pid);	
+		form.appendChild(hiddenField);
+
+		document.body.appendChild(form);
+		form.submit();
+				
+		return;
+	}
+
+	var count = 1;
+	var ask_count = (action == "basket");
+	var points_required = 0;
+	var can_usefree = ask_count;
+	var object = action;
+	
+	if(ask_count)
+	{
+		var input = prompt("", default_baskets);
+		if(input == null)
+			return;
+		else
+		{
+			var input_value = parseInt(input);
+			if(input_value <= 0 || isNaN(input_value))
+			{
+				alert("���Ϸ�������");
+				return false;
+			}
+		}
+		
+		default_baskets = input_value;
+		count = input_value;
+		points_required = 6 * count;
+	}
+	else if(action == "dislike")
+	{
+		points_required = 50 * count;
+		object = "brick";
+	}
+	else
+		object = "like";
+
+	if(points_required)
+	{
+		var points = user_points;
+		if(ask_count)
+			points += user_free;
+		
+		if(points_required > points)
+		{
+			alert("���˺ŵ����㣬������̳����Ŭ�����Ի�ø���ı�����");
+			return false;
+		}
+		else
+		{
+			// confirm
+			var msgmask = "ʵ�ִ˲�������Ҫ����@@��������, �Ƿ�ȷ��?";
+			var msg = msgmask.replace(/@@/, points_required);
+			if(confirm(msg))
+			{
+				if(can_usefree)
+				{
+					if(user_free >= points_required)
+						user_free -= points_required;
+					else
+					{
+						user_free = 0;
+						user_points -= (points_required -user_free);
+					}
+				}
+				else
+					user_points -= points_required;
+			}
+			else
+				return false;
+		}
+	}
+	
+	var data = {"mode": "send", "count": count, "t" : topicid, "p": pid, "ajax": 1};
+	data[object] = 1;
+	// post information
+	$("body").css("cursor", "progress");
+	$.post("https://www.westca.com/Forums/pointscp/lang=schinese.html", data, function(result){
+		$("body").css("cursor", "default");
+		var list = result.split("\n");
+		var eid = "#"+action+"s_"+pid;
+
+		if(list[0] > 0)
+		{
+			var str = "("+list[2]+")";
+			var element = $(eid);
+			if(element)
+				element.text(str);
+			else
+				alert("Can not find element "+eid);
+		}
+		else
+			alert(list[1]);
+	});
+}
+//-->
+
+
+
+ ��
+ ����
+Ͷ��
+ ��
+
+
+<!--
+function share_post_8372029()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "�о����Ӱ����ɶٺͿ�������������е�31����Ծ��Ӿ����ȡ��450��ˮ�����з����Ͳ��ԣ��о�������������ɿ������о�ָ����һ��833��000������Ӿ�أ����˻���Ӿ�ص�����֮һ���д�ž���75������",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372029/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+
+����
+
+
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372029");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+
+
+
+
+
+
+
+
+
+
+�� 2 ¥ / ����
+
+
+ʱ��: 2017-3-02 18:22�����޾���,  �ɷֺͺ�Һ���.
+
+ ��
+ ����
+Ͷ��
+ ��
+
+
+<!--
+function share_post_8372040()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "�����޾���,  �ɷֺͺ�Һ���.",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372040/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+
+����
+
+
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372040");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+
+
+
+
+
+
+
+
+
+
+�� 3 ¥ / һ����
+
+
+ʱ��: 2017-3-02 18:27��Ȼ�����ᳫ����Ӿ�������򣬵�����΢����Һ�ĳ�����ӾҲ����ʲô̫�����⡣
+
+ ��
+ ����
+Ͷ��
+ ��
+
+
+<!--
+function share_post_8372045()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "��Ȼ�����ᳫ����Ӿ�������򣬵�����΢����Һ�ĳ�����ӾҲ����ʲô̫�����⡣",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372045/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+
+����
+
+
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372045");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+
+
+
+
+
+
+
+
+
+�� 4 ¥ / ����׬��
+
+
+ʱ��: 2017-3-02 18:59
+<!--
+function switch_quote(quote, image, span)
+{
+ var obj = document.getElementById(quote);
+ if(obj)
+ {
+  if(obj.style.display == "")
+  {
+   obj.style.display = "none";
+   span.innerHTML = " ...";
+   image.src = "images/plus.gif";
+  }
+  else
+  {
+   obj.style.display = "";
+   span.innerHTML = "";
+   image.src = "images/minus.gif";
+  }
+ }
+}
+
+function switch_quote_id(num)
+{
+ var image_id = "i"+num;
+ var span_id = "s"+num;
+ var obj_img = document.getElementById(image_id);
+ var obj_span = document.getElementById(span_id);
+ if(obj_span)
+  switch_quote("q"+num, obj_img, obj_span);
+}
+//-->
+
+
+
+
+  һ���� д��:
+
+
+ 
+��Ȼ�����ᳫ����Ӿ�������򣬵�����΢����Һ�ĳ�����ӾҲ����ʲô̫�����⡣
+
+<!--
+switch_quote_id( 2 );
+//-->
+
+
+ 
+
+
+
+
+
+75�����˾�һ����350ML�Ļ��������ж��������������ˡ�
+
+�����ǲ���Ǻ��ˮ�������Һ����ˡ� 
+
+ ��
+ ����
+Ͷ��
+ ��
+
+
+<!--
+function share_post_8372091()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "75�����˾�һ����350ML�Ļ��������ж��������������ˡ������ǲ���Ǻ��ˮ�������Һ����ˡ�",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372091/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+
+����
+
+
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372091");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+
+
+
+
+
+
+
+
+�� 5 ¥ / һ����
+
+
+ʱ��: 2017-3-02 19:13
+
+
+  Habit д��:
+
+
+ 
+
+
+75�����˾�һ����350ML�Ļ��������ж��������������ˡ�
+
+�����ǲ���Ǻ��ˮ�������Һ����ˡ� 
+
+<!--
+switch_quote_id( 3 );
+//-->
+
+
+ 
+
+
+
+
+
+�Ƽ����������ԱȽ����׵ؾ�����Ӿ���е���Һ�ͺ��ˡ�
+
+ ��
+ ����
+Ͷ��
+ ��
+
+
+<!--
+function share_post_8372118()
+{
+	if (navigator.share) {
+		navigator.share({
+			title: "���ô󰢶�������ѧ���һ���о�����������Ӿ���ھ����ж�����",
+			text: "�Ƽ����������ԱȽ����׵ؾ�����Ӿ���е���Һ�ͺ��ˡ�",
+			url: "https://www.westca.com/pda/forums/op=quote/t=769896/p=8372118/lang=schinese.html",
+		})
+		.then(() => console.log("Successful share"))
+		.catch((error) => console.log("Error sharing", error));
+	}
+}
+//-->
+
+����
+
+
+<!--
+if (!navigator.share) {
+	var obj = document.getElementById("share_8372118");
+	if(obj)
+	{
+		var scriptTag = document.createElement("script");
+		scriptTag.src = "//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4fda77eb4526a1d3";
+		obj.parentNode.insertBefore(scriptTag, obj.nextSibling)
+	}
+}
+//-->
+
+
+
+
+
+
+
+
+�� 6 ¥ / ����
+
+
+ʱ��: 2017-3-02 20:39��ʲô�õ��ĵ�?
+
+ ��
+ ����
+Ͷ��
+ ��
+
+
+<!--
+function sha...
+
+---
+
+## 图片列表
+
+- ![](./images/image_1.jpg) (原始链接: images/menu/icon_home.png)
+- ![](./images/image_2.jpg) (原始链接: images/menu/icon_menu2.png)
+- ![](./images/image_3.jpg) (原始链接: images/avatars/1)
+- ![](./images/image_4.jpg) (原始链接: http://wx2.sinaimg.cn/mw1024/9f828a8bgy1fd92fz3vrlj20mu0evnno.jpg)
+- ![](./images/image_5.jpg) (原始链接: images/forums/like.png)
+- ![](./images/image_6.jpg) (原始链接: images/forums/flowerbasket.png)
+- ![](./images/image_7.jpg) (原始链接: images/forums/dispute.gif)
+- ![](./images/image_8.jpg) (原始链接: images/forums/dislike.png)
+- ![](./images/image_9.jpg) (原始链接: images/forums/sharethis.gif)
+- ![](./images/image_10.jpg) (原始链接: http://ads2.westca.com/server/adlog.php?clientid=7&bannerid=3314&zoneid=98&cb=1739682899)
+- ![](./images/image_11.jpg) (原始链接: images/avatars/37305928363584ce560dc2.jpg)
+- ![](./images/image_12.jpg) (原始链接: images/forums/like.png)
+- ![](./images/image_13.jpg) (原始链接: images/forums/flowerbasket.png)
+- ![](./images/image_14.jpg) (原始链接: images/forums/dispute.gif)
+- ![](./images/image_15.jpg) (原始链接: images/forums/dislike.png)
+- ![](./images/image_16.jpg) (原始链接: images/forums/sharethis.gif)
+- ![](./images/image_17.jpg) (原始链接: images/avatars/1)
+- ![](./images/image_18.jpg) (原始链接: images/forums/like.png)
+- ![](./images/image_19.jpg) (原始链接: images/forums/flowerbasket.png)
+- ![](./images/image_20.jpg) (原始链接: images/forums/dispute.gif)
+- ![](./images/image_21.jpg) (原始链接: images/forums/dislike.png)
+- ![](./images/image_22.jpg) (原始链接: images/forums/sharethis.gif)
+- ![](./images/image_23.jpg) (原始链接: images/avatars/1)
+- ![](./images/image_24.jpg) (原始链接: images/minus.gif)
+- ![](./images/image_25.jpg) (原始链接: images/smiles/icon_mrgreen.gif)
+- ![](./images/image_26.jpg) (原始链接: images/forums/like.png)
+- ![](./images/image_27.jpg) (原始链接: images/forums/flowerbasket.png)
+- ![](./images/image_28.jpg) (原始链接: images/forums/dispute.gif)
+- ![](./images/image_29.jpg) (原始链接: images/forums/dislike.png)
+- ![](./images/image_30.jpg) (原始链接: images/forums/sharethis.gif)
+- ![](./images/image_31.jpg) (原始链接: images/avatars/1)
+- ![](./images/image_32.jpg) (原始链接: images/minus.gif)
+- ![](./images/image_33.jpg) (原始链接: images/smiles/icon_mrgreen.gif)
+- ![](./images/image_34.jpg) (原始链接: images/forums/like.png)
+- ![](./images/image_35.jpg) (原始链接: images/forums/flowerbasket.png)
+- ![](./images/image_36.jpg) (原始链接: images/forums/dispute.gif)
+- ![](./images/image_37.jpg) (原始链接: images/forums/dislike.png)
+- ![](./images/image_38.jpg) (原始链接: images/forums/sharethis.gif)
+- ![](./images/image_39.jpg) (原始链接: images/avatars/37305928363584ce560dc2.jpg)
+- ![](./images/image_40.jpg) (原始链接: images/forums/like.png)
+- ![](./images/image_41.jpg) (原始链接: images/forums/flowerbasket.png)
+- ![](./images/image_42.jpg) (原始链接: images/forums/dispute.gif)
+- ![](./images/image_43.jpg) (原始链接: images/forums/dislike.png)
+- ![](./images/image_44.jpg) (原始链接: images/forums/sharethis.gif)
+- ![](./images/image_45.jpg) (原始链接: images/avatars/37305928363584ce560dc2.jpg)
+- ![](./images/image_46.jpg) (原始链接: images/forums/like.png)
+- ![](./images/image_47.jpg) (原始链接: images/forums/flowerbasket.png)
+- ![](./images/image_48.jpg) (原始链接: images/forums/dispute.gif)
+- ![](./images/image_49.jpg) (原始链接: images/forums/dislike.png)
+- ![](./images/image_50.jpg) (原始链接: images/forums/sharethis.gif)

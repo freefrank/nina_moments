@@ -1,8 +1,135 @@
 /* Twitter-like Social Feed Styles */
 
-.social-feed {
-    max-width: 600px;
+/* 扩展main元素到全宽度 */
+.main {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* home-info与page-layout对齐 */
+.home-info {
+    max-width: calc(1200px - 40px); /* 减去左右padding */
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+}
+
+/* 侧边栏和信息流的容器 */
+.page-layout {
+    display: flex;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 0 20px;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+/* 主内容区域 - 扩展到剩余空间 */
+.main-content {
+    flex: 1;
+    min-width: 0; /* 允许flexbox收缩 */
+}
+
+/* home-info容器 */
+.home-info-container {
+    margin-bottom: 20px;
+}
+
+/* 时间线侧边栏样式 */
+.timeline-sidebar {
+    width: 250px;
+    background: var(--entry);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+    max-height: calc(100vh - 40px);
+    overflow-y: auto;
+    flex-shrink: 0;
+}
+
+.timeline-sidebar h3 {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--content);
+}
+
+.year-group {
+    margin-bottom: 8px;
+}
+
+.year-btn {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    border: none;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--content);
+    transition: background 0.2s ease;
+}
+
+.year-btn:hover {
+    background: var(--hljs-bg);
+}
+
+.year-btn.active {
+    background: var(--theme);
+    color: var(--entry);
+}
+
+.expand-icon {
+    transition: transform 0.2s ease;
+}
+
+.year-btn.expanded .expand-icon {
+    transform: rotate(90deg);
+}
+
+.month-list {
+    padding-left: 12px;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+}
+
+.month-btn {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--content);
+    text-align: left;
+    transition: background 0.2s ease;
+    margin-bottom: 2px;
+}
+
+.month-btn:hover {
+    background: var(--hljs-bg);
+}
+
+.month-btn.active {
+    background: var(--theme);
+    color: var(--entry);
+}
+
+.social-feed {
+    width: 100%;
+    margin: 0;
     padding: 0;
 }
 
@@ -16,6 +143,11 @@
     transition: background-color 0.2s ease;
     position: relative;
     cursor: pointer;
+    height: 140px; /* 固定entry高度：3行内容(76.8px) + padding(32px) + footer(~31px) */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .feed-entry:first-child {
@@ -40,6 +172,11 @@
     line-height: 1.6;
     margin: 0;
     color: var(--content);
+    height: calc(1.6em * 3); /* 固定3行高度 */
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
 }
 
 .feed-content p {
@@ -54,15 +191,31 @@
     border-top: 1px solid var(--border);
     opacity: 0.7;
     font-size: 14px;
+    height: 20px; /* 固定footer高度 */
+    position: relative;
+    z-index: 2; /* 确保footer在上层 */
+    background: var(--entry); /* 添加背景色防止被覆盖 */
+    flex-shrink: 0; /* 防止被压缩 */
 }
 
+/* 更彻底的隐藏作者信息方式 */
+.feed-footer .post-meta {
+    position: relative;
+}
+
+/* 使用JavaScript来处理作者信息，这里先用CSS作为备用 */
+
+/* 隐藏链接但保留在DOM中用于筛选 */
 .feed-link {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.feed-entry {
+    cursor: pointer;
 }
 
 /* 加载更多按钮样式 */
@@ -124,8 +277,29 @@
 
 /* 移动端适配 */
 @media (max-width: 768px) {
-    .social-feed {
+    .home-info {
+        max-width: calc(100% - 24px); /* 减去左右padding */
+        margin: 0 auto 20px auto;
+    }
+    
+    .page-layout {
+        flex-direction: column;
+        padding: 0 12px;
+        gap: 12px;
+    }
+    
+    .timeline-sidebar {
+        width: 100%;
+        position: static;
+        margin-bottom: 16px;
+        max-height: none;
+    }
+    
+    .main-content {
         max-width: 100%;
+    }
+    
+    .social-feed {
         margin: 0 -12px;
     }
     
@@ -134,6 +308,7 @@
         border-right: none;
         border-radius: 0 !important;
         padding: 12px 16px;
+        height: 120px; /* 移动端略小的固定高度 */
     }
     
     .feed-content {
@@ -169,11 +344,42 @@
     display: none;
 }
 
-/* 优化home-info显示 */
-.home-info {
-    margin-bottom: 20px;
-    padding: 20px;
+
+/* 无结果提示样式 */
+.no-results {
     background: var(--entry);
     border: 1px solid var(--border);
     border-radius: 12px;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.no-results-content h3 {
+    margin: 0 0 12px 0;
+    font-size: 20px;
+    color: var(--content);
+}
+
+.no-results-content p {
+    margin: 0 0 20px 0;
+    color: var(--content);
+    opacity: 0.7;
+}
+
+.show-all-btn {
+    background: var(--theme);
+    color: var(--entry);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.show-all-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }

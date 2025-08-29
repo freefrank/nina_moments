@@ -1,0 +1,19 @@
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true" -}}
+{
+  "posts": [
+    {{- range $index, $page := $pages -}}
+    {{- if $index }},{{ end }}
+    {
+      "title": {{ $page.Title | jsonify }},
+      "url": {{ $page.Permalink | jsonify }},
+      "date": {{ $page.Date.Format "2006-01-02" | jsonify }},
+      "year": {{ $page.Date.Format "2006" | jsonify }},
+      "month": {{ $page.Date.Format "01" | jsonify }},
+      "monthName": {{ $page.Date.Format "01月" | jsonify }},
+      "summary": {{ ($page.Content | plainify | htmlUnescape | truncate 300) | jsonify }},
+      "dateFormatted": {{ $page.Date.Format "January 2, 2006" | jsonify }}
+    }
+    {{- end -}}
+  ]
+}

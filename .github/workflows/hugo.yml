@@ -2,10 +2,10 @@
 name: Deploy Hugo site to Pages
 
 on:
-  # 在推送到main分支时触发
+  # 在推送到master分支时触发
   push:
     branches:
-      - main
+      - master
 
   # 允许手动触发workflow
   workflow_dispatch:

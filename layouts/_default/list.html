@@ -74,11 +74,13 @@
     {{- $fullContent := .Content | plainify | htmlUnescape }}
     {{- $contentLength := len $fullContent }}
     {{- if gt $contentLength 100 }}
-      {{- /* 截取前100个字符，并在完整词汇处断开 */ -}}
+      {{- /* 截取前100个字符 */ -}}
       {{- $shortContent := substr $fullContent 0 100 }}
-      {{- $lastSpace := lastIndexOf $shortContent " " }}
-      {{- if gt $lastSpace 80 }}
-        {{- $shortContent = substr $fullContent 0 $lastSpace }}
+      {{- /* 尝试在空格处截断，避免截断单词 */ -}}
+      {{- $words := split $shortContent " " }}
+      {{- if gt (len $words) 1 }}
+        {{- $words = first (sub (len $words) 1) $words }}
+        {{- $shortContent = delimit $words " " }}
       {{- end }}
       <p>{{ $shortContent }}...</p>
     {{- else }}

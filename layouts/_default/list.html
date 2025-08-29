@@ -68,10 +68,35 @@
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   
-  <!-- 移除标题显示，只显示内容 -->
+  <!-- 显示标题（仅当不是日期格式时）和内容 -->
+  {{- $title := .Title }}
+  {{- $isDateTitle := false }}
+  {{- if regexMatch "^\\d{4}-\\d{2}-\\d{2}(-\\d+)?$" $title }}
+    {{- $isDateTitle = true }}
+  {{- end }}
+  
+  {{- if and (not $isDateTitle) (not (eq $title "")) }}
+  <div class="feed-title">
+    <h3>{{ $title }}</h3>
+  </div>
+  {{- end }}
+  
   {{- if (ne (.Param "hideSummary") true) }}
   <div class="feed-content">
-    <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+    {{- $content := .Summary | plainify | htmlUnescape }}
+    {{- /* 如果Summary为空或只是标题重复，则显示Content的前几句 */ -}}
+    {{- if or (eq $content "") (eq $content $title) }}
+      {{- $fullContent := .Content | plainify | htmlUnescape }}
+      {{- $words := split $fullContent " " }}
+      {{- if gt (len $words) 50 }}
+        {{- $shortContent := delimit (first 50 $words) " " }}
+        <p>{{ $shortContent }}...</p>
+      {{- else }}
+        <p>{{ $fullContent }}</p>
+      {{- end }}
+    {{- else }}
+      <p>{{ $content }}{{ if .Truncated }}...{{ end }}</p>
+    {{- end }}
   </div>
   {{- end }}
   

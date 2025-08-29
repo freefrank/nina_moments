@@ -14,9 +14,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     function loadNextPage() {
-        const nextUrl = loadMoreBtn.getAttribute('data-next-url');
+        let nextUrl = loadMoreBtn.getAttribute('data-next-url');
         if (!nextUrl) {
             return;
+        }
+        
+        // 确保URL使用HTTPS协议，避免混合内容错误
+        if (window.location.protocol === 'https:' && nextUrl.startsWith('http:')) {
+            nextUrl = nextUrl.replace('http:', 'https:');
         }
         
         // 设置加载状态

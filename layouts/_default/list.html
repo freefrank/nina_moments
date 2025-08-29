@@ -113,7 +113,9 @@
 <!-- 动态加载按钮 -->
 {{- if $paginator.HasNext }}
 <div class="load-more-container" id="load-more-container">
-  <button class="load-more-btn" id="load-more-btn" data-next-url="{{ $paginator.Next.URL | absURL }}">
+  {{- $nextURL := $paginator.Next.URL | absURL }}
+  {{- $nextURL = replace $nextURL "http://" "https://" }}
+  <button class="load-more-btn" id="load-more-btn" data-next-url="{{ $nextURL }}">
     加载更多...
   </button>
 </div>

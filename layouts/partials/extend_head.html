@@ -1,0 +1,23 @@
+<!-- 自定义社交信息流样式和脚本 -->
+{{- if .IsHome }}
+<link rel="stylesheet" href="{{ "css/social-feed.css" | relURL }}">
+<script src="{{ "js/social-feed.js" | relURL }}" defer></script>
+{{- end }}
+
+<!-- 优化移动端显示 -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- 添加一些基础的SEO和社交媒体优化 -->
+{{- if .IsHome }}
+<meta name="description" content="我的朋友圈时光机 - 社交媒体内容归档">
+<meta property="og:title" content="我的朋友圈时光机">
+<meta property="og:description" content="整理的社交媒体内容归档，按时间展示">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+{{- end }}
+
+<!-- 预加载关键资源 -->
+{{- if .IsHome }}
+<link rel="preload" href="{{ "css/social-feed.css" | relURL }}" as="style">
+<link rel="preload" href="{{ "js/social-feed.js" | relURL }}" as="script">
+{{- end }}

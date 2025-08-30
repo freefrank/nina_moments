@@ -37,6 +37,9 @@ window.addEventListener('DOMContentLoaded', function() {
 <meta name="twitter:card" content="summary">
 {{- end }}
 
+<!-- 全局搜索弹窗功能 -->
+<script src="{{ "js/overlay-search.js" | relURL }}" defer></script>
+
 <!-- 预加载关键资源 -->
 {{- if .IsHome }}
 <link rel="preload" href="{{ "css/social-feed.css" | relURL }}" as="style">

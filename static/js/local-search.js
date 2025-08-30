@@ -355,7 +355,6 @@
                             <div class="search-result-body">${highlightedContent || '暂无内容预览'}</div>
                             <div class="search-result-footer">
                                 <span class="search-result-date">${formattedDate}</span>
-                                <span class="search-result-score">匹配度: ${score}%</span>
                             </div>
                         </div>
                     </div>

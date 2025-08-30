@@ -16,9 +16,9 @@ params:
     Content: '这里收录了我的社交媒体内容，按时间整理。包含文字、图片和链接内容。'
 
   # 社交链接
-  socialIcons:
-    - name: github
-      url: 'https://github.com/USERNAME'
+  # socialIcons:
+  #   - name: github
+  #     url: 'https://github.com/USERNAME'
 
   # 搜索功能
   fuseOpts:

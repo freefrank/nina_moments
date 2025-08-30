@@ -4,8 +4,23 @@
 <script src="{{ "js/social-feed.js" | relURL }}" defer></script>
 {{- end }}
 
+<!-- 搜索页面本地兼容脚本 - 禁用主题默认搜索 -->
+{{- if eq .Layout "search" }}
+<script>
+// 禁用PaperMod主题的搜索功能
+window.addEventListener('DOMContentLoaded', function() {
+    console.log('🔍 禁用PaperMod主题搜索功能...');
+    // 清空window.onload事件（PaperMod搜索使用这个）
+    window.onload = null;
+    // 删除可能存在的全局fuse实例
+    if (window.fuse) delete window.fuse;
+});
+</script>
+<script src="{{ "js/local-search.js" | relURL }}" defer></script>
+{{- end }}
+
 <!-- 图片九宫格样式和脚本 -->
-{{- if not .IsHome }}
+{{- if and (not .IsHome) (ne .Layout "search") }}
 <link rel="stylesheet" href="{{ "css/image-grid.css" | relURL }}">
 <script src="{{ "js/image-grid.js" | relURL }}" defer></script>
 {{- end }}

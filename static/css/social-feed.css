@@ -160,6 +160,35 @@
     transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
+/* 缩略图相关样式 */
+.feed-entry-content {
+    display: flex;
+    gap: 12px;
+    flex: 1;
+    min-height: 0;
+}
+
+.feed-thumbnail {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: var(--hljs-bg);
+    border: 1px solid var(--border);
+}
+
+.feed-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+
+.feed-thumbnail:hover img {
+    transform: scale(1.05);
+}
+
 .feed-content {
     font-size: 16px;
     line-height: 1.6;
@@ -170,6 +199,8 @@
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
+    flex: 1; /* 填充剩余空间 */
+    min-width: 0; /* 允许收缩 */
 }
 
 .feed-content p {
@@ -306,6 +337,16 @@
     
     .feed-content {
         font-size: 15px;
+    }
+    
+    /* 移动端缩略图调整 */
+    .feed-thumbnail {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .feed-entry-content {
+        gap: 10px;
     }
 }
 

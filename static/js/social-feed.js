@@ -436,10 +436,19 @@ document.addEventListener('DOMContentLoaded', function() {
                         borderClass = 'style="border-radius: 0 0 12px 12px;"';
                     }
                     
+                    // 生成缩略图HTML（如果有第一张图片）
+                    const thumbnailHTML = post.firstImage ? 
+                        `<div class="feed-thumbnail">
+                            <img src="${post.firstImage}" alt="缩略图" loading="lazy">
+                        </div>` : '';
+                    
                     postsHTML += `
                         <article class="feed-entry home-feed" ${borderClass}>
-                            <div class="feed-content">
-                                <p>${post.summary}</p>
+                            <div class="feed-entry-content">
+                                ${thumbnailHTML}
+                                <div class="feed-content">
+                                    <p>${post.summary}</p>
+                                </div>
                             </div>
                             <footer class="feed-footer">
                                 <span>${post.dateFormatted}</span>

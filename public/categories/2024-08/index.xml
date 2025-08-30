@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>2024-08 on 我的朋友圈时光机</title>
+    <link>http://localhost:8080/categories/2024-08/</link>
+    <description>Recent content in 2024-08 on 我的朋友圈时光机</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 29 Aug 2024 11:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:8080/categories/2024-08/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024-08-29 14:02:54</title>
+      <link>http://localhost:8080/posts/2024/08/2024-08-29-post-1/</link>
+      <pubDate>Thu, 29 Aug 2024 11:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/08/2024-08-29-post-1/</guid>
+      <description>2024-08-29 14:02:54&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-08-29 14:54:13</title>
+      <link>http://localhost:8080/posts/2024/08/2024-08-29-post/</link>
+      <pubDate>Thu, 29 Aug 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/08/2024-08-29-post/</guid>
+      <description>2024-08-29 14:54:13&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-08-26 13:47:28</title>
+      <link>http://localhost:8080/posts/2024/08/2024-08-26-post/</link>
+      <pubDate>Mon, 26 Aug 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/08/2024-08-26-post/</guid>
+      <description>2024-08-26 13:47:28&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-08-24 10:45:47</title>
+      <link>http://localhost:8080/posts/2024/08/2024-08-24-post/</link>
+      <pubDate>Sat, 24 Aug 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/08/2024-08-24-post/</guid>
+      <description>2024-08-24 10:45:47&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-08-23 12:43:17</title>
+      <link>http://localhost:8080/posts/2024/08/2024-08-23-post/</link>
+      <pubDate>Fri, 23 Aug 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/08/2024-08-23-post/</guid>
+      <description>2024-08-23 12:43:17&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-08-18 04:59:57</title>
+      <link>http://localhost:8080/posts/2024/08/2024-08-18-post/</link>
+      <pubDate>Sun, 18 Aug 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/08/2024-08-18-post/</guid>
+      <description>2024-08-18 04:59:57&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-08-16 03:54:19</title>
+      <link>http://localhost:8080/posts/2024/08/2024-08-16-post/</link>
+      <pubDate>Fri, 16 Aug 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/08/2024-08-16-post/</guid>
+      <description>2024-08-16 03:54:19&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-08-15 12:09:16</title>
+      <link>http://localhost:8080/posts/2024/08/2024-08-15-post/</link>
+      <pubDate>Thu, 15 Aug 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/08/2024-08-15-post/</guid>
+      <description>2024-08-15 12:09:16&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-08-06 06:47:41</title>
+      <link>http://localhost:8080/posts/2024/08/2024-08-06-post-1/</link>
+      <pubDate>Tue, 06 Aug 2024 11:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/08/2024-08-06-post-1/</guid>
+      <description>2024-08-06 06:47:41&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-08-06 06:52:54</title>
+      <link>http://localhost:8080/posts/2024/08/2024-08-06-post/</link>
+      <pubDate>Tue, 06 Aug 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/08/2024-08-06-post/</guid>
+      <description>2024-08-06 06:52:54&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

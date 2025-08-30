@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=8080&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Posts | 我的朋友圈时光机</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - 我的朋友圈时光机">
+<meta name="author" content="Me">
+<link rel="canonical" href="http://localhost:8080/posts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:8080/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:8080/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:8080/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:8080/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:8080/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:8080/posts/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:8080/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+<meta property="og:url" content="http://localhost:8080/posts/">
+  <meta property="og:site_name" content="我的朋友圈时光机">
+  <meta property="og:title" content="Posts">
+  <meta property="og:description" content="整理的社交媒体内容归档">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Posts">
+<meta name="twitter:description" content="整理的社交媒体内容归档">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:8080/posts/"
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:8080/" accesskey="h" title="我的朋友圈时光机 (Alt + H)">我的朋友圈时光机</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:8080/posts/" title="所有文章">
+                    <span class="active">所有文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:8080/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+  </h1>
+</header>
+
+
+
+<div class="social-feed" id="social-feed">
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>好多人跟我说：哇，你们在国外生活一定很辛苦吧。吃不到家乡菜，也没有什么娱乐。路上连个同胞都见不到，还会受到人种歧视…
+会过得辛苦其实只是因为，没钱。 有钱在哪里都不会过得辛苦。[微笑]
+媒体文件 相关链接 原始链接:...</p>
+  </div>
+  <footer class="feed-footer"><span title='2018-11-04 12:00:00 +0800 +0800'>November 4, 2018</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2018/11/2018-11-04-post-2/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>午餐·煎饺🥟🥟
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 21:11:27
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2018-11-04 11:00:00 +0800 +0800'>November 4, 2018</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2018/11/2018-11-04-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>10月30日本周二晚，万众期待的由加拿大亚洲旅游饮食协会 CAHIA 举办的大型求职招聘和商业社交活动“For A Better Future”在市中心Chateau Lacombe Hotel成功举行。
+5名省级部长，1名省议员，2名市议员，50多家公司，数个VP，多名高管，数十位专业人士，上百个职位，可口的美食，满屋的热情……史无前例，震撼全场！
+媒体文件 相关链接 原始链接:...</p>
+  </div>
+  <footer class="feed-footer"><span title='2018-11-04 10:00:00 +0800 +0800'>November 4, 2018</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2018/11/2018-11-04-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>喜闻乐见。[微笑]
+媒体文件 相关链接 原始链接: http://mp.weixin.qq.com/s?__biz=MzI2NTE1ODgwOQ==&amp;mid=2649605313&amp;idx=1&amp;sn=d9abea8fe122b43141f7824169f6e0d0&amp;chksm=f2b8cd37c5cf4421b865e576875075325e1872f9671d3fe9cd1fd51a8c4ab16395cbe707074a&amp;mpshare=1&amp;scene=2&amp;srcid=#rd 链接标题: 【突发】埃德蒙顿天降大雪，交通全面瘫痪！4小时内51起事故！开车比走路还慢！ 来源: 埃德蒙顿微生活...</p>
+  </div>
+  <footer class="feed-footer"><span title='2018-11-03 13:00:00 +0800 +0800'>November 3, 2018</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2018/11/2018-11-03-post-3/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>It’s time to miss Hawaii, time to miss Splash Poke.
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 21:11:29
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2018-11-03 12:00:00 +0800 +0800'>November 3, 2018</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2018/11/2018-11-03-post-2/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>强迫症看到这个数字感觉好酥糊～并不想买点什么东西把它改变掉[偷笑]
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 21:11:29
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2018-11-03 11:00:00 +0800 +0800'>November 3, 2018</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2018/11/2018-11-03-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>只要化对了妆，万圣节，每天都过。 🎃👻🦇☠️ 🎃👻🦇☠️ 🎃👻🦇☠️
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 21:11:29
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2018-11-03 10:00:00 +0800 +0800'>November 3, 2018</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2018/11/2018-11-03-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>【碗碗香的口水鸡】
+之前翻饭友帮的食评，看到一个标题“碗碗香靠一道口水鸡能撑起一个店”，心里不觉笑了。可谓是找到了知音。对于这道所谓的口水鸡争议很大，听过最多的负面声音就是不能接受“口水鸡居然是甜的”。这个锅确实在这碟鸡本身，因为它其实是实打实的“怪味鸡”啊。
+说起“怪味鸡”和“口水鸡”的区别，可能很多四川当地人都不是很清楚。怪味鸡起源于新中国都还没成立前的四川乐山一代，是上河帮川菜的代表。怪味鸡之所以被冠之以“怪”，是因为其加入大量白糖的甜麻味儿主导在传统中餐的开胃凉菜中非常罕见。
+对比起棒棒鸡的芝麻浓酱，椒麻鸡的酥麻爽口和红油鸡块的灼辣鲜嫩，怪味鸡在神州大地上的流传倍受其本身个性的制约。不...</p>
+  </div>
+  <footer class="feed-footer"><span title='2018-11-02 11:00:00 +0800 +0800'>November 2, 2018</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2018/11/2018-11-02-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>[皱眉]
+媒体文件 相关链接 原始链接: http://mp.weixin.qq.com/s?__biz=MzI2NTE1ODgwOQ==&amp;mid=2649605300&amp;idx=1&amp;sn=71d1993fcc92153752203d3ad90573db&amp;chksm=f2b8cd42c5cf44547c515feaadc14e1bdc1cdc64d6a944cab49bc4c511fb146c570520b5c8bc&amp;mpshare=1&amp;scene=2&amp;srcid=1102WvXJiOSDkN8Z7gXpd5ww#rd 链接标题: 第24期《爱屯周末去哪儿》| 11.2 - 11.4...</p>
+  </div>
+  <footer class="feed-footer"><span title='2018-11-02 10:00:00 +0800 +0800'>November 2, 2018</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2018/11/2018-11-02-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>午餐·是云吞哟～
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 21:12:38
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2018-11-01 14:00:00 +0800 +0800'>November 1, 2018</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2018/11/2018-11-01-post-4/"></a>
+</article>
+</div>
+
+
+<div class="load-more-container" id="load-more-container">
+  <button class="load-more-btn" id="load-more-btn" data-next-url="https://localhost:8080/posts/page/259/">
+    加载更多...
+  </button>
+</div>
+
+
+<footer class="page-footer traditional-pagination" style="display: none;">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:8080/posts/page/257/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:8080/posts/page/259/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:8080/">我的朋友圈时光机</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=8080&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Posts | 我的朋友圈时光机</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - 我的朋友圈时光机">
+<meta name="author" content="Me">
+<link rel="canonical" href="http://localhost:8080/posts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:8080/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:8080/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:8080/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:8080/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:8080/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:8080/posts/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:8080/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+<meta property="og:url" content="http://localhost:8080/posts/">
+  <meta property="og:site_name" content="我的朋友圈时光机">
+  <meta property="og:title" content="Posts">
+  <meta property="og:description" content="整理的社交媒体内容归档">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Posts">
+<meta name="twitter:description" content="整理的社交媒体内容归档">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:8080/posts/"
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:8080/" accesskey="h" title="我的朋友圈时光机 (Alt + H)">我的朋友圈时光机</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:8080/posts/" title="所有文章">
+                    <span class="active">所有文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:8080/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+  </h1>
+</header>
+
+
+
+<div class="social-feed" id="social-feed">
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>St.Albert附近的那个便宜的日料All You Can Eat。主打的是热石牛排烧烤。味道一般，但性价比可以。
+这家店是很久之前去的，为什么现在才把照片搞粗来呢？
+是一个很曲折的故事。
+去吃饭那天非常仓促，新鲜牛排和烧得滚烫的热石一上桌，我还没来得及打开相机和手机，小鲸鱼就把肉烤上了。我一边拍照一边vlog，来不及调整杂乱的摆盘，来不及调整灯光强度和相机参数。闪光灯都来不及回电的速度，肉就烤好了，一顿乱按下完全不知道自己拍了什么。回家打开相机一看，99%都是小鲸鱼的手臂遮挡镜头和糊焦的的难以挽救的废片。
+默默关上相机，坐在地上，没忍住哇得一声就哭了。
+就感觉自己很南。...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-02-19 10:00:00 +0800 +0800'>February 19, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/02/2020-02-19-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>这几天看见加拿大这边朋友们发的快乐源泉小瓶子，发现一个奇妙的现象。人类的悲喜并不相通，但大家在对于这个事物的感观上却出人意料地一致。😂
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 20:19:33
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-02-18 13:00:00 +0800 +0800'>February 18, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/02/2020-02-18-post-3/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>这是我们经过了两年半时间精心设计制作的求职教育类网络课程！四位资深人力资源管理导师将从招聘方的角度手把手帮助你找到心仪的工作！我们根据加国本地市场为你量身定制求职技能组合和职业规划方案。快戳进来点满你的职场经验值吧！
+媒体文件 相关链接 原始链接:...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-02-18 12:00:00 +0800 +0800'>February 18, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/02/2020-02-18-post-2/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>懒了好久终于把 Nina 和 Paul 的第二支Vlog视频剪出来啦！
+在这段视频中我们将揭秘美食博主的工作日常，大家传说中的只需要吃吃吃就能赚钱的工作真得存在吗？
+地处于埃德蒙顿市 / Edmonton 市中心的网红新餐厅 District 102近期隆重开业，他们邀请了Nina和Paul代表他们正在运行的ig美食主页 foodjoy.canada 前往进行试菜。
+超过50位爱屯美食界的KOL齐聚一堂。披萨，烤肉还有什么让人流口水的好吃食儿呢？限量100瓶的特供酒饮到底长什么样？这家餐厅的菜品质量和口味到底能否通过二位毒舌美食博主的鉴定呢？
+4K全场视频观看地址...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-02-18 11:00:00 +0800 +0800'>February 18, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/02/2020-02-18-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>昨天晚上做梦梦到数学挂科。
+我跑去跟妈妈哭：“我活不下去了！微积分真是太难了！” 妈妈说：“你现在的工作又不需要用微积分，挂了就挂了嘛。” 我说：“不行，挂科了就赶不上夏天的毕业典礼了。”
+哭着醒来。
+发现自己本科都毕业7年了，却依然没有逃出被数学支配的恐惧。
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-02-18 10:00:00 +0800 +0800'>February 18, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/02/2020-02-18-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>有同学问为什么两块和牛会那么贵，因为其中一块是干燥熟成过的。这样两块肉在豪华的西餐厅做好了端出来售价格应该不会低于800刀。现在它们已经被丢进烤箱享受60摄氏度的温水浴啦～一会儿就让我们来尝尝米其林级别的低温烤牛排会是怎样的滋味涅～这部分内容会在今后的Vlog中更新哦！ʕ •ᴥ•ʔ
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-02-15 13:00:00 +0800 +0800'>February 15, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/02/2020-02-15-post-3/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>❗️HEAVENLY❗️
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 20:19:33
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-02-15 12:00:00 +0800 +0800'>February 15, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/02/2020-02-15-post-2/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>这次买的和牛用两种方式进行了烹饪。一部分尝试了蒜油铁板烧，一部分使用了低温水浴&#43;喷枪。铁板烧烹制的和牛焦香迷人，味道层次感丰富。低温水浴的和牛柔嫩多汁，是初恋般的柔软美好。两种方式各具风味，都十分好吃。
+起初还担心会不会因为肉质太肥而油腻，并不会。不过可以肯定的是，干燥熟成后的牛排确实比新鲜牛排更加美味——表面因熟成产生了腊味的芬芳，收缩的表皮更易将肉汁紧锁，在咀嚼的瞬间迸发出更丰富的质感和口味。
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-02-15 11:00:00 +0800 +0800'>February 15, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/02/2020-02-15-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>每次我做饭的时候，都乖巧地趴在厨房的椅子上陪我。[流泪][流泪][流泪]真是麻麻滴小天使～
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 20:19:33
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-02-15 10:00:00 +0800 +0800'>February 15, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/02/2020-02-15-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>真想不到都2020年了，还有人用黑白屏手机。
+这台神似kindle的手机不仅可以外放抖音神曲，还可以拍彩色全景照片；不过美中不足是盖不住泡面，慎入啊！
+#海信A5
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-02-14 10:00:00 +0800 +0800'>February 14, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/02/2020-02-14-post/"></a>
+</article>
+</div>
+
+
+<div class="load-more-container" id="load-more-container">
+  <button class="load-more-btn" id="load-more-btn" data-next-url="https://localhost:8080/posts/page/182/">
+    加载更多...
+  </button>
+</div>
+
+
+<footer class="page-footer traditional-pagination" style="display: none;">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:8080/posts/page/180/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:8080/posts/page/182/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:8080/">我的朋友圈时光机</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

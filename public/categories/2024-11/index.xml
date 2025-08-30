@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>2024-11 on 我的朋友圈时光机</title>
+    <link>http://localhost:8080/categories/2024-11/</link>
+    <description>Recent content in 2024-11 on 我的朋友圈时光机</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 27 Nov 2024 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:8080/categories/2024-11/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2024-11-27 11:33:38</title>
+      <link>http://localhost:8080/posts/2024/11/2024-11-27-post/</link>
+      <pubDate>Wed, 27 Nov 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/11/2024-11-27-post/</guid>
+      <description>2024-11-27 11:33:38&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-11-22 03:53:56</title>
+      <link>http://localhost:8080/posts/2024/11/2024-11-22-post/</link>
+      <pubDate>Fri, 22 Nov 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/11/2024-11-22-post/</guid>
+      <description>2024-11-22 03:53:56&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-11-16 05:00:13</title>
+      <link>http://localhost:8080/posts/2024/11/2024-11-16-post/</link>
+      <pubDate>Sat, 16 Nov 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/11/2024-11-16-post/</guid>
+      <description>2024-11-16 05:00:13&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-11-14 03:03:59</title>
+      <link>http://localhost:8080/posts/2024/11/2024-11-14-post/</link>
+      <pubDate>Thu, 14 Nov 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/11/2024-11-14-post/</guid>
+      <description>2024-11-14 03:03:59&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-11-11 03:01:04</title>
+      <link>http://localhost:8080/posts/2024/11/2024-11-11-post/</link>
+      <pubDate>Mon, 11 Nov 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/11/2024-11-11-post/</guid>
+      <description>2024-11-11 03:01:04&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-11-07 03:06:59</title>
+      <link>http://localhost:8080/posts/2024/11/2024-11-07-post/</link>
+      <pubDate>Thu, 07 Nov 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/11/2024-11-07-post/</guid>
+      <description>2024-11-07 03:06:59&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-11-02 04:54:40</title>
+      <link>http://localhost:8080/posts/2024/11/2024-11-02-post-1/</link>
+      <pubDate>Sat, 02 Nov 2024 11:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/11/2024-11-02-post-1/</guid>
+      <description>2024-11-02 04:54:40&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-11-02 05:34:55</title>
+      <link>http://localhost:8080/posts/2024/11/2024-11-02-post/</link>
+      <pubDate>Sat, 02 Nov 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/11/2024-11-02-post/</guid>
+      <description>2024-11-02 05:34:55&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-11-01 02:31:04</title>
+      <link>http://localhost:8080/posts/2024/11/2024-11-01-post-1/</link>
+      <pubDate>Fri, 01 Nov 2024 11:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/11/2024-11-01-post-1/</guid>
+      <description>2024-11-01 02:31:04&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2024-11-01 02:34:22</title>
+      <link>http://localhost:8080/posts/2024/11/2024-11-01-post/</link>
+      <pubDate>Fri, 01 Nov 2024 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2024/11/2024-11-01-post/</guid>
+      <description>2024-11-01 02:34:22&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

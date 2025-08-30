@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=8080&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Posts | 我的朋友圈时光机</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - 我的朋友圈时光机">
+<meta name="author" content="Me">
+<link rel="canonical" href="http://localhost:8080/posts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:8080/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:8080/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:8080/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:8080/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:8080/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:8080/posts/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:8080/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+<meta property="og:url" content="http://localhost:8080/posts/">
+  <meta property="og:site_name" content="我的朋友圈时光机">
+  <meta property="og:title" content="Posts">
+  <meta property="og:description" content="整理的社交媒体内容归档">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Posts">
+<meta name="twitter:description" content="整理的社交媒体内容归档">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:8080/posts/"
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:8080/" accesskey="h" title="我的朋友圈时光机 (Alt + H)">我的朋友圈时光机</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:8080/posts/" title="所有文章">
+                    <span class="active">所有文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:8080/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+  </h1>
+</header>
+
+
+
+<div class="social-feed" id="social-feed">
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>🥇📚 师徒关系的本质是互惠双赢。作为学徒要懂得如何积极努力地去维护师徒关系，让这个受益终身的财富为自己的职场道路拓宽道路，进行从才识，眼界到人脉的提升！👍💯
+媒体文件 相关链接 原始链接:...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-08-06 10:00:00 +0800 +0800'>August 6, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/08/2024-08-06-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>🐈...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-07-31 10:00:00 +0800 +0800'>July 31, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/07/2024-07-31-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>🏝️ 海南三亚大东海 ​ ​从乐东九所的高铁站乘车，不到一个小时既可抵达三亚。理论上我们完全可以每日当天往返把三亚里外玩个遍，但旺季的三亚是一个连呼吸都恨不得抽你消费税的地方。它贵它有理，500多万公里的公路硬是修不拢海南。面朝三亚的大海，看一眼就叫你破产；九所的海也是这传说中无比稀缺的北纬十八度黄金海岸，但它没被开发商看上，所以不要钱。 ​...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-07-28 10:00:00 +0800 +0800'>July 28, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/07/2024-07-28-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>阿省大埃德蒙顿地区近期招聘职位一览。热门的IT类工作和入门的管理类工作都有哦！希望大家好好准备简历和面试，抓住来之不易的就业机会！祝各位求职中的朋友们好运！🎉💯
+媒体文件 相关链接 原始链接:...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-07-27 11:00:00 +0800 +0800'>July 27, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/07/2024-07-27-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>加国移民部口嫌体正直，但数据不会说谎。计划削减学签数量，但实际上发放量连年创纪录。中国留学生数量已快要追上疫情前。希望有留学计划的各位朋友们不要被“政策风向”吓到，加拿大依然是十分热门的高性价比留学目的地！👍🥰
+媒体文件 相关链接 原始链接:...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-07-27 10:00:00 +0800 +0800'>July 27, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/07/2024-07-27-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>🧭 南下美食记录 • 海南篇 (3) 🍽️...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-07-23 11:00:00 +0800 +0800'>July 23, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/07/2024-07-23-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>回国行程的修图，终于在半年后进入了收尾的阶段。其中有一些照片，我迫不及待想要和大家分享。发出来呢，地狱笑话；不发呢，埋没我的摄影才华。我呢，是个绝不内耗的人。所以我选择发出来“外耗”大家。😘
+#精彩照片 01
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-07-23 10:00:00 +0800 +0800'>July 23, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/07/2024-07-23-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>🌊 人生海海，我在浪里。 ​...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-07-21 11:00:00 +0800 +0800'>July 21, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/07/2024-07-21-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>『拍摄&amp;写作灵感来源』
+法国新浪潮《四百击》影史最有名的结尾长镜头之一。特吕弗自己的首部电影长片《四百击》，片名来自于法国谚语“打百下”(Fait les Cent Coups)，也有胡作非为，天下大乱的意思。
+《四百击》抓取了男孩安托万的一些少年时间。被判进入少年感化所后，一个间隙他溜了出去，溜向海边，留下了一个影史上最经典的长镜头。男孩一直奔跑，镜头缓慢跟随，穿过田野、穿过树丛，到达海滩，直到最后镜头定格在安托万稚嫩的脸上，电影结束。
+帖子类型: 28 用户名: chenxueyuan001 处理时间: 2025/8/28...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-07-21 10:00:00 +0800 +0800'>July 21, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/07/2024-07-21-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>🧭 南下美食记录 • 海南篇 (2)
+🍽️ 海南本地美食 海南菜，又称琼菜，是中国传统八大菜系之外颇具自身风味的地方菜系之一。海南菜历经两千余年的发展历程，以福建、广东沿海各省的烹饪之法做基础，又吸收黎族、苗族和当地原住民的饮食文化，引进东南亚等地的特色佳肴，形成了风格鲜明、风味百变的海南菜系，素有&#34;海产万类，陆产千名&#34;的美誉。
+在海南居住的一个多月时间里，我们走过了十余城镇，品尝到花样繁复的特色美食，留下了十分深刻的印象。
+🍋 海南的酸...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-07-19 10:00:00 +0800 +0800'>July 19, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/07/2024-07-19-post/"></a>
+</article>
+</div>
+
+
+<div class="load-more-container" id="load-more-container">
+  <button class="load-more-btn" id="load-more-btn" data-next-url="https://localhost:8080/posts/page/31/">
+    加载更多...
+  </button>
+</div>
+
+
+<footer class="page-footer traditional-pagination" style="display: none;">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:8080/posts/page/29/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:8080/posts/page/31/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:8080/">我的朋友圈时光机</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

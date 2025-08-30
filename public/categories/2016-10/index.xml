@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>2016-10 on 我的朋友圈时光机</title>
+    <link>http://localhost:8080/categories/2016-10/</link>
+    <description>Recent content in 2016-10 on 我的朋友圈时光机</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 28 Oct 2016 11:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:8080/categories/2016-10/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2016-10-28 14:41:49</title>
+      <link>http://localhost:8080/posts/2016/10/2016-10-28-post-1/</link>
+      <pubDate>Fri, 28 Oct 2016 11:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2016/10/2016-10-28-post-1/</guid>
+      <description>2016-10-28 14:41:49&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2016-10-28 15:57:04</title>
+      <link>http://localhost:8080/posts/2016/10/2016-10-28-post/</link>
+      <pubDate>Fri, 28 Oct 2016 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2016/10/2016-10-28-post/</guid>
+      <description>2016-10-28 15:57:04&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2016-10-27 05:57:52</title>
+      <link>http://localhost:8080/posts/2016/10/2016-10-27-post-1/</link>
+      <pubDate>Thu, 27 Oct 2016 11:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2016/10/2016-10-27-post-1/</guid>
+      <description>2016-10-27 05:57:52&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2016-10-27 06:47:51</title>
+      <link>http://localhost:8080/posts/2016/10/2016-10-27-post/</link>
+      <pubDate>Thu, 27 Oct 2016 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2016/10/2016-10-27-post/</guid>
+      <description>2016-10-27 06:47:51&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2016-10-25 16:51:31</title>
+      <link>http://localhost:8080/posts/2016/10/2016-10-25-post/</link>
+      <pubDate>Tue, 25 Oct 2016 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2016/10/2016-10-25-post/</guid>
+      <description>2016-10-25 16:51:31&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2016-10-20 08:56:55</title>
+      <link>http://localhost:8080/posts/2016/10/2016-10-20-post/</link>
+      <pubDate>Thu, 20 Oct 2016 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2016/10/2016-10-20-post/</guid>
+      <description>2016-10-20 08:56:55&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2016-10-19 13:12:47</title>
+      <link>http://localhost:8080/posts/2016/10/2016-10-19-post/</link>
+      <pubDate>Wed, 19 Oct 2016 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2016/10/2016-10-19-post/</guid>
+      <description>2016-10-19 13:12:47&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2016-10-13 23:44:51</title>
+      <link>http://localhost:8080/posts/2016/10/2016-10-13-post/</link>
+      <pubDate>Thu, 13 Oct 2016 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2016/10/2016-10-13-post/</guid>
+      <description>2016-10-13 23:44:51&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

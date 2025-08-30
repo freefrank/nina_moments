@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>2022-09 on 我的朋友圈时光机</title>
+    <link>http://localhost:8080/categories/2022-09/</link>
+    <description>Recent content in 2022-09 on 我的朋友圈时光机</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 25 Sep 2022 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:8080/categories/2022-09/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2022-09-25 06:04:38</title>
+      <link>http://localhost:8080/posts/2022/09/2022-09-25-post/</link>
+      <pubDate>Sun, 25 Sep 2022 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2022/09/2022-09-25-post/</guid>
+      <description>2022-09-25 06:04:38&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2022-09-24 10:16:45</title>
+      <link>http://localhost:8080/posts/2022/09/2022-09-24-post-3/</link>
+      <pubDate>Sat, 24 Sep 2022 13:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2022/09/2022-09-24-post-3/</guid>
+      <description>2022-09-24 10:16:45&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2022-09-24 10:17:16</title>
+      <link>http://localhost:8080/posts/2022/09/2022-09-24-post-2/</link>
+      <pubDate>Sat, 24 Sep 2022 12:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2022/09/2022-09-24-post-2/</guid>
+      <description>2022-09-24 10:17:16&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2022-09-24 10:17:37</title>
+      <link>http://localhost:8080/posts/2022/09/2022-09-24-post-1/</link>
+      <pubDate>Sat, 24 Sep 2022 11:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2022/09/2022-09-24-post-1/</guid>
+      <description>2022-09-24 10:17:37&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2022-09-24 10:18:47</title>
+      <link>http://localhost:8080/posts/2022/09/2022-09-24-post/</link>
+      <pubDate>Sat, 24 Sep 2022 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2022/09/2022-09-24-post/</guid>
+      <description>2022-09-24 10:18:47&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2022-09-22 07:39:09</title>
+      <link>http://localhost:8080/posts/2022/09/2022-09-22-post/</link>
+      <pubDate>Thu, 22 Sep 2022 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2022/09/2022-09-22-post/</guid>
+      <description>2022-09-22 07:39:09&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2022-09-12 15:22:51</title>
+      <link>http://localhost:8080/posts/2022/09/2022-09-12-post/</link>
+      <pubDate>Mon, 12 Sep 2022 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2022/09/2022-09-12-post/</guid>
+      <description>2022-09-12 15:22:51&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2022-09-08 09:02:23</title>
+      <link>http://localhost:8080/posts/2022/09/2022-09-08-post/</link>
+      <pubDate>Thu, 08 Sep 2022 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2022/09/2022-09-08-post/</guid>
+      <description>2022-09-08 09:02:23&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2022-09-07 13:34:57</title>
+      <link>http://localhost:8080/posts/2022/09/2022-09-07-post/</link>
+      <pubDate>Wed, 07 Sep 2022 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2022/09/2022-09-07-post/</guid>
+      <description>2022-09-07 13:34:57&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2022-09-03 06:27:22</title>
+      <link>http://localhost:8080/posts/2022/09/2022-09-03-post/</link>
+      <pubDate>Sat, 03 Sep 2022 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2022/09/2022-09-03-post/</guid>
+      <description>2022-09-03 06:27:22&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

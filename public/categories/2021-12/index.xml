@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>2021-12 on 我的朋友圈时光机</title>
+    <link>http://localhost:8080/categories/2021-12/</link>
+    <description>Recent content in 2021-12 on 我的朋友圈时光机</description>
+    <generator>Hugo -- 0.149.0</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 25 Dec 2021 10:00:00 +0800</lastBuildDate>
+    <atom:link href="http://localhost:8080/categories/2021-12/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021-12-25 09:43:34</title>
+      <link>http://localhost:8080/posts/2021/12/2021-12-25-post/</link>
+      <pubDate>Sat, 25 Dec 2021 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2021/12/2021-12-25-post/</guid>
+      <description>2021-12-25 09:43:34&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2021-12-15 09:18:54</title>
+      <link>http://localhost:8080/posts/2021/12/2021-12-15-post-1/</link>
+      <pubDate>Wed, 15 Dec 2021 11:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2021/12/2021-12-15-post-1/</guid>
+      <description>2021-12-15 09:18:54&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2021-12-15 10:16:33</title>
+      <link>http://localhost:8080/posts/2021/12/2021-12-15-post/</link>
+      <pubDate>Wed, 15 Dec 2021 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2021/12/2021-12-15-post/</guid>
+      <description>2021-12-15 10:16:33&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2021-12-09 16:30:42</title>
+      <link>http://localhost:8080/posts/2021/12/2021-12-09-post-1/</link>
+      <pubDate>Thu, 09 Dec 2021 11:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2021/12/2021-12-09-post-1/</guid>
+      <description>2021-12-09 16:30:42&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2021-12-09 17:00:17</title>
+      <link>http://localhost:8080/posts/2021/12/2021-12-09-post/</link>
+      <pubDate>Thu, 09 Dec 2021 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2021/12/2021-12-09-post/</guid>
+      <description>2021-12-09 17:00:17&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2021-12-08 16:17:55</title>
+      <link>http://localhost:8080/posts/2021/12/2021-12-08-post-3/</link>
+      <pubDate>Wed, 08 Dec 2021 13:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2021/12/2021-12-08-post-3/</guid>
+      <description>2021-12-08 16:17:55&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2021-12-08 16:38:00</title>
+      <link>http://localhost:8080/posts/2021/12/2021-12-08-post-2/</link>
+      <pubDate>Wed, 08 Dec 2021 12:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2021/12/2021-12-08-post-2/</guid>
+      <description>2021-12-08 16:38:00&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2021-12-08 17:19:14</title>
+      <link>http://localhost:8080/posts/2021/12/2021-12-08-post-1/</link>
+      <pubDate>Wed, 08 Dec 2021 11:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2021/12/2021-12-08-post-1/</guid>
+      <description>2021-12-08 17:19:14&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2021-12-08 18:05:13</title>
+      <link>http://localhost:8080/posts/2021/12/2021-12-08-post/</link>
+      <pubDate>Wed, 08 Dec 2021 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2021/12/2021-12-08-post/</guid>
+      <description>2021-12-08 18:05:13&amp;hellip;</description>
+    </item>
+    <item>
+      <title>2021-12-03 12:53:00</title>
+      <link>http://localhost:8080/posts/2021/12/2021-12-03-post/</link>
+      <pubDate>Fri, 03 Dec 2021 10:00:00 +0800</pubDate>
+      <guid>http://localhost:8080/posts/2021/12/2021-12-03-post/</guid>
+      <description>2021-12-03 12:53:00&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

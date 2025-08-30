@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=8080&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Posts | 我的朋友圈时光机</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - 我的朋友圈时光机">
+<meta name="author" content="Me">
+<link rel="canonical" href="http://localhost:8080/posts/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:8080/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:8080/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:8080/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:8080/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:8080/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:8080/posts/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:8080/posts/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+
+<meta property="og:url" content="http://localhost:8080/posts/">
+  <meta property="og:site_name" content="我的朋友圈时光机">
+  <meta property="og:title" content="Posts">
+  <meta property="og:description" content="整理的社交媒体内容归档">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Posts">
+<meta name="twitter:description" content="整理的社交媒体内容归档">
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "Posts",
+      "item": "http://localhost:8080/posts/"
+    }
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:8080/" accesskey="h" title="我的朋友圈时光机 (Alt + H)">我的朋友圈时光机</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:8080/posts/" title="所有文章">
+                    <span class="active">所有文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:8080/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+  </h1>
+</header>
+
+
+
+<div class="social-feed" id="social-feed">
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>问：“吃水果吗？” 答：“不要。” 问：“切好的呢？” 答：“可以！”
+#🍉西瓜🍉
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 20:11:37
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-07-10 11:00:00 +0800 +0800'>July 10, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/07/2020-07-10-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>#裂丝盖伞
+接连两日下雨。午后在院子里转悠，发现了这几只新冒出来的小玩意儿。裂丝盖伞和杨树形成外生菌根，菌帽上的纹理和皲裂的伞盖十分具有辨识度。闻起来具极其芳香悦人的“野生菌鲜香”，但实际上是造成神经精神性中毒的毒蘑菇，也就是俗称的“见小人”菇。其实“幻视”不过是蘑菇中毒症状中很小的一部分副作用，上吐下泄四肢痉挛才是痛苦的主要症状，所以千万不要为了追求刺激去进行“trip”，救治不及时当真会嗝屁的。💀💀💀
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-07-10 10:00:00 +0800 +0800'>July 10, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/07/2020-07-10-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>今天也要努力地夹缝求生呀！
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 20:11:37
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-07-09 11:00:00 +0800 +0800'>July 9, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/07/2020-07-09-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>王子菇 / Prince Mushroom
+昨天介绍的卷边桩菇还不是咱家出产最巨型的宝宝，后山上还有一大片王子菇，而且这次是货真价实的美味蘑菇！可以吃！好吃！炒着吃烤着吃烧着吃都好吃！
+它的味道据记载跟超市里买卖的口蘑差不多，都属于较常见的Agaricus属，但王子菇的体型可以长到很大，灰常大。我们家这几朵完全算不上大哈。
+这种蘑菇小时候是白白胖胖的一颗小球。长大后开了伞，鳞片状的花纹就会越发明显。直至完全成熟转为棕黄色，大约有五天的观察时间。跟口蘑长大后变成Portobello的生长轨迹是差不多的。
+不过这种蘑菇天然含镉量比较高，所以不能多吃哟。😚
+媒体文件 帖子类型: 1 用户名:...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-07-09 10:00:00 +0800 +0800'>July 9, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/07/2020-07-09-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>🌚 提前实行共产主义
+媒体文件 相关链接 原始链接:...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-07-08 12:00:00 +0800 +0800'>July 8, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/07/2020-07-08-post-2/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>茉莉花在北美这边不太流行，似乎是亚洲人对她的情节比较深厚。虽然欧美也能认同她的芬芳，但不会把这种代表东方异域风情的花卉养在家中。
+我是找了几家花圃才买到这么一盆，还是颜值品相比较不给力的品种。在国内大家养的品种通常花瓣更多，形状更苞。咿呀，羡慕不来。
+其实茉莉还是比较好养的，特别是在埃德蒙顿这种夏天日照丰富的高纬度城市。这一盆买回来不长时间我已经开始做扦插了。长得飞快，几天不剪就变了盆花。
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-07-08 11:00:00 +0800 +0800'>July 8, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/07/2020-07-08-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>卷边桩菇 / Brown...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-07-08 10:00:00 +0800 +0800'>July 8, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/07/2020-07-08-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>油菜花 &amp; 白夏菊
+隔壁的邻居去年在后院掘了一座池塘，挖出来的淤泥堆成了两座土坡。可能是嫌弃裸露的土壤不美观，就随手撒了一些油菜花的种子在上面。
+这里说的油菜花便是 欧洲油菜 / Canola...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-07-07 11:00:00 +0800 +0800'>July 7, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/07/2020-07-07-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>鉴别蘑菇真是一件十分有趣的事儿。
+通常我是通过交叉对比纸质版图鉴和蘑菇鉴别App的结果进行判断。但也有许多蘑菇鉴别不出来。
+鉴别蘑菇不仅需要对其外形，颜色，气味进行分辨，还需要对其生长的时间和环境进行综合考量，当然还应该更严谨地借助显微镜等仪器进行细致的对比。纵使是这样，也很容易在鉴定结果上出现偏差。
+总之，对这些可爱物种的认知需要知识和经验的不断积累。当遇见珍稀的种类或碰到致命的毒物时的那种兴奋感，可能是很多人不能理解的吧。[偷笑]
+图中，疑似种 - 条柄蜡蘑 / Laccaria Proxima。
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间:...</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-07-07 10:00:00 +0800 +0800'>July 7, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/07/2020-07-07-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>😁 今天终于拿到这个称号了，咩哈哈哈~
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 20:11:46
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2020-07-06 12:00:00 +0800 +0800'>July 6, 2020</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2020/07/2020-07-06-post-2/"></a>
+</article>
+</div>
+
+
+<div class="load-more-container" id="load-more-container">
+  <button class="load-more-btn" id="load-more-btn" data-next-url="https://localhost:8080/posts/page/157/">
+    加载更多...
+  </button>
+</div>
+
+
+<footer class="page-footer traditional-pagination" style="display: none;">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:8080/posts/page/155/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:8080/posts/page/157/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:8080/">我的朋友圈时光机</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

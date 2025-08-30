@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head>
+	<meta name="generator" content="Hugo 0.149.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=8080&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>我的朋友圈时光机</title>
+<meta name="keywords" content="朋友圈, 社交媒体, 归档, 时光机">
+<meta name="description" content="整理的社交媒体内容归档">
+<meta name="author" content="Me">
+<link rel="canonical" href="http://localhost:8080/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.36819bea596090d8b48cf10d9831382996197aa7e4fc86f792f7c08c9ca4d23b.css" integrity="sha256-NoGb6llgkNi0jPENmDE4KZYZeqfk/Ib3kvfAjJyk0js=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:8080/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:8080/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:8080/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:8080/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:8080/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:8080/index.xml">
+<link rel="alternate" type="application/json" href="http://localhost:8080/index.json">
+<link rel="alternate" hreflang="en" href="http://localhost:8080/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript>
+<link rel="stylesheet" href="/css/social-feed.css">
+<script src="/js/social-feed.js" defer></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+
+<meta name="description" content="我的朋友圈时光机 - 社交媒体内容归档">
+<meta property="og:title" content="我的朋友圈时光机">
+<meta property="og:description" content="整理的社交媒体内容归档，按时间展示">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="preload" href="/css/social-feed.css" as="style">
+<link rel="preload" href="/js/social-feed.js" as="script"><meta property="og:url" content="http://localhost:8080/">
+  <meta property="og:site_name" content="我的朋友圈时光机">
+  <meta property="og:title" content="我的朋友圈时光机">
+  <meta property="og:description" content="欢迎来到我的朋友圈时光机！ 👋
+这里整理了我从社交媒体导出的内容，包含：
+📝 文字记录 📸 图片分享 🔗 链接内容 📅 按时间线组织 所有内容都已按年月分类，方便浏览和回忆。">
+  <meta property="og:locale" content="zh-cn">
+  <meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="我的朋友圈时光机">
+<meta name="twitter:description" content="整理的社交媒体内容归档">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "我的朋友圈时光机",
+  "url": "http://localhost:8080/",
+  "description": "整理的社交媒体内容归档",
+  "logo": "http://localhost:8080/favicon.ico",
+  "sameAs": [
+      "https://github.com/USERNAME"
+  ]
+}
+</script>
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://localhost:8080/" accesskey="h" title="我的朋友圈时光机 (Alt + H)">我的朋友圈时光机</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://localhost:8080/posts/" title="所有文章">
+                    <span>所有文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:8080/archives/" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+
+
+
+
+
+<div class="page-layout">
+  
+  <div class="timeline-sidebar" id="sidebar">
+    <h3>时间线</h3>
+    <div class="year-filter" id="year-filter">
+      <div class="year-group">
+        <button class="year-btn" data-year="2012">
+          <span class="year-text">2012</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2012" style="display: none;">
+          <button class="month-btn" data-year="2012" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2012" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2012" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2013">
+          <span class="year-text">2013</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2013" style="display: none;">
+          <button class="month-btn" data-year="2013" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2013" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2013" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2013" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2013" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2013" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2013" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2013" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2013" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2013" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2013" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2013" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2014">
+          <span class="year-text">2014</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2014" style="display: none;">
+          <button class="month-btn" data-year="2014" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2014" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2014" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2014" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2014" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2014" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2014" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2014" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2014" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2014" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2014" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2014" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2015">
+          <span class="year-text">2015</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2015" style="display: none;">
+          <button class="month-btn" data-year="2015" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2015" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2015" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2015" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2015" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2015" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2015" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2015" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2015" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2015" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2015" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2015" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2016">
+          <span class="year-text">2016</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2016" style="display: none;">
+          <button class="month-btn" data-year="2016" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2016" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2016" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2016" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2016" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2016" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2016" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2016" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2016" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2016" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2016" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2016" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2017">
+          <span class="year-text">2017</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2017" style="display: none;">
+          <button class="month-btn" data-year="2017" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2017" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2017" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2017" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2017" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2017" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2017" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2017" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2017" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2017" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2017" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2017" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2018">
+          <span class="year-text">2018</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2018" style="display: none;">
+          <button class="month-btn" data-year="2018" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2018" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2018" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2018" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2018" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2018" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2018" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2018" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2018" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2018" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2018" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2018" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2019">
+          <span class="year-text">2019</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2019" style="display: none;">
+          <button class="month-btn" data-year="2019" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2019" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2019" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2019" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2019" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2019" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2019" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2019" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2019" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2019" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2019" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2019" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2020">
+          <span class="year-text">2020</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2020" style="display: none;">
+          <button class="month-btn" data-year="2020" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2020" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2020" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2020" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2020" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2020" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2020" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2020" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2020" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2020" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2020" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2020" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2021">
+          <span class="year-text">2021</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2021" style="display: none;">
+          <button class="month-btn" data-year="2021" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2021" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2021" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2021" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2021" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2021" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2021" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2021" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2021" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2021" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2021" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2021" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2022">
+          <span class="year-text">2022</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2022" style="display: none;">
+          <button class="month-btn" data-year="2022" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2022" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2022" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2022" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2022" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2022" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2022" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2022" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2022" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2022" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2022" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2022" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2023">
+          <span class="year-text">2023</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2023" style="display: none;">
+          <button class="month-btn" data-year="2023" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2023" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2023" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2023" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2023" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2023" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2023" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2023" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2023" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2023" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2023" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2023" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2024">
+          <span class="year-text">2024</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2024" style="display: none;">
+          <button class="month-btn" data-year="2024" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2024" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2024" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2024" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2024" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2024" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2024" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2024" data-month="08">
+            08月
+          </button>
+          <button class="month-btn" data-year="2024" data-month="09">
+            09月
+          </button>
+          <button class="month-btn" data-year="2024" data-month="10">
+            10月
+          </button>
+          <button class="month-btn" data-year="2024" data-month="11">
+            11月
+          </button>
+          <button class="month-btn" data-year="2024" data-month="12">
+            12月
+          </button>
+        </div>
+      </div>
+      <div class="year-group">
+        <button class="year-btn" data-year="2025">
+          <span class="year-text">2025</span>
+          <span class="expand-icon">▶</span>
+        </button>
+        <div class="month-list" data-year="2025" style="display: none;">
+          <button class="month-btn" data-year="2025" data-month="01">
+            01月
+          </button>
+          <button class="month-btn" data-year="2025" data-month="02">
+            02月
+          </button>
+          <button class="month-btn" data-year="2025" data-month="03">
+            03月
+          </button>
+          <button class="month-btn" data-year="2025" data-month="04">
+            04月
+          </button>
+          <button class="month-btn" data-year="2025" data-month="05">
+            05月
+          </button>
+          <button class="month-btn" data-year="2025" data-month="06">
+            06月
+          </button>
+          <button class="month-btn" data-year="2025" data-month="07">
+            07月
+          </button>
+          <button class="month-btn" data-year="2025" data-month="08">
+            08月
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+  <div class="main-content">
+    <div class="social-feed" id="social-feed">
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>2025年什么最赚钱？在加拿大开法语学校语言班。😃
+媒体文件 相关链接 原始链接:...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-10-25 10:00:00 +0800 +0800'>October 25, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/10/2024-10-25-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>☕ 磨上的驴，和它的咖啡
+疫情后回国的一大感触是，国内的咖啡厅数量呈指数级飙涨，线下门店铺开的速率甚至远超奶茶。咖啡从过去揶揄周立波和上海人“假洋鬼子”的枪靶，降格为打工牛马流动的血液，不过十年。一同降级的还有咖啡厅的应用场景，从小资情调的约会过度到如今收留失业人口的“工位”。喝咖啡这个仪式在国人眼中彻底失去光环，各大品牌9.9元价格战让稳坐世界三大饮品之首的咖啡，跌下神坛。 ​...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-10-24 10:00:00 +0800 +0800'>October 24, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/10/2024-10-24-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>Hi Claude，请帮我向老板屏蔽所有今后AI发展的消息。
+媒体文件 相关链接 原始链接:...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-10-23 10:00:00 +0800 +0800'>October 23, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/10/2024-10-23-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>🧋『随笔』奶茶的消费升降级与文化变迁
+记得2017年回国的时候，第一次在深圳喝到彼时风头正劲的喜茶和奈雪の茶，被一杯随随便便就要30多块的价格给狠狠震惊。要知道那时北美才刚刚进入Coco和Chatime这种连锁品牌入侵的热战时代，这换算成加元都比本地的奶茶价格要高，不得不感叹那个奶茶每周上新的消费升级年代，回望过去真是遍地黄金。不胜唏嘘。
+不过这次回国感受到大众对于奶茶产品的集体去魅，消费回归理性。而奶茶品牌在经历数轮厮杀后迎来的却是一轮轮降价和倒闭。主要原因DDDD，另一方面年轻人也开始意识到糖类和食品添加剂对身体的危害开始选择朋克养生。比方说，曾经每天都忍不住来它一杯的自己现在渐渐也能管住...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-10-18 10:00:00 +0800 +0800'>October 18, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/10/2024-10-18-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>挖矿的一大副产品，就是可以给你家铺太阳能板增加亿点点配额。淘金热最赚钱的是卖铲子的，次赚钱的是运铲子的。人工智能可以是泡沫，但能源必须是All-IN的未来。这是我为人工智能失业潮提前部署的风险对冲——如果我失业了，太阳能发电养我。😃
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-10-16 10:00:00 +0800 +0800'>October 16, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/10/2024-10-16-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>不要嘲笑咪咪胖 😿 ​它是可以做仰卧起坐的！
+帖子类型: 15 用户名: chenxueyuan001 处理时间: 2025/8/28 18:51:48
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-10-14 11:00:00 +0800 +0800'>October 14, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/10/2024-10-14-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>Good job, Sherwhite Park. 🦄
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 18:51:48
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-10-14 10:00:00 +0800 +0800'>October 14, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/10/2024-10-14-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>🍵 川茶和川茶文化 ​ ​这次回国拜访了中国的茶山武夷山，沿路南下也领略到浓厚的中国茶饮文化。饮茶是中国南方沿海地区的重要日常生活仪式。家家户户的客厅里，无论经济状况如何，都会设有豪华的茶案和全套茶具。早起要喝茶，下午要喝茶，甚至晚饭后睡觉前也要来一杯。“做乜嘢？饮茶先！” ​ 第一次在潮汕人​家里喝茶，着实被这全套龙飞凤舞的功夫茶茶道惊掉了下巴。中国茶道正统传承，还得是你。福建和广东人爱喝本地盛产的岩茶。岩茶也相对公认地处于茶饮鄙视链的顶端。根据这套理论，我家乡四川所出产的花茶则处于鄙视链的底端。真要硬说还有什么比花茶更“Low”的，可能只有奶茶了。 ​...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-10-07 11:00:00 +0800 +0800'>October 7, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/10/2024-10-07-post-1/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>🎉 好消息是我已经开始修今年拍的照片了！ ​😅 坏消息是去年回国拍的照片还没有发完。
+媒体文件 帖子类型: 1 用户名: chenxueyuan001 处理时间: 2025/8/28 18:51:48
+</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-10-07 10:00:00 +0800 +0800'>October 7, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/10/2024-10-07-post/"></a>
+</article>
+
+<article class="feed-entry"> 
+  
+  
+  <div class="feed-content">
+      <p>《九所往事》
+这几组照片大多拍摄于我回国行程中的最后一站。我在脑海中规划了无数次到底应以怎样的文字为这个结尾做下注释。但迟迟没有动笔。原因是我不知道如何用三言两语，去把这些如潮水般翻涌在胸中的感触，那些不被算法推荐的观点和难以通过审禾的话语，说出去。
+海南省乐东黎族自治县下的九所新镇，其实很“老”。之所以被称为“新”，并不是这里的建设有多么现代化，而是向本地土著“借”来的一块“特区”：专供外来人口，物价位列发达国家水平。这里和海南其他养老小镇相似，平均年龄为已退休，官方语言为东北话。除去物价，这里很像不会下雪的鹤岗。我在这里提前体验到退休生活月余，然而一切不似幻想中美好，至少不像互联网上描述的...</p>
+  </div>
+  <footer class="feed-footer"><span title='2024-10-04 11:00:00 +0800 +0800'>October 4, 2024</span>&nbsp;·&nbsp;Me</footer>
+  <a class="feed-link" aria-label="查看完整内容" href="http://localhost:8080/posts/2024/10/2024-10-04-post-1/"></a>
+</article>
+</div>
+    </div> 
+  </div> 
+</div> 
+
+
+<div class="load-more-container" id="load-more-container">
+  <button class="load-more-btn" id="load-more-btn" data-next-url="https://localhost:8080/page/28/">
+    加载更多...
+  </button>
+</div>
+
+
+<footer class="page-footer traditional-pagination" style="display: none;">
+  <nav class="pagination">
+    <a class="prev" href="http://localhost:8080/page/26/">
+      «&nbsp;Prev&nbsp;
+    </a>
+    <a class="next" href="http://localhost:8080/page/28/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2025 <a href="http://localhost:8080/">我的朋友圈时光机</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

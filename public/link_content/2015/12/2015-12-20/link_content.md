@@ -1,0 +1,3796 @@
+# 解救吾先生 (豆瓣)
+
+**链接地址:** http://www.douban.com/doubanapp/dispatch?uri=/subject/25798448/interest/989312167
+**作者:** 
+**获取时间:** 2025/8/28 23:04:33
+**图片数量:** 60
+
+---
+
+## 原始HTML内容
+
+
+  
+    <script type="text/javascript">var _body_start = new Date();</script>
+
+    
+    
+
+
+
+    <link href="//img3.doubanio.com/dae/accounts/resources/ba98e9b/shire/bundle.css" rel="stylesheet" type="text/css">
+
+
+
+<div id="db-global-nav" class="global-nav">
+  <div class="bd">
+    
+<div class="top-nav-info">
+  <a href="https://accounts.douban.com/passport/login?source=movie" class="nav-login" rel="nofollow">登录/注册</a>
+</div>
+
+
+    <div class="top-nav-doubanapp">
+  <a href="https://www.douban.com/doubanapp/app?channel=top-nav" class="lnk-doubanapp">下载豆瓣客户端</a>
+  <div id="doubanapp-tip">
+    <a href="https://www.douban.com/doubanapp/app?channel=qipao" class="tip-link">豆瓣 <span class="version">6.0</span> 全新发布</a>
+    <a href="javascript: void 0;" class="tip-close">×</a>
+  </div>
+  <div id="top-nav-appintro" class="more-items">
+    <p class="appintro-title">豆瓣</p>
+    <p class="qrcode">扫码直接下载</p>
+    <div class="download">
+      <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=iOS">iPhone</a>
+      <span>·</span>
+      <a href="https://www.douban.com/doubanapp/redirect?channel=top-nav&amp;direct_dl=1&amp;download=Android" class="download-android">Android</a>
+    </div>
+  </div>
+</div>
+
+    
+
+
+<div class="global-nav-items">
+  <ul>
+    <li class="">
+      <a href="https://www.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-main&quot;,&quot;uid&quot;:&quot;0&quot;}">豆瓣</a>
+    </li>
+    <li class="">
+      <a href="https://book.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-book&quot;,&quot;uid&quot;:&quot;0&quot;}">读书</a>
+    </li>
+    <li class="on">
+      <a href="https://movie.douban.com" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-movie&quot;,&quot;uid&quot;:&quot;0&quot;}">电影</a>
+    </li>
+    <li class="">
+      <a href="https://music.douban.com" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-music&quot;,&quot;uid&quot;:&quot;0&quot;}">音乐</a>
+    </li>
+    <li class="">
+      <a href="https://www.douban.com/podcast/" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-podcast&quot;,&quot;uid&quot;:&quot;0&quot;}">播客</a>
+    </li>
+    <li class="">
+      <a href="https://www.douban.com/location" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-location&quot;,&quot;uid&quot;:&quot;0&quot;}">同城</a>
+    </li>
+    <li class="">
+      <a href="https://www.douban.com/group" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-group&quot;,&quot;uid&quot;:&quot;0&quot;}">小组</a>
+    </li>
+    <li class="">
+      <a href="https://read.douban.com/?dcs=top-nav&amp;dcm=douban" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-read&quot;,&quot;uid&quot;:&quot;0&quot;}">阅读</a>
+    </li>
+    <li class="">
+      <a href="https://fm.douban.com/?from_=shire_top_nav" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-fm&quot;,&quot;uid&quot;:&quot;0&quot;}">FM</a>
+    </li>
+    <li class="">
+      <a href="https://time.douban.com/?dt_time_source=douban-web_top_nav" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-time&quot;,&quot;uid&quot;:&quot;0&quot;}">时间</a>
+    </li>
+    <li class="">
+      <a href="https://market.douban.com/?utm_campaign=douban_top_nav&amp;utm_source=douban&amp;utm_medium=pc_web" target="_blank" data-moreurl-dict="{&quot;from&quot;:&quot;top-nav-click-market&quot;,&quot;uid&quot;:&quot;0&quot;}">豆品</a>
+    </li>
+  </ul>
+</div>
+
+  </div>
+</div>
+<script>
+  ;window._GLOBAL_NAV = {
+    DOUBAN_URL: "https://www.douban.com",
+    N_NEW_NOTIS: 0,
+    N_NEW_DOUMAIL: 0
+  };
+</script>
+
+
+
+    <script src="//img3.doubanio.com/dae/accounts/resources/ba98e9b/shire/bundle.js" defer="defer"></script>
+
+
+
+
+    
+
+
+    <link href="//img3.doubanio.com/dae/accounts/resources/ba98e9b/movie/bundle.css" rel="stylesheet" type="text/css">
+
+
+
+
+<div id="db-nav-movie" class="nav">
+  <div class="nav-wrap">
+  <div class="nav-primary">
+    <div class="nav-logo">
+      <a href="https://movie.douban.com">豆瓣电影</a>
+    </div>
+    <div class="nav-search">
+      <form action="https://search.douban.com/movie/subject_search" method="get">
+        <fieldset>
+          <legend>搜索：</legend>
+          <label for="inp-query">
+          </label>
+          <div class="inp"><input id="inp-query" name="search_text" size="22" maxlength="60" placeholder="搜索电影、电视剧、综艺、影人" value=""></div>
+          <div class="inp-btn"><input type="submit" value="搜索"></div>
+          <input type="hidden" name="cat" value="1002">
+        </fieldset>
+      </form>
+    </div>
+  </div>
+  </div>
+  <div class="nav-secondary">
+    
+
+<div class="nav-items">
+  <ul>
+    <li><a href="https://movie.douban.com/cinema/nowplaying/">影讯&amp;购票</a>
+    </li>
+    <li><a href="https://movie.douban.com/explore">选电影</a>
+    </li>
+    <li><a href="https://movie.douban.com/tv/">选剧集</a>
+    </li>
+    <li><a href="https://movie.douban.com/chart">排行榜</a>
+    </li>
+    <li><a href="https://movie.douban.com/review/best/">影评</a>
+    </li>
+    <li><a href="https://movie.douban.com/annual/2024/?fullscreen=1&amp;dt_from=movie_navigation">2024年度榜单</a>
+    </li>
+    <li><a href="https://c9.douban.com/app/standbyme-2024/?autorotate=false&amp;fullscreen=true&amp;hidenav=true&amp;monitor_screenshot=true&amp;df_from=web_navigation" target="_blank">2024年度报告</a>
+    </li>
+  </ul>
+</div>
+
+    <a href="https://movie.douban.com/annual/2024/?fullscreen=1&amp;source=movie_navigation_logo" class="movieannual"></a>
+  </div>
+</div>
+
+<script id="suggResult" type="text/x-jquery-tmpl">
+  <li data-link="{{= url}}">
+            <a href="{{= url}}" onclick="moreurl(this, {from:'movie_search_sugg', query:'{{= keyword }}', subject_id:'{{= id}}', i: '{{= index}}', type: '{{= type}}'})">
+            <img src="{{= img}}" width="40" />
+            <p>
+                <em>{{= title}}</em>
+                {{if year}}
+                    <span>{{= year}}</span>
+                {{/if}}
+                {{if sub_title}}
+                    <br /><span>{{= sub_title}}</span>
+                {{/if}}
+                {{if address}}
+                    <br /><span>{{= address}}</span>
+                {{/if}}
+                {{if episode}}
+                    {{if episode=="unknow"}}
+                        <br /><span>集数未知</span>
+                    {{else}}
+                        <br /><span>共{{= episode}}集</span>
+                    {{/if}}
+                {{/if}}
+            </p>
+        </a>
+        </li>
+  </script>
+
+
+
+
+    <script src="//img3.doubanio.com/dae/accounts/resources/ba98e9b/movie/bundle.js" defer="defer"></script>
+
+
+
+
+    
+    <div id="wrapper">
+        
+
+        
+    <div id="content">
+        
+        
+            <!-- rank label begin -->
+            <link rel="stylesheet" href="https://img1.doubanio.com/cuphead/movie-static/subject/rank_label.dda40.css">
+            <div class="rank-label rank-label-other">
+                <span class="rank-label-no">
+                  <span>No.18</span>
+                </span>
+              <span class="rank-label-link">
+                <a href="https://m.douban.com/subject_collection/ECWAPHUIA" target="_blank">中国大陆犯罪片榜</a>
+              </span>
+            </div>
+            <!-- rank label end -->
+
+    <h1>
+        <span property="v:itemreviewed">解救吾先生</span>
+            <span class="year">(2015)</span>
+    </h1>
+
+        <div class="grid-16-8 clearfix">
+            
+
+            
+            <div class="article">
+                
+    <div class="indent clearfix">
+        <div class="subjectwrap clearfix">
+            <div class="subject clearfix">
+                
+                
+
+
+
+<div id="mainpic">
+    <a class="nbgnbg" href="https://movie.douban.com/subject/25798448/photos?type=R" title="点击看更多海报">
+        <img src="./images/image_1.jpg" title="点击看更多海报" alt="解救吾先生" rel="v:image">
+   </a>
+</div>
+
+                
+
+
+<div id="info">
+        <span><span class="pl">导演</span>: <span class="attrs"><a href="https://www.douban.com/personage/27481242/" rel="v:directedBy">丁晟</a></span></span><br>
+        <span><span class="pl">编剧</span>: <span class="attrs"><a href="https://www.douban.com/personage/27481242/">丁晟</a></span></span><br>
+        <span><span class="pl">主演</span>: <span class="attrs"><a href="https://www.douban.com/personage/27260192/" rel="v:starring">刘德华</a> / <a href="https://www.douban.com/personage/27206262/" rel="v:starring">刘烨</a> / <a href="https://www.douban.com/personage/27481119/" rel="v:starring">王千源</a> / <a href="https://www.douban.com/personage/27227568/" rel="v:starring">吴若甫</a> / <a href="https://www.douban.com/personage/27480239/" rel="v:starring">林雪</a> / <a href="https://www.douban.com/personage/27495267/" rel="v:starring">赵小锐</a> / <a href="https://www.douban.com/personage/27547819/" rel="v:starring">李梦</a> / <a href="https://www.douban.com/personage/27553799/" rel="v:starring">蔡鹭</a> / <a href="https://www.douban.com/personage/27548238/" rel="v:starring">陆彭</a> / <a href="https://www.douban.com/personage/27494225/" rel="v:starring">余皑磊</a> / <a href="https://www.douban.com/personage/27581614/" rel="v:starring">郭洺宇</a></span></span><br>
+        <span class="pl">类型:</span> <span property="v:genre">剧情</span> / <span property="v:genre">犯罪</span><br>
+        
+        <span class="pl">制片国家/地区:</span> 中国大陆<br>
+        <span class="pl">语言:</span> 汉语普通话<br>
+        <span class="pl">上映日期:</span> <span property="v:initialReleaseDate" content="2015-09-30(中国大陆)">2015-09-30(中国大陆)</span> / <span property="v:initialReleaseDate" content="2015-09-26(丝绸之路电影节)">2015-09-26(丝绸之路电影节)</span><br>
+        <span class="pl">片长:</span> <span property="v:runtime" content="106">106分钟</span><br>
+        <span class="pl">又名:</span> 最强对手 / Saving Mr. Wu<br>
+        <span class="pl">IMDb:</span> tt4819560<br>
+
+</div>
+<script type="text/javascript">
+$(function(){
+    var limit = 5
+    $('#info .attrs').each(function() {
+        var $list = $(this).find('a')
+        var $attrs = $(this)
+
+        if($list.length > limit) {
+            $attrs.empty()
+            $list.each(function(idx) {
+                if (idx+1 === $list.length) {
+                    $('<span></span>').prepend($(this)).appendTo($attrs);
+                } else {
+                    $('<span> / </span>').prepend($(this)).appendTo($attrs);
+                }
+            })
+
+            $attrs.append('<a href="javascript:;" class="more-attrs" title="显示更多">更多...</a>')
+            $('.more-attrs').on('click', function() {
+                $(this).parent().find('span').show()
+                $(this).hide()
+            })
+
+            $attrs.find('span').slice(limit).hide()
+        }
+    })
+})
+</script>
+
+
+
+            </div>
+            
+                
+
+<link rel="stylesheet" href="https://img3.doubanio.com/cuphead/movie-static/download-output-image/index.7aaa3.css">
+<div id="interest_sectl">
+    <div class="rating_wrap clearbox" rel="v:rating">
+        <div class="clearfix">
+            <div class="rating_logo ll">
+                豆瓣评分
+            </div>
+          <div class="output-btn-wrap rr" style="display:none">
+            <img src="./images/image_2.jpg">
+            <a class="download-output-image" href="#">引用</a>
+          </div>
+        </div>
+        
+
+
+
+<div class="rating_self clearfix" typeof="v:Rating">
+    <strong class="ll rating_num" property="v:average">7.7</strong>
+    <span property="v:best" content="10.0"></span>
+    <div class="rating_right ">
+        <div class="ll bigstar bigstar40"></div>
+        <div class="rating_sum">
+                <a href="comments" class="rating_people">
+                    <span property="v:votes">440891</span>人评价
+                </a>
+        </div>
+    </div>
+</div>
+<div class="ratings-on-weight">
+    
+        <div class="item">
+        
+        <span class="stars5 starstop" title="力荐">
+            5星
+        </span>
+        <div class="power" style="width:21px"></div>
+        <span class="rating_per">18.0%</span>
+        <br>
+        </div>
+        <div class="item">
+        
+        <span class="stars4 starstop" title="推荐">
+            4星
+        </span>
+        <div class="power" style="width:64px"></div>
+        <span class="rating_per">52.3%</span>
+        <br>
+        </div>
+        <div class="item">
+        
+        <span class="stars3 starstop" title="还行">
+            3星
+        </span>
+        <div class="power" style="width:33px"></div>
+        <span class="rating_per">27.2%</span>
+        <br>
+        </div>
+        <div class="item">
+        
+        <span class="stars2 starstop" title="较差">
+            2星
+        </span>
+        <div class="power" style="width:2px"></div>
+        <span class="rating_per">2.1%</span>
+        <br>
+        </div>
+        <div class="item">
+        
+        <span class="stars1 starstop" title="很差">
+            1星
+        </span>
+        <div class="power" style="width:0px"></div>
+        <span class="rating_per">0.4%</span>
+        <br>
+        </div>
+</div>
+
+    </div>
+        <div class="rating_betterthan">
+            好于 <a href="/typerank?type_name=剧情&amp;type=11&amp;interval_id=90:80&amp;action=">89% 剧情片</a><br>
+            好于 <a href="/typerank?type_name=犯罪&amp;type=3&amp;interval_id=100:90&amp;action=">91% 犯罪片</a><br>
+        </div>
+</div>
+<script src="https://img1.doubanio.com/cuphead/movie-static/download-output-image/index.e9129.js"></script>
+
+
+            
+        </div>
+        
+            
+
+
+
+
+
+<div id="interest_sect_level" class="clearfix">
+        
+            <a href="https://www.douban.com/reason=collectwish&amp;ck=" rel="nofollow" class="j a_show_login colbutt ll" name="pbtn-25798448-wish">
+                <span>想看</span>
+            </a>
+            <a href="https://www.douban.com/reason=collectcollect&amp;ck=" rel="nofollow" class="j a_show_login colbutt ll" name="pbtn-25798448-collect">
+                <span>看过</span>
+            </a>
+        <div class="ll j a_stars">
+            
+    
+    评价:
+    <span id="rating"> <span id="stars" data-solid="https://img1.doubanio.com/f/vendors/5a2327c04c0c231bced131ddf3f4467eb80c1c86/pics/rating_icons/star_onmouseover.png" data-hollow="https://img1.doubanio.com/f/vendors/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png" data-solid-2x="https://img1.doubanio.com/f/vendors/7258904022439076d57303c3b06ad195bf1dc41a/pics/rating_icons/star_onmouseover@2x.png" data-hollow-2x="https://img1.doubanio.com/f/vendors/95cc2fa733221bb8edd28ad56a7145a5ad33383e/pics/rating_icons/star_hollow_hover@2x.png">
+
+            <a href="https://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-25798448-1">
+            <img src="./images/image_3.jpg" id="star1" width="16" height="16">
+        </a>
+            <a href="https://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-25798448-2">
+            <img src="./images/image_4.jpg" id="star2" width="16" height="16">
+        </a>
+            <a href="https://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-25798448-3">
+            <img src="./images/image_5.jpg" id="star3" width="16" height="16">
+        </a>
+            <a href="https://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-25798448-4">
+            <img src="./images/image_6.jpg" id="star4" width="16" height="16">
+        </a>
+            <a href="https://www.douban.com/register?reason=rate" class="j a_show_login" name="pbtn-25798448-5">
+            <img src="./images/image_7.jpg" id="star5" width="16" height="16">
+        </a>
+    </span><span id="rateword" class="pl"></span>
+    <input id="n_rating" type="hidden" value="">
+    </span>
+
+        </div>
+</div>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="gtleft">
+    <ul class="ul_subject_menu bicelink color_gray pt6 clearfix">
+        
+    
+        
+                
+                  <li> 
+    <img src="./images/image_8.jpg">&nbsp;
+        <a onclick="moreurl(this, {from:'mv_sbj_wr_cmnt_login'})" class="j a_show_login" href="https://www.douban.com/register?reason=review" rel="nofollow">写短评</a>
+ </li>
+                  <li> 
+    
+    <img src="./images/image_9.jpg">&nbsp;
+        <a onclick="moreurl(this, {from:'mv_sbj_wr_rv_login'})" class="j a_show_login" href="https://www.douban.com/register?reason=review" rel="nofollow">写影评</a>
+ </li>
+                    <li> 
+   
+
+   
+    
+    <span class="rec" id="电影-25798448">
+    <a href="#" data-type="电影" data-url="https://movie.douban.com/subject/25798448/" data-desc="电影《解救吾先生》 (来自豆瓣) " data-title="电影《解救吾先生》 (来自豆瓣) " data-pic="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2267511583.jpeg" class="bn-sharing ">
+        分享到
+    </a> &nbsp;&nbsp;
+    </span>
+    <link rel="stylesheet" href="https://img1.doubanio.com/f/vendors/e8a7261937da62636d22ca4c579efc4a4d759b1b/css/ui/dialog.css">
+    <script src="https://img1.doubanio.com/f/vendors/f25ae221544f39046484a823776f3aa01769ee10/js/ui/dialog.js"></script>
+    <script src="https://img1.doubanio.com/f/vendors/b6e0770163b1da14217b0f1ca39189d47b95f51f/js/lib/sharebutton.js"></script>
+    <script src="https://img1.doubanio.com/cuphead/movie-static/libs/qrcode.min.js"></script>
+
+  </li>
+            
+
+    </ul>
+
+    <script type="text/javascript">
+        $(function(){
+            $(".ul_subject_menu li.rec .bn-sharing").bind("click", function(){
+                $.get("/blank?sbj_page_click=bn_sharing");
+            });
+        });
+    </script>
+</div>
+
+
+
+
+        
+            
+
+
+
+
+<link rel="stylesheet" href="https://img3.doubanio.com/cuphead/movie-static/mod/share.ee737.css" type="text/css">
+
+<div class="rec-sec">
+<span class="rec">
+    <script id="movie-share" type="text/x-html-snippet">
+        
+    <form class="movie-share" action="/j/share" method="POST">
+        <div class="clearfix form-bd">
+            <div class="input-area">
+                <textarea name="text" class="share-text" cols="72" data-mention-api="https://api.douban.com/shuo/in/complete?alt=xd&amp;callback=?"></textarea>
+                <input type="hidden" name="target-id" value="25798448">
+                <input type="hidden" name="target-type" value="0">
+                <input type="hidden" name="title" value="解救吾先生‎ (2015)">
+                <input type="hidden" name="desc" value="导演 丁晟 主演 刘德华 / 刘烨 / 中国大陆 / 7.7分(440891评价)">
+                <input type="hidden" name="redir" value=""/>
+                <div class="mentioned-highlighter"></div>
+            </div>
+
+            <div class="info-area">
+                    <img class="media" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2267511583.jpg" />
+                <strong>解救吾先生‎ (2015)</strong>
+                <p>导演 丁晟 主演 刘德华 / 刘烨 / 中国大陆 / 7.7分(440891评价)</p>
+                <p class="error server-error">&nbsp;</p>
+            </div>
+        </div>
+        <div class="form-ft">
+            <div class="form-ft-inner">
+                
+
+
+
+                <span class="avail-num-indicator">140</span>
+                <span class="bn-flat">
+                    <input type="submit" value="推荐" />
+                </span>
+            </div>
+        </div>
+    </form>
+    
+    <div id="suggest-mention-tmpl" style="display:none;">
+        <ul>
+            {{#users}}
+            <li id="{{uid}}">
+              <img src="{{avatar}}">{{{username}}}&nbsp;<span>({{{uid}}})</span>
+            </li>
+            {{/users}}
+        </ul>
+    </div>
+
+
+    </script>
+
+        
+        <a href="/accounts/register?reason=recommend" class="j a_show_login lnk-sharing" share-id="25798448" data-mode="plain" data-name="解救吾先生‎ (2015)" data-type="movie" data-desc="导演 丁晟 主演 刘德华 / 刘烨 / 中国大陆 / 7.7分(440891评价)" data-href="https://movie.douban.com/subject/25798448/" data-image="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2267511583.jpg" data-properties="{}" data-redir="" data-text="" data-apikey="" data-curl="" data-count="10" data-object_kind="1002" data-object_id="25798448" data-target_type="rec" data-target_action="0" data-action_props="{&quot;subject_url&quot;:&quot;https:\/\/movie.douban.com\/subject\/25798448\/&quot;,&quot;subject_title&quot;:&quot;解救吾先生‎ (2015)&quot;}">推荐</a>
+</span>
+
+
+</div>
+
+
+
+
+
+
+        <script type="text/javascript">
+            $(function() {
+                $('.collect_btn', '#interest_sect_level').each(function() {
+                    Douban.init_collect_btn(this);
+                });
+                $('html').delegate(".indent .rec-sec .lnk-sharing", "click", function() {
+                    moreurl(this, {
+                        from : 'mv_sbj_db_share'
+                    });
+                });
+            });
+        </script>
+    </div>
+        
+
+
+    <div id="collect_form_25798448"></div>
+    
+
+    
+
+
+
+<div class="related-info" style="margin-bottom:-10px;">
+    <a name="intro"></a>
+    
+        
+            
+            
+    <h2>
+        <i>解救吾先生的剧情简介</i>
+              · · · · · ·
+    </h2>
+
+            <div class="indent" id="link-report-intra">
+                    
+                        <span class="short">
+                            <span property="v:summary">
+                                    　　春节假期的夜晚，市中心的酒吧一条街繁华喧嚣，香港电影明星吾先生（刘德华 饰）走出酒吧就被冒充警察的张华（王千源 饰）一伙人持枪绑架到一个与世隔绝的郊外小院里。吾先生意外发现绑匪还绑架了另外一个人质小窦（蔡鹭 饰）经过与张华的一番谈判，吾先生将小窦从死亡线拉回。两人开始了争取生机并相依为命的惊险20小时。
+                                        <br>
+                                    　　接到报案的警方迅速组织最强警力，刑警队长刑峰（刘烨 饰）和曹刚（吴若甫 饰）联手展开侦破工作。但狡猾狂妄的绑匪张华有很强的反侦察能力，对同伙和人质也都不讲规矩，单独出门与吾先生的好友（林雪 饰）交收赎款。但是他在取得赎金之际交代同伙到晚上九点，无论能不能拿到赎金都要将人质杀害。
+                                        <br>
+                                    　　经过几番侦查和对抗，警方掌握了张华的行踪，邢峰和曹刚精准配合，在极度危险的情况下将张华抓获。此事离绑匪约定好的撕票时间还剩下两个小时。深夜九点即将到来，邢峰和曹刚再次联手与垂...
+                            </span>
+                            <a href="javascript:void(0)" class="j a_show_full">(展开全部)</a>
+                        </span>
+                        <span class="all hidden">
+                                　　春节假期的夜晚，市中心的酒吧一条街繁华喧嚣，香港电影明星吾先生（刘德华 饰）走出酒吧就被冒充警察的张华（王千源 饰）一伙人持枪绑架到一个与世隔绝的郊外小院里。吾先生意外发现绑匪还绑架了另外一个人质小窦（蔡鹭 饰）经过与张华的一番谈判，吾先生将小窦从死亡线拉回。两人开始了争取生机并相依为命的惊险20小时。
+                                    <br>
+                                　　接到报案的警方迅速组织最强警力，刑警队长刑峰（刘烨 饰）和曹刚（吴若甫 饰）联手展开侦破工作。但狡猾狂妄的绑匪张华有很强的反侦察能力，对同伙和人质也都不讲规矩，单独出门与吾先生的好友（林雪 饰）交收赎款。但是他在取得赎金之际交代同伙到晚上九点，无论能不能拿到赎金都要将人质杀害。
+                                    <br>
+                                　　经过几番侦查和对抗，警方掌握了张华的行踪，邢峰和曹刚精准配合，在极度危险的情况下将张华抓获。此事离绑匪约定好的撕票时间还剩下两个小时。深夜九点即将到来，邢峰和曹刚再次联手与垂死挣扎的张华展开心里较量，并在最后时刻找到突破口，但张华的同伙却打算提早撕票……
+                                    <br>
+                                　　影片改编自2004年的“吴若甫绑架案”。
+                        </span>
+                        <span class="pl"><a href="https://movie.douban.com/help/movie#t0-qs">©豆瓣</a></span>
+            </div>
+</div>
+
+
+    <div id="dale_movie_subject_banner_after_intro"></div>
+
+    
+
+
+
+
+
+<link rel="stylesheet" href="https://img3.doubanio.com/cuphead/movie-static/celebrity/celebrities_section.610da.css">
+
+<div id="celebrities" class="celebrities related-celebrities">
+
+  
+    <h2>
+        <i>解救吾先生的演职员</i>
+              · · · · · ·
+            <span class="pl">
+            (
+                <a href="/subject/25798448/celebrities">全部 30</a>
+            )
+            </span>
+    </h2>
+
+
+  <ul class="celebrities-list from-subject __oneline">
+        
+    
+  
+  <li class="celebrity">
+    
+
+  <a href="https://www.douban.com/personage/27481242/" title="丁晟 Sheng Ding" class="">
+      <div class="avatar" style="background-image: url(https://img3.doubanio.com/view/personage/m/public/9663184334ccf9a38dd54553255145ba.jpg)">
+    </div>
+  </a>
+
+    <div class="info">
+      <span class="name"><a href="https://www.douban.com/personage/27481242/" title="丁晟 Sheng Ding" class="name">丁晟</a></span>
+
+      <span class="role" title="导演">导演</span>
+
+    </div>
+  </li>
+
+
+        
+    
+  
+  <li class="celebrity">
+    
+
+  <a href="https://www.douban.com/personage/27260192/" title="刘德华 Andy Lau" class="">
+      <div class="avatar" style="background-image: url(https://img2.doubanio.com/view/personage/m/public/8af9415de20cb759a27ad9c0565b9991.jpg)">
+    </div>
+  </a>
+
+    <div class="info">
+      <span class="name"><a href="https://www.douban.com/personage/27260192/" title="刘德华 Andy Lau" class="name">刘德华</a></span>
+
+      <span class="role" title="饰 吾先生">饰 吾先生</span>
+
+    </div>
+  </li>
+
+
+        
+    
+  
+  <li class="celebrity">
+    
+
+  <a href="https://www.douban.com/personage/27206262/" title="刘烨 Ye Liu" class="">
+      <div class="avatar" style="background-image: url(https://img3.doubanio.com/view/celebrity/m/public/p1525674287.43.jpg)">
+    </div>
+  </a>
+
+    <div class="info">
+      <span class="name"><a href="https://www.douban.com/personage/27206262/" title="刘烨 Ye Liu" class="name">刘烨</a></span>
+
+      <span class="role" title="饰 邢峰">饰 邢峰</span>
+
+    </div>
+  </li>
+
+
+        
+    
+  
+  <li class="celebrity">
+    
+
+  <a href="https://www.douban.com/personage/27481119/" title="王千源 Qianyuan Wang" class="">
+      <div class="avatar" style="background-image: url(https://img3.doubanio.com/view/personage/m/public/17a862d5c74795148e899f59edee76a2.jpg)">
+    </div>
+  </a>
+
+    <div class="info">
+      <span class="name"><a href="https://www.douban.com/personage/27481119/" title="王千源 Qianyuan Wang" class="name">王千源</a></span>
+
+      <span class="role" title="饰 张华">饰 张华</span>
+
+    </div>
+  </li>
+
+
+        
+    
+  
+  <li class="celebrity">
+    
+
+  <a href="https://www.douban.com/personage/27227568/" title="吴若甫 Ruofu Wu" class="">
+      <div class="avatar" style="background-image: url(https://img9.doubanio.com/view/celebrity/m/public/p45256.jpg)">
+    </div>
+  </a>
+
+    <div class="info">
+      <span class="name"><a href="https://www.douban.com/personage/27227568/" title="吴若甫 Ruofu Wu" class="name">吴若甫</a></span>
+
+      <span class="role" title="饰 曹刚">饰 曹刚</span>
+
+    </div>
+  </li>
+
+
+        
+    
+  
+  <li class="celebrity">
+    
+
+  <a href="https://www.douban.com/personage/27480239/" title="林雪 Suet Lam" class="">
+      <div class="avatar" style="background-image: url(https://img3.doubanio.com/view/celebrity/m/public/p45672.jpg)">
+    </div>
+  </a>
+
+    <div class="info">
+      <span class="name"><a href="https://www.douban.com/personage/27480239/" title="林雪 Suet Lam" class="name">林雪</a></span>
+
+      <span class="role" title="饰 苏先生">饰 苏先生</span>
+
+    </div>
+  </li>
+
+
+  </ul>
+</div>
+
+
+    
+
+
+<link rel="stylesheet" href="https://img1.doubanio.com/f/verify/a5bc0bc0aea4221d751bc4809fd4b0a1075ad25e/entry_creator/dist/author_subject/style.css">
+<div id="author_subject" class="author-wrapper">
+    <div class="loading"></div>
+</div>
+<script type="text/javascript">
+    var answerObj = {
+      ISALL: 'False',
+      TYPE: 'movie',
+      SUBJECT_ID: '25798448',
+      USER_ID: 'None'
+    }
+</script>
+<script type="text/javascript" src="https://img1.doubanio.com/f/vendors/bd6325a12f40c34cbf2668aafafb4ccd60deab7e/vendors.js"></script>
+<script type="text/javascript" src="https://img1.doubanio.com/f/vendors/6242a400cfd25992da35ace060e58f160efc9c50/shared_rc.js"></script>
+<script type="text/javascript" src="https://img1.doubanio.com/f/verify/5a013657caa2324bb2a3d51d2b020556fe6f0878/entry_creator/dist/author_subject/index.js"></script>
+
+
+    
+        
+
+
+
+<link rel="stylesheet" href="https://img1.doubanio.com/cuphead/movie-static/subject/photos_section.45abd.css">
+
+
+
+
+
+    
+    <div id="related-pic" class="related-pic">
+        
+    
+    
+    <h2>
+        <i>解救吾先生的视频和图片</i>
+              · · · · · ·
+            <span class="pl">
+            (
+                <a href="https://movie.douban.com/subject/25798448/trailer#trailer">预告片21</a>&nbsp;|&nbsp;<a href="https://movie.douban.com/subject/25798448/all_photos">图片584</a>&nbsp;·&nbsp;<a href="https://movie.douban.com/subject/25798448/mupload">添加</a>
+            )
+            </span>
+    </h2>
+
+
+        <ul class="related-pic-bd  ">
+                <li class="label-trailer">
+                    <a class="related-pic-video" href="https://movie.douban.com/trailer/183718/#content" title="预告片" style="background-image:url(https://img2.doubanio.com/img/trailer/medium/2267490271.jpg)">
+                        <p class="type-title">预告片</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://movie.douban.com/photos/photo/2261812395/"><img src="./images/image_10.jpg" alt="图片"></a>
+                </li>
+                <li>
+                    <a href="https://movie.douban.com/photos/photo/2262461950/"><img src="./images/image_11.jpg" alt="图片"></a>
+                </li>
+                <li>
+                    <a href="https://movie.douban.com/photos/photo/2272872368/"><img src="./images/image_12.jpg" alt="图片"></a>
+                </li>
+                <li>
+                    <a href="https://movie.douban.com/photos/photo/2528861773/"><img src="./images/image_13.jpg" alt="图片"></a>
+                </li>
+        </ul>
+    </div>
+
+
+
+    
+
+    
+
+
+
+<style type="text/css">
+.award li { display: inline; margin-right: 5px }
+.awards { margin-bottom: 20px }
+.awards h2 { background: none; color: #000; font-size: 14px; padding-bottom: 5px; margin-bottom: 8px; border-bottom: 1px dashed #dddddd }
+.awards .year { color: #666666; margin-left: -5px }
+.mod { margin-bottom: 25px }
+.mod .hd { margin-bottom: 10px }
+.mod .hd h2 {margin:24px 0 3px 0}
+</style>
+
+
+<div class="mod">
+    <div class="hd">
+        
+    <h2>
+        <i>解救吾先生的获奖情况</i>
+              · · · · · ·
+            <span class="pl">
+            (
+                <a href="https://movie.douban.com/subject/25798448/awards/">全部</a>
+            )
+            </span>
+    </h2>
+
+    </div>
+        
+        <ul class="award">
+            <li>
+                <a href="https://movie.douban.com/awards/goldenhorse/52/">第52届台北金马影展</a>
+            </li>
+            <li>金马奖 最佳男配角(提名)</li>
+            <li><a href="https://www.douban.com/personage/27481119/" target="_blank">王千源</a></li>
+        </ul>
+        
+        <ul class="award">
+            <li>
+                <a href="https://movie.douban.com/awards/golden-rooster/31/">第31届中国电影金鸡奖</a>
+            </li>
+            <li>最佳男配角</li>
+            <li><a href="https://www.douban.com/personage/27481119/" target="_blank">王千源</a></li>
+        </ul>
+        
+        <ul class="award">
+            <li>
+                <a href="https://movie.douban.com/awards/huabiao/16/">第16届中国电影华表奖</a>
+            </li>
+            <li>优秀故事片奖</li>
+            <li></li>
+        </ul>
+</div>
+
+
+    
+        
+
+
+
+<link rel="stylesheet" href="https://img3.doubanio.com/cuphead/movie-static/subject/recommendations.61283.css">
+
+
+
+
+    <div id="recommendations">
+        
+        
+    <h2>
+        <i>喜欢这部电影的人也喜欢</i>
+              · · · · · ·
+    </h2>
+
+        
+    
+    <div class="recommendations-bd">
+        <dl>
+            <dt>
+                <a href="https://movie.douban.com/subject/24719063/?from=subject-page">
+                    <img src="./images/image_14.jpg" alt="烈日灼心">
+                </a>
+            </dt>
+            <dd>
+                <a href="https://movie.douban.com/subject/24719063/?from=subject-page">烈日灼心</a>
+                <span class="subject-rate">8.3</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a href="https://movie.douban.com/subject/1890784/?from=subject-page">
+                    <img src="./images/image_15.jpg" alt="门徒">
+                </a>
+            </dt>
+            <dd>
+                <a href="https://movie.douban.com/subject/1890784/?from=subject-page">门徒</a>
+                <span class="subject-rate">8.1</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a href="https://movie.douban.com/subject/25815034/?from=subject-page">
+                    <img src="./images/image_16.jpg" alt="湄公河行动">
+                </a>
+            </dt>
+            <dd>
+                <a href="https://movie.douban.com/subject/25815034/?from=subject-page">湄公河行动</a>
+                <span class="subject-rate">8.0</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a href="https://movie.douban.com/subject/1305487/?from=subject-page">
+                    <img src="./images/image_17.jpg" alt="猫鼠游戏">
+                </a>
+            </dt>
+            <dd>
+                <a href="https://movie.douban.com/subject/1305487/?from=subject-page">猫鼠游戏</a>
+                <span class="subject-rate">9.1</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a href="https://movie.douban.com/subject/26284621/?from=subject-page">
+                    <img src="./images/image_18.jpg" alt="追凶者也">
+                </a>
+            </dt>
+            <dd>
+                <a href="https://movie.douban.com/subject/26284621/?from=subject-page">追凶者也</a>
+                <span class="subject-rate">7.9</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a href="https://movie.douban.com/subject/26425063/?from=subject-page">
+                    <img src="./images/image_19.jpg" alt="无双">
+                </a>
+            </dt>
+            <dd>
+                <a href="https://movie.douban.com/subject/26425063/?from=subject-page">无双</a>
+                <span class="subject-rate">8.0</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a href="https://movie.douban.com/subject/10344754/?from=subject-page">
+                    <img src="./images/image_20.jpg" alt="毒战">
+                </a>
+            </dt>
+            <dd>
+                <a href="https://movie.douban.com/subject/10344754/?from=subject-page">毒战</a>
+                <span class="subject-rate">7.6</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a href="https://movie.douban.com/subject/6890730/?from=subject-page">
+                    <img src="./images/image_21.jpg" alt="寒战">
+                </a>
+            </dt>
+            <dd>
+                <a href="https://movie.douban.com/subject/6890730/?from=subject-page">寒战</a>
+                <span class="subject-rate">7.6</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a href="https://movie.douban.com/subject/10763164/?from=subject-page">
+                    <img src="./images/image_22.jpg" alt="扫毒">
+                </a>
+            </dt>
+            <dd>
+                <a href="https://movie.douban.com/subject/10763164/?from=subject-page">扫毒</a>
+                <span class="subject-rate">7.6</span>
+            </dd>
+        </dl>
+        <dl>
+            <dt>
+                <a href="https://movie.douban.com/subject/3412882/?from=subject-page">
+                    <img src="./images/image_23.jpg" alt="窃听风云">
+                </a>
+            </dt>
+            <dd>
+                <a href="https://movie.douban.com/subject/3412882/?from=subject-page">窃听风云</a>
+                <span class="subject-rate">7.7</span>
+            </dd>
+        </dl>
+    </div>
+
+    </div>
+    
+
+
+
+    
+        
+
+
+
+<script type="text/x-handlebar-tmpl" id="comment-tmpl">
+    <div class="dummy-fold">
+        {{#each comments}}
+        <div class="comment-item" data-cid="id">
+            <div class="comment">
+                <h3>
+                    <span class="comment-vote">
+                            <span class="votes">{{votes}}</span>
+                        <input value="{{id}}" type="hidden"/>
+                        <a href="javascript:;" class="j {{#if ../if_logined}}vote-comment{{else}}a_show_login{{/if}}">有用</a>
+                    </span>
+                    <span class="comment-info">
+                        <a href="{{user.path}}" class="">{{user.name}}</a>
+                        {{#if rating}}
+                        <span class="allstar{{rating}}0 rating" title="{{rating_word}}"></span>
+                        {{/if}}
+                        <span>
+                            {{time}}
+                        </span>
+                        <p> {{content_tmpl content}} </p>
+                    </span>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <link rel="stylesheet" href="https://img1.doubanio.com/f/vendors/d63a579a99fd372b4398731a279a1382e6eac71e/subject-comments/comments-section.css">
+
+    <div id="comments-section">
+        <div class="mod-hd">
+            
+            
+        <a class="comment_btn j a_show_login" href="https://www.douban.com/register?reason=review" rel="nofollow">
+            <span>我要写短评</span>
+        </a>
+
+            
+    <h2>
+        <i>解救吾先生的短评</i>
+              · · · · · ·
+            <span class="pl">
+            (
+                <a href="https://movie.douban.com/subject/25798448/comments?status=P">全部 101733 条</a>
+            )
+            </span>
+    </h2>
+
+        </div>
+
+        
+
+
+        <div class="mod-bd">
+                
+        <div class="tab-hd">
+                        <a id="hot-comments-tab" href="comments" data-id="hot" class="on">热门</a>&nbsp;/&nbsp;
+                        <a id="new-comments-tab" href="comments?sort=time" data-id="new" class="j a_show_login">最新</a>&nbsp;/&nbsp;
+                        <a id="following-comments-tab" href="comments?sort=follows" data-id="following" class="j a_show_login">好友</a>
+        </div>
+
+    <div class="tab-bd">
+        <div id="hot-comments" class="tab">
+            
+    
+
+        
+        <div class="comment-item" data-cid="960936244">
+            
+    
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                    <span class="votes vote-count">3029</span>
+
+                    <input value="960936244" type="hidden">
+                    <a href="javascript:;" data-id="960936244" class="j a_show_login" onclick="">有用</a>
+
+                <!-- 删除短评 -->
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/44753719/">momo</a>
+                    <span>看过</span>
+                    <span class="allstar40 rating" title="推荐"></span>
+                <span class="comment-time" title="2015-09-21 22:17:59">
+                    2015-09-21 22:17:59
+                </span>
+                <span class="comment-location"></span>
+            </span>
+        </h3>
+        <p class="comment-content">
+            
+                <span class="short">刘烨的演法很高级，完全把自己放进了一个刑警的身体里，从动作眼神台词都只见角色不见演员，真实朴素又细腻饱含张力。语速语气眼神体态都非常像刑警。有底气的冷静，远看不起眼，仔细看会发现眼神特专注，说话一句是一句，不好糊弄，冷冷的堵着你。这是京城刑警（非片警非交警）的味儿。</span>
+        </p>
+        <div class="comment-report" data-url="https://movie.douban.com/subject/25798448/?comment_id=960936244"></div>
+    </div>
+    <script>
+        (function(){
+            $("body").delegate(".comment-item", 'mouseenter mouseleave', function (e) {
+                switch (e.type) {
+                    case "mouseenter":
+                    $(this).find(".comment-report").css('visibility', 'visible');
+                    break;
+                    case "mouseleave":
+                    $(this).find(".comment-report").css('visibility', 'hidden');
+                    break;
+                }
+            });
+        })()
+    </script>
+
+        </div>
+        
+        <div class="comment-item" data-cid="960411764">
+            
+    
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                    <span class="votes vote-count">2662</span>
+
+                    <input value="960411764" type="hidden">
+                    <a href="javascript:;" data-id="960411764" class="j a_show_login" onclick="">有用</a>
+
+                <!-- 删除短评 -->
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/xzfd/">张小北</a>
+                    <span>看过</span>
+                    <span class="allstar40 rating" title="推荐"></span>
+                <span class="comment-time" title="2015-09-20 01:04:54">
+                    2015-09-20 01:04:54
+                </span>
+                <span class="comment-location"></span>
+            </span>
+        </h3>
+        <p class="comment-content">
+            
+                <span class="short">大陆警匪片新高度，根据真实事件改编但又有大胆的戏剧化处理，令一个结局毫无悬念的故事在100分钟内保持了有效的紧张和期待感。国产电影中「手持摄影+高速剪辑」最接近好莱坞的。王千源塑造了一个充满魅力的反派角色，是近年来最成功的银幕反派之一。2015年华语十佳电影。</span>
+        </p>
+        <div class="comment-report" data-url="https://movie.douban.com/subject/25798448/?comment_id=960411764"></div>
+    </div>
+    <script>
+        (function(){
+            $("body").delegate(".comment-item", 'mouseenter mouseleave', function (e) {
+                switch (e.type) {
+                    case "mouseenter":
+                    $(this).find(".comment-report").css('visibility', 'visible');
+                    break;
+                    case "mouseleave":
+                    $(this).find(".comment-report").css('visibility', 'hidden');
+                    break;
+                }
+            });
+        })()
+    </script>
+
+        </div>
+        
+        <div class="comment-item" data-cid="962712753">
+            
+    
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                    <span class="votes vote-count">1730</span>
+
+                    <input value="962712753" type="hidden">
+                    <a href="javascript:;" data-id="962712753" class="j a_show_login" onclick="">有用</a>
+
+                <!-- 删除短评 -->
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/qijiuzhiyue/">桃桃林林</a>
+                    <span>看过</span>
+                    <span class="allstar40 rating" title="推荐"></span>
+                <span class="comment-time" title="2015-09-28 10:31:24">
+                    2015-09-28 10:31:24
+                </span>
+                <span class="comment-location"></span>
+            </span>
+        </h3>
+        <p class="comment-content">
+            
+                <span class="short">三星半，取材于真实事件，让整部片子有了很多与现实的勾连（片中出现了大量对刘德华明星身份的消费，非常好玩）。丁晟在有了更多创作空间之后，可以更硬汉他的纯男人戏。手持，更紧凑的剪辑，增加紧迫感。刘德华坐着演的也很不错。最后，王千源，王千源，王千源，炸了！</span>
+        </p>
+        <div class="comment-report" data-url="https://movie.douban.com/subject/25798448/?comment_id=962712753"></div>
+    </div>
+    <script>
+        (function(){
+            $("body").delegate(".comment-item", 'mouseenter mouseleave', function (e) {
+                switch (e.type) {
+                    case "mouseenter":
+                    $(this).find(".comment-report").css('visibility', 'visible');
+                    break;
+                    case "mouseleave":
+                    $(this).find(".comment-report").css('visibility', 'hidden');
+                    break;
+                }
+            });
+        })()
+    </script>
+
+        </div>
+        
+        <div class="comment-item" data-cid="962548939">
+            
+    
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                    <span class="votes vote-count">1287</span>
+
+                    <input value="962548939" type="hidden">
+                    <a href="javascript:;" data-id="962548939" class="j a_show_login" onclick="">有用</a>
+
+                <!-- 删除短评 -->
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/maoxiaomao/">林三郎</a>
+                    <span>看过</span>
+                    <span class="allstar40 rating" title="推荐"></span>
+                <span class="comment-time" title="2015-09-27 18:53:48">
+                    2015-09-27 18:53:48
+                </span>
+                <span class="comment-location"></span>
+            </span>
+        </h3>
+        <p class="comment-content">
+            
+                <span class="short">非常不错，国产犯罪片杰作。在演员表上排名第四的王千源不但戏份最多，而且演技完全碾压另外几个影帝，估计能再拿一座奖杯，不过要去港台拿了。</span>
+        </p>
+        <div class="comment-report" data-url="https://movie.douban.com/subject/25798448/?comment_id=962548939"></div>
+    </div>
+    <script>
+        (function(){
+            $("body").delegate(".comment-item", 'mouseenter mouseleave', function (e) {
+                switch (e.type) {
+                    case "mouseenter":
+                    $(this).find(".comment-report").css('visibility', 'visible');
+                    break;
+                    case "mouseleave":
+                    $(this).find(".comment-report").css('visibility', 'hidden');
+                    break;
+                }
+            });
+        })()
+    </script>
+
+        </div>
+        
+        <div class="comment-item" data-cid="963379546">
+            
+    
+    <div class="comment">
+        <h3>
+            <span class="comment-vote">
+                    <span class="votes vote-count">5399</span>
+
+                    <input value="963379546" type="hidden">
+                    <a href="javascript:;" data-id="963379546" class="j a_show_login" onclick="">有用</a>
+
+                <!-- 删除短评 -->
+            </span>
+            <span class="comment-info">
+                <a href="https://www.douban.com/people/121761822/">蓝色果冻</a>
+                    <span>看过</span>
+                    <span class="allstar50 rating" title="力荐"></span>
+                <span class="comment-time" title="2015-09-30 16:59:24">
+                    2015-09-30 16:59:24
+                </span>
+                <span class="comment-location"></span>
+            </span>
+        </h3>
+        <p class="comment-content">
+            
+                <span class="short">集合了tfboys所有名字的男人，今年神演技</span>
+        </p>
+        <div class="comment-report" data-url="https://movie.douban.com/subject/25798448/?comment_id=963379546"></div>
+    </div>
+    <script>
+        (function(){
+            $("body").delegate(".comment-item", 'mouseenter mouseleave', function (e) {
+                switch (e.type) {
+                    case "mouseenter":
+                    $(this).find(".comment-report").css('visibility', 'visible');
+                    break;
+                    case "mouseleave":
+                    $(this).find(".comment-report").css('visibility', 'hidden');
+                    break;
+                }
+            });
+        })()
+    </script>
+
+        </div>
+
+
+
+
+                
+                    &gt; <a href="comments?sort=new_score&amp;status=P">
+                        更多短评
+                            101733条
+                    </a>
+        </div>
+        <div id="new-comments" class="tab">
+            <div id="normal">
+            </div>
+            <div class="fold-hd hide">
+                <a class="qa" href="/help/opinion#t2-q0" target="_blank">为什么被折叠？</a>
+                <a class="btn-unfold" href="#">有一些短评被折叠了</a>
+                <div class="qa-tip">
+                    评论被折叠，是因为发布这条评论的账号行为异常。评论仍可以被展开阅读，对发布人的账号不造成其他影响。如果认为有问题，可以<a href="https://help.douban.com/help/ask?category=movie">联系</a>豆瓣电影。
+                </div>
+            </div>
+            <div class="fold-bd">
+            </div>
+            <span id="total-num"></span>
+        </div>
+        <div id="following-comments" class="tab">
+            
+    
+
+
+
+
+        <div class="comment-item">
+            你关注的人还没写过短评
+        </div>
+
+        </div>
+    </div>
+    
+
+
+
+            <script src="https://img1.doubanio.com/f/vendors/6eba6f43fb7592ab783e390f654c0d6a96b1598e/subject-comments/comments-section.js"></script>
+            <script>
+                $(function () {
+                    if (window.SUBJECT_COMMENTS_SECTION) {
+                        // tab handler
+                        SUBJECT_COMMENTS_SECTION.createTabHandler();
+                        // expand handler
+                        SUBJECT_COMMENTS_SECTION.createExpandHandler({
+                            root: document.getElementById('comments-section'),
+                        });
+                        // vote handler
+                        SUBJECT_COMMENTS_SECTION.createVoteHandler({
+                            api: '/j/comment/vote',
+                            root: document.getElementById('comments-section'),
+                            voteSelector: '.vote-comment',
+                            textSelector: '.vote-count',
+                            is_released: "true",
+                            alert_text: "该电影还未上映，不能投票噢",
+                            afterVote: function (elem) {
+                                var parentNode = elem.parentNode;
+                                var successElem = document.createElement('span');
+                                successElem.innerHTML = '已投票';
+                                parentNode.removeChild(elem);
+                                parentNode.appendChild(successElem);
+                            }
+                        });
+                    }
+                });
+            </script>
+        </div>
+    </div>
+
+
+
+<!--        此处是挂载其他页面，不是注释！不是注释！不是注释！-->
+        
+
+
+<link rel="stylesheet" href="https://img1.doubanio.com/misc/mixed_static/292deb5ae8f760a3.css">
+
+    <section id="reviews-wrapper" class="reviews mod movie-content">
+        <header>
+            
+                <a href="new_review" rel="nofollow" class="create-review comment_btn " data-isverify="False" data-verify-url="https://www.douban.com/accounts/phone/verify?redir=https://movie.douban.com/subject/25798448/new_review">
+                    <span>我要写影评</span>
+                </a>
+            <h2>
+                    解救吾先生的影评 · · · · · ·
+
+                    <span class="pl">( <a href="reviews">全部 848 条</a> )</span>
+            </h2>
+        </header>
+
+            
+            <div class="review_filter">
+                                <span class="link"><a href="javascript:;;" class="cur" data-sort="">热门</a></span>
+            </div>
+            <script>
+                var cur_sort = '';
+                $('#reviews-wrapper .review_filter a').on('click', function () {
+                    var sort = $(this).data('sort');
+                    if(sort === cur_sort) return;
+
+                    if(sort === 'follow' && true){
+                        window.location.href = '//www.douban.com/accounts/login?source=movie';
+                        return;
+                    }
+
+                    if($('#reviews-wrapper .review_filter').data('doing')) return;
+                    $('#reviews-wrapper .review_filter').data('doing', true);
+
+                    cur_sort = sort;
+
+                    $('#reviews-wrapper .review_filter a').removeClass('cur');
+                    $(this).addClass('cur');
+
+                    $.getJSON('reviews', { sort: sort }, function(res) {
+                        $('#reviews-wrapper .review-list').remove();
+                        $('#reviews-wrapper [href="reviews?sort=follow"]').parent().remove();
+                        $('#reviews-wrapper .review_filter').after(res.html);
+                        $('#reviews-wrapper .review_filter').data('doing', false);
+                        $('#reviews-wrapper .review_filter').removeData('doing');
+
+                        if (res.count === 0) {
+                            $('#reviews-wrapper .review-list').html('<span class="no-review">你关注的人还没写过长评</span>');
+                        }
+                    });
+                });
+            </script>
+
+
+            
+
+
+
+<div class="review-list  ">
+        
+    
+
+            
+    
+    <div data-cid="7603605">
+        <div class="main review-item" id="7603605">
+
+            
+    
+    <header class="main-hd">
+        <a href="https://www.douban.com/people/madferit/" class="avator">
+            <img width="24" height="24" src="./images/image_24.jpg">
+        </a>
+
+        <a href="https://www.douban.com/people/madferit/" class="name">AF</a>
+            <span class="allstar40 main-title-rating" title="推荐"></span>
+
+        <span content="2015-09-20" class="main-meta">2015-09-20 13:52:58</span>
+
+
+
+
+    </header>
+
+
+            <div class="main-bd">
+
+                <h2><a href="https://movie.douban.com/review/7603605/">《解救吾先生》的三个脑洞</a></h2>
+
+                <div id="review_7603605_short" class="review-short" data-rid="7603605">
+                    <div class="short-content">
+                            <p class="spoiler-tip">这篇影评可能有剧透</p>
+
+                        本片不是那种充斥着飙车枪战的酷炫警匪片，期待着警匪大战的观众请摆正心态。本片也没有什么深度心理刻画，反派的童年阴影青春创伤什么的毫不CARE，你一个画面都不会看到。片里的警方没有任何个人英雄主义，只有严密的团队合作，前线审讯追捕后援收网，环环相扣浑然一体，谁也...
+
+                        &nbsp;(<a href="javascript:;" id="toggle-7603605-copy" class="unfold" title="展开">展开</a>)
+                    </div>
+                </div>
+
+                <div id="review_7603605_full" class="hidden">
+                    <div id="review_7603605_full_content" class="full-content"></div>
+                </div>
+
+                <div class="action">
+                    <a href="javascript:;" class="action-btn up" data-rid="7603605" title="有用">
+                        <img src="./images/image_25.jpg">
+                        <span id="r-useful_count-7603605">
+                                3113
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="action-btn down" data-rid="7603605" title="没用">
+                        <img src="./images/image_26.jpg">
+                        <span id="r-useless_count-7603605">
+                                179
+                        </span>
+                    </a>
+                    <a href="https://movie.douban.com/review/7603605/#comments" class="reply ">180回应</a>
+
+                    <a href="javascript:;;" class="fold hidden">收起</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+    
+    <div data-cid="7606949">
+        <div class="main review-item" id="7606949">
+
+            
+    
+    <header class="main-hd">
+        <a href="https://www.douban.com/people/renjiananhuo/" class="avator">
+            <img width="24" height="24" src="./images/image_27.jpg">
+        </a>
+
+        <a href="https://www.douban.com/people/renjiananhuo/" class="name">邓安庆</a>
+            <span class="allstar40 main-title-rating" title="推荐"></span>
+
+        <span content="2015-09-24" class="main-meta">2015-09-24 14:52:16</span>
+
+
+
+
+    </header>
+
+
+            <div class="main-bd">
+
+                <h2><a href="https://movie.douban.com/review/7606949/">刘德华是“吾先生”，刘德华也是刘德华</a></h2>
+
+                <div id="review_7606949_short" class="review-short" data-rid="7606949">
+                    <div class="short-content">
+
+                        电影快要结束时，刘德华饰演的吾先生被成功解救，他坐在警车里还没有缓过劲来，眼神一直在盯着虚空中的某处；而这时镜头了给了吴若甫扮演的警察，他的眼睛湿润了一下。这一幕意味深长。时间来回到十一年前，“2004年2月3日凌晨2点多，著名演员吴若甫与几位朋友刚刚谈完事从朝阳...
+
+                        &nbsp;(<a href="javascript:;" id="toggle-7606949-copy" class="unfold" title="展开">展开</a>)
+                    </div>
+                </div>
+
+                <div id="review_7606949_full" class="hidden">
+                    <div id="review_7606949_full_content" class="full-content"></div>
+                </div>
+
+                <div class="action">
+                    <a href="javascript:;" class="action-btn up" data-rid="7606949" title="有用">
+                        <img src="./images/image_28.jpg">
+                        <span id="r-useful_count-7606949">
+                                2143
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="action-btn down" data-rid="7606949" title="没用">
+                        <img src="./images/image_29.jpg">
+                        <span id="r-useless_count-7606949">
+                                154
+                        </span>
+                    </a>
+                    <a href="https://movie.douban.com/review/7606949/#comments" class="reply ">75回应</a>
+
+                    <a href="javascript:;;" class="fold hidden">收起</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+    
+    <div data-cid="7604310">
+        <div class="main review-item" id="7604310">
+
+            
+    
+    <header class="main-hd">
+        <a href="https://www.douban.com/people/xiaoxiaonong/" class="avator">
+            <img width="24" height="24" src="./images/image_30.jpg">
+        </a>
+
+        <a href="https://www.douban.com/people/xiaoxiaonong/" class="name">小小农</a>
+            <span class="allstar50 main-title-rating" title="力荐"></span>
+
+        <span content="2015-09-21" class="main-meta">2015-09-21 10:38:29</span>
+
+
+
+
+    </header>
+
+
+            <div class="main-bd">
+
+                <h2><a href="https://movie.douban.com/review/7604310/">《解救吾先生》演戏是假的，人生是真的</a></h2>
+
+                <div id="review_7604310_short" class="review-short" data-rid="7604310">
+                    <div class="short-content">
+
+                        根据真实的事件改编！ 没看《解救吾先生》之前，对我来说，选择看或不看，做决定之前，先研究一下面前摆着的“矛与盾”，这是十分自然的事。有个拒绝的声音像盾牌，阻拦下猎奇的行动力。 明星吴若甫先生被绑架案，2004年，我曾通过徐滔的《法治进行时》栏目，追踪着解救的全程...
+
+                        &nbsp;(<a href="javascript:;" id="toggle-7604310-copy" class="unfold" title="展开">展开</a>)
+                    </div>
+                </div>
+
+                <div id="review_7604310_full" class="hidden">
+                    <div id="review_7604310_full_content" class="full-content"></div>
+                </div>
+
+                <div class="action">
+                    <a href="javascript:;" class="action-btn up" data-rid="7604310" title="有用">
+                        <img src="./images/image_31.jpg">
+                        <span id="r-useful_count-7604310">
+                                943
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="action-btn down" data-rid="7604310" title="没用">
+                        <img src="./images/image_32.jpg">
+                        <span id="r-useless_count-7604310">
+                                69
+                        </span>
+                    </a>
+                    <a href="https://movie.douban.com/review/7604310/#comments" class="reply ">36回应</a>
+
+                    <a href="javascript:;;" class="fold hidden">收起</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+    
+    <div data-cid="7600157">
+        <div class="main review-item" id="7600157">
+
+            
+    
+    <header class="main-hd">
+        <a href="https://www.douban.com/people/xindading/" class="avator">
+            <img width="24" height="24" src="./images/image_33.jpg">
+        </a>
+
+        <a href="https://www.douban.com/people/xindading/" class="name">新大町</a>
+            <span class="allstar40 main-title-rating" title="推荐"></span>
+
+        <span content="2015-09-16" class="main-meta">2015-09-16 00:00:59</span>
+
+
+
+
+    </header>
+
+
+            <div class="main-bd">
+
+                <h2><a href="https://movie.douban.com/review/7600157/">《解救吾先生》的一些题内与题外话</a></h2>
+
+                <div id="review_7600157_short" class="review-short" data-rid="7600157">
+                    <div class="short-content">
+
+                        個人電影清單#171.《解救吾先生》  個人評分：7.8/10  下文含剧透。（其实剧不剧透也没差...）  没去上海电影节，但也有幸赶在全国提前点映先看了这部作品。电影在年中开始做宣传的时候便引起了我的关注，主要原因还是剧本改编自真实案件。  正片阅毕，首先最大的一个感想是：...
+
+                        &nbsp;(<a href="javascript:;" id="toggle-7600157-copy" class="unfold" title="展开">展开</a>)
+                    </div>
+                </div>
+
+                <div id="review_7600157_full" class="hidden">
+                    <div id="review_7600157_full_content" class="full-content"></div>
+                </div>
+
+                <div class="action">
+                    <a href="javascript:;" class="action-btn up" data-rid="7600157" title="有用">
+                        <img src="./images/image_34.jpg">
+                        <span id="r-useful_count-7600157">
+                                529
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="action-btn down" data-rid="7600157" title="没用">
+                        <img src="./images/image_35.jpg">
+                        <span id="r-useless_count-7600157">
+                                29
+                        </span>
+                    </a>
+                    <a href="https://movie.douban.com/review/7600157/#comments" class="reply ">44回应</a>
+
+                    <a href="javascript:;;" class="fold hidden">收起</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+    
+    <div data-cid="7600262">
+        <div class="main review-item" id="7600262">
+
+            
+    
+    <header class="main-hd">
+        <a href="https://www.douban.com/people/51061132/" class="avator">
+            <img width="24" height="24" src="./images/image_36.jpg">
+        </a>
+
+        <a href="https://www.douban.com/people/51061132/" class="name">Indecent time</a>
+            <span class="allstar50 main-title-rating" title="力荐"></span>
+
+        <span content="2015-09-16" class="main-meta">2015-09-16 09:20:10</span>
+
+
+
+
+    </header>
+
+
+            <div class="main-bd">
+
+                <h2><a href="https://movie.douban.com/review/7600262/">喝着小酒拍着合照，突然就被土匪劫了！</a></h2>
+
+                <div id="review_7600262_short" class="review-short" data-rid="7600262">
+                    <div class="short-content">
+                            <p class="spoiler-tip">这篇影评可能有剧透</p>
+
+                        1. 分身   吾先生，一个神奇的角色。他代表了丁晟对香港大哥级影星的一次集体致敬。  吾先生，“演过很多警察”、 “我看了你电影很多年”、 “从来不演匪”，他勇敢，面对匪徒的恐吓和同一只船上的小伙子的恐惧，他循循善诱，又不失勇气，甚至还不经意间去套取有效的信息，并...
+
+                        &nbsp;(<a href="javascript:;" id="toggle-7600262-copy" class="unfold" title="展开">展开</a>)
+                    </div>
+                </div>
+
+                <div id="review_7600262_full" class="hidden">
+                    <div id="review_7600262_full_content" class="full-content"></div>
+                </div>
+
+                <div class="action">
+                    <a href="javascript:;" class="action-btn up" data-rid="7600262" title="有用">
+                        <img src="./images/image_37.jpg">
+                        <span id="r-useful_count-7600262">
+                                762
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="action-btn down" data-rid="7600262" title="没用">
+                        <img src="./images/image_38.jpg">
+                        <span id="r-useless_count-7600262">
+                                126
+                        </span>
+                    </a>
+                    <a href="https://movie.douban.com/review/7600262/#comments" class="reply ">110回应</a>
+
+                    <a href="javascript:;;" class="fold hidden">收起</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+    
+    <div data-cid="7617748">
+        <div class="main review-item" id="7617748">
+
+            
+    
+    <header class="main-hd">
+        <a href="https://www.douban.com/people/MGRJGirl/" class="avator">
+            <img width="24" height="24" src="./images/image_39.jpg">
+        </a>
+
+        <a href="https://www.douban.com/people/MGRJGirl/" class="name">目光如炬</a>
+            <span class="allstar50 main-title-rating" title="力荐"></span>
+
+        <span content="2015-10-06" class="main-meta">2015-10-06 00:07:22</span>
+
+
+
+
+    </header>
+
+
+            <div class="main-bd">
+
+                <h2><a href="https://movie.douban.com/review/7617748/">揭秘吴若甫11年前被绑架事件惊险内幕</a></h2>
+
+                <div id="review_7617748_short" class="review-short" data-rid="7617748">
+                    <div class="short-content">
+                            <p class="spoiler-tip">这篇影评可能有剧透</p>
+
+                        吴若甫1962年5月出生于黑龙江齐齐哈尔市，1979年考入解放军艺术学院戏剧系，1983年9月毕业，分配到总政话剧团任演员，1998年2月调入中央实验话剧院。现为中国电影家协会会员，中国电影表演艺术学会会员。2006年9月9日，44岁的吴若甫和22岁的刘莎结婚，9月29日，俩人在北京昆仑...
+
+                        &nbsp;(<a href="javascript:;" id="toggle-7617748-copy" class="unfold" title="展开">展开</a>)
+                    </div>
+                </div>
+
+                <div id="review_7617748_full" class="hidden">
+                    <div id="review_7617748_full_content" class="full-content"></div>
+                </div>
+
+                <div class="action">
+                    <a href="javascript:;" class="action-btn up" data-rid="7617748" title="有用">
+                        <img src="./images/image_40.jpg">
+                        <span id="r-useful_count-7617748">
+                                153
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="action-btn down" data-rid="7617748" title="没用">
+                        <img src="./images/image_41.jpg">
+                        <span id="r-useless_count-7617748">
+                                6
+                        </span>
+                    </a>
+                    <a href="https://movie.douban.com/review/7617748/#comments" class="reply ">9回应</a>
+
+                    <a href="javascript:;;" class="fold hidden">收起</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+    
+    <div data-cid="7604901">
+        <div class="main review-item" id="7604901">
+
+            
+    
+    <header class="main-hd">
+        <a href="https://www.douban.com/people/44753719/" class="avator">
+            <img width="24" height="24" src="./images/image_42.jpg">
+        </a>
+
+        <a href="https://www.douban.com/people/44753719/" class="name">momo</a>
+            <span class="allstar40 main-title-rating" title="推荐"></span>
+
+        <span content="2015-09-21" class="main-meta">2015-09-21 23:05:54</span>
+
+
+
+
+    </header>
+
+
+            <div class="main-bd">
+
+                <h2><a href="https://movie.douban.com/review/7604901/">最大的亮点是一个哈欠</a></h2>
+
+                <div id="review_7604901_short" class="review-short" data-rid="7604901">
+                    <div class="short-content">
+
+                        脱胎于真实案件，导演一手硬一手软的讲了个故事。硬的是记录片，警察是主角；软的是剧情片（搞笑加煽情），吾先生是主角。华子在两部片子里演了一个相同角色：混蛋罪犯。因为看过当年的报道，剧情对我来说不神秘。基本上当年报道过的都细化呈现了，没报道的也没讲述或者演的敷...
+
+                        &nbsp;(<a href="javascript:;" id="toggle-7604901-copy" class="unfold" title="展开">展开</a>)
+                    </div>
+                </div>
+
+                <div id="review_7604901_full" class="hidden">
+                    <div id="review_7604901_full_content" class="full-content"></div>
+                </div>
+
+                <div class="action">
+                    <a href="javascript:;" class="action-btn up" data-rid="7604901" title="有用">
+                        <img src="./images/image_43.jpg">
+                        <span id="r-useful_count-7604901">
+                                183
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="action-btn down" data-rid="7604901" title="没用">
+                        <img src="./images/image_44.jpg">
+                        <span id="r-useless_count-7604901">
+                                31
+                        </span>
+                    </a>
+                    <a href="https://movie.douban.com/review/7604901/#comments" class="reply ">36回应</a>
+
+                    <a href="javascript:;;" class="fold hidden">收起</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+    
+    <div data-cid="7609784">
+        <div class="main review-item" id="7609784">
+
+            
+    
+    <header class="main-hd">
+        <a href="https://www.douban.com/people/62664539/" class="avator">
+            <img width="24" height="24" src="./images/image_45.jpg">
+        </a>
+
+        <a href="https://www.douban.com/people/62664539/" class="name">睡在巴西旁边</a>
+            <span class="allstar40 main-title-rating" title="推荐"></span>
+
+        <span content="2015-09-27" class="main-meta">2015-09-27 19:31:35</span>
+
+
+
+
+    </header>
+
+
+            <div class="main-bd">
+
+                <h2><a href="https://movie.douban.com/review/7609784/">不拼颜值 只拼演技</a></h2>
+
+                <div id="review_7609784_short" class="review-short" data-rid="7609784">
+                    <div class="short-content">
+
+                                吾先生是谁？         片中的“吾先生”真实原型是演员吴若甫。          吾先生怎么了？         某日凌晨，“吾先生”与几名朋友刚刚谈完事，从朝阳区某酒吧出来，眼前突然出现了几个自称是警察的陌生男子给“吾先生”带上手铐，拉上了汽车扬长而去。当日中午，犯罪...
+
+                        &nbsp;(<a href="javascript:;" id="toggle-7609784-copy" class="unfold" title="展开">展开</a>)
+                    </div>
+                </div>
+
+                <div id="review_7609784_full" class="hidden">
+                    <div id="review_7609784_full_content" class="full-content"></div>
+                </div>
+
+                <div class="action">
+                    <a href="javascript:;" class="action-btn up" data-rid="7609784" title="有用">
+                        <img src="./images/image_46.jpg">
+                        <span id="r-useful_count-7609784">
+                                111
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="action-btn down" data-rid="7609784" title="没用">
+                        <img src="./images/image_47.jpg">
+                        <span id="r-useless_count-7609784">
+                                13
+                        </span>
+                    </a>
+                    <a href="https://movie.douban.com/review/7609784/#comments" class="reply ">9回应</a>
+
+                    <a href="javascript:;;" class="fold hidden">收起</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+    
+    <div data-cid="7686918">
+        <div class="main review-item" id="7686918">
+
+            
+    
+    <header class="main-hd">
+        <a href="https://www.douban.com/people/65611669/" class="avator">
+            <img width="24" height="24" src="./images/image_48.jpg">
+        </a>
+
+        <a href="https://www.douban.com/people/65611669/" class="name">夏了夏天</a>
+            <span class="allstar40 main-title-rating" title="推荐"></span>
+
+        <span content="2015-12-10" class="main-meta">2015-12-10 21:28:58</span>
+
+
+
+
+    </header>
+
+
+            <div class="main-bd">
+
+                <h2><a href="https://movie.douban.com/review/7686918/">内地警匪片难得的佳作</a></h2>
+
+                <div id="review_7686918_short" class="review-short" data-rid="7686918">
+                    <div class="short-content">
+
+                                本片改编自“吴若甫被绑案”，片中吾先生的原型就是神勇警察曹刚（吴若甫，很佩服他的勇气），在故事的悬疑性和人物的深入挖掘上不可能有太多发挥。不过还是用手持摄影、快速剪辑和特殊叙事结构让影片一直处于高度紧张之中，时不时抖几个笑料也显得张弛有度。         ...
+
+                        &nbsp;(<a href="javascript:;" id="toggle-7686918-copy" class="unfold" title="展开">展开</a>)
+                    </div>
+                </div>
+
+                <div id="review_7686918_full" class="hidden">
+                    <div id="review_7686918_full_content" class="full-content"></div>
+                </div>
+
+                <div class="action">
+                    <a href="javascript:;" class="action-btn up" data-rid="7686918" title="有用">
+                        <img src="./images/image_49.jpg">
+                        <span id="r-useful_count-7686918">
+                                46
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="action-btn down" data-rid="7686918" title="没用">
+                        <img src="./images/image_50.jpg">
+                        <span id="r-useless_count-7686918">
+                                7
+                        </span>
+                    </a>
+                    <a href="https://movie.douban.com/review/7686918/#comments" class="reply ">4回应</a>
+
+                    <a href="javascript:;;" class="fold hidden">收起</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+            
+    
+    <div data-cid="7609740">
+        <div class="main review-item" id="7609740">
+
+            
+    
+    <header class="main-hd">
+        <a href="https://www.douban.com/people/58854842/" class="avator">
+            <img width="24" height="24" src="./images/image_51.jpg">
+        </a>
+
+        <a href="https://www.douban.com/people/58854842/" class="name">汤平</a>
+            <span class="allstar40 main-title-rating" title="推荐"></span>
+
+        <span content="2015-09-27" class="main-meta">2015-09-27 18:21:06</span>
+
+
+
+
+    </header>
+
+
+            <div class="main-bd">
+
+                <h2><a href="https://movie.douban.com/review/7609740/">演员赋予角色的人格魅力~</a></h2>
+
+                <div id="review_7609740_short" class="review-short" data-rid="7609740">
+                    <div class="short-content">
+
+                        看电影之前随意搜了下，原来影评是改编自2004年震惊全国的吴若甫明星绑架案。  而且这次刘德华的角色和以往他演的警匪片除了匪就是警察是不同的，这次的角色是作为受害者出现的，他本身就是一线的巨星。在这个影片特殊性的前提下 演好了这个被绑架的大明星，也得有自己深厚的演...
+
+                        &nbsp;(<a href="javascript:;" id="toggle-7609740-copy" class="unfold" title="展开">展开</a>)
+                    </div>
+                </div>
+
+                <div id="review_7609740_full" class="hidden">
+                    <div id="review_7609740_full_content" class="full-content"></div>
+                </div>
+
+                <div class="action">
+                    <a href="javascript:;" class="action-btn up" data-rid="7609740" title="有用">
+                        <img src="./images/image_52.jpg">
+                        <span id="r-useful_count-7609740">
+                                55
+                        </span>
+                    </a>
+                    <a href="javascript:;" class="action-btn down" data-rid="7609740" title="没用">
+                        <img src="./images/image_53.jpg">
+                        <span id="r-useless_count-7609740">
+                                7
+                        </span>
+                    </a>
+                    <a href="https://movie.douban.com/review/7609740/#comments" class="reply ">1回应</a>
+
+                    <a href="javascript:;;" class="fold hidden">收起</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+
+    <!-- COLLECTED JS -->
+    <!-- COLLECTED CSS -->
+</div>
+
+    <script type="text/javascript">
+        (function() {
+            if (window.__init_review_list) return;
+            __init_review_list = true;
+                window.is_released = true
+                window.txt_released = '该电影还未上映，不能投票噢'
+        })();
+        window.useful_icon = "https://img1.doubanio.com/f/zerkalo/536fd337139250b5fb3cf9e79cb65c6193f8b20b/pics/up.png";
+        window.usefuled_icon = "https://img1.doubanio.com/f/zerkalo/635290bb14771c97270037be21ad50514d57acc3/pics/up-full.png";
+        window.useless_icon = "https://img1.doubanio.com/f/zerkalo/68849027911140623cf338c9845893c4566db851/pics/down.png";
+        window.uselessed_icon = "https://img1.doubanio.com/f/zerkalo/23cee7343568ca814238f5ef18bf8aadbe959df2/pics/down-full.png";
+    </script>
+
+    <link rel="stylesheet" href="https://img1.doubanio.com/f/zerkalo/88118a282439e312283e886ea4c3d3e9849a8fa4/css/review/editor/ng/setting_standalone.css">
+    <script src="https://img1.doubanio.com/f/zerkalo/938cdbe2e223a3117cbbcb4929cae2001b402c20/js/review/editor/ng/manifest.js"></script>
+    <script src="https://img1.doubanio.com/f/zerkalo/296cd5fec472a78add5fee958c58d72f47d91586/js/review/editor/ng/vendor.js"></script>
+    <script src="https://img1.doubanio.com/f/zerkalo/b7ff9d6bdf2a2bb3ac94f55c2d76b4661137c657/js/review/editor/ng/setting_standalone.js"></script>
+    <script src="https://img1.doubanio.com/f/zerkalo/8941af7854ddad9561648b706cdb49f3d1534ff3/js/review/editor/ng/render_gif.js"></script>
+    <script src="https://img1.doubanio.com/f/zerkalo/68b2d67ea75209236a6443ad45f370f1bca536ae/js/review/actions.js"></script>
+    <script src="https://img1.doubanio.com/f/zerkalo/7196bdec780f03785f55b06fda34999595057f65/js/review/unfold.js"></script>
+    <script src="https://img1.doubanio.com/f/vendors/f25ae221544f39046484a823776f3aa01769ee10/js/ui/dialog.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+                <p class="pl">
+                    &gt;
+                        <a href="reviews">
+                            更多影评
+                                848篇
+                        </a>
+                </p>
+    </section>
+<!-- COLLECTED JS -->
+
+
+    <br>
+
+    
+            <div class="section-discussion">
+                    
+                    <div class="mod-hd">
+                            <a class="comment_btn j a_show_login" href="https://www.douban.com/register?reason=review" rel="nofollow"><span>添加新讨论</span></a>
+                        
+    <h2>
+        讨论区
+         &nbsp; ·&nbsp; ·&nbsp; ·&nbsp; ·&nbsp; ·&nbsp; ·
+    </h2>
+
+                    </div>
+                    
+  <table class="olt"><tbody><tr><td></td><td></td><td></td><td></td></tr>
+        
+        <tr>
+          <td class="pl"><a href="https://movie.douban.com/subject/25798448/discussion/637852398/" title="最佳助攻是拖拉机大爷">最佳助攻是拖拉机大爷</a></td>
+          <td class="pl"><span>来自</span><a href="https://www.douban.com/people/75448775/">黯咩然销咩魂饭</a></td>
+          <td class="pl"><span></span></td>
+          <td class="pl"><span>2025-08-18 15:48:10</span></td>
+        </tr>
+        
+        <tr>
+          <td class="pl"><a href="https://movie.douban.com/subject/25798448/discussion/612982153/" title="开头假警察抓人太真实了">开头假警察抓人太真实了</a></td>
+          <td class="pl"><span>来自</span><a href="https://www.douban.com/people/jackass/">蜘蛛猴面包</a></td>
+          <td class="pl"><span>12 回应</span></td>
+          <td class="pl"><span>2025-08-02 09:06:23</span></td>
+        </tr>
+        
+        <tr>
+          <td class="pl"><a href="https://movie.douban.com/subject/25798448/discussion/637387126/" title="片中刘德华跟王千源说香港也有一个是干这行的">片中刘德华跟王千源说香港也有一个是干这行的</a></td>
+          <td class="pl"><span>来自</span><a href="https://www.douban.com/people/196306280/">高桥凉皮</a></td>
+          <td class="pl"><span>7 回应</span></td>
+          <td class="pl"><span>2025-08-02 09:00:40</span></td>
+        </tr>
+        
+        <tr>
+          <td class="pl"><a href="https://movie.douban.com/subject/25798448/discussion/637265560/" title="片尾曲《傲慢的上校》神来之笔">片尾曲《傲慢的上校》神来之笔</a></td>
+          <td class="pl"><span>来自</span><a href="https://www.douban.com/people/199494285/">踏青</a></td>
+          <td class="pl"><span>4 回应</span></td>
+          <td class="pl"><span>2025-02-22 22:59:24</span></td>
+        </tr>
+        
+        <tr>
+          <td class="pl"><a href="https://movie.douban.com/subject/25798448/discussion/637288554/" title="你们这行有规矩么？有，弄死">你们这行有规矩么？有，弄死</a></td>
+          <td class="pl"><span>来自</span><a href="https://www.douban.com/people/Ciangie/">亦木</a></td>
+          <td class="pl"><span>2 回应</span></td>
+          <td class="pl"><span>2025-02-22 22:54:28</span></td>
+        </tr>
+  </tbody></table>
+
+                    <p class="pl" align="right">
+                        <a href="/subject/25798448/discussion/" rel="nofollow">
+                            &gt; 去这部影片的讨论区（全部82条）
+                        </a>
+                    </p>
+            </div>
+
+        
+    
+        
+                
+                    
+
+
+
+
+
+<div id="askmatrix">
+    <div class="mod-hd">
+        <h2>
+                关于《解救吾先生》的问题
+                · · · · · ·
+            <span class="pl">
+                (<a href="https://movie.douban.com/subject/25798448/questions/?from=subject">
+                    全部100个
+                </a>)
+            </span>
+        </h2>
+
+        <!-- 
+    
+    <a class='j a_show_login comment_btn'
+        href='https://movie.douban.com/subject/25798448/questions/ask/?from=subject'>我来提问</a>
+ -->
+    </div>
+
+    <div class="mod-bd">
+        <ul>
+            <li>
+                <span class="tit">
+                    <a href="https://movie.douban.com/subject/25798448/questions/59205/?from=subject">
+                        为什么要给吾先生带出来？就为了让拖拉机发现吗？
+                    </a>
+                </span>
+                <span class="meta">
+                    7人回答
+                </span>
+            </li>
+            <li>
+                <span class="tit">
+                    <a href="https://movie.douban.com/subject/25798448/questions/58644/?from=subject">
+                        为什么王千源的戏份最多，演员表却在第四？华仔其实只是个引子论戏份男二甚至男三，不懂?
+                    </a>
+                </span>
+                <span class="meta">
+                    39人回答
+                </span>
+            </li>
+        </ul>
+
+        <p>&gt;
+            <a href="https://movie.douban.com/subject/25798448/questions/?from=subject">
+                全部100个问题
+            </a>
+        </p>
+
+    </div>
+</div>
+
+
+
+            
+
+
+    
+
+            </div>
+            <div class="aside">
+                
+
+    
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+    <script src="https://img1.doubanio.com/cuphead/movie-static/libs/jsrender.min.js"></script>
+    <script>
+        function reportTrack(url) {
+          if (!url) { return false }
+          $.ajax({ url: url, dataType: 'text/html' })
+        }
+        $(function(){
+            $(document).on('click', '.cross span', function(e) {
+                var $this = $(this);
+                var $dialog = $this.parents('#tv-play-source');
+                $dialog.remove();
+            });
+            $('body').bind('click', function(e) {
+                var $this = $(e.target),
+                    $source = $('.play-source');
+                if (!$this.is('.playBtn') && !$this.parents('.play-source').length) {
+                    $source.remove();
+                }
+            });
+            var sources = {};
+            sources[1] = [
+                        {play_link: "https://www.douban.com/link2/?url=https%3A%2F%2Fv.qq.com%2Fx%2Fcover%2F2o07jox8czz9k2e.html%3Fptag%3Dnewdouban.movie&amp;subtype=1&amp;type=online-video", ep: "1"},
+            ];
+            sources[3] = [
+                        {play_link: "https://www.douban.com/link2/?url=https%3A%2F%2Fm.youku.com%2Falipay_video%2Fid_68c42e0adf2a11e4abda.html%3Frefer%3Desfhz_operation.xuka.xj_00003036_000000_FNZfau_19010900&amp;subtype=3&amp;type=online-video&amp;link2key=6562857b75", ep: "1"},
+            ];
+            sources[9] = [
+                        {play_link: "https://www.douban.com/link2/?url=http%3A%2F%2Fwww.iqiyi.com%2Fv_19rrkq2ea0.html%3Fvfm%3Dm_331_dbdy%26fv%3D4904d94982104144a1548dd9040df241&amp;subtype=9&amp;type=online-video&amp;link2key=6562857b75", ep: "1"},
+            ];
+            sources[8] = [
+                        {play_link: "https://www.douban.com/link2/?url=https%3A%2F%2Fm.bilibili.com%2Fbangumi%2Fplay%2Fss33580%3Fbsource%3Ddoubanh5&amp;subtype=8&amp;type=online-video", ep: "1"},
+            ];
+            $('.playBtn').each(function(i, item) {
+                // 曝光监测上报
+                if (item) {
+                    reportTrack(item.dataset.impressionTrack);
+                }
+            });
+            $('.playBtn').click(function(e){
+                // 点击监测上报
+                reportTrack(e.target.dataset.clickTrack);
+
+                $('.play-source').remove();
+
+                var height, width, tmpl, cn, source;
+                var $dialog = $('#tv-play-source');
+                var $this = $(this);
+                source = $this.data('source');
+                if(!source)return;
+                cn = $this.data('cn');
+                pic = $this.data('pic');
+
+                tmpl = $.templates('#episode-tmpl');
+                $dialog = $(tmpl.render({playlist: sources[source], cn: cn, pic: pic}));
+
+                $dialog.hide();
+                $('body').append($dialog);
+                width = $dialog.outerWidth();
+
+                $dialog.css({
+                    marginLeft: -width / 2,
+                    top: $this.offset().top + $this.outerHeight()
+                }).show();
+            });
+        });
+    </script>
+
+<script id="episode-tmpl" type="text/x-jsrender">
+<div id="tv-play-source" class="play-source">
+    <div class="cross">
+        <span style="color:#494949; font-size:16px">{{:cn}}<img src={{:pic}} class="vendor-icon"/></span>
+        <span style="cursor:pointer">✕</span>
+    </div>
+    <div class="episode-list">
+        {{for playlist}}
+            <a href="{{:play_link}}&episode={{:ep}}" target="_blank">{{:ep}}集</a>
+        {{/for}}
+     <div>
+ </div>
+</script>
+
+<div class="gray_ad">
+    
+    <h2>
+        在哪儿看这部电影
+            &nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+    </h2>
+
+    
+    <ul class="bs">
+                
+                <li>
+                        <a class="playBtn" data-cn="腾讯视频" data-impression-track="https://frodo.douban.com/rohirrim/video_tracking/impression?subject_id=25798448&amp;video_type=movie&amp;video_id=253341&amp;source=qq&amp;user_id=&amp;bid=xshrnyplPDc&amp;platform=pc&amp;location=vendor_subject" data-click-track="https://frodo.douban.com/rohirrim/video_tracking/click?subject_id=25798448&amp;video_type=movie&amp;video_id=253341&amp;source=qq&amp;user_id=&amp;bid=xshrnyplPDc&amp;platform=pc&amp;location=vendor_subject" data-pic="https://img3.doubanio.com/cuphead/movie-static/pics/video-qq.png" href="https://www.douban.com/link2/?url=https%3A%2F%2Fv.qq.com%2Fx%2Fcover%2F2o07jox8czz9k2e.html%3Fptag%3Dnewdouban.movie&amp;subtype=1&amp;type=online-video" target="_blank">
+                        腾讯视频
+                        </a>
+                    <img src="./images/image_54.jpg" class="vendor-icon">
+                    <span class="buylink-price"><span>
+                        VIP免费观看
+                    </span></span>
+                </li>
+                
+                <li>
+                        <a class="playBtn" data-cn="优酷视频" data-impression-track="https://frodo.douban.com/rohirrim/video_tracking/impression?subject_id=25798448&amp;video_type=movie&amp;video_id=841540&amp;source=youku&amp;user_id=&amp;bid=xshrnyplPDc&amp;platform=pc&amp;location=vendor_subject" data-click-track="https://frodo.douban.com/rohirrim/video_tracking/click?subject_id=25798448&amp;video_type=movie&amp;video_id=841540&amp;source=youku&amp;user_id=&amp;bid=xshrnyplPDc&amp;platform=pc&amp;location=vendor_subject" data-pic="https://img1.doubanio.com/cuphead/movie-static/pics/video-youku-new.png" href="https://www.douban.com/link2/?url=https%3A%2F%2Fm.youku.com%2Falipay_video%2Fid_68c42e0adf2a11e4abda.html%3Frefer%3Desfhz_operation.xuka.xj_00003036_000000_FNZfau_19010900&amp;subtype=3&amp;type=online-video&amp;link2key=6562857b75" target="_blank">
+                        优酷视频
+                        </a>
+                    <img src="./images/image_55.jpg" class="vendor-icon">
+                    <span class="buylink-price"><span>
+                        VIP免费观看
+                    </span></span>
+                </li>
+                
+                <li>
+                        <a class="playBtn" data-cn="爱奇艺" data-impression-track="https://frodo.douban.com/rohirrim/video_tracking/impression?subject_id=25798448&amp;video_type=movie&amp;video_id=356495&amp;source=iqiyi&amp;user_id=&amp;bid=xshrnyplPDc&amp;platform=pc&amp;location=vendor_subject" data-click-track="https://frodo.douban.com/rohirrim/video_tracking/click?subject_id=25798448&amp;video_type=movie&amp;video_id=356495&amp;source=iqiyi&amp;user_id=&amp;bid=xshrnyplPDc&amp;platform=pc&amp;location=vendor_subject" data-pic="https://img1.doubanio.com/cuphead/movie-static/pics/video-iqiyi-new.png" href="https://www.douban.com/link2/?url=http%3A%2F%2Fwww.iqiyi.com%2Fv_19rrkq2ea0.html%3Fvfm%3Dm_331_dbdy%26fv%3D4904d94982104144a1548dd9040df241&amp;subtype=9&amp;type=online-video&amp;link2key=6562857b75" target="_blank">
+                        爱奇艺
+                        </a>
+                    <img src="./images/image_56.jpg" class="vendor-icon">
+                    <span class="buylink-price"><span>
+                        VIP免费观看
+                    </span></span>
+                </li>
+                
+                <li>
+                        <a class="playBtn" data-cn="哔哩哔哩" data-impression-track="https://frodo.douban.com/rohirrim/video_tracking/impression?subject_id=25798448&amp;video_type=movie&amp;video_id=738492&amp;source=bilibili&amp;user_id=&amp;bid=xshrnyplPDc&amp;platform=pc&amp;location=vendor_subject" data-click-track="https://frodo.douban.com/rohirrim/video_tracking/click?subject_id=25798448&amp;video_type=movie&amp;video_id=738492&amp;source=bilibili&amp;user_id=&amp;bid=xshrnyplPDc&amp;platform=pc&amp;location=vendor_subject" data-pic="https://img9.doubanio.com/cuphead/movie-static/pics/video-bilibili.png" href="https://www.douban.com/link2/?url=https%3A%2F%2Fm.bilibili.com%2Fbangumi%2Fplay%2Fss33580%3Fbsource%3Ddoubanh5&amp;subtype=8&amp;type=online-video" target="_blank">
+                        哔哩哔哩
+                        </a>
+                    <img src="./images/image_57.jpg" class="vendor-icon">
+                    <span class="buylink-price"><span>
+                        VIP免费观看
+                    </span></span>
+                </li>
+
+    </ul>
+</div>
+
+
+    <!-- douban ad begin -->
+    <div id="dale_movie_subject_top_right"></div>
+    <!-- douban ad end -->
+
+    
+
+
+
+<style type="text/css">
+    .m4 {margin-bottom:8px; padding-bottom:8px;}
+    .movieOnline {background:#FFF6ED; padding:10px; margin-bottom:20px;}
+    .movieOnline h2 {margin:0 0 5px;}
+    .movieOnline .sitename {line-height:2em; width:160px;}
+    .movieOnline td,.movieOnline td a:link,.movieOnline td a:visited{color:#666;}
+    .movieOnline td a:hover {color:#fff;}
+    .link-bt:link,
+    .link-bt:visited,
+    .link-bt:hover,
+    .link-bt:active {margin:5px 0 0; padding:2px 8px; background:#a8c598; color:#fff; -moz-border-radius: 3px; -webkit-border-radius: 3px; border-radius: 3px; display:inline-block;}
+</style>
+
+    <div class="gray_ad">
+        
+    <h2>
+        本片原声正在播放
+            &nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·&nbsp;·
+    </h2>
+
+        <a target="_blank" href="https://music.douban.com/subject/26601872/">去豆瓣音乐收听</a>
+
+    </div>
+
+
+    
+
+
+
+
+
+
+
+
+    <div id="dale_subject_right_guess_you_like"></div>
+    <div id="dale_movie_subject_inner_middle"></div>
+    
+        
+
+
+
+
+
+
+
+
+<div id="subject-doulist">
+    
+    
+    <h2>
+        <i>以下片单推荐</i>
+              · · · · · ·
+            <span class="pl">
+            (
+                <a href="https://movie.douban.com/subject/25798448/doulists">全部</a>
+            )
+            </span>
+    </h2>
+
+
+    
+    <ul>
+            
+                <li>
+                    <a href="https://www.douban.com/doulist/270826/" target="_blank">真实案件精选</a>
+                    <span>([己注销])</span>
+                </li>
+            
+                <li>
+                    <a href="https://www.douban.com/doulist/30299/" target="_blank">豆瓣电影【口碑榜】2023-09-11 更新</a>
+                    <span>(影志)</span>
+                </li>
+            
+                <li>
+                    <a href="https://www.douban.com/doulist/278539/" target="_blank">【真实犯罪】—— 真人真事改编案件（中国版）</a>
+                    <span>(狷介有乌青)</span>
+                </li>
+            
+                <li>
+                    <a href="https://www.douban.com/doulist/13712178/" target="_blank">评价人数超过十万的电影</a>
+                    <span>(依然饭特稀)</span>
+                </li>
+            
+                <li>
+                    <a href="https://www.douban.com/doulist/470788/" target="_blank">韩寒推荐电影</a>
+                    <span>(男孩像你)</span>
+                </li>
+    </ul>
+
+</div>
+
+    
+        
+
+
+
+
+
+
+
+
+
+<div id="subject-others-interests">
+    
+    
+    <h2>
+        <i>谁在看这部电影</i>
+              · · · · · ·
+    </h2>
+
+    
+    <ul>
+            
+            <li>
+                <a href="https://www.douban.com/people/178628400/" class="others-interest-avatar">
+                    <img src="./images/image_58.jpg" alt="。Cheers、">
+                </a>
+                <div class="others-interest-info">
+                    <a href="https://www.douban.com/people/178628400/">。Cheers、</a>
+                    <div>
+                        52分钟前
+                        看过
+                        
+
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <a href="https://www.douban.com/people/120461049/" class="others-interest-avatar">
+                    <img src="./images/image_59.jpg" alt="你不知道的晚安">
+                </a>
+                <div class="others-interest-info">
+                    <a href="https://www.douban.com/people/120461049/">你不知道的晚安</a>
+                    <div>
+                        58分钟前
+                        看过
+                        
+    <span class="allstar50" title="力荐"></span>
+
+                    </div>
+                </div>
+            </li>
+            
+            <li>
+                <a href="https://www.douban.com/people/169179761/" class="others-interest-avatar">
+                    <img src="./images/image_60.jpg" alt="在她">
+                </a>
+                <div class="others-interest-info">
+                    <a href="https://www.douban.com/people/169179761/">在她</a>
+                    <div>
+                        1小时前
+                        看过
+                        
+    <span class="allstar40" title="推荐"></span>
+
+                    </div>
+                </div>
+            </li>
+    </ul>
+
+    
+    <div class="subject-others-interests-ft">
+        
+            <a href="https://movie.douban.com/subject/25798448/comments?status=P">736156人看过</a>
+                &nbsp;/&nbsp;
+            <a href="https://movie.douban.com/subject/25798448/comments?status=F">59511人想看</a>
+    </div>
+
+</div>
+
+    
+
+<!-- douban ad begin -->
+<div id="dale_movie_subject_middle_right"></div>
+<script type="text/javascript">
+    (function (global) {
+        if(!document.getElementsByClassName) {
+            document.getElementsByClassName = function(className) {
+                return this.querySelectorAll("." + className);
+            };
+            Element.prototype.getElementsByClassName = document.getElementsByClassName;
+
+        }
+        var articles = global.document.getElementsByClassName('article'),
+            asides = global.document.getElementsByClassName('aside');
+
+        if (articles.length > 0 && asides.length > 0 && articles[0].offsetHeight >= asides[0].offsetHeight) {
+            (global.DoubanAdSlots = global.DoubanAdSlots || []).push('dale_movie_subject_middle_right');
+        }
+    })(this);
+</script>
+<!-- douban ad end -->
+
+
+
+    <br>
+
+    
+<p class="pl">订阅解救吾先生的评论: <br><span class="feed">
+    <a href="https://movie.douban.com/feed/subject/25798448/reviews"> feed: rss 2.0</a></span></p>
+
+
+            </div>
+            <div class="extra">
+                
+    
+<!-- douban ad begin -->
+<div id="dale_movie_subject_bottom_super_banner"></div>
+<script type="text/javascript">
+    (function (global) {
+        var body = global.document.body,
+            html = global.document.documentElement;
+
+        var height = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight, html.scrollHeight, html.offsetHeight);
+        if (height >= 2000) {
+            (global.DoubanAdSlots = global.DoubanAdSlots || []).push('dale_movie_subject_bottom_super_banner');
+        }
+    })(this);
+</script>
+<!-- douban ad end -->
+
+    <!-- douban ad begin -->
+    <div id="dale_movie_subject_hovering_video"></div>
+    <!-- douban ad end -->
+
+            </div>
+        </div>
+    </div>
+
+        
+    <div id="footer">
+            <div class="footer-extra"></div>
+        
+<span id="icp" class="fleft gray-link">
+    © 2005－2025 douban.com, all rights reserved 北京豆网科技有限公司
+</span>
+
+<a href="https://www.douban.com/hnypt/variformcyst.py" style="display: none;"></a>
+
+<span class="fright">
+    <a href="https://www.douban.com/about">关于豆瓣</a>
+    · <a href="https://www.douban.com/jobs">在豆瓣工作</a>
+    · <a href="https://www.douban.com/about?topic=contactus">联系我们</a>
+    · <a href="https://www.douban.com/about/legal">法律声明</a>
+    
+    · <a href="https://help.douban.com/?app=movie" target="_blank">帮助中心</a>
+    · <a href="https://www.douban.com/doubanapp/">移动应用</a>
+</span>
+
+    </div>
+
+    </div>
+    <!-- COLLECTED JS -->
+        
+        
+    <link rel="stylesheet" type="text/css" href="https://img1.doubanio.com/f/vendors/e8a7261937da62636d22ca4c579efc4a4d759b1b/css/ui/dialog.css">
+    <link rel="stylesheet" type="text/css" href="https://img1.doubanio.com/cuphead/movie-static/mod/login_pop.b2f60.css">
+    <script type="text/javascript" src="https://img1.doubanio.com/f/vendors/f25ae221544f39046484a823776f3aa01769ee10/js/ui/dialog.js"></script>
+    <script type="text/javascript">
+        var HTTPS_DB = "https://www.douban.com"
+    </script>
+    <script type="text/javascript" src="https://img3.doubanio.com/cuphead/movie-static/mod/login_pop.6e027.js"></script>
+
+    
+    
+    <script>
+        var _CONFIG = {
+            SUBJECT_ID: '25798448',
+            SERIES_SEASON_NAMES: {},
+            SERIES_OTHER_SUBJECTS: [],
+            SERIES: {
+                series_url: '',
+                series_total: '0'
+            }
+        }
+    </script>
+    <script src="https://img1.doubanio.com/f/vendors/f25ae221544f39046484a823776f3aa01769ee10/js/ui/dialog.js"></script>
+    <script src="https://img9.doubanio.com/cuphead/movie-static/libs/handlebars.js"></script>
+    <script src="https://img1.doubanio.com/f/vendors/55caa4decc5b4d78a5afa5d12f0b4bdfa7dcb6bb/js/lib/jquery.ba-hashchange.min.js"></script>
+    <script src="https://img3.doubanio.com/cuphead/movie-static/subject/comment_vote.330b2.js"></script>
+    <script src="https://img1.doubanio.com/f/vendors/bd6325a12f40c34cbf2668aafafb4ccd60deab7e/vendors.js"></script>
+    <script src="https://img1.doubanio.com/f/vendors/6242a400cfd25992da35ace060e58f160efc9c50/shared_rc.js"></script>
+    <script src="https://img9.doubanio.com/cuphead/movie-static/series/items-swiper.33544.js"></script>
+
+    <script>
+        $(function(){
+            var UA = navigator.userAgent.toLowerCase();
+            isSafari = /safari/.test(UA)
+            $("#season").on('change', function(){
+                var subjectId = $(this).val();
+                if (subjectId.length){
+                    window.location = "/subject/" + subjectId + "/";
+                    // fix null state bug in Safari
+                    if (isSafari) {
+                        window.history.pushState &&
+                          window.history.pushState(null, document.title, window.location.href)
+                    }
+                }
+            });
+            $("#season").val("25798448")
+
+            $(window).hashchange();
+            if(window.location.href.indexOf('suggest')>0 && window.location.href.indexOf("?")>0){
+                if(window.history.pushState){
+                    window.history.pushState(null, document.title, window.location.href.substring(0,window.location.href.indexOf("?")));
+                }
+            }
+
+            $('.indent .a_show_full').click(function(){
+                $.get('/blank?expand');
+            });
+
+            $('body').on('click', 'a.write_review', function(e) {
+                e.preventDefault();
+                if(window._USER_ABNORMAL) {
+                    show_abnormal && show_abnormal()
+                }else {
+                    location.href = $(this).attr('href')
+                }
+            })
+        });
+    </script>
+    
+    
+
+
+
+
+    
+<script type="text/javascript">
+    (function (global) {
+        var newNode = global.document.createElement('script'),
+            existingNode = global.document.getElementsByTagName('script')[0],
+            adSource = '//erebor.douban.com/',
+            userId = '',
+            browserId = 'xshrnyplPDc',
+            criteria = '7:犯罪|7:刘烨|7:吴若甫|7:林雪|7:动作|7:惊险|7:中国大陆|7:那威|7:剧情|7:余皑磊|7:郭洺宇|7:丁晟|7:蔡鹭|7:钟艺|7:2015|7:王铮|7:警匪|7:刘德华|7:赵小锐|7:陈九涵|7:悬疑|7:刘然|7:人性|7:马思纯|7:李梦|7:王千源|7:巩承琪|7:真实事件改编|7:陆彭|7:桑平|3:/subject/25798448/',
+            preview = '',
+            debug = false,
+            adSlots = ['dale_movie_subject_top_right', 'dale_movie_subject_inner_middle', 'dale_movie_subject_banner_after_intro', 'dale_subject_right_guess_you_like', 'dale_movie_subject_hovering_video'];
+
+        global.DoubanAdRequest = {src: adSource, uid: userId, bid: browserId, crtr: criteria, prv: preview, debug: debug};
+        global.DoubanAdSlots = (global.DoubanAdSlots || []).concat(adSlots);
+
+        newNode.setAttribute('type', 'text/javascript');
+        newNode.setAttribute('src', '//img1.doubanio.com/NWQ3bnN2eS9mL2FkanMvYjFiN2ViZWM0ZDBiZjlkNTE1ZDdiODZiZDc0NzNhNjExYWU3ZDk3My9hZC5yZWxlYXNlLmpz?company_token=kX69T8w1wyOE-dale');
+        newNode.setAttribute('async', true);
+        existingNode.parentNode.insertBefore(newNode, existingNode);
+    })(this);
+</script>
+
+
+
+
+
+
+
+
+    
+  
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+var _paq = _paq || [];
+_paq.push(['trackPageView']);
+_paq.push(['enableLinkTracking']);
+(function() {
+    var p=(('https:' == document.location.protocol) ? 'https' : 'http'), u=p+'://fundin.douban.com/';
+    _paq.push(['setTrackerUrl', u+'piwik']);
+    _paq.push(['setSiteId', '100001']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript';
+    g.defer=true;
+    g.async=true;
+    g.src=p+'://img3.doubanio.com/dae/fundin/piwik.js';
+    s.parentNode.insertBefore(g,s);
+})();
+</script>
+
+<script type="text/javascript">
+var setMethodWithNs = function(namespace) {
+  var ns = namespace ? namespace + '.' : ''
+    , fn = function(string) {
+        if(!ns) {return string}
+        return ns + string
+      }
+  return fn
+}
+
+var gaWithNamespace = function(fn, namespace) {
+  var method = setMethodWithNs(namespace)
+  fn.call(this, method)
+}
+
+var _gaq = _gaq || []
+  , accounts = [
+      { id: 'UA-7019765-1', namespace: 'douban' }
+    , { id: 'UA-7019765-19', namespace: '' }
+    ]
+  , gaInit = function(account) {
+      gaWithNamespace(function(method) {
+        gaInitFn.call(this, method, account)
+      }, account.namespace)
+    }
+  , gaInitFn = function(method, account) {
+      _gaq.push([method('_setAccount'), account.id]);
+      _gaq.push([method('_setSampleRate'), '5']);
+
+      
+  _gaq.push([method('_addOrganic'), 'google', 'q'])
+  _gaq.push([method('_addOrganic'), 'baidu', 'wd'])
+  _gaq.push([method('_addOrganic'), 'soso', 'w'])
+  _gaq.push([method('_addOrganic'), 'youdao', 'q'])
+  _gaq.push([method('_addOrganic'), 'so.360.cn', 'q'])
+  _gaq.push([method('_addOrganic'), 'sogou', 'query'])
+  if (account.namespace) {
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣'])
+    _gaq.push([method('_addIgnoredOrganic'), 'douban'])
+    _gaq.push([method('_addIgnoredOrganic'), '豆瓣网'])
+    _gaq.push([method('_addIgnoredOrganic'), 'www.douban.com'])
+  }
+
+      if (account.namespace === 'douban') {
+        _gaq.push([method('_setDomainName'), '.douban.com'])
+      }
+
+        _gaq.push([method('_setCustomVar'), 1, 'responsive_view_mode', 'desktop', 3])
+
+        _gaq.push([method('_setCustomVar'), 2, 'login_status', '0', 2]);
+
+      _gaq.push([method('_trackPageview')])
+    }
+
+for(var i = 0, l = accounts.length; i < l; i++) {
+  var account = accounts[i]
+  gaInit(account)
+}
+
+
+;(function() {
+    var ga = document.createElement('script');
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    ga.setAttribute('async', 'true');
+    document.documentElement.firstChild.appendChild(ga);
+})()
+</script>
+
+
+
+
+
+
+
+
+      
+
+    <!-- dae-web-movie--default-5f9cb85759-ngdhb-->
+
+  <script>_SPLITTEST=''</script>
+
+
+
+
+
+
+
+---
+
+## 纯文本内容
+
+var _body_start = new Date();
+
+    
+    
+
+
+
+    
+
+
+
+
+  
+    
+
+  登录/注册
+
+
+
+    
+  下载豆瓣客户端
+  
+    豆瓣 6.0 全新发布
+    ×
+  
+  
+    豆瓣
+    扫码直接下载
+    
+      iPhone
+      ·
+      Android
+    
+  
+
+
+    
+
+
+
+  
+    
+      豆瓣
+    
+    
+      读书
+    
+    
+      电影
+    
+    
+      音乐
+    
+    
+      播客
+    
+    
+      同城
+    
+    
+      小组
+    
+    
+      阅读
+    
+    
+      FM
+    
+    
+      时间
+    
+    
+      豆品
+    
+  
+
+
+  
+
+
+  ;window._GLOBAL_NAV = {
+    DOUBAN_URL: "https://www.douban.com",
+    N_NEW_NOTIS: 0,
+    N_NEW_DOUMAIL: 0
+  };
+
+
+
+
+    
+
+
+
+
+    
+
+
+    
+
+
+
+
+
+  
+  
+    
+      豆瓣电影
+    
+    
+      
+        
+          搜索：
+          
+          
+          
+          
+          
+        
+      
+    
+  
+  
+  
+    
+
+
+  
+    影讯&购票
+    
+    选电影
+    
+    选剧集
+    
+    排行榜
+    
+    影评
+    
+    2024年度榜单
+    
+    2024年度报告
+    
+  
+
+
+    
+  
+
+
+
+  <li data-link="{{= url}}">
+            <a href="{{= url}}" onclick="moreurl(this, {from:'movie_search_sugg', query:'{{= keyword }}', subject_id:'{{= id}}', i: '{{= index}}', type: '{{= type}}'})">
+            <img src="{{= img}}" width="40" />
+            <p>
+                <em>{{= title}}</em>
+                {{if year}}
+                    <span>{{= year}}</span>
+                {{/if}}
+                {{if sub_title}}
+                    <br /><span>{{= sub_title}}</span>
+                {{/if}}
+                {{if address}}
+                    <br /><span>{{= address}}</span>
+                {{/if}}
+                {{if episode}}
+                    {{if episode=="unknow"}}
+                        <br /><span>集数未知</span>
+                    {{else}}
+                        <br /><span>共{{= episode}}集</span>
+                    {{/if}}
+                {{/if}}
+            </p>
+        </a>
+        </li>
+  
+
+
+
+
+    
+
+
+
+
+    
+    
+        
+
+        
+    
+        
+        
+            
+            
+            
+                
+                  No.18
+                
+              
+                中国大陆犯罪片榜
+              
+            
+            
+
+    
+        解救吾先生
+            (2015)
+    
+
+        
+            
+
+            
+            
+                
+    
+        
+            
+                
+                
+
+
+
+
+    
+        
+   
+
+
+                
+
+
+
+        导演: 丁晟
+        编剧: 丁晟
+        主演: 刘德华 / 刘烨 / 王千源 / 吴若甫 / 林雪 / 赵小锐 / 李梦 / 蔡鹭 / 陆彭 / 余皑磊 / 郭洺宇
+        类型: 剧情 / 犯罪
+        
+        制片国家/地区: 中国大陆
+        语言: 汉语普通话
+        上映日期: 2015-09-30(中国大陆) / 2015-09-26(丝绸之路电影节)
+        片长: 106分钟
+        又名: 最强对手 / Saving Mr. Wu
+        IMDb: tt4819560
+
+
+
+$(function(){
+    var limit = 5
+    $('#info .attrs').each(function() {
+        var $list = $(this).find('a')
+        var $attrs = $(this)
+
+        if($list.length > limit) {
+            $attrs.empty()
+            $list.each(function(idx) {
+                if (idx+1 === $list.length) {
+                    $('<span></span>').prepend($(this)).appendTo($attrs);
+                } else {
+                    $('<span> / </span>').prepend($(this)).appendTo($attrs);
+                }
+            })
+
+            $attrs.append('<a href="javascript:;" class="more-attrs" title="显示更多">更多...</a>')
+            $('.more-attrs').on('click', function() {
+                $(this).parent().find('span').show()
+                $(this).hide()
+            })
+
+            $attrs.find('span').slice(limit).hide()
+        }
+    })
+})
+
+
+
+
+            
+            
+                
+
+
+
+    
+        
+            
+                豆瓣评分
+            
+          
+            
+            引用
+          
+        
+        
+
+
+
+
+    7.7
+    
+    
+        
+        
+                
+                    440891人评价
+                
+        
+    
+
+
+    
+        
+        
+        
+            5星
+        
+        
+        18.0%
+        
+        
+        
+        
+        
+            4星
+        
+        
+        52.3%
+        
+        
+        
+        
+        
+            3星
+        
+        
+        27.2%
+        
+        
+        
+        
+        
+            2星
+        
+        
+        2.1%
+        
+        
+        
+        
+        
+            1星
+        
+        
+        0.4%
+        
+        
+
+
+    
+        
+            好于 89% 剧情片
+            好于 91% 犯罪片
+        
+
+
+
+
+            
+        
+        
+            
+
+
+
+
+
+
+        
+            
+                想看
+            
+            
+                看过
+            
+        
+            
+    
+    评价:
+     
+
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+            
+            
+        
+    
+    
+    
+
+        
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+        
+                
+                   
+     
+        写短评
+ 
+                   
+    
+     
+        写影评
+ 
+                     
+   
+
+   
+    
+    
+    
+        分享到
+       
+    
+    
+    
+    
+    
+
+  
+            
+
+    
+
+    
+        $(function(){
+            $(".ul_subject_menu li.rec .bn-sharing").bind("click", function(){
+                $.get("/blank?sbj_page_click=bn_sharing");
+            });
+        });
+    
+
+
+
+
+
+        
+            
+
+
+
+
+
+
+
+
+    
+        
+    <form class="movie-share" action="/j/share" method="POST">
+        <div class="clearfix form-bd">
+            <div class="input-area">
+                <textarea name="text" class="share-text" cols="72" data-mention-api="https://api.douban.com/shuo/in/complete?alt=xd&amp;callback=?"></textarea>
+                <input type="hidden" name="target-id" value="25798448">
+                <input type="hidden" name="target-type" value="0">
+                <input type="hidden" name="title" value="解救吾先生‎ (2015)">
+                <input type="hidden" name="desc" value="导演 丁晟 主演 刘德华 / 刘烨 / 中国大陆 / 7.7分(440891评价)">
+                <input type="hidden" name="redir" value=""/>
+                <div class="mentioned-highlighter"></div>
+            </div>
+
+            <div class="info-area">
+                    <img class="media" src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2267511583.jpg" />
+                <strong>解救吾先生‎ (2015)</strong>
+                <p>导演 丁晟 主演 刘德华 / 刘烨 / 中国大陆 / 7.7分(440891评价)</p>
+                <p class="error server-error">&nbsp;</p>
+            </div>
+        </div>
+        <div class="form-ft">
+            <div class="form-ft-inner">
+                
+
+
+
+                <span class="avail-num-indicator">140</span>
+                <span class="bn-flat">
+                    <input type="submit" value="推荐" />
+                </span>
+            </div>
+        </div>
+    </form>
+    
+    <div id="suggest-mention-tmpl" style="display:none;">
+        <ul>
+            {{#users}}
+            <li id="{{uid}}">
+              <img src="{{avatar}}">{{{username}}}&nbsp;<span>({{{uid}}})</span>
+            </li>
+            {{/users}}
+        </ul>
+    </div>
+
+
+    
+
+        
+        推荐
+
+
+
+
+
+
+
+
+
+
+        
+            $(function() {
+                $('.collect_btn', '#interest_sect_level').each(function() {
+                    Douban.init_collect_btn(this);
+                });
+                $('html').delegate(".indent .rec-sec .lnk-sharing", "click", function() {
+                    moreurl(this, {
+                        from : 'mv_sbj_db_share'
+                    });
+                });
+            });
+        
+    
+        
+
+
+    
+    
+
+    
+
+
+
+
+    
+    
+        
+            
+            
+    
+        解救吾先生的剧情简介
+              · · · · · ·
+    
+
+            
+                    
+                        
+                            
+                                    　　春节假期的夜晚，市中心的酒吧一条街繁华喧嚣，香港电影明星吾先生（刘德华 饰）走出酒吧就被冒充警察的张华（王千源 饰）一伙人持枪绑架到一个与世隔绝的郊外小院里。吾先生意外发现绑匪还绑架了另外一个人质小窦（蔡鹭 饰）经过与张华的一番谈判，吾先生将小窦从死亡线拉回。两人开始了争取生机并相依为命的惊险20小时。
+                                        
+                                    　　接到报案的警方迅速组织最强警力，刑警队长刑峰（刘烨 饰）和曹刚（吴若甫 饰）联手展开侦破工作。但狡猾狂妄的绑匪张华有很强的反侦察能力，对同伙和人质也都不讲规矩，单独出门与吾先生的好友（林雪 饰）交收赎款。但是他在取得赎金之际交代同伙到晚上九点，无论能不能拿到赎金都要将人质杀害。
+                                        
+                                    　　经过几番侦查和对抗，警方掌握了张华的行踪，邢峰和曹刚精准配合，在极度危险的情况下将张华抓获。此事离绑匪约定好的撕票时间还剩下两个小时。深夜九点即将到来，邢峰和曹刚再次联手与垂...
+                            
+                            (展开全部)
+                        
+                        
+                                　　春节假期的夜晚，市中心的酒吧一条街繁华喧嚣，香港电影明星吾先生（刘德华 饰）走出酒吧就被冒充警察的张华（王千源 饰）一伙人持枪绑架到一个与世隔绝的郊外小院里。吾先生意外发现绑匪还绑架了另外一个人质小窦（蔡鹭 饰）经过与张华的一番谈判，吾先生将小窦从死亡线拉回。两人开始了争取生机并相依为命的惊险20小时。
+                                    
+                                　　接到报案的警方迅速组织最强警力，刑警队长刑峰（刘烨 饰）和曹刚（吴若甫 饰）联手展开侦破工作。但狡猾狂妄的绑匪张华有很强的反侦察能力，对同伙和人质也都不讲规矩，单独出门与吾先生的好友（林雪 饰）交收赎款。但是他在取得赎金之际交代同伙到晚上九点，无论能不能拿到赎金都要将人质杀害。
+                                    
+                                　　经过几番侦查和对抗，警方掌握了张华的行踪，邢峰和曹刚精准配合，在极度危险的情况下将张华抓获。此事离绑匪约定好的撕票时间还剩下两个小时。深夜九点即将到来，邢峰和曹刚再次联手与垂死挣扎的张华展开心里较量，并在最后时刻找到突破口，但张华的同伙却打算提早撕票……
+                                    
+                                　　影片改编自2004年的“吴若甫绑架案”。
+                        
+                        ©豆瓣
+            
+
+
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+  
+    
+        解救吾先生的演职员
+              · · · · · ·
+            
+            (
+                全部 30
+            )
+            
+    
+
+
+  
+        
+    
+  
+  
+    
+
+  
+      
+    
+  
+
+    
+      丁晟
+
+      导演
+
+    
+  
+
+
+        
+    
+  
+  
+    
+
+  
+      
+    
+  
+
+    
+      刘德华
+
+      饰 吾先生
+
+    
+  
+
+
+        
+    
+  
+  
+    
+
+  
+      
+    
+  
+
+    
+      刘烨
+
+      饰 邢峰
+
+    
+  
+
+
+        
+    
+  
+  
+    
+
+  
+      
+    
+  
+
+    
+      王千源
+
+      饰 张华
+
+    
+  
+
+
+        
+    
+  
+  
+    
+
+  
+      
+    
+  
+
+    
+      吴若甫
+
+      饰 曹刚
+
+    
+  
+
+
+        
+    
+  
+  
+    
+
+  
+      
+    
+  
+
+    
+      林雪
+
+      饰 苏先生
+
+    
+  
+
+
+  
+
+
+
+    
+
+
+
+
+    
+
+
+    var answerObj = {
+      ISALL: 'False',
+      TYPE: 'movie',
+      SUBJECT_ID: '25798448',
+      USER_ID: 'None'
+    }
+
+
+
+
+
+
+    
+        
+
+
+
+
+
+
+
+
+
+    
+    
+        
+    
+    
+    
+        解救吾先生的视频和图片
+              · · · · · ·
+            
+            (
+                预告片21 | 图片584 · 添加
+            )
+            
+    
+
+
+        
+                
+                    
+                ...
+
+---
+
+## 图片列表
+
+- ![](./images/image_1.jpg) (原始链接: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2267511583.jpg)
+- ![](./images/image_2.jpg) (原始链接: https://img2.doubanio.com/cuphead/movie-static/pics/reference.png)
+- ![](./images/image_3.jpg) (原始链接: https://img1.doubanio.com/f/vendors/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png)
+- ![](./images/image_4.jpg) (原始链接: https://img1.doubanio.com/f/vendors/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png)
+- ![](./images/image_5.jpg) (原始链接: https://img1.doubanio.com/f/vendors/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png)
+- ![](./images/image_6.jpg) (原始链接: https://img1.doubanio.com/f/vendors/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png)
+- ![](./images/image_7.jpg) (原始链接: https://img1.doubanio.com/f/vendors/2520c01967207a1735171056ec588c8c1257e5f8/pics/rating_icons/star_hollow_hover.png)
+- ![](./images/image_8.jpg) (原始链接: https://img9.doubanio.com/cuphead/movie-static/pics/short-comment.gif)
+- ![](./images/image_9.jpg) (原始链接: https://img1.doubanio.com/cuphead/movie-static/pics/add-review.gif)
+- ![](./images/image_10.jpg) (原始链接: https://img9.doubanio.com/view/photo/sqxs/public/p2261812395.jpg)
+- ![](./images/image_11.jpg) (原始链接: https://img1.doubanio.com/view/photo/sqxs/public/p2262461950.jpg)
+- ![](./images/image_12.jpg) (原始链接: https://img1.doubanio.com/view/photo/sqxs/public/p2272872368.jpg)
+- ![](./images/image_13.jpg) (原始链接: https://img3.doubanio.com/view/photo/sqxs/public/p2528861773.jpg)
+- ![](./images/image_14.jpg) (原始链接: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2262236348.jpg)
+- ![](./images/image_15.jpg) (原始链接: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1181944920.jpg)
+- ![](./images/image_16.jpg) (原始链接: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2380677316.jpg)
+- ![](./images/image_17.jpg) (原始链接: https://img2.doubanio.com/view/photo/s_ratio_poster/public/p453924541.jpg)
+- ![](./images/image_18.jpg) (原始链接: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2375882763.jpg)
+- ![](./images/image_19.jpg) (原始链接: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p2535260806.jpg)
+- ![](./images/image_20.jpg) (原始链接: https://img9.doubanio.com/view/photo/s_ratio_poster/public/p1924498395.jpg)
+- ![](./images/image_21.jpg) (原始链接: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p1741835010.jpg)
+- ![](./images/image_22.jpg) (原始链接: https://img1.doubanio.com/view/photo/s_ratio_poster/public/p2157480930.jpg)
+- ![](./images/image_23.jpg) (原始链接: https://img3.doubanio.com/view/photo/s_ratio_poster/public/p1839391107.jpg)
+- ![](./images/image_24.jpg) (原始链接: https://img9.doubanio.com/icon/u3310809-34.jpg)
+- ![](./images/image_25.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/536fd337139250b5fb3cf9e79cb65c6193f8b20b/pics/up.png)
+- ![](./images/image_26.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/68849027911140623cf338c9845893c4566db851/pics/down.png)
+- ![](./images/image_27.jpg) (原始链接: https://img3.doubanio.com/icon/u4112660-73.jpg)
+- ![](./images/image_28.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/536fd337139250b5fb3cf9e79cb65c6193f8b20b/pics/up.png)
+- ![](./images/image_29.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/68849027911140623cf338c9845893c4566db851/pics/down.png)
+- ![](./images/image_30.jpg) (原始链接: https://img3.doubanio.com/icon/u25918146-17.jpg)
+- ![](./images/image_31.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/536fd337139250b5fb3cf9e79cb65c6193f8b20b/pics/up.png)
+- ![](./images/image_32.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/68849027911140623cf338c9845893c4566db851/pics/down.png)
+- ![](./images/image_33.jpg) (原始链接: https://img2.doubanio.com/icon/u45536018-1.jpg)
+- ![](./images/image_34.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/536fd337139250b5fb3cf9e79cb65c6193f8b20b/pics/up.png)
+- ![](./images/image_35.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/68849027911140623cf338c9845893c4566db851/pics/down.png)
+- ![](./images/image_36.jpg) (原始链接: https://img9.doubanio.com/icon/u51061132-85.jpg)
+- ![](./images/image_37.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/536fd337139250b5fb3cf9e79cb65c6193f8b20b/pics/up.png)
+- ![](./images/image_38.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/68849027911140623cf338c9845893c4566db851/pics/down.png)
+- ![](./images/image_39.jpg) (原始链接: https://img1.doubanio.com/icon/u39873443-100.jpg)
+- ![](./images/image_40.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/536fd337139250b5fb3cf9e79cb65c6193f8b20b/pics/up.png)
+- ![](./images/image_41.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/68849027911140623cf338c9845893c4566db851/pics/down.png)
+- ![](./images/image_42.jpg) (原始链接: https://img1.doubanio.com/icon/u44753719-8.jpg)
+- ![](./images/image_43.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/536fd337139250b5fb3cf9e79cb65c6193f8b20b/pics/up.png)
+- ![](./images/image_44.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/68849027911140623cf338c9845893c4566db851/pics/down.png)
+- ![](./images/image_45.jpg) (原始链接: https://img1.doubanio.com/icon/u62664539-8.jpg)
+- ![](./images/image_46.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/536fd337139250b5fb3cf9e79cb65c6193f8b20b/pics/up.png)
+- ![](./images/image_47.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/68849027911140623cf338c9845893c4566db851/pics/down.png)
+- ![](./images/image_48.jpg) (原始链接: https://img9.doubanio.com/icon/u65611669-16.jpg)
+- ![](./images/image_49.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/536fd337139250b5fb3cf9e79cb65c6193f8b20b/pics/up.png)
+- ![](./images/image_50.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/68849027911140623cf338c9845893c4566db851/pics/down.png)
+- ![](./images/image_51.jpg) (原始链接: https://img9.doubanio.com/icon/u58854842-14.jpg)
+- ![](./images/image_52.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/536fd337139250b5fb3cf9e79cb65c6193f8b20b/pics/up.png)
+- ![](./images/image_53.jpg) (原始链接: https://img1.doubanio.com/f/zerkalo/68849027911140623cf338c9845893c4566db851/pics/down.png)
+- ![](./images/image_54.jpg) (原始链接: https://img3.doubanio.com/cuphead/movie-static/pics/video-qq.png)
+- ![](./images/image_55.jpg) (原始链接: https://img1.doubanio.com/cuphead/movie-static/pics/video-youku-new.png)
+- ![](./images/image_56.jpg) (原始链接: https://img1.doubanio.com/cuphead/movie-static/pics/video-iqiyi-new.png)
+- ![](./images/image_57.jpg) (原始链接: https://img9.doubanio.com/cuphead/movie-static/pics/video-bilibili.png)
+- ![](./images/image_58.jpg) (原始链接: https://img2.doubanio.com/icon/u178628400-1.jpg)
+- ![](./images/image_59.jpg) (原始链接: https://img2.doubanio.com/icon/u120461049-1.jpg)
+- ![](./images/image_60.jpg) (原始链接: https://img2.doubanio.com/icon/u169179761-1.jpg)

@@ -1,0 +1,35 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景圆形 -->
+  <circle cx="16" cy="16" r="16" fill="#FFE5E5"/>
+  
+  <!-- 左边马尾 -->
+  <ellipse cx="7" cy="12" rx="3" ry="6" fill="#8B4513" transform="rotate(-20 7 12)"/>
+  
+  <!-- 右边马尾 -->
+  <ellipse cx="25" cy="12" rx="3" ry="6" fill="#8B4513" transform="rotate(20 25 12)"/>
+  
+  <!-- 头部 -->
+  <circle cx="16" cy="16" r="8" fill="#FFDBAC"/>
+  
+  <!-- 刘海 -->
+  <path d="M 10 10 Q 16 8 22 10 Q 16 12 10 10" fill="#8B4513"/>
+  
+  <!-- 左眼 -->
+  <circle cx="13" cy="15" r="1.5" fill="#333"/>
+  <circle cx="13.5" cy="14.5" r="0.5" fill="#FFF"/>
+  
+  <!-- 右眼 -->
+  <circle cx="19" cy="15" r="1.5" fill="#333"/>
+  <circle cx="19.5" cy="14.5" r="0.5" fill="#FFF"/>
+  
+  <!-- 嘴巴 -->
+  <path d="M 14 19 Q 16 21 18 19" stroke="#FF6B9D" stroke-width="1" fill="none" stroke-linecap="round"/>
+  
+  <!-- 腮红 -->
+  <circle cx="11" cy="17" r="1" fill="#FFB6C1" opacity="0.6"/>
+  <circle cx="21" cy="17" r="1" fill="#FFB6C1" opacity="0.6"/>
+  
+  <!-- 头发装饰 -->
+  <circle cx="8" cy="8" r="1.5" fill="#FF69B4"/>
+  <circle cx="24" cy="8" r="1.5" fill="#FF69B4"/>
+</svg>

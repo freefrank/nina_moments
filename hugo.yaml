@@ -10,6 +10,13 @@ params:
   keywords: [朋友圈, 社交媒体, 归档, 时光机]
   author: 'Me'
   
+  # Favicon配置
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon.svg"
+    favicon32x32: "/favicon.svg"
+    apple_touch_icon: "/favicon.svg"
+  
   # 首页配置
   homeInfoParams:
     Title: '欢迎来到我的朋友圈时光机 👋'

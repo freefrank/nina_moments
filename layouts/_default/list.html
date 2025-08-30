@@ -125,26 +125,47 @@
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   
-  <!-- 只显示正文内容，不显示标题 -->
-  {{- if (ne (.Param "hideSummary") true) }}
-  <div class="feed-content">
-    {{- $fullContent := .Content | plainify | htmlUnescape }}
-    {{- $contentLength := len $fullContent }}
-    {{- if gt $contentLength 300 }}
-      {{- /* 截取前300个字符 */ -}}
-      {{- $shortContent := substr $fullContent 0 300 }}
-      {{- /* 尝试在空格处截断，避免截断单词 */ -}}
-      {{- $words := split $shortContent " " }}
-      {{- if gt (len $words) 1 }}
-        {{- $words = first (sub (len $words) 1) $words }}
-        {{- $shortContent = delimit $words " " }}
+  {{- /* 提取第一张图片 (Media 1) */ -}}
+  {{- $firstImage := "" }}
+  {{- $content := .RawContent }}
+  {{- $imageRegex := `!\[Media 1\]\(([^)]+)\)` }}
+  {{- if findRE $imageRegex $content 1 }}
+    {{- $imageMatches := findRE $imageRegex $content 1 }}
+    {{- if index $imageMatches 0 }}
+      {{- $firstImageMatch := index $imageMatches 0 }}
+      {{- $firstImage = replaceRE $imageRegex "$1" $firstImageMatch }}
+    {{- end }}
+  {{- end }}
+  
+  <div class="feed-entry-content">
+    <!-- 缩略图 -->
+    {{- if $firstImage }}
+    <div class="feed-thumbnail">
+      <img src="{{ $firstImage }}" alt="缩略图" loading="lazy">
+    </div>
+    {{- end }}
+    
+    <!-- 文本内容 -->
+    {{- if (ne (.Param "hideSummary") true) }}
+    <div class="feed-content">
+      {{- $fullContent := .Content | plainify | htmlUnescape }}
+      {{- $contentLength := len $fullContent }}
+      {{- if gt $contentLength 300 }}
+        {{- /* 截取前300个字符 */ -}}
+        {{- $shortContent := substr $fullContent 0 300 }}
+        {{- /* 尝试在空格处截断，避免截断单词 */ -}}
+        {{- $words := split $shortContent " " }}
+        {{- if gt (len $words) 1 }}
+          {{- $words = first (sub (len $words) 1) $words }}
+          {{- $shortContent = delimit $words " " }}
+        {{- end }}
+        <p>{{ $shortContent }}...</p>
+      {{- else }}
+        <p>{{ $fullContent }}</p>
       {{- end }}
-      <p>{{ $shortContent }}...</p>
-    {{- else }}
-      <p>{{ $fullContent }}</p>
+    </div>
     {{- end }}
   </div>
-  {{- end }}
   
   {{- if not (.Param "hideMeta") }}
   <footer class="feed-footer">

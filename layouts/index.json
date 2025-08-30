@@ -12,7 +12,19 @@
       "month": {{ $page.Date.Format "01" | jsonify }},
       "monthName": {{ $page.Date.Format "01月" | jsonify }},
       "summary": {{ ($page.Content | plainify | htmlUnescape | truncate 300) | jsonify }},
-      "dateFormatted": {{ $page.Date.Format "January 2, 2006" | jsonify }}
+      "dateFormatted": {{ $page.Date.Format "January 2, 2006" | jsonify }},
+      {{- /* 提取第一张图片 (Media 1) */ -}}
+      {{- $firstImage := "" -}}
+      {{- $content := $page.RawContent -}}
+      {{- $imageRegex := `!\[Media 1\]\(([^)]+)\)` -}}
+      {{- if findRE $imageRegex $content 1 -}}
+        {{- $imageMatches := findRE $imageRegex $content 1 -}}
+        {{- if index $imageMatches 0 -}}
+          {{- $firstImageMatch := index $imageMatches 0 -}}
+          {{- $firstImage = replaceRE $imageRegex "$1" $firstImageMatch -}}
+        {{- end -}}
+      {{- end -}}
+      "firstImage": {{ $firstImage | jsonify }}
     }
     {{- end -}}
   ]

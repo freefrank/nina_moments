@@ -68,6 +68,9 @@
 
 
 
+
+<script src="/js/overlay-search.js" defer></script>
+
 <meta property="og:url" content="http://localhost:8080/posts/2020/01/2020-01-24-post/">
   <meta property="og:site_name" content="我的朋友圈时光机">
   <meta property="og:title" content="2020-01-24 00:02:15">
@@ -114,7 +117,7 @@
   "keywords": [
     "朋友圈", "生活记录"
   ],
-  "articleBody": "今天一整天，湖北的确诊人数一直停留在可怕的444上。是因为没有患病人数的增加吗？我想看了这篇文章，你们都知道发生了什么。担心再次刷新界面，就是一个四位数的数字等着我们去面对…🙏🙏🙏🙏🙏\n希望捐助条例和渠道赶紧完善起来，我们也想为武汉做些什么。\n相关链接 原始链接: http://mp.weixin.qq.com/s?__biz=MTc5MTU3NTYyMQ==\u0026mid=2650709439\u0026idx=1\u0026sn=a3d126f52128e2fcfeee337e32d01034\u0026chksm=5afc8c956d8b058381afab4727df60aaf7b7bee5a1da095abf764bd7e11b3a4c685a30f248a9\u0026mpshare=1\u0026scene=2\u0026srcid=01231Aq587YV7x2guVOwmdun\u0026sharer_sharetime=1579794642820\u0026sharer_shareid=be1c8edd6c93eec155a61c876e41d26a#rd 链接标题: 武汉肺炎重症患者：一床难求 本地链接: 查看完整内容 链接摘要: “人如果在家里死了，是留不下这个人的记录的，没人知道他是因为肺炎死的。”口述 | 李雪（化名）记者 | 张从志床位极度紧缺▲▲▲父亲今年64岁，武汉人，公务员退休。从1月17日确认感染后，他的食欲变得非常差，几乎吃不下任何东西，每天傍晚五六点就开始发烧，最高烧到38.3℃以上，吃药后有所缓解，但第二天又会继续发烧。捱到了昨天（1月22日）早上，越来越严重。我赶紧叫了出租车让他们去了汉口医院。我妈一… 包含图片: 7 张\n",
+  "articleBody": "今天一整天，湖北的确诊人数一直停留在可怕的444上。是因为没有患病人数的增加吗？我想看了这篇文章，你们都知道发生了什么。担心再次刷新界面，就是一个四位数的数字等着我们去面对…🙏🙏🙏🙏🙏\n希望捐助条例和渠道赶紧完善起来，我们也想为武汉做些什么。\n相关链接 原始链接: http://mp.weixin.qq.com/s?__biz=MTc5MTU3NTYyMQ==\u0026mid=2650709439\u0026idx=1\u0026sn=a3d126f52128e2fcfeee337e32d01034\u0026chksm=5afc8c956d8b058381afab4727df60aaf7b7bee5a1da095abf764bd7e11b3a4c685a30f248a9\u0026mpshare=1\u0026scene=2\u0026srcid=01231Aq587YV7x2guVOwmdun\u0026sharer_sharetime=1579794642820\u0026sharer_shareid=be1c8edd6c93eec155a61c876e41d26a#rd\n链接标题: 武汉肺炎重症患者：一床难求\n本地链接: 查看完整内容\n链接摘要: “人如果在家里死了，是留不下这个人的记录的，没人知道他是因为肺炎死的。”口述 | 李雪（化名）记者 | 张从志床位极度紧缺▲▲▲父亲今年64岁，武汉人，公务员退休。从1月17日确认感染后，他的食欲变得非常差，几乎吃不下任何东西，每天傍晚五六点就开始发烧，最高烧到38.3℃以上，吃药后有所缓解，但第二天又会继续发烧。捱到了昨天（1月22日）早上，越来越严重。我赶紧叫了出租车让他们去了汉口医院。我妈一…\n包含图片: 7 张\n",
   "wordCount" : "18",
   "inLanguage": "en",
   "datePublished": "2020-01-24T10:00:00+08:00",
@@ -180,24 +183,20 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:8080/posts/" title="所有文章">
-                    <span>所有文章</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/archives/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
+                <a href="http://localhost:8080/search/" title="🔍 按 / 搜索 (Alt &#43; /)" accesskey=/>
+                    <span>
+                        
+                        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <span class="search-text">按 / 搜索</span>
+                        </span>
                 </a>
             </li>
         </ul>
     </nav>
-</header>
-<main class="main">
+</header><main class="main">
 
 <article class="post-single">
   <header class="post-header">
@@ -217,10 +216,10 @@
   <div class="post-content"><p>今天一整天，湖北的确诊人数一直停留在可怕的444上。是因为没有患病人数的增加吗？我想看了这篇文章，你们都知道发生了什么。担心再次刷新界面，就是一个四位数的数字等着我们去面对…🙏🙏🙏🙏🙏</p>
 <p>希望捐助条例和渠道赶紧完善起来，我们也想为武汉做些什么。</p>
 <h2 id="相关链接">相关链接</h2>
-<p><strong>原始链接:</strong> <a href="http://mp.weixin.qq.com/s?__biz=MTc5MTU3NTYyMQ==&amp;mid=2650709439&amp;idx=1&amp;sn=a3d126f52128e2fcfeee337e32d01034&amp;chksm=5afc8c956d8b058381afab4727df60aaf7b7bee5a1da095abf764bd7e11b3a4c685a30f248a9&amp;mpshare=1&amp;scene=2&amp;srcid=01231Aq587YV7x2guVOwmdun&amp;sharer_sharetime=1579794642820&amp;sharer_shareid=be1c8edd6c93eec155a61c876e41d26a#rd">http://mp.weixin.qq.com/s?__biz=MTc5MTU3NTYyMQ==&amp;mid=2650709439&amp;idx=1&amp;sn=a3d126f52128e2fcfeee337e32d01034&amp;chksm=5afc8c956d8b058381afab4727df60aaf7b7bee5a1da095abf764bd7e11b3a4c685a30f248a9&amp;mpshare=1&amp;scene=2&amp;srcid=01231Aq587YV7x2guVOwmdun&amp;sharer_sharetime=1579794642820&amp;sharer_shareid=be1c8edd6c93eec155a61c876e41d26a#rd</a>
-<strong>链接标题:</strong> 武汉肺炎重症患者：一床难求
-<strong>本地链接:</strong> <a href="/link_content/2020/01/2020-01-24/link_content/">查看完整内容</a>
-<strong>链接摘要:</strong> “人如果在家里死了，是留不下这个人的记录的，没人知道他是因为肺炎死的。”口述 | 李雪（化名）记者 | 张从志床位极度紧缺▲▲▲父亲今年64岁，武汉人，公务员退休。从1月17日确认感染后，他的食欲变得非常差，几乎吃不下任何东西，每天傍晚五六点就开始发烧，最高烧到38.3℃以上，吃药后有所缓解，但第二天又会继续发烧。捱到了昨天（1月22日）早上，越来越严重。我赶紧叫了出租车让他们去了汉口医院。我妈一&hellip;
+<p><strong>原始链接:</strong> <a href="http://mp.weixin.qq.com/s?__biz=MTc5MTU3NTYyMQ==&amp;mid=2650709439&amp;idx=1&amp;sn=a3d126f52128e2fcfeee337e32d01034&amp;chksm=5afc8c956d8b058381afab4727df60aaf7b7bee5a1da095abf764bd7e11b3a4c685a30f248a9&amp;mpshare=1&amp;scene=2&amp;srcid=01231Aq587YV7x2guVOwmdun&amp;sharer_sharetime=1579794642820&amp;sharer_shareid=be1c8edd6c93eec155a61c876e41d26a#rd">http://mp.weixin.qq.com/s?__biz=MTc5MTU3NTYyMQ==&amp;mid=2650709439&amp;idx=1&amp;sn=a3d126f52128e2fcfeee337e32d01034&amp;chksm=5afc8c956d8b058381afab4727df60aaf7b7bee5a1da095abf764bd7e11b3a4c685a30f248a9&amp;mpshare=1&amp;scene=2&amp;srcid=01231Aq587YV7x2guVOwmdun&amp;sharer_sharetime=1579794642820&amp;sharer_shareid=be1c8edd6c93eec155a61c876e41d26a#rd</a><br>
+<strong>链接标题:</strong> 武汉肺炎重症患者：一床难求<br>
+<strong>本地链接:</strong> <a href="/link_content/2020/01/2020-01-24/link_content/">查看完整内容</a><br>
+<strong>链接摘要:</strong> “人如果在家里死了，是留不下这个人的记录的，没人知道他是因为肺炎死的。”口述 | 李雪（化名）记者 | 张从志床位极度紧缺▲▲▲父亲今年64岁，武汉人，公务员退休。从1月17日确认感染后，他的食欲变得非常差，几乎吃不下任何东西，每天傍晚五六点就开始发烧，最高烧到38.3℃以上，吃药后有所缓解，但第二天又会继续发烧。捱到了昨天（1月22日）早上，越来越严重。我赶紧叫了出租车让他们去了汉口医院。我妈一&hellip;<br>
 <strong>包含图片:</strong> 7 张</p>
 
   </div>

@@ -68,6 +68,9 @@
 
 
 
+
+<script src="/js/overlay-search.js" defer></script>
+
 <meta property="og:url" content="http://localhost:8080/posts/2018/06/2018-06-28-post-3/">
   <meta property="og:site_name" content="我的朋友圈时光机">
   <meta property="og:title" content="2018-06-28 08:56:40">
@@ -114,7 +117,7 @@
   "keywords": [
     "朋友圈", "生活记录"
   ],
-  "articleBody": "前阵子我刚感叹过韩国商家强烈的求生欲，结果没多久就接到了韩国商家的广告投放任务。没错，韩国商家在加国投放在中文平台的宣传。商家把文案信息提供得已经十分完善了，本来我分分钟复制粘贴个模版就能糊弄了事的工作，不过我选择很认真地把这个商家的背景信息都仔细阅读了一遍。非常佩服韩国商家的眼界和胆识。这么多年在这个竞争激烈的行业脱颖而出屹立不倒的雄厚根基让我在写广告的过程中也倍感鼓舞并学到了很多——想做第一个吃螃蟹的人，首先你要扬帆出海。野心谁都有，但要有匹配的能力和努力才能获得成功。内容很简单的推广也经过了商家严谨地商讨修改。我很喜欢跟有自己想法，互动积极的商家合作，通常这样的合作模式才会起到较理想的推广效果。\n相关链接 原始链接: http://mp.weixin.qq.com/s?__biz=MzA5ODMyMDgxNw==\u0026mid=2651012888\u0026idx=1\u0026sn=7f7d2b92a519c689e5b82bcbe124b747\u0026chksm=8b64f7c6bc137ed0763fc58a039923661863022c05607bb63c303c546708039ea5e0e8340ec2\u0026mpshare=1\u0026scene=2\u0026srcid=0628ctF1MAVKgzNRBms8l2Rb#rd 链接标题: 【重磅】加拿大 阿省 新移民政策下，中国留学生最需要的就是这个！ 来源: 吃喝玩乐埃德蒙顿 本地链接: 查看完整内容 链接摘要: String.prototype.html = function (encode) { var replace = [\"'\", “’”, “\"”, ‘\"’, “ ”, \" “, “\u003e”, “\u003e”, “\u003c”, “\u003c”, “¥”, “¥”, “\u0026”, “\u0026”];\nvar replaceReverse = [”\u0026\"…\n",
+  "articleBody": "前阵子我刚感叹过韩国商家强烈的求生欲，结果没多久就接到了韩国商家的广告投放任务。没错，韩国商家在加国投放在中文平台的宣传。商家把文案信息提供得已经十分完善了，本来我分分钟复制粘贴个模版就能糊弄了事的工作，不过我选择很认真地把这个商家的背景信息都仔细阅读了一遍。非常佩服韩国商家的眼界和胆识。这么多年在这个竞争激烈的行业脱颖而出屹立不倒的雄厚根基让我在写广告的过程中也倍感鼓舞并学到了很多——想做第一个吃螃蟹的人，首先你要扬帆出海。野心谁都有，但要有匹配的能力和努力才能获得成功。内容很简单的推广也经过了商家严谨地商讨修改。我很喜欢跟有自己想法，互动积极的商家合作，通常这样的合作模式才会起到较理想的推广效果。\n相关链接 原始链接: http://mp.weixin.qq.com/s?__biz=MzA5ODMyMDgxNw==\u0026mid=2651012888\u0026idx=1\u0026sn=7f7d2b92a519c689e5b82bcbe124b747\u0026chksm=8b64f7c6bc137ed0763fc58a039923661863022c05607bb63c303c546708039ea5e0e8340ec2\u0026mpshare=1\u0026scene=2\u0026srcid=0628ctF1MAVKgzNRBms8l2Rb#rd\n链接标题: 【重磅】加拿大 阿省 新移民政策下，中国留学生最需要的就是这个！\n来源: 吃喝玩乐埃德蒙顿\n本地链接: 查看完整内容\n链接摘要: String.prototype.html = function (encode) {\nvar replace = [\"'\", “’”, “\"”, ‘\"’, “ ”, \" “, “\u003e”, “\u003e”, “\u003c”, “\u003c”, “¥”, “¥”, “\u0026”, “\u0026”];\nvar replaceReverse = [”\u0026\"…\n",
   "wordCount" : "41",
   "inLanguage": "en",
   "datePublished": "2018-06-28T13:00:00+08:00",
@@ -180,24 +183,20 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:8080/posts/" title="所有文章">
-                    <span>所有文章</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/archives/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
+                <a href="http://localhost:8080/search/" title="🔍 按 / 搜索 (Alt &#43; /)" accesskey=/>
+                    <span>
+                        
+                        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <span class="search-text">按 / 搜索</span>
+                        </span>
                 </a>
             </li>
         </ul>
     </nav>
-</header>
-<main class="main">
+</header><main class="main">
 
 <article class="post-single">
   <header class="post-header">
@@ -216,11 +215,11 @@
   </div>
   <div class="post-content"><p>前阵子我刚感叹过韩国商家强烈的求生欲，结果没多久就接到了韩国商家的广告投放任务。没错，韩国商家在加国投放在中文平台的宣传。商家把文案信息提供得已经十分完善了，本来我分分钟复制粘贴个模版就能糊弄了事的工作，不过我选择很认真地把这个商家的背景信息都仔细阅读了一遍。非常佩服韩国商家的眼界和胆识。这么多年在这个竞争激烈的行业脱颖而出屹立不倒的雄厚根基让我在写广告的过程中也倍感鼓舞并学到了很多——想做第一个吃螃蟹的人，首先你要扬帆出海。野心谁都有，但要有匹配的能力和努力才能获得成功。内容很简单的推广也经过了商家严谨地商讨修改。我很喜欢跟有自己想法，互动积极的商家合作，通常这样的合作模式才会起到较理想的推广效果。</p>
 <h2 id="相关链接">相关链接</h2>
-<p><strong>原始链接:</strong> <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODMyMDgxNw==&amp;mid=2651012888&amp;idx=1&amp;sn=7f7d2b92a519c689e5b82bcbe124b747&amp;chksm=8b64f7c6bc137ed0763fc58a039923661863022c05607bb63c303c546708039ea5e0e8340ec2&amp;mpshare=1&amp;scene=2&amp;srcid=0628ctF1MAVKgzNRBms8l2Rb#rd">http://mp.weixin.qq.com/s?__biz=MzA5ODMyMDgxNw==&amp;mid=2651012888&amp;idx=1&amp;sn=7f7d2b92a519c689e5b82bcbe124b747&amp;chksm=8b64f7c6bc137ed0763fc58a039923661863022c05607bb63c303c546708039ea5e0e8340ec2&amp;mpshare=1&amp;scene=2&amp;srcid=0628ctF1MAVKgzNRBms8l2Rb#rd</a>
-<strong>链接标题:</strong> 【重磅】加拿大 阿省 新移民政策下，中国留学生最需要的就是这个！
-<strong>来源:</strong> 吃喝玩乐埃德蒙顿
-<strong>本地链接:</strong> <a href="/link_content/2018/06/2018-06-28-3/link_content/">查看完整内容</a>
-<strong>链接摘要:</strong> String.prototype.html = function (encode) {
+<p><strong>原始链接:</strong> <a href="http://mp.weixin.qq.com/s?__biz=MzA5ODMyMDgxNw==&amp;mid=2651012888&amp;idx=1&amp;sn=7f7d2b92a519c689e5b82bcbe124b747&amp;chksm=8b64f7c6bc137ed0763fc58a039923661863022c05607bb63c303c546708039ea5e0e8340ec2&amp;mpshare=1&amp;scene=2&amp;srcid=0628ctF1MAVKgzNRBms8l2Rb#rd">http://mp.weixin.qq.com/s?__biz=MzA5ODMyMDgxNw==&amp;mid=2651012888&amp;idx=1&amp;sn=7f7d2b92a519c689e5b82bcbe124b747&amp;chksm=8b64f7c6bc137ed0763fc58a039923661863022c05607bb63c303c546708039ea5e0e8340ec2&amp;mpshare=1&amp;scene=2&amp;srcid=0628ctF1MAVKgzNRBms8l2Rb#rd</a><br>
+<strong>链接标题:</strong> 【重磅】加拿大 阿省 新移民政策下，中国留学生最需要的就是这个！<br>
+<strong>来源:</strong> 吃喝玩乐埃德蒙顿<br>
+<strong>本地链接:</strong> <a href="/link_content/2018/06/2018-06-28-3/link_content/">查看完整内容</a><br>
+<strong>链接摘要:</strong> String.prototype.html = function (encode) {<br>
 var replace = [&quot;'&quot;, &ldquo;&rsquo;&rdquo;, &ldquo;&quot;&rdquo;, &lsquo;&quot;&rsquo;, &ldquo; &rdquo;, &quot; &ldquo;, &ldquo;&gt;&rdquo;, &ldquo;&gt;&rdquo;, &ldquo;&lt;&rdquo;, &ldquo;&lt;&rdquo;, &ldquo;¥&rdquo;, &ldquo;¥&rdquo;, &ldquo;&amp;&rdquo;, &ldquo;&amp;&rdquo;];</p>
 <p>var replaceReverse = [&rdquo;&amp;&quot;&hellip;</p>
 

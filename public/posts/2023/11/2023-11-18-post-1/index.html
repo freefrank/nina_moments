@@ -68,6 +68,9 @@
 
 
 
+
+<script src="/js/overlay-search.js" defer></script>
+
 <meta property="og:url" content="http://localhost:8080/posts/2023/11/2023-11-18-post-1/">
   <meta property="og:site_name" content="我的朋友圈时光机">
   <meta property="og:title" content="2023-11-18 10:45:10">
@@ -114,7 +117,7 @@
   "keywords": [
     "朋友圈", "生活记录"
   ],
-  "articleBody": "记得看过一个有趣的案例：一个人工智能团队设计了一个起始分数为“0”的“老鼠走迷宫”的模型，在通往终点的道路上有奖（加分）有惩（扣分）。通过不停的训练，最后AI鼠决定直接躺在入口处“摆烂”。因为经过算法理性分析，不参与游戏才是得分不为负的最优解。😄\n相关链接 原始链接: http://mp.weixin.qq.com/s?__biz=MzA4NDU5OTA1MQ==\u0026mid=2649813524\u0026idx=1\u0026sn=c5600938996989758a677d462afbdf9d\u0026chksm=87e09a70b0971366042f1ea4af5731d53c19cf36e8246fc3190e95e3b847f50020b04cc2bffb\u0026mpshare=1\u0026scene=2\u0026srcid=1117UpcNCKHhgsQiC8Z6LImb\u0026sharer_shareinfo=c60c56eae5e69a2807e83dc49a699bd4\u0026sharer_shareinfo_first=c60c56eae5e69a2807e83dc49a699bd4#rd 链接标题: 是谁掐灭了亮亮丽君眼中的光？ 来源: 非虚构故事 本地链接: 查看完整内容 链接摘要: 你们还记得买到烂尾楼的亮亮丽君这对小夫妻吗？用下面这张图跟大家回顾一下：买房之初亮亮丽君是一对平凡且乐观的小年轻。虽然两人月薪才9000多，月供就占了6300，但他们依然对未来充满希望——他们不逛街、不看电影、不下馆子，省吃俭用，眼里还有光。自从发现自家房子烂尾后，小两口脸上的笑容越来越少。网友跟随其抖音更新，眼睁睁看着他们眼中的光一天天暗淡下去。他们的后续视频变成了与开发商漫长的撕扯。后来在有关… 包含图片: 10 张\n",
+  "articleBody": "记得看过一个有趣的案例：一个人工智能团队设计了一个起始分数为“0”的“老鼠走迷宫”的模型，在通往终点的道路上有奖（加分）有惩（扣分）。通过不停的训练，最后AI鼠决定直接躺在入口处“摆烂”。因为经过算法理性分析，不参与游戏才是得分不为负的最优解。😄\n相关链接 原始链接: http://mp.weixin.qq.com/s?__biz=MzA4NDU5OTA1MQ==\u0026mid=2649813524\u0026idx=1\u0026sn=c5600938996989758a677d462afbdf9d\u0026chksm=87e09a70b0971366042f1ea4af5731d53c19cf36e8246fc3190e95e3b847f50020b04cc2bffb\u0026mpshare=1\u0026scene=2\u0026srcid=1117UpcNCKHhgsQiC8Z6LImb\u0026sharer_shareinfo=c60c56eae5e69a2807e83dc49a699bd4\u0026sharer_shareinfo_first=c60c56eae5e69a2807e83dc49a699bd4#rd\n链接标题: 是谁掐灭了亮亮丽君眼中的光？\n来源: 非虚构故事\n本地链接: 查看完整内容\n链接摘要: 你们还记得买到烂尾楼的亮亮丽君这对小夫妻吗？用下面这张图跟大家回顾一下：买房之初亮亮丽君是一对平凡且乐观的小年轻。虽然两人月薪才9000多，月供就占了6300，但他们依然对未来充满希望——他们不逛街、不看电影、不下馆子，省吃俭用，眼里还有光。自从发现自家房子烂尾后，小两口脸上的笑容越来越少。网友跟随其抖音更新，眼睁睁看着他们眼中的光一天天暗淡下去。他们的后续视频变成了与开发商漫长的撕扯。后来在有关…\n包含图片: 10 张\n",
   "wordCount" : "15",
   "inLanguage": "en",
   "datePublished": "2023-11-18T11:00:00+08:00",
@@ -180,24 +183,20 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:8080/posts/" title="所有文章">
-                    <span>所有文章</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/archives/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
+                <a href="http://localhost:8080/search/" title="🔍 按 / 搜索 (Alt &#43; /)" accesskey=/>
+                    <span>
+                        
+                        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <span class="search-text">按 / 搜索</span>
+                        </span>
                 </a>
             </li>
         </ul>
     </nav>
-</header>
-<main class="main">
+</header><main class="main">
 
 <article class="post-single">
   <header class="post-header">
@@ -216,11 +215,11 @@
   </div>
   <div class="post-content"><p>记得看过一个有趣的案例：一个人工智能团队设计了一个起始分数为“0”的“老鼠走迷宫”的模型，在通往终点的道路上有奖（加分）有惩（扣分）。通过不停的训练，最后AI鼠决定直接躺在入口处“摆烂”。因为经过算法理性分析，不参与游戏才是得分不为负的最优解。😄</p>
 <h2 id="相关链接">相关链接</h2>
-<p><strong>原始链接:</strong> <a href="http://mp.weixin.qq.com/s?__biz=MzA4NDU5OTA1MQ==&amp;mid=2649813524&amp;idx=1&amp;sn=c5600938996989758a677d462afbdf9d&amp;chksm=87e09a70b0971366042f1ea4af5731d53c19cf36e8246fc3190e95e3b847f50020b04cc2bffb&amp;mpshare=1&amp;scene=2&amp;srcid=1117UpcNCKHhgsQiC8Z6LImb&amp;sharer_shareinfo=c60c56eae5e69a2807e83dc49a699bd4&amp;sharer_shareinfo_first=c60c56eae5e69a2807e83dc49a699bd4#rd">http://mp.weixin.qq.com/s?__biz=MzA4NDU5OTA1MQ==&amp;mid=2649813524&amp;idx=1&amp;sn=c5600938996989758a677d462afbdf9d&amp;chksm=87e09a70b0971366042f1ea4af5731d53c19cf36e8246fc3190e95e3b847f50020b04cc2bffb&amp;mpshare=1&amp;scene=2&amp;srcid=1117UpcNCKHhgsQiC8Z6LImb&amp;sharer_shareinfo=c60c56eae5e69a2807e83dc49a699bd4&amp;sharer_shareinfo_first=c60c56eae5e69a2807e83dc49a699bd4#rd</a>
-<strong>链接标题:</strong> 是谁掐灭了亮亮丽君眼中的光？
-<strong>来源:</strong> 非虚构故事
-<strong>本地链接:</strong> <a href="/link_content/2023/11/2023-11-18-1/link_content/">查看完整内容</a>
-<strong>链接摘要:</strong> 你们还记得买到烂尾楼的亮亮丽君这对小夫妻吗？用下面这张图跟大家回顾一下：买房之初亮亮丽君是一对平凡且乐观的小年轻。虽然两人月薪才9000多，月供就占了6300，但他们依然对未来充满希望——他们不逛街、不看电影、不下馆子，省吃俭用，眼里还有光。自从发现自家房子烂尾后，小两口脸上的笑容越来越少。网友跟随其抖音更新，眼睁睁看着他们眼中的光一天天暗淡下去。他们的后续视频变成了与开发商漫长的撕扯。后来在有关&hellip;
+<p><strong>原始链接:</strong> <a href="http://mp.weixin.qq.com/s?__biz=MzA4NDU5OTA1MQ==&amp;mid=2649813524&amp;idx=1&amp;sn=c5600938996989758a677d462afbdf9d&amp;chksm=87e09a70b0971366042f1ea4af5731d53c19cf36e8246fc3190e95e3b847f50020b04cc2bffb&amp;mpshare=1&amp;scene=2&amp;srcid=1117UpcNCKHhgsQiC8Z6LImb&amp;sharer_shareinfo=c60c56eae5e69a2807e83dc49a699bd4&amp;sharer_shareinfo_first=c60c56eae5e69a2807e83dc49a699bd4#rd">http://mp.weixin.qq.com/s?__biz=MzA4NDU5OTA1MQ==&amp;mid=2649813524&amp;idx=1&amp;sn=c5600938996989758a677d462afbdf9d&amp;chksm=87e09a70b0971366042f1ea4af5731d53c19cf36e8246fc3190e95e3b847f50020b04cc2bffb&amp;mpshare=1&amp;scene=2&amp;srcid=1117UpcNCKHhgsQiC8Z6LImb&amp;sharer_shareinfo=c60c56eae5e69a2807e83dc49a699bd4&amp;sharer_shareinfo_first=c60c56eae5e69a2807e83dc49a699bd4#rd</a><br>
+<strong>链接标题:</strong> 是谁掐灭了亮亮丽君眼中的光？<br>
+<strong>来源:</strong> 非虚构故事<br>
+<strong>本地链接:</strong> <a href="/link_content/2023/11/2023-11-18-1/link_content/">查看完整内容</a><br>
+<strong>链接摘要:</strong> 你们还记得买到烂尾楼的亮亮丽君这对小夫妻吗？用下面这张图跟大家回顾一下：买房之初亮亮丽君是一对平凡且乐观的小年轻。虽然两人月薪才9000多，月供就占了6300，但他们依然对未来充满希望——他们不逛街、不看电影、不下馆子，省吃俭用，眼里还有光。自从发现自家房子烂尾后，小两口脸上的笑容越来越少。网友跟随其抖音更新，眼睁睁看着他们眼中的光一天天暗淡下去。他们的后续视频变成了与开发商漫长的撕扯。后来在有关&hellip;<br>
 <strong>包含图片:</strong> 10 张</p>
 
   </div>

@@ -393,6 +393,77 @@
     display: none;
 }
 
+/* 搜索按钮 - 扁平长条形设计，SVG + 文本 */
+#menu a[href*="/search/"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: auto !important;
+    height: auto !important;
+    padding: 6px 14px !important;
+    background: var(--theme) !important;
+    color: var(--entry) !important;
+    border-radius: 16px !important;
+    text-decoration: none !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    transition: all 0.2s ease !important;
+    white-space: nowrap !important;
+    line-height: 1.2 !important;
+}
+
+#menu a[href*="/search/"]:hover {
+    background: var(--content) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15) !important;
+}
+
+/* 搜索按钮内部span容器 */
+#menu a[href*="/search/"] span {
+    display: flex !important;
+    align-items: center !important;
+    gap: 5px !important;
+}
+
+/* SVG搜索图标 - 确保颜色对比 */
+#menu a[href*="/search/"] .search-icon {
+    width: 14px !important;
+    height: 14px !important;
+    stroke: #ffffff !important;
+    flex-shrink: 0 !important;
+}
+
+/* 搜索文本 - 使用白色确保可见性 */
+#menu a[href*="/search/"] .search-text {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    color: #ffffff !important;
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+    #menu a[href*="/search/"] {
+        padding: 5px 10px !important;
+        font-size: 12px !important;
+        border-radius: 14px !important;
+    }
+    
+    #menu a[href*="/search/"] span {
+        gap: 4px !important;
+    }
+    
+    #menu a[href*="/search/"] .search-icon {
+        width: 12px !important;
+        height: 12px !important;
+        stroke: #ffffff !important;
+    }
+    
+    #menu a[href*="/search/"] .search-text {
+        font-size: 12px !important;
+        color: #ffffff !important;
+    }
+}
+
 
 /* 无结果提示样式 */
 .no-results {

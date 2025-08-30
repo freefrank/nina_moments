@@ -69,6 +69,9 @@
 
 
 
+
+<script src="/js/overlay-search.js" defer></script>
+
 <meta property="og:url" content="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">
   <meta property="og:site_name" content="我的朋友圈时光机">
   <meta property="og:title" content="生活记录">
@@ -122,24 +125,20 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:8080/posts/" title="所有文章">
-                    <span>所有文章</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/archives/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
+                <a href="http://localhost:8080/search/" title="🔍 按 / 搜索 (Alt &#43; /)" accesskey=/>
+                    <span>
+                        
+                        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <span class="search-text">按 / 搜索</span>
+                        </span>
                 </a>
             </li>
         </ul>
     </nav>
-</header>
-<main class="main"> 
+</header><main class="main"> 
 <header class="page-header">
   <h1>
     生活记录
@@ -160,9 +159,12 @@
     
     
     <div class="feed-content">
-        <p>上个月为庆祝Pride Month拍的照片，一直拖延到Pride Month快过完才修出来。🥹 对不起，我有罪。 ​ 🌈🌈 Michael Phair 是阿省第一个公开出柜的议员。为了弘扬阿省开放包容的多元文化氛围，市政府将这个位于两栋楼之间的迷你公园以这位议员的名字命名，并让艺术家们在公园的墙壁上描绘出了象征多元文化的彩虹斑点图案，成为市中心亮眼的一道风景线。让在公园中放松或经过此处的民众都可以被斑斓色彩点亮心情，以此更积极正向地去思考、理解和尊重每一个人在自由和包容的社会中所享有的平等权利。
+        <p>上个月为庆祝Pride Month拍的照片，一直拖延到Pride Month快过完才修出来。🥹 对不起，我有罪。
+​
+🌈🌈 Michael Phair 是阿省第一个公开出柜的议员。为了弘扬阿省开放包容的多元文化氛围，市政府将这个位于两栋楼之间的迷你公园以这位议员的名字命名，并让艺术家们在公园的墙壁上描绘出了象征多元文化的彩虹斑点图案，成为市中心亮眼的一道风景线。让在公园中放松或经过此处的民众都可以被斑斓色彩点亮心情，以此更积极正向地去思考、理解和尊重每一个人在自由和包容的社会中所享有的平等权利。
 🏳️‍🌈 六色彩虹旗各颜色的意义 🏳️‍🌈
-红色 ❤️ 生命Life 橙色 🧡...</p>
+红色 ❤️ 生命Life
+橙色 🧡...</p>
     </div>
   </div>
   <footer class="feed-footer"><span title='2023-06-29 12:00:00 +0800 +0800'>June 29, 2023</span>&nbsp;·&nbsp;Me</footer>
@@ -197,8 +199,7 @@
     
     
     <div class="feed-content">
-        <p>𝖚𝖗𝖇𝖆𝖓 𝖉𝖊𝖈𝖆𝖞 🆘 ​ 我在埃德蒙顿的“当烫”住了有三年多时间。那时我没有车，出行大多靠公共交通系统或者步行。我很喜欢曾经市区热情洋溢的文化氛围。除了靠近中国城附近的区域，走在爱城市区的道路上更多享受到的是一种轻松惬意。
-不过疫情后再重返埃德蒙顿市中心，体验到的却截然不同的感受——沿街大量空置商铺被砸烂了门窗，地面被污秽的呕吐物铺到无处下脚，空气中弥漫着屎尿和大嘛的气味，神志不清的流浪汉肆无忌惮地嚎叫着不堪入耳的（种族歧视）咒骂，药物过量的无家可归者用彩色的帐篷占领了公园的每一寸土地。我们曾经光鲜亮丽的市区正以前所未有的速度，在贫穷、赌博、酒精和毒品的侵蚀下，枯萎死去。 ​...</p>
+        <p>𝖚𝖗𝖇𝖆𝖓 𝖉𝖊𝖈𝖆𝖞...</p>
     </div>
   </div>
   <footer class="feed-footer"><span title='2023-06-29 10:00:00 +0800 +0800'>June 29, 2023</span>&nbsp;·&nbsp;Me</footer>
@@ -215,7 +216,7 @@
     
     
     <div class="feed-content">
-        <p>🤍 夏天盛放的山梅花，是小仙女本仙了 🤍 ​ ​这几日走在家附近的花园小径，总能嗅到一阵阵若有似无的清雅花香。寻香溯源，邂逅了这位洒落一身洁白雪絮的小仙女。 ​ ​山梅花的英文名唤作“Mock-Orange”，但她既不是橙花也不是梅花，而是绣球科的灌木，因散发类橙花的香味而得名。这种北美原生物种具备优良的抗寒性和耐适性。植株强健，花枝丰盈，花期也长，颇具观赏性，因此广受园艺爱好者的喜爱。 ​...</p>
+        <p>🤍 夏天盛放的山梅花，是小仙女本仙了...</p>
     </div>
   </div>
   <footer class="feed-footer"><span title='2023-06-27 12:00:00 +0800 +0800'>June 27, 2023</span>&nbsp;·&nbsp;Me</footer>
@@ -232,7 +233,9 @@
     
     
     <div class="feed-content">
-        <p>夏季通常是🇨🇦各类签证审理的高峰期，因此移民部的案件积压出现回升。希望各位计划办理加拿大签证、永居和入籍的客户朋友们，可以提前规划，多给我们的系统一点耐心和信心。祝愿大家锦鲤傍身，欧气爆棚，申请秒批，下签顺利！...</p>
+        <p>夏季通常是🇨🇦各类签证审理的高峰期，因此移民部的案件积压出现回升。希望各位计划办理加拿大签证、永居和入籍的客户朋友们，可以提前规划，多给我们的系统一点耐心和信心。祝愿大家锦鲤傍身，欧气爆棚，申请秒批，下签顺利！
+❤️🧡💛💚💙💜❤️🧡💛💚💙💜
+...</p>
     </div>
   </div>
   <footer class="feed-footer"><span title='2023-06-27 11:00:00 +0800 +0800'>June 27, 2023</span>&nbsp;·&nbsp;Me</footer>
@@ -250,8 +253,7 @@
     
     <div class="feed-content">
         <p>最近剧荒的小伙伴，可以去试试《羊毛战记 | Silo》。虽然这个剧评分没到神作，但设定很有意思。对种种不可说议题的影射既深刻又应景，对SH阶层的挖掘和对QL结构的批判也是真实又犀利。轻科幻重人性，废土堡垒，末日生存，反乌托邦，意识觉醒，秩序崩坏与重构（与再次崩坏）… 总之就是把戳人爽点的科幻悬疑元素都给融完了。
-虽然部分剧情节奏拖沓，但整体观影体验还过得去。全程我心中最大的疑惑是：这剧怎么还没有被禁。😂 一是不剧透，二是为避免被关小黑屋，这次我就不写观影心得了。该剧第一季本周日收官。如果你喜欢《西部世界》和《饥饿游戏》，对这种严肃科幻题材感兴趣，可冲！
-#拯救剧荒 #羊毛战记...</p>
+虽然部分剧情节奏拖沓，但整体观影体验还过得去。全程我心中最大的疑惑是：这剧怎么还没有被禁。😂...</p>
     </div>
   </div>
   <footer class="feed-footer"><span title='2023-06-27 10:00:00 +0800 +0800'>June 27, 2023</span>&nbsp;·&nbsp;Me</footer>
@@ -269,7 +271,11 @@
     
     <div class="feed-content">
         <p>🇫🇷 拥有绝佳露台的精致法餐 🇫🇷 (2/2)
-​🐌 Escargots à la Persillade | Snails with Parsley 🦴 Os à Moelle roti | Roasted Bone Marrow 🪿 Foie Gras Parfait | Parfait of Foie Gras 🍅 Bouillabaisse 🥂 Minuty Cotes De Provence...</p>
+​🐌 Escargots à la Persillade | Snails with Parsley
+🦴 Os à Moelle roti | Roasted Bone Marrow
+🪿 Foie Gras Parfait | Parfait of Foie Gras
+🍅 Bouillabaisse
+🥂 Minuty Cotes De Provence...</p>
     </div>
   </div>
   <footer class="feed-footer"><span title='2023-06-26 12:00:00 +0800 +0800'>June 26, 2023</span>&nbsp;·&nbsp;Me</footer>
@@ -286,7 +292,7 @@
     
     
     <div class="feed-content">
-        <p>后悔吗？🥹 专业、职业和理想的悖论 ​...</p>
+        <p>后悔吗？🥹...</p>
     </div>
   </div>
   <footer class="feed-footer"><span title='2023-06-26 11:00:00 +0800 +0800'>June 26, 2023</span>&nbsp;·&nbsp;Me</footer>
@@ -318,7 +324,10 @@
     
     
     <div class="feed-content">
-        <p>🔥 热知识 ​🐘 大象耳朵 / Elephant Ears 是加拿大美食。​carb-on-carb-on-carb的典范，舔一口都感觉今年的碳水摄入量算是封顶了。😂 ​ ​📍 Wild Rose Shows
+        <p>🔥 热知识
+​🐘 大象耳朵 / Elephant Ears 是加拿大美食。​carb-on-carb-on-carb的典范，舔一口都感觉今年的碳水摄入量算是封顶了。😂
+​
+​📍 Wild Rose Shows
 </p>
     </div>
   </div>

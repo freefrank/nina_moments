@@ -68,6 +68,9 @@
 
 
 
+
+<script src="/js/overlay-search.js" defer></script>
+
 <meta property="og:url" content="http://localhost:8080/posts/2023/07/2023-07-11-post/">
   <meta property="og:site_name" content="我的朋友圈时光机">
   <meta property="og:title" content="2023-07-11 05:11:31">
@@ -114,7 +117,7 @@
   "keywords": [
     "朋友圈", "生活记录"
   ],
-  "articleBody": "疫后的埃德蒙顿开设了许多新的咖啡厅、餐厅和酒吧，其中不乏个性鲜明的特色店。我的bucket list已经堆满到溢出，只恨自己没有十个亿钞票、三个胃和一个能载着我满城闲逛的称职司机。😂\nWell, Be Coffee这家以🐝作为主题的餐厅一直是我清单上的Top。因为年初的时候读了一本关于酿蜜产业的书籍，所以对蜂蜜及相关制品充满好奇与敬畏。然鹅，这家店的除了贩卖的周边产品与之相关，菜单和蜜蜂却没什么太大干系。😞 不过，U1S1，他们家咖啡还是不错的。外加地处Century Park LRT站步行距离的优越位置，走过路过进去点一杯咖啡，依然也是点亮一天，放松生活的好方式。\n🐝 • 🐝 • 🐝\n【热知识】 你知道吗？蜜蜂可以帮助埃德蒙顿及附近周边的植物授粉，从而繁荣我们城市的生物多样性和活力。因此，市议会在2015年通过了“养蜂法案”——在市区内将养蜂作为兴趣爱好是被政府允许且鼓励的！但个人出售通过养蜂获取的任何制品以牟利依然是不合规的。想要在埃德蒙顿养蜂需要申请特殊的许可证，还要注册养蜂师。嘛~甜蜜的事业也没有大家想象的那么容易！\n🍯 • 🍯• 🍯\n☕ Affogato ☕ Iced Latte\n📍 BE Coffee, 11015 26 Ave NW, Edmonton, AB T6J 5V3\n",
+  "articleBody": "疫后的埃德蒙顿开设了许多新的咖啡厅、餐厅和酒吧，其中不乏个性鲜明的特色店。我的bucket list已经堆满到溢出，只恨自己没有十个亿钞票、三个胃和一个能载着我满城闲逛的称职司机。😂\nWell, Be Coffee这家以🐝作为主题的餐厅一直是我清单上的Top。因为年初的时候读了一本关于酿蜜产业的书籍，所以对蜂蜜及相关制品充满好奇与敬畏。然鹅，这家店的除了贩卖的周边产品与之相关，菜单和蜜蜂却没什么太大干系。😞 不过，U1S1，他们家咖啡还是不错的。外加地处Century Park LRT站步行距离的优越位置，走过路过进去点一杯咖啡，依然也是点亮一天，放松生活的好方式。\n🐝 • 🐝 • 🐝\n【热知识】\n你知道吗？蜜蜂可以帮助埃德蒙顿及附近周边的植物授粉，从而繁荣我们城市的生物多样性和活力。因此，市议会在2015年通过了“养蜂法案”——在市区内将养蜂作为兴趣爱好是被政府允许且鼓励的！但个人出售通过养蜂获取的任何制品以牟利依然是不合规的。想要在埃德蒙顿养蜂需要申请特殊的许可证，还要注册养蜂师。嘛~甜蜜的事业也没有大家想象的那么容易！\n🍯 • 🍯• 🍯\n☕ Affogato\n☕ Iced Latte\n📍 BE Coffee, 11015 26 Ave NW, Edmonton, AB T6J 5V3\n",
   "wordCount" : "35",
   "inLanguage": "en",
   "datePublished": "2023-07-11T10:00:00+08:00",
@@ -180,24 +183,20 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:8080/posts/" title="所有文章">
-                    <span>所有文章</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/archives/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
+                <a href="http://localhost:8080/search/" title="🔍 按 / 搜索 (Alt &#43; /)" accesskey=/>
+                    <span>
+                        
+                        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <span class="search-text">按 / 搜索</span>
+                        </span>
                 </a>
             </li>
         </ul>
     </nav>
-</header>
-<main class="main">
+</header><main class="main">
 
 <article class="post-single">
   <header class="post-header">
@@ -241,10 +240,10 @@
   <div class="post-content"><p>疫后的埃德蒙顿开设了许多新的咖啡厅、餐厅和酒吧，其中不乏个性鲜明的特色店。我的bucket list已经堆满到溢出，只恨自己没有十个亿钞票、三个胃和一个能载着我满城闲逛的称职司机。😂</p>
 <p>Well, Be Coffee这家以🐝作为主题的餐厅一直是我清单上的Top。因为年初的时候读了一本关于酿蜜产业的书籍，所以对蜂蜜及相关制品充满好奇与敬畏。然鹅，这家店的除了贩卖的周边产品与之相关，菜单和蜜蜂却没什么太大干系。😞 不过，U1S1，他们家咖啡还是不错的。外加地处Century Park LRT站步行距离的优越位置，走过路过进去点一杯咖啡，依然也是点亮一天，放松生活的好方式。</p>
 <p>🐝 • 🐝 • 🐝</p>
-<p>【热知识】
+<p>【热知识】<br>
 你知道吗？蜜蜂可以帮助埃德蒙顿及附近周边的植物授粉，从而繁荣我们城市的生物多样性和活力。因此，市议会在2015年通过了“养蜂法案”——在市区内将养蜂作为兴趣爱好是被政府允许且鼓励的！但个人出售通过养蜂获取的任何制品以牟利依然是不合规的。想要在埃德蒙顿养蜂需要申请特殊的许可证，还要注册养蜂师。嘛~甜蜜的事业也没有大家想象的那么容易！</p>
 <p>🍯 • 🍯• 🍯</p>
-<p>☕ Affogato
+<p>☕ Affogato<br>
 ☕ Iced Latte</p>
 <p>📍 BE Coffee, 11015 26 Ave NW, Edmonton, AB T6J 5V3</p>
 

@@ -77,6 +77,9 @@
 <meta name="twitter:card" content="summary">
 
 
+<script src="/js/overlay-search.js" defer></script>
+
+
 <link rel="preload" href="/css/social-feed.css" as="style">
 <link rel="preload" href="/js/social-feed.js" as="script"><meta property="og:url" content="http://localhost:8080/">
   <meta property="og:site_name" content="我的朋友圈时光机">
@@ -146,24 +149,20 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:8080/posts/" title="所有文章">
-                    <span>所有文章</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/archives/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
+                <a href="http://localhost:8080/search/" title="🔍 按 / 搜索 (Alt &#43; /)" accesskey=/>
+                    <span>
+                        
+                        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <span class="search-text">按 / 搜索</span>
+                        </span>
                 </a>
             </li>
         </ul>
     </nav>
-</header>
-<main class="main"> 
+</header><main class="main"> 
 
 
 
@@ -768,7 +767,19 @@
     
     
     <div class="feed-content">
-        <p>今天孩咪咪陪我去院子里捡蕈儿。 它好奇地问我：“麻麻，这些蘑菇能吃吗？” ​“吃是可以吃，但会不会死就不知道了。” ​“那这些蘑菇好吃吗？” ​“那麻麻替你尝尝” ​…… ​“嗯，咱就是说医院wifi速度还可以。” ​ ​🤡 Just Kidding ​⚠️ 不认识不熟悉的蘑菇，千万不能放进嘴里！ ⚠️ 重金属富含区域，如住宅，道路，工厂附近出产的食用菌也最好不要吃哦！ ​ ​🍄 卷缘桩菇 / Brown Roll-rim...</p>
+        <p>今天孩咪咪陪我去院子里捡蕈儿。
+它好奇地问我：“麻麻，这些蘑菇能吃吗？”
+​“吃是可以吃，但会不会死就不知道了。”
+​“那这些蘑菇好吃吗？”
+​“那麻麻替你尝尝”
+​……
+​“嗯，咱就是说医院wifi速度还可以。”
+​
+​🤡 Just Kidding
+​⚠️ 不认识不熟悉的蘑菇，千万不能放进嘴里！
+⚠️ 重金属富含区域，如住宅，道路，工厂附近出产的食用菌也最好不要吃哦！
+​
+​🍄 卷缘桩菇 / Brown...</p>
     </div>
   </div>
   <footer class="feed-footer"><span title='2022-07-01 10:00:00 +0800 +0800'>July 1, 2022</span>&nbsp;·&nbsp;Me</footer>
@@ -892,7 +903,11 @@
     
     
     <div class="feed-content">
-        <p>铜锅涮肉 🐏🐏 ​ ​一时兴起定了家北京铜锅涮肉，到了发现是AYCE。没吃两口就饱了，老板还热情地给打了个折。有时候拿个相机，人模狗样地摆出个架势去吃饭还是有很多好处的。不说打折或者送甜品这种小恩小惠吧，服务热情周到点还是很常见的。☺️ 有几个粉丝不重要哈，美食博主的buff咱得手动给自个儿叠上啊！ ​ ​在加拿大，没有在饭店吃到过手切羊肉，也没有吃到过品质很好的羊肉。人力成本很贵啊，另外肉类的处理和进出口规定可能也不允许吧。😮‍💨...</p>
+        <p>铜锅涮肉 🐏🐏
+​
+​一时兴起定了家北京铜锅涮肉，到了发现是AYCE。没吃两口就饱了，老板还热情地给打了个折。有时候拿个相机，人模狗样地摆出个架势去吃饭还是有很多好处的。不说打折或者送甜品这种小恩小惠吧，服务热情周到点还是很常见的。☺️ 有几个粉丝不重要哈，美食博主的buff咱得手动给自个儿叠上啊！
+​
+​在加拿大，没有在饭店吃到过手切羊肉，也没有吃到过品质很好的羊肉。人力成本很贵啊，另外肉类的处理和进出口规定可能也不允许吧。😮‍💨...</p>
     </div>
   </div>
   <footer class="feed-footer"><span title='2022-06-11 10:00:00 +0800 +0800'>June 11, 2022</span>&nbsp;·&nbsp;Me</footer>
@@ -910,7 +925,9 @@
     
     <div class="feed-content">
         <p>『存货』在大多的旅行过程中唯一一顿早茶的配额给了名门金宴。把我那个悔的，属于是整趟旅程吃到倒数第二令人失望的饭。这样的鬼东西是这个价位和定位的餐厅应该端出来的吗？大统华的超市冷柜都吊着你们打晓得伐？屎一样的服务品质还好意思直接把小费加到账单里。搞得我连拍照的过程都很暴躁。要不是坐在旁边桌的小姐姐实在太美，我可能没吃完饭已经愤怒地掀桌走人了。😡
-#美具有安抚人心的力量 ​ ​😁...</p>
+#美具有安抚人心的力量
+​
+​😁...</p>
     </div>
   </div>
   <footer class="feed-footer"><span title='2022-06-10 10:00:00 +0800 +0800'>June 10, 2022</span>&nbsp;·&nbsp;Me</footer>
@@ -927,7 +944,8 @@
     
     
     <div class="feed-content">
-        <p>敲钟，咱是专业的！ ​时刻准备着！！！🤪
+        <p>敲钟，咱是专业的！
+​时刻准备着！！！🤪
 </p>
     </div>
   </div>

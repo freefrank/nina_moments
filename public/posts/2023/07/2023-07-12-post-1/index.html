@@ -68,6 +68,9 @@
 
 
 
+
+<script src="/js/overlay-search.js" defer></script>
+
 <meta property="og:url" content="http://localhost:8080/posts/2023/07/2023-07-12-post-1/">
   <meta property="og:site_name" content="我的朋友圈时光机">
   <meta property="og:title" content="2023-07-12 11:35:43">
@@ -114,7 +117,7 @@
   "keywords": [
     "朋友圈", "生活记录"
   ],
-  "articleBody": "2023年期的 #菇勇者 夏季特辑更新这次又有重大新发现！😃😃😃 ​ 【P1】Felted Twiglet | 散生假脐菇 伞盖上的深色“脐“状花纹和菌杆上的白色绒毛是它的特征，但是不可以吃哦 ​ ​【P2】Umbrella Polypore | 猪苓 非常珍贵且美味的簇生蘑菇，也是一种有利水渗湿功效的珍稀中药材。和蜜环菌（榛蘑）形成共生关系，无法人工栽培。本次mushroom hunting中最惊喜的发现！你们猜猜这一丛蘑菇可以被卖到多少钱？💰💰💰\n【P3】White Cheese Polypore | 白色多孔菌 典型的木栖腐生多孔菌，常见生长于桦木枯枝上，分布广泛。\n【P4】Inky Cap | 墨汁鬼伞 “鸡腿菇”毛头鬼伞的近亲，黑化自溶前可以食用。但不能与酒精同食，其原理类“头孢配酒”。\n【P5】Pinwheel Mushroom | 车轴小皮伞 ​生长在腐叶上的迷你群生小蘑菇，在雨后大量出现。因产生独特的过氧化酶而受到生物工程方面的研究。这种蘑菇也被叫做“horse hair fungus | 马毛蘑菇”，可见其体型有多细小啦~ ​ ​【P6】Stinking Dapperling | 冠环柄菇 ​头顶可爱的小雀斑，但是从名字可以看出，是一种散发特殊煤气和橡胶臭味的小家伙。这就别关心“能好怎”啦！\n【P7】未知\n【P8】Bay Polypore | 褐多孔菌 小伙伴惊呼：是“灵芝”吗？确实是其亲属。虽然无毒，但口感坚硬似木屑，因此多被培育或者采集来入药。也被称为“black-footed | 黑脚”蘑菇。 ​ ​【P9】未知 ​疑：Mycena | 小菇属\n",
+  "articleBody": "2023年期的 #菇勇者 夏季特辑更新这次又有重大新发现！😃😃😃\n​\n【P1】Felted Twiglet | 散生假脐菇\n伞盖上的深色“脐“状花纹和菌杆上的白色绒毛是它的特征，但是不可以吃哦\n​\n​【P2】Umbrella Polypore | 猪苓\n非常珍贵且美味的簇生蘑菇，也是一种有利水渗湿功效的珍稀中药材。和蜜环菌（榛蘑）形成共生关系，无法人工栽培。本次mushroom hunting中最惊喜的发现！你们猜猜这一丛蘑菇可以被卖到多少钱？💰💰💰\n【P3】White Cheese Polypore | 白色多孔菌\n典型的木栖腐生多孔菌，常见生长于桦木枯枝上，分布广泛。\n【P4】Inky Cap | 墨汁鬼伞\n“鸡腿菇”毛头鬼伞的近亲，黑化自溶前可以食用。但不能与酒精同食，其原理类“头孢配酒”。\n【P5】Pinwheel Mushroom | 车轴小皮伞\n​生长在腐叶上的迷你群生小蘑菇，在雨后大量出现。因产生独特的过氧化酶而受到生物工程方面的研究。这种蘑菇也被叫做“horse hair fungus | 马毛蘑菇”，可见其体型有多细小啦~\n​\n​【P6】Stinking Dapperling | 冠环柄菇\n​头顶可爱的小雀斑，但是从名字可以看出，是一种散发特殊煤气和橡胶臭味的小家伙。这就别关心“能好怎”啦！\n【P7】未知\n【P8】Bay Polypore | 褐多孔菌\n小伙伴惊呼：是“灵芝”吗？确实是其亲属。虽然无毒，但口感坚硬似木屑，因此多被培育或者采集来入药。也被称为“black-footed | 黑脚”蘑菇。\n​\n​【P9】未知\n​疑：Mycena | 小菇属\n",
   "wordCount" : "55",
   "inLanguage": "en",
   "datePublished": "2023-07-12T11:00:00+08:00",
@@ -180,24 +183,20 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:8080/posts/" title="所有文章">
-                    <span>所有文章</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/archives/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
+                <a href="http://localhost:8080/search/" title="🔍 按 / 搜索 (Alt &#43; /)" accesskey=/>
+                    <span>
+                        
+                        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <span class="search-text">按 / 搜索</span>
+                        </span>
                 </a>
             </li>
         </ul>
     </nav>
-</header>
-<main class="main">
+</header><main class="main">
 
 <article class="post-single">
   <header class="post-header">
@@ -238,27 +237,27 @@
       <img src="/Moments/photos/2023-07-12/202307121135438.jpg" alt="图片 9" loading="lazy">
     </div>
   </div>
-  <div class="post-content"><p>2023年期的 #菇勇者 夏季特辑更新<del>这次又有重大新发现！😃😃😃
-​
-【P1】Felted Twiglet | 散生假脐菇
-伞盖上的深色“脐“状花纹和菌杆上的白色绒毛是它的特征，但是不可以吃哦</del>
-​
-​【P2】Umbrella Polypore | 猪苓
+  <div class="post-content"><p>2023年期的 #菇勇者 夏季特辑更新<del>这次又有重大新发现！😃😃😃<br>
+​<br>
+【P1】Felted Twiglet | 散生假脐菇<br>
+伞盖上的深色“脐“状花纹和菌杆上的白色绒毛是它的特征，但是不可以吃哦</del><br>
+​<br>
+​【P2】Umbrella Polypore | 猪苓<br>
 非常珍贵且美味的簇生蘑菇，也是一种有利水渗湿功效的珍稀中药材。和蜜环菌（榛蘑）形成共生关系，无法人工栽培。本次mushroom hunting中最惊喜的发现！你们猜猜这一丛蘑菇可以被卖到多少钱？💰💰💰</p>
-<p>【P3】White Cheese Polypore | 白色多孔菌
+<p>【P3】White Cheese Polypore | 白色多孔菌<br>
 典型的木栖腐生多孔菌，常见生长于桦木枯枝上，分布广泛。</p>
-<p>【P4】Inky Cap | 墨汁鬼伞
+<p>【P4】Inky Cap | 墨汁鬼伞<br>
 “鸡腿菇”毛头鬼伞的近亲，黑化自溶前可以食用。但不能与酒精同食，其原理类“头孢配酒”。</p>
-<p>【P5】Pinwheel Mushroom | 车轴小皮伞
-​生长在腐叶上的迷你群生小蘑菇，在雨后大量出现。因产生独特的过氧化酶而受到生物工程方面的研究。这种蘑菇也被叫做“horse hair fungus | 马毛蘑菇”，可见其体型有多细小啦~
-​
-​【P6】Stinking Dapperling | 冠环柄菇
+<p>【P5】Pinwheel Mushroom | 车轴小皮伞<br>
+​生长在腐叶上的迷你群生小蘑菇，在雨后大量出现。因产生独特的过氧化酶而受到生物工程方面的研究。这种蘑菇也被叫做“horse hair fungus | 马毛蘑菇”，可见其体型有多细小啦~<br>
+​<br>
+​【P6】Stinking Dapperling | 冠环柄菇<br>
 ​头顶可爱的小雀斑，但是从名字可以看出，是一种散发特殊煤气和橡胶臭味的小家伙。这就别关心“能好怎”啦！</p>
 <p>【P7】未知</p>
-<p>【P8】Bay Polypore | 褐多孔菌
-小伙伴惊呼：是“灵芝”吗？确实是其亲属。虽然无毒，但口感坚硬似木屑，因此多被培育或者采集来入药。也被称为“black-footed | 黑脚”蘑菇。
-​
-​【P9】未知
+<p>【P8】Bay Polypore | 褐多孔菌<br>
+小伙伴惊呼：是“灵芝”吗？确实是其亲属。虽然无毒，但口感坚硬似木屑，因此多被培育或者采集来入药。也被称为“black-footed | 黑脚”蘑菇。<br>
+​<br>
+​【P9】未知<br>
 ​疑：Mycena | 小菇属</p>
 
   </div>

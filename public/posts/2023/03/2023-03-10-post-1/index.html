@@ -68,6 +68,9 @@
 
 
 
+
+<script src="/js/overlay-search.js" defer></script>
+
 <meta property="og:url" content="http://localhost:8080/posts/2023/03/2023-03-10-post-1/">
   <meta property="og:site_name" content="我的朋友圈时光机">
   <meta property="og:title" content="2023-03-10 07:12:55">
@@ -114,7 +117,7 @@
   "keywords": [
     "朋友圈", "生活记录"
   ],
-  "articleBody": "埃德蒙顿最少女心 💕 花卉主题咖啡厅 ​ ​埃德蒙顿以植物和花卉为主题的咖啡厅和餐厅不少，比如 Zocalo 和 Branches Fresh Food Experience，不过 Brew+Bloom 绝对是里面最网红，且红了很久的那个。 ​ ​其实这种用仿真花软装的主题咖啡厅在国内非常常见，毕竟成本相对低廉很多。虽然照片拍出来颜值粉嫩可爱，但其粗糙的质地根本经不起细看。你可知道小姐姐拿大光圈把乱糟糟的背景雾化了后又花了几个小时修图套滤镜？去了店里一瞧，嘿！根本不是那么回事儿…可别怪我没提醒你啊！🤫 ​ ​这家店的餐饮，老实说，要不是为了以后还有饭掐，我真的会打它个“负分滚出”。倒不是说有多难吃，主要是大写的“敷衍”。基本就是超市进货的半成品给你组装一下就端上来的程度，根本谈不上调味，连摆盘都没在走心的。这个价位这个品质，配得上周末节假日不提前两天预订都抢不到座位的Hype？ ​ 可以看出​店员已经在很努力地协调，但整个用餐体验还是很混乱。比如前菜还没上就直接从冰箱里把塌掉的甜品连盘都不摆就直接丢过来。而且你还得忍受在一圈儿寄卖手工艺品的包围下用餐，这种催促消费的商业环境和本来想营造的梦幻氛围割裂得相当厉害。\n我强烈建议如果你实在想去拍照打卡，点个饮料就完事了。千万别在这里吃套餐。灾难。 ​ 🍽️ 菜品名称 ​🩷 Sweet Cloud Mimosa (2 oz) ​🩷 Pressed Tuna Sushi ​🩷 Salmon Benedict ​🩷 Good Morning Bowl ​🩷 Cookies N’ Cream Cake\n",
+  "articleBody": "埃德蒙顿最少女心 💕 花卉主题咖啡厅\n​\n​埃德蒙顿以植物和花卉为主题的咖啡厅和餐厅不少，比如 Zocalo 和 Branches Fresh Food Experience，不过 Brew+Bloom 绝对是里面最网红，且红了很久的那个。\n​\n​其实这种用仿真花软装的主题咖啡厅在国内非常常见，毕竟成本相对低廉很多。虽然照片拍出来颜值粉嫩可爱，但其粗糙的质地根本经不起细看。你可知道小姐姐拿大光圈把乱糟糟的背景雾化了后又花了几个小时修图套滤镜？去了店里一瞧，嘿！根本不是那么回事儿…可别怪我没提醒你啊！🤫\n​\n​这家店的餐饮，老实说，要不是为了以后还有饭掐，我真的会打它个“负分滚出”。倒不是说有多难吃，主要是大写的“敷衍”。基本就是超市进货的半成品给你组装一下就端上来的程度，根本谈不上调味，连摆盘都没在走心的。这个价位这个品质，配得上周末节假日不提前两天预订都抢不到座位的Hype？\n​\n可以看出​店员已经在很努力地协调，但整个用餐体验还是很混乱。比如前菜还没上就直接从冰箱里把塌掉的甜品连盘都不摆就直接丢过来。而且你还得忍受在一圈儿寄卖手工艺品的包围下用餐，这种催促消费的商业环境和本来想营造的梦幻氛围割裂得相当厉害。\n我强烈建议如果你实在想去拍照打卡，点个饮料就完事了。千万别在这里吃套餐。灾难。\n​\n🍽️ 菜品名称\n​🩷 Sweet Cloud Mimosa (2 oz)\n​🩷 Pressed Tuna Sushi\n​🩷 Salmon Benedict\n​🩷 Good Morning Bowl\n​🩷 Cookies N’ Cream Cake\n",
   "wordCount" : "45",
   "inLanguage": "en",
   "datePublished": "2023-03-10T11:00:00+08:00",
@@ -180,24 +183,20 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:8080/posts/" title="所有文章">
-                    <span>所有文章</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/archives/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
+                <a href="http://localhost:8080/search/" title="🔍 按 / 搜索 (Alt &#43; /)" accesskey=/>
+                    <span>
+                        
+                        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <span class="search-text">按 / 搜索</span>
+                        </span>
                 </a>
             </li>
         </ul>
     </nav>
-</header>
-<main class="main">
+</header><main class="main">
 
 <article class="post-single">
   <header class="post-header">
@@ -238,22 +237,22 @@
       <img src="/Moments/photos/2023-03-10/202303100712558.jpg" alt="图片 9" loading="lazy">
     </div>
   </div>
-  <div class="post-content"><p>埃德蒙顿最少女心 💕 花卉主题咖啡厅
-​
-​埃德蒙顿以植物和花卉为主题的咖啡厅和餐厅不少，比如 Zocalo 和 Branches Fresh Food Experience，不过 Brew+Bloom 绝对是里面最网红，且红了很久的那个。
-​
-​其实这种用仿真花软装的主题咖啡厅在国内非常常见，毕竟成本相对低廉很多。虽然照片拍出来颜值粉嫩可爱，但其粗糙的质地根本经不起细看。你可知道小姐姐拿大光圈把乱糟糟的背景雾化了后又花了几个小时修图套滤镜？去了店里一瞧，嘿！根本不是那么回事儿…可别怪我没提醒你啊！🤫
-​
-​这家店的餐饮，老实说，要不是为了以后还有饭掐，我真的会打它个“负分滚出”。倒不是说有多难吃，主要是大写的“敷衍”。基本就是超市进货的半成品给你组装一下就端上来的程度，根本谈不上调味，连摆盘都没在走心的。这个价位这个品质，配得上周末节假日不提前两天预订都抢不到座位的Hype？
-​
+  <div class="post-content"><p>埃德蒙顿最少女心 💕 花卉主题咖啡厅<br>
+​<br>
+​埃德蒙顿以植物和花卉为主题的咖啡厅和餐厅不少，比如 Zocalo 和 Branches Fresh Food Experience，不过 Brew+Bloom 绝对是里面最网红，且红了很久的那个。<br>
+​<br>
+​其实这种用仿真花软装的主题咖啡厅在国内非常常见，毕竟成本相对低廉很多。虽然照片拍出来颜值粉嫩可爱，但其粗糙的质地根本经不起细看。你可知道小姐姐拿大光圈把乱糟糟的背景雾化了后又花了几个小时修图套滤镜？去了店里一瞧，嘿！根本不是那么回事儿…可别怪我没提醒你啊！🤫<br>
+​<br>
+​这家店的餐饮，老实说，要不是为了以后还有饭掐，我真的会打它个“负分滚出”。倒不是说有多难吃，主要是大写的“敷衍”。基本就是超市进货的半成品给你组装一下就端上来的程度，根本谈不上调味，连摆盘都没在走心的。这个价位这个品质，配得上周末节假日不提前两天预订都抢不到座位的Hype？<br>
+​<br>
 可以看出​店员已经在很努力地协调，但整个用餐体验还是很混乱。比如前菜还没上就直接从冰箱里把塌掉的甜品连盘都不摆就直接丢过来。而且你还得忍受在一圈儿寄卖手工艺品的包围下用餐，这种催促消费的商业环境和本来想营造的梦幻氛围割裂得相当厉害。</p>
-<p>我强烈建议如果你实在想去拍照打卡，点个饮料就完事了。千万别在这里吃套餐。灾难。
-​
-🍽️ 菜品名称
-​🩷 Sweet Cloud Mimosa (2 oz)
-​🩷 Pressed Tuna Sushi
-​🩷 Salmon Benedict
-​🩷 Good Morning Bowl
+<p>我强烈建议如果你实在想去拍照打卡，点个饮料就完事了。千万别在这里吃套餐。灾难。<br>
+​<br>
+🍽️ 菜品名称<br>
+​🩷 Sweet Cloud Mimosa (2 oz)<br>
+​🩷 Pressed Tuna Sushi<br>
+​🩷 Salmon Benedict<br>
+​🩷 Good Morning Bowl<br>
 ​🩷 Cookies N’ Cream Cake</p>
 
   </div>

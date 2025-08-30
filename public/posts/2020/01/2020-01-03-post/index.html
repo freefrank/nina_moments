@@ -68,6 +68,9 @@
 
 
 
+
+<script src="/js/overlay-search.js" defer></script>
+
 <meta property="og:url" content="http://localhost:8080/posts/2020/01/2020-01-03-post/">
   <meta property="og:site_name" content="我的朋友圈时光机">
   <meta property="og:title" content="2020-01-03 23:49:21">
@@ -114,7 +117,7 @@
   "keywords": [
     "朋友圈", "生活记录"
   ],
-  "articleBody": "很久没有踩过这么响的雷了。\n先不说吃的，先说一件 #迷惑行为大赏\n小鲸鱼吃饭吃到一半，去上了趟厕所。上着上着听到外面有人敲门拉门推门。他没有理，继续安心拉屎。过了半分钟，锁着的门突然被钥匙打开了。此时的状况十分九监九介：一个拿着钥匙的服务生和一个尿急的老头站在门外，不知所措地望着厕所里脱了裤子一脸懵逼的小鲸鱼。门外的俩人仿佛不能明白一个令人费解的疑问：被锁上的厕所里为什么会有人在大便？\n为什么？ 厕所的门被锁上了到底是因为什么？\nCOZ IT IS FUCKING OCCUPIED! YOU STUPID FUCK.\n啧啧，你们来品品这件事的魔幻程度。\n—— 无情的分割线 ——\n对于牛角大部分人还是比较期待的。从国内回来以后一直没有去吃一是因为懒，二是因为不想去当烫这种停车费比饭钱还高的地方凑热闹。牛角做为日本最大规模的烧肉连锁，在国际上的分店已超过五十家。其宗旨是给顾客带来高品质低价位的日式烧肉。然鹅，吃完的我赶脚俺要么是对“物美”有个误会，要么是对“价廉”进行了曲解。小菜的不走心程度令人发指，烧肉的新鲜程度堪忧，刀工差到推锅给临时工都略显勉强。腌渍的酱料千篇一律：齁到费解，甜到忧伤。就连篦子油也舍不得多刷两把，烧着烧着就变成焦糖炭烤五花。\n我和从厕所逃回来的小鲸鱼，呆坐在桌旁沉思良久——思考着为什么我们要坐在一家日本料理店吃中国人开的韩国烧烤？是Baekjeong的车位不好停，是Lee House的牛肉不够嫩，还是金森的自助不够香？\n",
+  "articleBody": "很久没有踩过这么响的雷了。\n先不说吃的，先说一件 #迷惑行为大赏\n小鲸鱼吃饭吃到一半，去上了趟厕所。上着上着听到外面有人敲门拉门推门。他没有理，继续安心拉屎。过了半分钟，锁着的门突然被钥匙打开了。此时的状况十分九监九介：一个拿着钥匙的服务生和一个尿急的老头站在门外，不知所措地望着厕所里脱了裤子一脸懵逼的小鲸鱼。门外的俩人仿佛不能明白一个令人费解的疑问：被锁上的厕所里为什么会有人在大便？\n为什么？\n厕所的门被锁上了到底是因为什么？\nCOZ IT IS FUCKING OCCUPIED!\nYOU STUPID FUCK.\n啧啧，你们来品品这件事的魔幻程度。\n—— 无情的分割线 ——\n对于牛角大部分人还是比较期待的。从国内回来以后一直没有去吃一是因为懒，二是因为不想去当烫这种停车费比饭钱还高的地方凑热闹。牛角做为日本最大规模的烧肉连锁，在国际上的分店已超过五十家。其宗旨是给顾客带来高品质低价位的日式烧肉。然鹅，吃完的我赶脚俺要么是对“物美”有个误会，要么是对“价廉”进行了曲解。小菜的不走心程度令人发指，烧肉的新鲜程度堪忧，刀工差到推锅给临时工都略显勉强。腌渍的酱料千篇一律：齁到费解，甜到忧伤。就连篦子油也舍不得多刷两把，烧着烧着就变成焦糖炭烤五花。\n我和从厕所逃回来的小鲸鱼，呆坐在桌旁沉思良久——思考着为什么我们要坐在一家日本料理店吃中国人开的韩国烧烤？是Baekjeong的车位不好停，是Lee House的牛肉不够嫩，还是金森的自助不够香？\n",
   "wordCount" : "21",
   "inLanguage": "en",
   "datePublished": "2020-01-03T10:00:00+08:00",
@@ -180,24 +183,20 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:8080/posts/" title="所有文章">
-                    <span>所有文章</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/archives/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
+                <a href="http://localhost:8080/search/" title="🔍 按 / 搜索 (Alt &#43; /)" accesskey=/>
+                    <span>
+                        
+                        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <span class="search-text">按 / 搜索</span>
+                        </span>
                 </a>
             </li>
         </ul>
     </nav>
-</header>
-<main class="main">
+</header><main class="main">
 
 <article class="post-single">
   <header class="post-header">
@@ -241,9 +240,9 @@
   <div class="post-content"><p>很久没有踩过这么响的雷了。</p>
 <p>先不说吃的，先说一件 #迷惑行为大赏</p>
 <p>小鲸鱼吃饭吃到一半，去上了趟厕所。上着上着听到外面有人敲门拉门推门。他没有理，继续安心拉屎。过了半分钟，锁着的门突然被钥匙打开了。此时的状况十分九监九介：一个拿着钥匙的服务生和一个尿急的老头站在门外，不知所措地望着厕所里脱了裤子一脸懵逼的小鲸鱼。门外的俩人仿佛不能明白一个令人费解的疑问：被锁上的厕所里为什么会有人在大便？</p>
-<p>为什么？
+<p>为什么？<br>
 厕所的门被锁上了到底是因为什么？</p>
-<p>COZ IT IS FUCKING OCCUPIED!
+<p>COZ IT IS FUCKING OCCUPIED!<br>
 YOU STUPID FUCK.</p>
 <p>啧啧，你们来品品这件事的魔幻程度。</p>
 <p>—— 无情的分割线 ——</p>

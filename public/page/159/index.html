@@ -77,6 +77,9 @@
 <meta name="twitter:card" content="summary">
 
 
+<script src="/js/overlay-search.js" defer></script>
+
+
 <link rel="preload" href="/css/social-feed.css" as="style">
 <link rel="preload" href="/js/social-feed.js" as="script"><meta property="og:url" content="http://localhost:8080/">
   <meta property="og:site_name" content="我的朋友圈时光机">
@@ -146,24 +149,20 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:8080/posts/" title="所有文章">
-                    <span>所有文章</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/archives/" title="归档">
-                    <span>归档</span>
-                </a>
-            </li>
-            <li>
-                <a href="http://localhost:8080/search/" title="搜索 (Alt &#43; /)" accesskey=/>
-                    <span>搜索</span>
+                <a href="http://localhost:8080/search/" title="🔍 按 / 搜索 (Alt &#43; /)" accesskey=/>
+                    <span>
+                        
+                        <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8"></circle>
+                            <path d="m21 21-4.35-4.35"></path>
+                        </svg>
+                        <span class="search-text">按 / 搜索</span>
+                        </span>
                 </a>
             </li>
         </ul>
     </nav>
-</header>
-<main class="main"> 
+</header><main class="main"> 
 
 
 
@@ -859,7 +858,8 @@
     
     
     <div class="feed-content">
-        <p>天气热了起来。 没办法脱下毛衣的小家伙们，只能摊开在地板上乘凉🥰
+        <p>天气热了起来。
+没办法脱下毛衣的小家伙们，只能摊开在地板上乘凉🥰
 </p>
     </div>
   </div>
@@ -920,7 +920,9 @@
     
     
     <div class="feed-content">
-        <p>在追《隐秘的角落》。 不吹剧怎么样，这个片尾曲名单也太棒了吧~ 这个走心程度，爱了爱了。🥰
+        <p>在追《隐秘的角落》。
+不吹剧怎么样，这个片尾曲名单也太棒了吧~
+这个走心程度，爱了爱了。🥰
 </p>
     </div>
   </div>
@@ -938,9 +940,12 @@
     
     
     <div class="feed-content">
-        <p>#猫咪快乐草 小小年纪，沉迷“吸草”~
-家里最喜欢猫薄荷的小老虎， 闻到新鲜猫薄荷的心情居然是：“切，就这？”
-看来是这个品种“劲儿”不够大啊！ 主子，小的这是对不住您啦~😅
+        <p>#猫咪快乐草
+小小年纪，沉迷“吸草”~
+家里最喜欢猫薄荷的小老虎，
+闻到新鲜猫薄荷的心情居然是：“切，就这？”
+看来是这个品种“劲儿”不够大啊！
+主子，小的这是对不住您啦~😅
 </p>
     </div>
   </div>

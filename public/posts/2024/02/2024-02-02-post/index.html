@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-02-02 10:00:00 +0800 +0800'>February 2, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-02-02/202402020624080.jpg&#34;,&#34;/Moments/photos/2024-02-02/202402020624081.jpg&#34;,&#34;/Moments/photos/2024-02-02/202402020624082.jpg&#34;,&#34;/Moments/photos/2024-02-02/202402020624083.jpg&#34;,&#34;/Moments/photos/2024-02-02/202402020624084.jpg&#34;,&#34;/Moments/photos/2024-02-02/202402020624085.jpg&#34;,&#34;/Moments/photos/2024-02-02/202402020624086.jpg&#34;,&#34;/Moments/photos/2024-02-02/202402020624087.jpg&#34;,&#34;/Moments/photos/2024-02-02/202402020624088.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-02-02/202402020624080.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-02-02/202402020624081.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-02-02/202402020624082.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-02-02/202402020624083.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-02-02/202402020624084.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-02-02/202402020624085.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-02-02/202402020624086.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-02-02/202402020624087.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-02-02/202402020624088.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>😃 成都人别看，是恶评。
 ​
 ​成都有两个机场。一个在南面，另一个也在南面。世界上最远的距离，莫过于成都天府机场到成都的距离。从天府机场出来，车要开一个多小时才能跑拢老爹的家门。更可怕的是，我老爹家住在成都的南面。为什么成都的天府机场要修在这里？别问，问就是“新西兰”人口外溢。
@@ -214,16 +247,6 @@
 <p>玩笑归玩笑，再玩地域梗会被举办到封🎺。成都和四川当然还是有很多值得夸（找）奖（补）的优点，请容我思考思考思考。</p>
 <p>​【热知识①】四川省第二大城市是绵阳。
 ​【热知识②】五粮液是四川宜宾市企业。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-02-02/202402020624080.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-02-02/202402020624081.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-02-02/202402020624082.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-02-02/202402020624083.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-02-02/202402020624084.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-02-02/202402020624085.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-02-02/202402020624086.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-02-02/202402020624087.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-02-02/202402020624088.jpg"></p>
-
 
   </div>
 
@@ -233,7 +256,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

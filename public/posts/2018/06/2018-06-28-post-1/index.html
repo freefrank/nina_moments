@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,23 +206,35 @@
     <div class="post-meta"><span title='2018-06-28 11:00:00 +0800 +0800'>June 28, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>最近看到一个巨好看的纪录片。
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-06-28/201806281337200.jpg&#34;,&#34;/Moments/photos/2018-06-28/201806281337201.jpg&#34;,&#34;/Moments/photos/2018-06-28/201806281337202.jpg&#34;,&#34;/Moments/photos/2018-06-28/201806281337203.jpg&#34;,&#34;/Moments/photos/2018-06-28/201806281337204.jpg&#34;,&#34;/Moments/photos/2018-06-28/201806281337205.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-06-28/201806281337200.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2018-06-28/201806281337201.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2018-06-28/201806281337202.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2018-06-28/201806281337203.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2018-06-28/201806281337204.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2018-06-28/201806281337205.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">最近看到一个巨好看的纪录片。
 叫《人生一串》
 上来第一集第一个讲的就是我大西昌的火盆烧烤。
 虽然文案有点尬，
 但画面极其虐心。
 看完你们会爱上它的。
 特别适合晚上睡觉前或者减肥人士观看。[微笑]
-比如现在。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-06-28/201806281337200.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2018-06-28/201806281337201.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2018-06-28/201806281337202.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2018-06-28/201806281337203.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2018-06-28/201806281337204.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2018-06-28/201806281337205.jpg"></p>
-
-
+比如现在。
   </div>
 
   <footer class="post-footer">
@@ -227,7 +243,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

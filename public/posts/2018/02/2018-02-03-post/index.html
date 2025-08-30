@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,11 +206,13 @@
     <div class="post-meta"><span title='2018-02-03 10:00:00 +0800 +0800'>February 3, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>今天做了一个粉色猫眼+蓝紫色闪片的指甲油。里面的光柱会随着光源的移动而移动位置。效果很酷炫，实际上很简单。常见的光疗甲卸起来非常麻烦。我用的是可剥离式的底油，所以可以三四天看腻了扒掉重新涂，方便到个不行。可剥离式底油也不会损伤指甲表面。我的指甲算厚的，经得起我这么折腾。另外我尽量不用buffer打磨指甲表面，指甲表面打磨过薄照光就会很痛。所以黄就黄着吧。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-02-03/201802031413310.jpg"></p>
-
-
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-02-03/201802031413310.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-02-03/201802031413310.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">今天做了一个粉色猫眼+蓝紫色闪片的指甲油。里面的光柱会随着光源的移动而移动位置。效果很酷炫，实际上很简单。常见的光疗甲卸起来非常麻烦。我用的是可剥离式的底油，所以可以三四天看腻了扒掉重新涂，方便到个不行。可剥离式底油也不会损伤指甲表面。我的指甲算厚的，经得起我这么折腾。另外我尽量不用buffer打磨指甲表面，指甲表面打磨过薄照光就会很痛。所以黄就黄着吧。
   </div>
 
   <footer class="post-footer">
@@ -215,7 +221,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

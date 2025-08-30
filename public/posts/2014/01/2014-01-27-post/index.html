@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2014-01-27 10:00:00 +0800 +0800'>January 27, 2014</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2014-01-27/201401271215030.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2014-01-27/201401271215030.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>下面提到的男生行为你是否介意。   <br>
 1.长相不是很出众: 要啥自行车？
 2.身高比你矮：要比我还矮那有点难度。
@@ -237,8 +246,6 @@
 34.老对你说“喜欢你的内在，不在乎你的外表”的男生：你来缩缩我内在哪里让你喜欢了？估计小哥支支吾吾半天不能说出来一条有用的。
 35.吵架后，不做解释。只是来一句“我爱你”：你以为你是吴彦祖么？</p>
 <p>点十个姑娘。  这个调查好好笑哈哈哈哈哈哈哈哈哈哈&hellip;.</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2014-01-27/201401271215030.jpg"></p>
-
 
   </div>
 
@@ -248,7 +255,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

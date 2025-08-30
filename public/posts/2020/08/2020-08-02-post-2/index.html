@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,18 +206,31 @@
     <div class="post-meta"><span title='2020-08-02 12:00:00 +0800 +0800'>August 2, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-08-02/202008020907250.jpg&#34;,&#34;/Moments/photos/2020-08-02/202008020907251.jpg&#34;,&#34;/Moments/photos/2020-08-02/202008020907252.jpg&#34;,&#34;/Moments/photos/2020-08-02/202008020907253.jpg&#34;,&#34;/Moments/photos/2020-08-02/202008020907254.jpg&#34;,&#34;/Moments/photos/2020-08-02/202008020907255.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-08-02/202008020907250.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2020-08-02/202008020907251.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2020-08-02/202008020907252.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2020-08-02/202008020907253.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2020-08-02/202008020907254.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2020-08-02/202008020907255.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>’黄金山谷’百合</p>
 <p>昨天拍的“塑料花’其实是这种体型巨大的黄色百合，和她旁边正常型号的‘小金蛋’一比着实大了好几圈。这种百合的杂交祖先应该就是中国的王百合。植株可以长到人那么高，花朵和人的脸一样大，奶油般的馥郁甜香充盈整个花园，是夏天院子里最引人注目的明星。</p>
 <p>百合花在这边实属懒人花卉，只需要刨个坑埋在土里就能每年坐等看花。光照靠太阳，浇水靠下雨，不需要施肥和修建就能开出许多花来。每年冬天地上部分冻死，来年春天再从原来的位置长出新球，发出更多新枝。</p>
 <p>表现这么优秀的百合花你爱了吗？</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-08-02/202008020907250.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2020-08-02/202008020907251.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2020-08-02/202008020907252.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2020-08-02/202008020907253.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2020-08-02/202008020907254.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2020-08-02/202008020907255.jpg"></p>
-
 
   </div>
 
@@ -223,7 +240,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

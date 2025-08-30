@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,21 @@
     <div class="post-meta"><span title='2020-01-11 11:00:00 +0800 +0800'>January 11, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-01-11/202001110947030.jpg&#34;,&#34;/Moments/photos/2020-01-11/202001110947031.jpg&#34;,&#34;/Moments/photos/2020-01-11/202001110947032.jpg&#34;,&#34;/Moments/photos/2020-01-11/202001110947033.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-01-11/202001110947030.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2020-01-11/202001110947031.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2020-01-11/202001110947032.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2020-01-11/202001110947033.jpg" alt="图片 4" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>#afunnystorytoshare</p>
 <p>不知道该怎么开始这个让人无语又好笑的故事。我和小鲸鱼去吃早茶的时候点了一份烧卖，端上来的时候我按照惯例一阵咔嚓，拍着拍着感觉不对：一只烧烤的造型十分别致——虽然它摔倒了，但是鱼籽却完好地坐在它的肚皮上面。厨师在装盘的时候似乎并没有要扶它一下的意思，就这样不走心地，敷衍出新高度地，假装不会有人发现，也不会有人在意地，把鱼籽直接丢到了它的烧麦皮上。😂😂😂我脑海中就自动生成了后面那张hilarious meme。</p>
 <p>I am not being mean or picky to anyone😂. I understand we live in Sherwood Park, where are barely any competitions between Chinese restaurants. Unfortunately my phone captured this awkward moment, so I decide to share it with us.</p>
@@ -211,11 +229,6 @@ Does this ‘insignificant detail’ matter?
 What will be your reaction if it happens to you?</p>
 <p>That made me think a lot.</p>
 <p>#mademydaybysomeextend</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-01-11/202001110947030.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2020-01-11/202001110947031.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2020-01-11/202001110947032.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2020-01-11/202001110947033.jpg"></p>
-
 
   </div>
 
@@ -225,7 +238,17 @@ What will be your reaction if it happens to you?</p>
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

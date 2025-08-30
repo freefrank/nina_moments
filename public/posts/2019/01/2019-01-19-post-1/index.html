@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,27 @@
     <div class="post-meta"><span title='2019-01-19 11:00:00 +0800 +0800'>January 19, 2019</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2019-01-19/201901190832480.jpg&#34;,&#34;/Moments/photos/2019-01-19/201901190832481.jpg&#34;,&#34;/Moments/photos/2019-01-19/201901190832482.jpg&#34;,&#34;/Moments/photos/2019-01-19/201901190832483.jpg&#34;,&#34;/Moments/photos/2019-01-19/201901190832484.jpg&#34;,&#34;/Moments/photos/2019-01-19/201901190832485.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2019-01-19/201901190832480.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2019-01-19/201901190832481.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2019-01-19/201901190832482.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2019-01-19/201901190832483.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2019-01-19/201901190832484.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2019-01-19/201901190832485.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>【成都三道街老宅子肥肠鱼】</p>
 <p>之前在国内吃了好些个美食，这才得空把照片导出来整理整理。回国的最后几天下了个“苍蝇馆子”，是传说中只有本地老司机才找得到的“巷巷头的老店”，然鹅好吃的肥肠鱼不怕巷儿深，还么进巷儿你口水都跟倒流下来。</p>
 <p>十月中旬的成都已经开始阴冷，当天还飘着几丝零星小雨，但这浇灭不了吃货那颗定要吃到肥肠鱼沸腾的心。会吃的好吃狗儿们围堵在gai边，急迫地逼问着端菜小妹儿：“前头还有好多桌？”</p>
@@ -210,13 +234,6 @@
 <p>老锅老灶老汤，端上来的鱼儿在锅儿头好像还沸腾得在板。成都这边的传统是原汤拿来打蘸水，一勺鲜辣的滚汤浇在嘣脆的炒豌豆上，激发出了碟中豆瓣酱海椒面儿混合散发出的浓香。此时我充分感受到文字描写在饮食面前的局限和苍白。</p>
 <p>我顾不上BB，我连照片都不拍了，我一阵埋头苦吃。</p>
 <p>这篇文章木得言辞较好，发人省醒的结尾。今天我不写教科书，劳资只想连倒扯几个嗝斗儿。啷个说喃，巴适得板！</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2019-01-19/201901190832480.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2019-01-19/201901190832481.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2019-01-19/201901190832482.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2019-01-19/201901190832483.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2019-01-19/201901190832484.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2019-01-19/201901190832485.jpg"></p>
-
 
   </div>
 
@@ -226,7 +243,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

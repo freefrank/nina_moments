@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-01-13 10:00:00 +0800 +0800'>January 13, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-01-13/202401131616010.jpg&#34;,&#34;/Moments/photos/2024-01-13/202401131616011.jpg&#34;,&#34;/Moments/photos/2024-01-13/202401131616012.jpg&#34;,&#34;/Moments/photos/2024-01-13/202401131616013.jpg&#34;,&#34;/Moments/photos/2024-01-13/202401131616014.jpg&#34;,&#34;/Moments/photos/2024-01-13/202401131616015.jpg&#34;,&#34;/Moments/photos/2024-01-13/202401131616016.jpg&#34;,&#34;/Moments/photos/2024-01-13/202401131616017.jpg&#34;,&#34;/Moments/photos/2024-01-13/202401131616018.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-01-13/202401131616010.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-01-13/202401131616011.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-01-13/202401131616012.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-01-13/202401131616013.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-01-13/202401131616014.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-01-13/202401131616015.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-01-13/202401131616016.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-01-13/202401131616017.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-01-13/202401131616018.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🧓 何为“宜居”
 ​
 谈起​峨眉山这座县级市，我其实是没什么发言权的。我对这里的印象还停留在模糊的儿时游览记忆，而此次短居的感受也算不得好——在本应秋高气爽的季节，这里硬是连绵了整周的阴雨。我没有见过峨眉的太阳，也没有见过峨眉的月亮。洗完的衣物根本没有晾干过，我的脑回路甚至都染上了风湿病，就连飞过的鸟都会被如孔不入的潮气入侵，冻到拉稀。
@@ -219,16 +252,6 @@
 <p>正如水里畅游的鱼儿不会羡慕天上翱翔的孤鸟。即便你给她一片天，她也不会想要游上去。因为她明白，自己已经活在了最宜居的世界里。​此般美好，是不需要征得飞鸟的理解和同意。</p>
 <p>#峨眉山 VOL.3_1
 ​</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-01-13/202401131616010.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-01-13/202401131616011.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-01-13/202401131616012.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-01-13/202401131616013.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-01-13/202401131616014.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-01-13/202401131616015.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-01-13/202401131616016.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-01-13/202401131616017.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-01-13/202401131616018.jpg"></p>
-
 
   </div>
 
@@ -238,7 +261,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

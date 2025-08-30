@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,21 @@
     <div class="post-meta"><span title='2018-03-18 12:00:00 +0800 +0800'>March 18, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-03-18/201803180414590.jpg&#34;,&#34;/Moments/photos/2018-03-18/201803180414591.jpg&#34;,&#34;/Moments/photos/2018-03-18/201803180414592.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-03-18/201803180414590.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2018-03-18/201803180414591.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2018-03-18/201803180414592.jpg" alt="图片 3" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>感觉自己捡了个大漏。</p>
 <p>刷子对于美妆爱好者就像画笔之于画家。之前买刷子的时候觉得自己技术也就那样，根本用不到很精致高级的刷子。但是过了一阵子，发现自己的购物欲果然是难以遏制的。Sigma家的刷子是怎样的存在我就不多废话了。面部刷还好，眼妆刷我是怎么囤都囤不够的。再加上前几天洗刷子的时候把一支zoeva的洗崩了，所以看到这套刷子比官网折扣还凶残的瞬间就把它丢进了购物车。人造纤维毛的优点还是很多的，弹性强，不易变形，用起来心里也没有屠杀小动物的罪恶感。终于补齐了眼头刷和唇刷了～敬请期待之后我出各种妖艳贱货的诡异造型～[奸笑]</p>
 <p>另外，WEM的Winners貌似要撤店了，很多Section都被搬空了。大家可以趁它关门之前淘点好货回来。之前的钢铁侠面膜眼膜就是在那里囤的。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-03-18/201803180414590.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2018-03-18/201803180414591.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2018-03-18/201803180414592.jpg"></p>
-
 
   </div>
 
@@ -219,7 +230,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

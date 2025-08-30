@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,19 +206,37 @@
     <div class="post-meta"><span title='2014-09-17 12:00:00 +0800 +0800'>September 17, 2014</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>好遺憾生日照片大部份不是我自己照的。非常感謝這次來參加我生日趴踢的小夥伴們。兔子很開心能和大家一起慶祝生日。不到12點就開始斷所以都沒有陪大家玩好十分抱歉。好後悔沒有和大家好好照相呀！你們對兔子的祝福和精心準備的禮物小兔子都收到啦！希望你們和我一樣幸福～啦啦啦～🎂🎁🌹🎈[害羞]</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2014-09-17/201409170321540.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2014-09-17/201409170321541.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2014-09-17/201409170321542.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2014-09-17/201409170321543.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2014-09-17/201409170321544.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2014-09-17/201409170321545.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2014-09-17/201409170321546.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2014-09-17/201409170321547.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2014-09-17/201409170321548.jpg"></p>
-
-
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2014-09-17/201409170321540.jpg&#34;,&#34;/Moments/photos/2014-09-17/201409170321541.jpg&#34;,&#34;/Moments/photos/2014-09-17/201409170321542.jpg&#34;,&#34;/Moments/photos/2014-09-17/201409170321543.jpg&#34;,&#34;/Moments/photos/2014-09-17/201409170321544.jpg&#34;,&#34;/Moments/photos/2014-09-17/201409170321545.jpg&#34;,&#34;/Moments/photos/2014-09-17/201409170321546.jpg&#34;,&#34;/Moments/photos/2014-09-17/201409170321547.jpg&#34;,&#34;/Moments/photos/2014-09-17/201409170321548.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2014-09-17/201409170321540.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2014-09-17/201409170321541.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2014-09-17/201409170321542.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2014-09-17/201409170321543.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2014-09-17/201409170321544.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2014-09-17/201409170321545.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2014-09-17/201409170321546.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2014-09-17/201409170321547.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2014-09-17/201409170321548.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">好遺憾生日照片大部份不是我自己照的。非常感謝這次來參加我生日趴踢的小夥伴們。兔子很開心能和大家一起慶祝生日。不到12點就開始斷所以都沒有陪大家玩好十分抱歉。好後悔沒有和大家好好照相呀！你們對兔子的祝福和精心準備的禮物小兔子都收到啦！希望你們和我一樣幸福～啦啦啦～🎂🎁🌹🎈[害羞]
   </div>
 
   <footer class="post-footer">
@@ -223,7 +245,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

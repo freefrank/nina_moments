@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-10-07 11:00:00 +0800 +0800'>October 7, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-10-07/202410070649310.jpg&#34;,&#34;/Moments/photos/2024-10-07/202410070649311.jpg&#34;,&#34;/Moments/photos/2024-10-07/202410070649312.jpg&#34;,&#34;/Moments/photos/2024-10-07/202410070649313.jpg&#34;,&#34;/Moments/photos/2024-10-07/202410070649314.jpg&#34;,&#34;/Moments/photos/2024-10-07/202410070649315.jpg&#34;,&#34;/Moments/photos/2024-10-07/202410070649316.jpg&#34;,&#34;/Moments/photos/2024-10-07/202410070649317.jpg&#34;,&#34;/Moments/photos/2024-10-07/202410070649318.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-10-07/202410070649310.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-10-07/202410070649311.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-10-07/202410070649312.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-10-07/202410070649313.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-10-07/202410070649314.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-10-07/202410070649315.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-10-07/202410070649316.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-10-07/202410070649317.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-10-07/202410070649318.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🍵 川茶和川茶文化
 ​
 ​这次回国拜访了中国的茶山武夷山，沿路南下也领略到浓厚的中国茶饮文化。饮茶是中国南方沿海地区的重要日常生活仪式。家家户户的客厅里，无论经济状况如何，都会设有豪华的茶案和全套茶具。早起要喝茶，下午要喝茶，甚至晚饭后睡觉前也要来一杯。“做乜嘢？饮茶先！”
@@ -217,16 +250,6 @@
 ​
 我并不抵触喝茶这件事，长大后的我也已经像个正经四川人一样习惯了久泡茶水的苦涩。毕竟赛博游牧的牛马被拴在电脑前编织PPT手搓时间轴，是没有闲心去茶案上关公巡城韩信点兵。无论是闻着沉香跪在茶席上优雅地抿，还是摇着蒲扇躺在竹椅上敞开了灌，不过是茶的千百种喝法之一。人生实际上是没有那么多台面要你去上的。多喝一口，少喝一口，实际上并不会改变你的身份。爱喝岩茶还是花茶，也无法去定义你的人格，到底是高贵还是Low Bee。</p>
 <p>​#喝茶</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-10-07/202410070649310.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-10-07/202410070649311.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-10-07/202410070649312.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-10-07/202410070649313.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-10-07/202410070649314.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-10-07/202410070649315.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-10-07/202410070649316.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-10-07/202410070649317.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-10-07/202410070649318.jpg"></p>
-
 
   </div>
 
@@ -236,7 +259,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

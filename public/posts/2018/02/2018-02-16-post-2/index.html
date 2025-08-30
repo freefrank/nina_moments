@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,11 +206,14 @@
     <div class="post-meta"><span title='2018-02-16 12:00:00 +0800 +0800'>February 16, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-02-16/201802160827100.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-02-16/201802160827100.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>一帆风顺吉星照，万事如意步步高。四季平安春常在，财源滚滚福年来。金牛扬鞭辞旧岁，五虎长啸迎春来。旧岁再添几个喜，新年更上一层楼。小年祝你万事如意！爆竹响激情燃放，雪花舞祥风欢畅，烟火腾期待闪亮，感动涌心中激荡，心情美春节冲浪，愿景好心中珍藏，祝与福短信奉上：祝您身体健康，狗年吉祥！</p>
 <p>上面那些吉祥话都是我复制粘贴的。既然八百年都不联系一回，又不发红包给我，那么我们维持友谊的方式，可能只剩下点赞了吧？😂</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-02-16/201802160827100.jpg"></p>
-
 
   </div>
 
@@ -216,7 +223,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-07-19 10:00:00 +0800 +0800'>July 19, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-07-19/202407190731560.jpg&#34;,&#34;/Moments/photos/2024-07-19/202407190731561.jpg&#34;,&#34;/Moments/photos/2024-07-19/202407190731562.jpg&#34;,&#34;/Moments/photos/2024-07-19/202407190731563.jpg&#34;,&#34;/Moments/photos/2024-07-19/202407190731564.jpg&#34;,&#34;/Moments/photos/2024-07-19/202407190731565.jpg&#34;,&#34;/Moments/photos/2024-07-19/202407190731566.jpg&#34;,&#34;/Moments/photos/2024-07-19/202407190731567.jpg&#34;,&#34;/Moments/photos/2024-07-19/202407190731568.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-07-19/202407190731560.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-07-19/202407190731561.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-07-19/202407190731562.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-07-19/202407190731563.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-07-19/202407190731564.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-07-19/202407190731565.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-07-19/202407190731566.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-07-19/202407190731567.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-07-19/202407190731568.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🧭 南下美食记录 • 海南篇 (2)</p>
 <p>🍽️ 海南本地美食
 海南菜，又称琼菜，是中国传统八大菜系之外颇具自身风味的地方菜系之一。海南菜历经两千余年的发展历程，以福建、广东沿海各省的烹饪之法做基础，又吸收黎族、苗族和当地原住民的饮食文化，引进东南亚等地的特色佳肴，形成了风格鲜明、风味百变的海南菜系，素有&quot;海产万类，陆产千名&quot;的美誉。</p>
@@ -216,16 +249,6 @@
 <p>🦆 黄流老鸭
 黄流老鸭是一道源自上世纪80年代乐东黄流镇的特色菜。其关键字就在于一个“老”。所选原料，必是下过蛋一年以上的老鸭，因此肉味浓郁，厚实耐嚼。许多游客抱怨老鸭“咬不动”，在旅游餐里吃到根本就是坑爹。其实我认为老鸭最适合的吃法还是下酒。无论是白灼还是爆炒，都是值得顺着骨头唆一整晚，越嚼越香的好物。</p>
 <p>#海南美食</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-07-19/202407190731560.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-07-19/202407190731561.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-07-19/202407190731562.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-07-19/202407190731563.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-07-19/202407190731564.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-07-19/202407190731565.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-07-19/202407190731566.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-07-19/202407190731567.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-07-19/202407190731568.jpg"></p>
-
 
   </div>
 
@@ -235,7 +258,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

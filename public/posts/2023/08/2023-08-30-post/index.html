@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,27 @@
     <div class="post-meta"><span title='2023-08-30 10:00:00 +0800 +0800'>August 30, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-08-30/202308300700250.jpg&#34;,&#34;/Moments/photos/2023-08-30/202308300700251.jpg&#34;,&#34;/Moments/photos/2023-08-30/202308300700252.jpg&#34;,&#34;/Moments/photos/2023-08-30/202308300700253.jpg&#34;,&#34;/Moments/photos/2023-08-30/202308300700254.jpg&#34;,&#34;/Moments/photos/2023-08-30/202308300700255.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-08-30/202308300700250.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-08-30/202308300700251.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-08-30/202308300700252.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-08-30/202308300700253.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2023-08-30/202308300700254.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2023-08-30/202308300700255.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>《在埃德蒙顿生活的十五年（下）》
 ​
 为了呼应“十五”年这个数字，​这组赛博手帐我一共做了十五张。特意挑选出埃德蒙顿一些特色地标，来分享我与之关联的回忆。</p>
@@ -222,13 +246,6 @@
 是她教会了我去嗅​会凋谢的花，去望会消散的云。去抚摸会风化的砖石，去经历会褪色的回忆。我在试图和她达成一种独特的沟通方式，这是我们之间不足以与外人道也的约定。
 ​
 ​#埃德蒙顿</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-08-30/202308300700250.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-08-30/202308300700251.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-08-30/202308300700252.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-08-30/202308300700253.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2023-08-30/202308300700254.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2023-08-30/202308300700255.jpg"></p>
-
 
   </div>
 
@@ -238,7 +255,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-04-24 10:00:00 +0800 +0800'>April 24, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-04-24/202504242248150.jpg&#34;,&#34;/Moments/photos/2025-04-24/202504242248151.jpg&#34;,&#34;/Moments/photos/2025-04-24/202504242248152.jpg&#34;,&#34;/Moments/photos/2025-04-24/202504242248153.jpg&#34;,&#34;/Moments/photos/2025-04-24/202504242248154.jpg&#34;,&#34;/Moments/photos/2025-04-24/202504242248155.jpg&#34;,&#34;/Moments/photos/2025-04-24/202504242248156.jpg&#34;,&#34;/Moments/photos/2025-04-24/202504242248157.jpg&#34;,&#34;/Moments/photos/2025-04-24/202504242248158.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-04-24/202504242248150.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-04-24/202504242248151.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-04-24/202504242248152.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-04-24/202504242248153.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-04-24/202504242248154.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-04-24/202504242248155.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-04-24/202504242248156.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-04-24/202504242248157.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-04-24/202504242248158.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>东南亚之旅景点篇 03 | City Walk @牛车水</p>
 <p>我们在新加坡投宿的宾馆，正好位于牛车水。做攻略时我发现这个地名时常出现在名单上，不过是“黑榜”。许多游客抱怨这里脏乱差：售卖义乌进口来的劣质小商品，不如国内三线城市的城乡结合部洋气，是个给华人脸上抹黑，专坑外国游客的鬼地方。</p>
 <p>毕竟，在许多人心目中，新加坡的“国设”是一座整洁有序、富裕现代的“花园城市”。他们难以想象，在这样国家的市中心竟还藏着个如此“不体面”的地方。然而，正是这种不体面，让我格外期待与牛车水相遇。它是新加坡这个“制度牢笼”中不小心流露出的一丝人味儿，是我乐于去挖掘的文化多面体禁区。</p>
@@ -215,16 +248,6 @@
 <p>牛车水的“没落”并等于衰败，而是一种结构性的转型。它从早期的“侨民避风港”与“底层奋斗池”，逐渐演化为一块兼具观光、记忆与文化展示功能的城市拼图。丰硕的南洋华人文化被包装成橱窗中展售的商品，我也只能透过玻璃用目光去粗浅地抚摸它斑驳的质地。
 ​
 ​#牛车水</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-04-24/202504242248150.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-04-24/202504242248151.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-04-24/202504242248152.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-04-24/202504242248153.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-04-24/202504242248154.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-04-24/202504242248155.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-04-24/202504242248156.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-04-24/202504242248157.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-04-24/202504242248158.jpg"></p>
-
 
   </div>
 
@@ -234,7 +257,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

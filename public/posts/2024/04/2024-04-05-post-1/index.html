@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-04-05 11:00:00 +0800 +0800'>April 5, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-04-05/202404051215210.jpg&#34;,&#34;/Moments/photos/2024-04-05/202404051215211.jpg&#34;,&#34;/Moments/photos/2024-04-05/202404051215212.jpg&#34;,&#34;/Moments/photos/2024-04-05/202404051215213.jpg&#34;,&#34;/Moments/photos/2024-04-05/202404051215214.jpg&#34;,&#34;/Moments/photos/2024-04-05/202404051215215.jpg&#34;,&#34;/Moments/photos/2024-04-05/202404051215216.jpg&#34;,&#34;/Moments/photos/2024-04-05/202404051215217.jpg&#34;,&#34;/Moments/photos/2024-04-05/202404051215218.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-04-05/202404051215210.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-04-05/202404051215211.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-04-05/202404051215212.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-04-05/202404051215213.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-04-05/202404051215214.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-04-05/202404051215215.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-04-05/202404051215216.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-04-05/202404051215217.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-04-05/202404051215218.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>La Prosciutteria 在意大利语中是“火腿店”的意思。从名称不难猜到这家店主打的菜系。其实我回国前这家店就已经开业了，但是今天才以小鲸鱼生日的由头吃上。他们家以颜值爆灯的咸品Brunch塔美出圈，没那么爱吃糖又想约下午茶的集美们可以关注一下。当然他们家值得尝试的品类不止于此，这次开胃菜小酌体验下来还是非常喜欢的。😊</p>
 <p>火腿香肠芝士冷盘这种东西我和小鲸鱼都超级喜欢，几乎每天都吃，比我们吃中餐的频率还高。冷盘制备起来非常简单，只要家里有基础的冷餐肉类、奶酪、坚果和面包等原料，切好摆盘就可以上桌。无论是午餐晚餐还是宵夜小食都可以应付。丰俭由人，主打一个随心所欲。之前吃了一整年的地中海饮食，瘦了十五斤，身体也变好了很多，所以我个人还是很推荐想要减肥，又不想损失太多生活质量的小伙伴们尝试一下的。</p>
 <p>🇮🇹🇮🇹🇮🇹</p>
@@ -227,16 +260,6 @@ Tiramisu
 ​💰 $$$$，酒水很贵
 ​
 ​#意大利 #开胃菜</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-04-05/202404051215210.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-04-05/202404051215211.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-04-05/202404051215212.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-04-05/202404051215213.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-04-05/202404051215214.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-04-05/202404051215215.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-04-05/202404051215216.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-04-05/202404051215217.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-04-05/202404051215218.jpg"></p>
-
 
   </div>
 
@@ -246,7 +269,17 @@ Tiramisu
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

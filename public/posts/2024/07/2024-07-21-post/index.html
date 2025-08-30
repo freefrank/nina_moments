@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,11 +206,10 @@
     <div class="post-meta"><span title='2024-07-21 10:00:00 +0800 +0800'>July 21, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
   <div class="post-content"><p>『拍摄&amp;写作灵感来源』</p>
 <p>法国新浪潮《四百击》影史最有名的结尾长镜头之一。特吕弗自己的首部电影长片《四百击》，片名来自于法国谚语“打百下”(Fait les Cent Coups)，也有胡作非为，天下大乱的意思。</p>
 <p>《四百击》抓取了男孩安托万的一些少年时间。被判进入少年感化所后，一个间隙他溜了出去，溜向海边，留下了一个影史上最经典的长镜头。男孩一直奔跑，镜头缓慢跟随，穿过田野、穿过树丛，到达海滩，直到最后镜头定格在安托万稚嫩的脸上，电影结束。</p>
-
 
   </div>
 
@@ -216,7 +219,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

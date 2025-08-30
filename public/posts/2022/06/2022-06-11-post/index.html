@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,15 +206,17 @@
     <div class="post-meta"><span title='2022-06-11 10:00:00 +0800 +0800'>June 11, 2022</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>铜锅涮肉 🐏🐏
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2022-06-11/202206111440340.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2022-06-11/202206111440340.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">铜锅涮肉 🐏🐏
 ​
 ​一时兴起定了家北京铜锅涮肉，到了发现是AYCE。没吃两口就饱了，老板还热情地给打了个折。有时候拿个相机，人模狗样地摆出个架势去吃饭还是有很多好处的。不说打折或者送甜品这种小恩小惠吧，服务热情周到点还是很常见的。☺️ 有几个粉丝不重要哈，美食博主的buff咱得手动给自个儿叠上啊！
 ​
-​在加拿大，没有在饭店吃到过手切羊肉，也没有吃到过品质很好的羊肉。人力成本很贵啊，另外肉类的处理和进出口规定可能也不允许吧。😮‍💨 有没有懂的朋友讲讲？哪里可以搞点好羊肉来？</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2022-06-11/202206111440340.jpg"></p>
-
-
+​在加拿大，没有在饭店吃到过手切羊肉，也没有吃到过品质很好的羊肉。人力成本很贵啊，另外肉类的处理和进出口规定可能也不允许吧。😮‍💨 有没有懂的朋友讲讲？哪里可以搞点好羊肉来？
   </div>
 
   <footer class="post-footer">
@@ -219,7 +225,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

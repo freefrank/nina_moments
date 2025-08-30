@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-03-31 10:00:00 +0800 +0800'>March 31, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-03-31/202503311249330.jpg&#34;,&#34;/Moments/photos/2025-03-31/202503311249331.jpg&#34;,&#34;/Moments/photos/2025-03-31/202503311249332.jpg&#34;,&#34;/Moments/photos/2025-03-31/202503311249333.jpg&#34;,&#34;/Moments/photos/2025-03-31/202503311249334.jpg&#34;,&#34;/Moments/photos/2025-03-31/202503311249335.jpg&#34;,&#34;/Moments/photos/2025-03-31/202503311249336.jpg&#34;,&#34;/Moments/photos/2025-03-31/202503311249337.jpg&#34;,&#34;/Moments/photos/2025-03-31/202503311249338.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-03-31/202503311249330.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-03-31/202503311249331.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-03-31/202503311249332.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-03-31/202503311249333.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-03-31/202503311249334.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-03-31/202503311249335.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-03-31/202503311249336.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-03-31/202503311249337.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-03-31/202503311249338.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🗼来自韩国的巴黎倍儿甜</p>
 <p>2023年，巴黎贝甜 (Paris Baguette) 这个品牌在埃德蒙顿几乎同时开出两家门店，以惊人的声量迅速刷爆社交平台。但那时我刚好回国，错过了第一波热潮。之后也一直没把探店提上日程，因为我在青岛吃过一次，说实话感觉中规中矩——毕竟我不是那种只要甜品“不太甜”就会感满意的食客。而且，我对这个品牌抱有复杂的感观。</p>
 <p>2022年，是巴黎贝甜因舆论暴风“出圈”的一年。在韩国，一名年仅23岁的女工在工厂连续工作十小时后被机器卷入身亡，然而公司次日照常复工，甚至在葬礼上分发自家面包，引发“人血面包”抵制风波。而在上海疫情封控期间，该品牌虽因在无证场所制作面包被处罚，却因及时为居民派餐赢得部分民众好感。这种一边压榨劳工、一边传递温情的相斥形象，也让人开始重新审视这个貌似“倍儿甜”的品牌。</p>
@@ -214,16 +247,6 @@
 <p>&ldquo;There&rsquo;s something for everyone.&rdquo;
 ​
 ​#巴黎贝甜</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-03-31/202503311249330.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-03-31/202503311249331.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-03-31/202503311249332.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-03-31/202503311249333.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-03-31/202503311249334.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-03-31/202503311249335.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-03-31/202503311249336.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-03-31/202503311249337.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-03-31/202503311249338.jpg"></p>
-
 
   </div>
 
@@ -233,7 +256,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,23 +206,42 @@
     <div class="post-meta"><span title='2024-09-13 10:00:00 +0800 +0800'>September 13, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-09-13/202409130805190.jpg&#34;,&#34;/Moments/photos/2024-09-13/202409130805191.jpg&#34;,&#34;/Moments/photos/2024-09-13/202409130805192.jpg&#34;,&#34;/Moments/photos/2024-09-13/202409130805193.jpg&#34;,&#34;/Moments/photos/2024-09-13/202409130805194.jpg&#34;,&#34;/Moments/photos/2024-09-13/202409130805195.jpg&#34;,&#34;/Moments/photos/2024-09-13/202409130805196.jpg&#34;,&#34;/Moments/photos/2024-09-13/202409130805197.jpg&#34;,&#34;/Moments/photos/2024-09-13/202409130805198.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-09-13/202409130805190.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-09-13/202409130805191.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-09-13/202409130805192.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-09-13/202409130805193.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-09-13/202409130805194.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-09-13/202409130805195.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-09-13/202409130805196.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-09-13/202409130805197.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-09-13/202409130805198.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🎂 𝓐𝓷𝓸𝓽𝓱𝓮𝓻 𝔂𝓮𝓪𝓻, 𝓪𝓷𝓸𝓽𝓱𝓮𝓻 𝓳𝓸𝓾𝓻𝓷𝓮𝔂 🎂</p>
 <p>As the fall breeze whispers of change, I reflect on the past with gratitude and look forward to the future with excitement. This season of life feels like the perfect time to let go, evolve, and thrive in every way possible.</p>
 <p>34 &amp; 𝘍𝘭𝘰𝘶𝘳𝘪𝘴𝘩𝘪𝘯𝘨!</p>
 <p>​🍂🍄🍻🎃​🍂🍄🍻🎃​🍂🍄🍻🎃​🍂🍄🍻🎃
 ​
 ​#happybirthday</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-09-13/202409130805190.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-09-13/202409130805191.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-09-13/202409130805192.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-09-13/202409130805193.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-09-13/202409130805194.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-09-13/202409130805195.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-09-13/202409130805196.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-09-13/202409130805197.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-09-13/202409130805198.jpg"></p>
-
 
   </div>
 
@@ -228,7 +251,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

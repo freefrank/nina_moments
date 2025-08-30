@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2023-06-02 11:00:00 +0800 +0800'>June 2, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-06-02/202306020822550.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-06-02/202306020822550.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>前几日经过一个停车场，偶然瞥见角落里一家冰淇淋餐车孤零零地矗立其中。没有顾客，没人排队，我甚至不确定它是否尚在营业。走进一瞧，发现是曾经的“初代网红” Scoop N Roll Creamery。这一景象，悄然叩响了我死去多年的青春回忆。</p>
 <p>遥想2016年的夏天，这是几乎和Pokemo Go一般，以迅雷不及掩耳盗铃之势席卷破屯儿的火热IP。和当前门可罗雀的落魄惨状形成鲜明对比，我还依稀回想得起当年我掐着它开店时间和地点，开了40分钟车又排了半小时队，才品尝到的那令人失望的服务和没滋没味的冰淇淋。</p>
 <p>印象中，我已经无法回忆起这个品牌的身影上次出现在我社交平台的时间线。7年时间过去，这个曾经以加拿大第一家泰式炒冰淇淋作为卖点的埃德蒙顿原创品牌居然还活着！不过，存活状态堪忧。虽然商品的品质和服务得到了一定提升，然而，我会将它划分到我日常光顾的餐厅名单上吗？</p>
@@ -214,8 +223,6 @@
 <p>我时常思考网红经济式营销对于面向追逐热点，但普遍兜里又没几个钱儿的年轻消费者的商业品牌是否是必选项。当然，作为得利于这种商业推广模式的行业从业者，我并没有立场去对它进行批判。然而，这种以透支品牌未来关注热度和发展潜力的营销方式，却总让我不由得为一些“不得不过气”的品牌感到唏嘘怅惋。</p>
 <p>如若选择稳扎稳打，或许可以在激烈的竞争赛道上存活更长时间；如若选择积极转型，或许可以在瞬息万变的餐饮市场中抓牢自己的核心价值所在。可惜，他们中的大部分，已经失去笼络稳定客户群体和良好口碑去长远立足于餐饮行业的契机，只能沦为昙花一现的“过气网红”，被封印在“去年今日”帖文提醒中，成为揭开略显尴尬，回忆又带点矫情的，让人羞于回首的历史尘埃。
 ​</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-06-02/202306020822550.jpg"></p>
-
 
   </div>
 
@@ -225,7 +232,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-07-21 10:00:00 +0800 +0800'>July 21, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-07-21/202507210915270.jpg&#34;,&#34;/Moments/photos/2025-07-21/202507210915271.jpg&#34;,&#34;/Moments/photos/2025-07-21/202507210915272.jpg&#34;,&#34;/Moments/photos/2025-07-21/202507210915273.jpg&#34;,&#34;/Moments/photos/2025-07-21/202507210915274.jpg&#34;,&#34;/Moments/photos/2025-07-21/202507210915275.jpg&#34;,&#34;/Moments/photos/2025-07-21/202507210915276.jpg&#34;,&#34;/Moments/photos/2025-07-21/202507210915277.jpg&#34;,&#34;/Moments/photos/2025-07-21/202507210915278.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-07-21/202507210915270.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-07-21/202507210915271.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-07-21/202507210915272.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-07-21/202507210915273.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-07-21/202507210915274.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-07-21/202507210915275.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-07-21/202507210915276.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-07-21/202507210915277.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-07-21/202507210915278.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🌹 爸爸的蔷薇花园
 ​
 ​每次回国，都会回到成都的这个家。说来也奇怪，我真正住在这个家里的时间其实少得可怜。尤其从未在春天花开的时候回来过。但这次四月的归程，却带给我也许的惊喜：爬架上的蔷薇花开正盛，枝蔓间缀满如露珠般晶莹的花朵，在阳光下闪烁光彩，随微风轻轻摇曳，倾泻出整个春日最甜美的蓬勃生机。这是爸爸的劳动成果——自从去年退休后，他便把生活安置进这片小花园里，每天早晚悉心“经优”，播种、换土、修枝、施肥，乐此不疲。</p>
@@ -214,16 +247,6 @@
 <p>六月的初夏，我带着小鲸鱼回来探亲。再次踏进这座花园，蔷薇已经谢了，结出了不起眼的绿色果实。藤架又覆盖上一层风车茉莉，开着娟秀而细碎的星旋型白花。夜风袭来，捎带出她沉闷的香甜气息，毫不客气地将我掀翻在地。葡萄还没熟，天气却热得起劲。不知明年这个时候，能否有机会回家品尝到阳光玫瑰的甜蜜，或是在寒冬腊月里，欣赏到兰草温婉隽秀的倩影。
 ​
 ​#蔷薇</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-07-21/202507210915270.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-07-21/202507210915271.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-07-21/202507210915272.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-07-21/202507210915273.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-07-21/202507210915274.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-07-21/202507210915275.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-07-21/202507210915276.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-07-21/202507210915277.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-07-21/202507210915278.jpg"></p>
-
 
   </div>
 
@@ -233,7 +256,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

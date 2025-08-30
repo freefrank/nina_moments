@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2024-05-20 10:00:00 +0800 +0800'>May 20, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-05-20/202405201029380.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-05-20/202405201029380.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>松茸，在高贵些什么？</p>
 <p>有一年回国，四姨妈从山里采购来了十几斤松茸。裹着泥巴和干草的松茸大小不一，被松散地塞在几个纸箱里。我不禁畅想：这要是放在日本，换套房子是不是都不成问题？当然松茸在四川原产地也是珍贵的野味，只是过去并没被大量采食，因为我们还有鸡枞、见手青和干巴菌那些更符合本地人口味的野生菌。近几十年随着日本大量的收购，松茸的身价水涨船高，其价值认可才外溢到本地市场。</p>
 <p>松茸在日本文化中有着特殊的含义。相传，这是广岛市在1945年遭遇原子弹爆炸后第一个从废墟中长出的生物，象征着日本顽强的战后重建精神。而本身松茸也是日本颇具代表性的食材：在秋季采摘松茸（松茸狩り）和春季赏樱一样被认为是传统日式社交活动。然而，在过去的半个世纪里，日本的松茸产量却出现了毁灭性滑坡，让这种平民食材从曾经年产量高达一万多吨（1941年）缩水到现在的年产量不足一千吨，成为奇货可居的高级礼品。</p>
@@ -214,8 +223,6 @@
 🖋️ by Anna Tsing</p>
 <p>#读书笔记 21
 ​#松茸</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-05-20/202405201029380.jpg"></p>
-
 
   </div>
 
@@ -225,7 +232,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

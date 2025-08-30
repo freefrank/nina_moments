@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-05-29 11:00:00 +0800 +0800'>May 29, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-05-29/202505291441450.jpg&#34;,&#34;/Moments/photos/2025-05-29/202505291441451.jpg&#34;,&#34;/Moments/photos/2025-05-29/202505291441452.jpg&#34;,&#34;/Moments/photos/2025-05-29/202505291441453.jpg&#34;,&#34;/Moments/photos/2025-05-29/202505291441454.jpg&#34;,&#34;/Moments/photos/2025-05-29/202505291441455.jpg&#34;,&#34;/Moments/photos/2025-05-29/202505291441456.jpg&#34;,&#34;/Moments/photos/2025-05-29/202505291441457.jpg&#34;,&#34;/Moments/photos/2025-05-29/202505291441458.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-05-29/202505291441450.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-05-29/202505291441451.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-05-29/202505291441452.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-05-29/202505291441453.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-05-29/202505291441454.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-05-29/202505291441455.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-05-29/202505291441456.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-05-29/202505291441457.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-05-29/202505291441458.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>东南亚之行景点篇 15 | 金马伦高原花卉公园
 ​
 ​这次回国最让我大受震撼的，是日常生活的极致便利与便宜。商家的内卷式竞争和精细到极致的服务，让我这个偶尔回城感受工业文明成果的“乡下人”仿佛推开了新世界的大门。只是，幸好我不是这套系统里参与各个制造环节的人工，作为没有良心和大脑的消费者来讲一切就都很perfect。</p>
@@ -218,16 +251,6 @@
 ​#形势大好
 #外耗他人
 ​#人工智能代替不了我因为它们生成不出这么疯的东西</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-05-29/202505291441450.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-05-29/202505291441451.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-05-29/202505291441452.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-05-29/202505291441453.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-05-29/202505291441454.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-05-29/202505291441455.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-05-29/202505291441456.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-05-29/202505291441457.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-05-29/202505291441458.jpg"></p>
-
 
   </div>
 
@@ -237,7 +260,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

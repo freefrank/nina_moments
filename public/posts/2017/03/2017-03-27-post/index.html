@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,19 +206,38 @@
     <div class="post-meta"><span title='2017-03-27 10:00:00 +0800 +0800'>March 27, 2017</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2017-03-27/201703271243240.jpg&#34;,&#34;/Moments/photos/2017-03-27/201703271243241.jpg&#34;,&#34;/Moments/photos/2017-03-27/201703271243242.jpg&#34;,&#34;/Moments/photos/2017-03-27/201703271243243.jpg&#34;,&#34;/Moments/photos/2017-03-27/201703271243244.jpg&#34;,&#34;/Moments/photos/2017-03-27/201703271243245.jpg&#34;,&#34;/Moments/photos/2017-03-27/201703271243246.jpg&#34;,&#34;/Moments/photos/2017-03-27/201703271243247.jpg&#34;,&#34;/Moments/photos/2017-03-27/201703271243248.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2017-03-27/201703271243240.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2017-03-27/201703271243241.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2017-03-27/201703271243242.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2017-03-27/201703271243243.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2017-03-27/201703271243244.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2017-03-27/201703271243245.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2017-03-27/201703271243246.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2017-03-27/201703271243247.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2017-03-27/201703271243248.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>随着年龄的增长，发际线越来越高，不得不开始考虑以（假）刘海来掩盖岁月的痕迹。而且越来越心虚别人“夸”我有“少妇”的质感。说我胖啊什么的我都可以忍，唯独“少妇”能让我分分钟爆炸给你看！小公举我是拒绝的！！！</p>
 <p>好，回归正题。这家章鱼花园可能很多大温本地er都不知道，因为店面实在太小了！店里的装饰全部都是以章鱼为主题。日本空运食材，真是，鲜美到一个极致了。吃完可以打着饱嗝拍着肚子说一句“大满足”，并且以后吃不到会日思夜想的程度。不过搞笑的是，今天我们并没有吃到章鱼😂。同时这家店也比较贵，轻轻松松人均一百刀。虽然钱荷包很心痛，但是味蕾和胃都很满足。😌</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2017-03-27/201703271243240.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2017-03-27/201703271243241.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2017-03-27/201703271243242.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2017-03-27/201703271243243.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2017-03-27/201703271243244.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2017-03-27/201703271243245.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2017-03-27/201703271243246.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2017-03-27/201703271243247.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2017-03-27/201703271243248.jpg"></p>
-
 
   </div>
 
@@ -224,7 +247,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

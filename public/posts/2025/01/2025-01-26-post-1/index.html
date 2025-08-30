@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2025-01-26 11:00:00 +0800 +0800'>January 26, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-01-26/202501261107080.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-01-26/202501261107080.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🌍 Café Olimpico 奥林匹克精神的本源
 ​
 提前完成​了蒙特利尔皇家山的行程，我们决定开车在城里随便逛逛。七拐八拐，来到全球最酷50个街区之一的“小意大利”。在蒙特利尔这样一座以法语为官方语言的城市，对浪漫奔放的意大利风情展现出这般沉迷似乎有点不合时宜。下午三点不是一个喝咖啡的好时间，但弥漫在空气中浓烈的咖啡豆香气，像一枚鱼钩将我对咖啡的心瘾精准钓出：来都来了，确定不要整一杯？
@@ -215,8 +224,6 @@
 ​人类对于制度的想象，往往美好得不切实际。然而，秩序是现实与理想的不断博弈结出的果实，绝大多数时候苦涩得难以下咽。但这不是文明这艘拥有自我修复能力的方舟渡不过是天堑，他们有一个虽不明确但依然想要抵达的明天。幸好是有了这些对美好的期待，让我们没有放任人性滋生出无法洗刷的阴暗。在希望的火种庇佑下，我们也不用在丛林社会中为了一些虚妄的象征去相互屠戮，不用一次次去重蹈这覆灭的循环。
 ​
 ​#奥林匹克精神</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-01-26/202501261107080.jpg"></p>
-
 
   </div>
 
@@ -226,7 +233,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

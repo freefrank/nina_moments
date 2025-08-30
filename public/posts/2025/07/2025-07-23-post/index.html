@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-07-23 10:00:00 +0800 +0800'>July 23, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-07-23/202507231117230.jpg&#34;,&#34;/Moments/photos/2025-07-23/202507231117231.jpg&#34;,&#34;/Moments/photos/2025-07-23/202507231117232.jpg&#34;,&#34;/Moments/photos/2025-07-23/202507231117233.jpg&#34;,&#34;/Moments/photos/2025-07-23/202507231117234.jpg&#34;,&#34;/Moments/photos/2025-07-23/202507231117235.jpg&#34;,&#34;/Moments/photos/2025-07-23/202507231117236.jpg&#34;,&#34;/Moments/photos/2025-07-23/202507231117237.jpg&#34;,&#34;/Moments/photos/2025-07-23/202507231117238.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-07-23/202507231117230.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-07-23/202507231117231.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-07-23/202507231117232.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-07-23/202507231117233.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-07-23/202507231117234.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-07-23/202507231117235.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-07-23/202507231117236.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-07-23/202507231117237.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-07-23/202507231117238.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>【踏过浮世烟火，再识人间山河】景物篇 • 04 | ​💐 不为谁盛开的蔚然花海
 ​
 ​回国是在四月中旬，正值成都春花盛放的时节。爸爸问我想去哪儿玩？我说，我想去看花。成都及其周边有不少主打花卉观光的景点。我曾经去过三圣花乡和花舞人间，印象都不错。爸爸说，他知道一处特色的小火车可以乘坐着徜徉花海，于是我敲开了互联网做起了攻略。</p>
@@ -214,16 +247,6 @@
 <p>他们能否意识到，真正改变命运的，是抽中那张叫做“时代机遇”的卡牌？但这恰恰是无法传承的资产。学历会贬值，房价也会跌下神坛，但我仍感激父母给我留下的最大财富：坚韧又平和的心态，就是投资收益最丰厚的那笔价值观。花朵不会因为无人欣赏，就失去她的可爱。无论是生长在花园、工地还是农田，都要尽兴去盛开。
 ​
 ​#蔚然花海</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-07-23/202507231117230.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-07-23/202507231117231.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-07-23/202507231117232.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-07-23/202507231117233.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-07-23/202507231117234.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-07-23/202507231117235.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-07-23/202507231117236.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-07-23/202507231117237.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-07-23/202507231117238.jpg"></p>
-
 
   </div>
 
@@ -233,7 +256,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

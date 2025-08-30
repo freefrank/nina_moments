@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,13 +206,16 @@
     <div class="post-meta"><span title='2023-06-17 10:00:00 +0800 +0800'>June 17, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-06-17/202306170843400.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-06-17/202306170843400.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>⚠️ 共同见证历史性时刻！</p>
 <p>虽然加拿大的生育率只有1.4，但近年来由于宽松的人才吸纳政策，加国人口正以指数级水准快速增长。大量来自全球的优质年轻人才正以前所未有的速率迅速丰富着加国劳动力市场，只是不知加拿大的社会福利和房产供给，能否强力支撑起如此迅速的人口流入了。[吃瓜]
 ​
 #加拿大人口正式突破四千万</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-06-17/202306170843400.jpg"></p>
-
 
   </div>
 
@@ -218,7 +225,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,22 @@
     <div class="post-meta"><span title='2016-01-30 12:00:00 +0800 +0800'>January 30, 2016</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>其实我童年的梦想是当“灵魂画师”来着，后来生活所迫就放弃惹😢。不过长大后想来想去，把爱好当职业终究是件磨孽人的事儿：重压下很难有人能保持对理想地那份热爱吧。我个人其实比较喜欢最后一张。我讨厌用针管笔描线😠！虽然覆盖了了抖墨如帕金森患者的失误，但同时也损失了很多微妙的细节😔。以后都只拿铅笔钩线好了。不过新买的樱花白色笔五星好评，都能当涂改液用了😄！另外，我都没看过《魔卡少女樱》，电视台放这个动画的时候我都上初中了😢。但是我好喜欢CLAMP中期作品的彩页，那个人物细节构图设计都好喜欢嘢😌～</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2016-01-30/201601300738540.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2016-01-30/201601300738541.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2016-01-30/201601300738542.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2016-01-30/201601300738543.jpg"></p>
-
-
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2016-01-30/201601300738540.jpg&#34;,&#34;/Moments/photos/2016-01-30/201601300738541.jpg&#34;,&#34;/Moments/photos/2016-01-30/201601300738542.jpg&#34;,&#34;/Moments/photos/2016-01-30/201601300738543.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2016-01-30/201601300738540.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2016-01-30/201601300738541.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2016-01-30/201601300738542.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2016-01-30/201601300738543.jpg" alt="图片 4" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">其实我童年的梦想是当“灵魂画师”来着，后来生活所迫就放弃惹😢。不过长大后想来想去，把爱好当职业终究是件磨孽人的事儿：重压下很难有人能保持对理想地那份热爱吧。我个人其实比较喜欢最后一张。我讨厌用针管笔描线😠！虽然覆盖了了抖墨如帕金森患者的失误，但同时也损失了很多微妙的细节😔。以后都只拿铅笔钩线好了。不过新买的樱花白色笔五星好评，都能当涂改液用了😄！另外，我都没看过《魔卡少女樱》，电视台放这个动画的时候我都上初中了😢。但是我好喜欢CLAMP中期作品的彩页，那个人物细节构图设计都好喜欢嘢😌～
   </div>
 
   <footer class="post-footer">
@@ -218,7 +230,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

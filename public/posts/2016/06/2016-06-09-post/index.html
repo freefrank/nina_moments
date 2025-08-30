@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,21 +206,40 @@
     <div class="post-meta"><span title='2016-06-09 10:00:00 +0800 +0800'>June 9, 2016</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2016-06-09/201606091251480.jpg&#34;,&#34;/Moments/photos/2016-06-09/201606091251481.jpg&#34;,&#34;/Moments/photos/2016-06-09/201606091251482.jpg&#34;,&#34;/Moments/photos/2016-06-09/201606091251483.jpg&#34;,&#34;/Moments/photos/2016-06-09/201606091251484.jpg&#34;,&#34;/Moments/photos/2016-06-09/201606091251485.jpg&#34;,&#34;/Moments/photos/2016-06-09/201606091251486.jpg&#34;,&#34;/Moments/photos/2016-06-09/201606091251487.jpg&#34;,&#34;/Moments/photos/2016-06-09/201606091251488.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2016-06-09/201606091251480.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2016-06-09/201606091251481.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2016-06-09/201606091251482.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2016-06-09/201606091251483.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2016-06-09/201606091251484.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2016-06-09/201606091251485.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2016-06-09/201606091251486.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2016-06-09/201606091251487.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2016-06-09/201606091251488.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>#老照片儿</p>
 <p>08年我刚来加拿大的时候，还没有成年。</p>
 <p>入住了Lister Hall学生宿舍，和一个叫Daniel的姑娘成为了室友。入读了140语言班，每天过着压力小小的生活。高中班里一起过来了九个同学，如今大部分已经不在埃德蒙顿了。后来我升入了大学的工程系，又选了需要最少的学分就能毕业材料工程，减了肥，苦逼苦地熬完了本科四年，借鉴参考了无数份儿作业，低空略掠过了无数次考试，经历了一个个叛逆到成熟的周期。有过失落与彷徨，也做过后悔的事情，但也为自己的小成长小成就而骄傲自豪；爱过一些人，也恨过一些人。慢慢地又熬过了两年半烟酒僧，除了烦恼作业考试还要烦恼试验和报告。到今天，感慨万千。不过，我想说的话只有一句，</p>
 <p>“老子还是光头的时候最tm酷[得意]。”</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2016-06-09/201606091251480.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2016-06-09/201606091251481.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2016-06-09/201606091251482.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2016-06-09/201606091251483.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2016-06-09/201606091251484.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2016-06-09/201606091251485.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2016-06-09/201606091251486.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2016-06-09/201606091251487.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2016-06-09/201606091251488.jpg"></p>
-
 
   </div>
 
@@ -226,7 +249,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

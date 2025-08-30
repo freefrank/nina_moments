@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2024-01-24 10:00:00 +0800 +0800'>January 24, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-01-24/202401240513540.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-01-24/202401240513540.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>​前几天梦到掉牙，起床后整个人都不好了。冥冥之中仿佛有股神秘力量推了我一个就算坐头等舱也必须马上滚回加拿大的心理暗示，硬是哭着闹着定了机票，原来是搁这等着呢：​冠历四年还没阳过的这份幸运，还是还在了回加喜迎的五位数账单上。🙃</p>
 <p>极寒气候造成家中暖气罢工，室内气温直降到零下三十多度，马桶水箱炸裂，地暖管线爆浆，直逼冰库密室命案的现场，具体冰帘洞惨状请君自行联想。车也打不着火，防冻液都冻漏了这件事让防冻液自己都大呼离谱超乎想象。总之问题精准出现在了每一个可以出现的地方。</p>
 <p>❌ 冬天不要回国。
@@ -212,8 +221,6 @@
 <p>收拾一下伤痛的心情开始艰巨又漫长的灾后重建，容我先P张自己的照片儿压压惊，不然很难在清醒理智的前提下直面惨淡人生，保持情绪稳定。老天爷，行行好。我已经到了互联网退休的年纪，心脏强度支撑不了效果这般炸裂的挫折教育。</p>
 <p>精心呵护的花草经此一役全员报销，好在寄养在别处的猫主子幸运地逃过一劫。今天终于可以把阔别四个月的小猪咪接回家。😭 呜呜，麻麻可是想亖你啦！猫是没有良心的动物，不知道她在小姐姐家吃香喝辣作威作福了几个月后，还记不记得我这只卑微的铲屎奴才了。​😢</p>
 <p>​#笑着活下去</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-01-24/202401240513540.jpg"></p>
-
 
   </div>
 
@@ -223,7 +230,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,17 +206,25 @@
     <div class="post-meta"><span title='2016-07-01 11:00:00 +0800 +0800'>July 1, 2016</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>有时候我觉得画完直接用相机拍比较好看，有时候又觉得还是扫描的好看。这次貌似两种都挺好看的。
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2016-07-01/201607010500150.jpg&#34;,&#34;/Moments/photos/2016-07-01/201607010500151.jpg&#34;,&#34;/Moments/photos/2016-07-01/201607010500152.jpg&#34;,&#34;/Moments/photos/2016-07-01/201607010500153.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2016-07-01/201607010500150.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2016-07-01/201607010500151.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2016-07-01/201607010500152.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2016-07-01/201607010500153.jpg" alt="图片 4" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">有时候我觉得画完直接用相机拍比较好看，有时候又觉得还是扫描的好看。这次貌似两种都挺好看的。
 快有半年没动笔了，所以这次画了好久才捡起来。
 喜欢画画这种悠闲的活动，那些需要限定时间完成的活动都不适合我。
-彩铅是我自学的。我觉得有点素描的基础，彩铅学起来是非常简单的。但是没有素描的基础，直接上来学彩铅，可能学很久都只能画儿童画哦！所以，每次别人问我学画画应该从什么开始学起，我都会告诉他们……从素描学起😠！素描是画画的基础！至少学三年再来战！彩铅是，水彩也是，油画更是！</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2016-07-01/201607010500150.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2016-07-01/201607010500151.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2016-07-01/201607010500152.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2016-07-01/201607010500153.jpg"></p>
-
-
+彩铅是我自学的。我觉得有点素描的基础，彩铅学起来是非常简单的。但是没有素描的基础，直接上来学彩铅，可能学很久都只能画儿童画哦！所以，每次别人问我学画画应该从什么开始学起，我都会告诉他们……从素描学起😠！素描是画画的基础！至少学三年再来战！彩铅是，水彩也是，油画更是！
   </div>
 
   <footer class="post-footer">
@@ -221,7 +233,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

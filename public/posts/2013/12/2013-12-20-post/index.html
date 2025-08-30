@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2013-12-20 10:00:00 +0800 +0800'>December 20, 2013</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2013-12-20/201312200226490.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2013-12-20/201312200226490.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>PU决定男人会不会赠予你婚姻</p>
 <p>首先，认识到PU（亲子不确定性）和MV（婚恋市场价值）这个问题，是从美丽的娃娃那里学习到的。经过这一两年对PU和MV的学习验证，我越来越认可这两者在两性关系中是非常重要不可以忽视的。爱情是每个人都渴望的，特别是我们女孩子，总是幻想着有一天百分百的王子会带着美妙的爱情给自己加冕。可是爱情像雾像雨又像风让人捉摸不透，我们搞不懂眼前这个男子到底是不是真命天子，还是伪装成王子的癞蛤蟆。其实用娃娃的话来说，两性关系（也可以理解为爱情）是有规律可行的，就像自动贩卖机，你想要这瓶果汁，那么你得按照果汁的标价投入等值硬币，结果才会出来你想要的。
 所以，我们面对爱情贩卖机，也一样要遵循爱的规律，才能得到你想要的那份感情。
@@ -237,8 +246,6 @@ PU不完全是由女性决定的，男性本身、两人认识的缘由、相处
 3、知足就是低PU的重要表现。
 4、不抱怨，抱怨只会让你想要的越来越远而已。
 5、像娃娃一样把和老公的照片变成手机桌面吧~</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2013-12-20/201312200226490.jpg"></p>
-
 
   </div>
 
@@ -248,7 +255,17 @@ PU不完全是由女性决定的，男性本身、两人认识的缘由、相处
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

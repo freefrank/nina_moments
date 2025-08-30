@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,11 +206,14 @@
     <div class="post-meta"><span title='2020-08-16 12:00:00 +0800 +0800'>August 16, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-08-16/202008160422050.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-08-16/202008160422050.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>Miku以炙寿司闻名，而他们家的 Aburi Saba Oshi Sushi 确实也是我吃过最美味的。</p>
 <p>Saba / Mackerel 是我非常喜欢吃的鱼类之一，细腻鲜美。但是由于其自身不耐储存的特质，我们在日料店吃到通常都经过加工处理。但腌渍后的Saba口味略带腥咸，所以被许多人嫌口味太“海”。因此怎样巧妙地利用调味去压制它的咸腥，又能凸显它的鲜腴是对主厨的一大考验。Miku家押寿司所用的寿司米粘度高且滋味甜润。寿司上的酱料略带柚子口味的酸甜清新。搭配炙烤后酥脆的鱼皮，一口咬下去，扎实饱满的口感蓬勃而出溢满口腔，咀嚼间细腻分明的层次一一绽放开来。鱼肉的肥美鲜嫩得以提升，海洋中最精华的韵味被浓缩在一颗小小的寿司。朴素外表下隐藏着对舌尖最温柔魅惑的挑动。实则Nina酱的‘大好物’呀~~~ 😍</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-08-16/202008160422050.jpg"></p>
-
 
   </div>
 
@@ -216,7 +223,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

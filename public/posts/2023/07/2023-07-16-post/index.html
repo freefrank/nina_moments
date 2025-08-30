@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2023-07-16 10:00:00 +0800 +0800'>July 16, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-07-16/202307160628530.jpg&#34;,&#34;/Moments/photos/2023-07-16/202307160628531.jpg&#34;,&#34;/Moments/photos/2023-07-16/202307160628532.jpg&#34;,&#34;/Moments/photos/2023-07-16/202307160628533.jpg&#34;,&#34;/Moments/photos/2023-07-16/202307160628534.jpg&#34;,&#34;/Moments/photos/2023-07-16/202307160628535.jpg&#34;,&#34;/Moments/photos/2023-07-16/202307160628536.jpg&#34;,&#34;/Moments/photos/2023-07-16/202307160628537.jpg&#34;,&#34;/Moments/photos/2023-07-16/202307160628538.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-07-16/202307160628530.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-07-16/202307160628531.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-07-16/202307160628532.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-07-16/202307160628533.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2023-07-16/202307160628534.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2023-07-16/202307160628535.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2023-07-16/202307160628536.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2023-07-16/202307160628537.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2023-07-16/202307160628538.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>小鲸鱼说他想吃越南河粉，decent的那种越南河粉。因为我们过往两次打卡新开越南河粉店的失望经历让他对埃德蒙顿的粉圈十分失望。因此，他想要吃一顿霸王，越南河粉的霸王。</p>
 <p>然而，天不遂人愿，周三下午去到中国城的霸王King Noodle House，没有开。😖
 转到附近的西贡Pho Tau Bay，关门。😣
@@ -226,16 +259,6 @@
 <p>📍Abinet Family Restaurant &amp; Catering, 9642 107 AVE. Edmonton, AB
 ​
 ​#埃塞俄比亚菜</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-07-16/202307160628530.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-07-16/202307160628531.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-07-16/202307160628532.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-07-16/202307160628533.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2023-07-16/202307160628534.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2023-07-16/202307160628535.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2023-07-16/202307160628536.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2023-07-16/202307160628537.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2023-07-16/202307160628538.jpg"></p>
-
 
   </div>
 
@@ -245,7 +268,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-06-11 11:00:00 +0800 +0800'>June 11, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-06-11/202506111206170.jpg&#34;,&#34;/Moments/photos/2025-06-11/202506111206171.jpg&#34;,&#34;/Moments/photos/2025-06-11/202506111206172.jpg&#34;,&#34;/Moments/photos/2025-06-11/202506111206173.jpg&#34;,&#34;/Moments/photos/2025-06-11/202506111206174.jpg&#34;,&#34;/Moments/photos/2025-06-11/202506111206175.jpg&#34;,&#34;/Moments/photos/2025-06-11/202506111206176.jpg&#34;,&#34;/Moments/photos/2025-06-11/202506111206177.jpg&#34;,&#34;/Moments/photos/2025-06-11/202506111206178.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-06-11/202506111206170.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-06-11/202506111206171.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-06-11/202506111206172.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-06-11/202506111206173.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-06-11/202506111206174.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-06-11/202506111206175.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-06-11/202506111206176.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-06-11/202506111206177.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-06-11/202506111206178.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>东南亚之行美食篇 23 | 莫定标娘惹糕厂：不到1马币也能品尝到的米其林平价天花板</p>
 <p>藏身于槟城乔治市一条静谧小巷中的莫定标娘惹糕厂（Moh Teng Pheow Nyonya Koay），是一家拥有近百年历史的传统糕点老铺。这里没有张扬的招牌，也没有华丽的门面，却是许多美食老饕心中不可撼动的“娘惹糕天花板”。</p>
 <p>创立于1933年的莫定标娘惹糕厂，最初只是由创始人莫定标先生经营的一间家庭式作坊。他自小在槟城的华人社区长大，深受本地峇峇（bā）娘惹文化影响，师承娘惹糕的传统制作技艺。如今，这间糕厂已由第三代接手，仍坚持手工制作、遵循祖传配方，把原汁原味的南洋老味道保留至今。</p>
@@ -217,16 +250,6 @@
 <p>对于槟城人来说，它唤醒了童年的回忆；而对初次造访者来说，这一口甜糯，是打开南洋文化记忆的钥匙，也吸引着更多年轻人重新认识这种“小而美”的文化资产。
 ​
 ​#娘惹糕</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-06-11/202506111206170.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-06-11/202506111206171.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-06-11/202506111206172.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-06-11/202506111206173.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-06-11/202506111206174.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-06-11/202506111206175.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-06-11/202506111206176.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-06-11/202506111206177.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-06-11/202506111206178.jpg"></p>
-
 
   </div>
 
@@ -236,7 +259,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

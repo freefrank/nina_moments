@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2024-05-05 10:00:00 +0800 +0800'>May 5, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-05-05/202405051229090.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-05-05/202405051229090.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>加拿大的人均资源消耗量位列世界第一，甚至超过了以铺张浪费著称的隔壁邻居美国。如果世界上的每个人都按照北美人均消耗方式生活，大约需要五个地球才能提供足够的资源供给。好在加拿大是一个环保意识较高的国家，而我作为一个环保无感人士时常看不懂这些个脱了裤子放屁的环保行径。凭什么我们的长辈可以滥砍滥伐，到我们这辈就要开始搞垃圾分类？我又没有后代，我才不管它死后洪水滔天。反正全球变暖的恶果还轮不到我这代人来偿还，凭什么要强制我去嘬软塌塌湿乎乎的吸管？😃</p>
 <p>然而，全球变暖当真不会“暖”到我这一代人吗？全球变暖到底是不是人类扛锅的争议可能绵延到世界毁灭之后都无法盖棺，但全球变暖带来的灾害却是人类不得不面临的困境。很多人认为气候变暖会在未来数十年后的一个特定时间节点到来，届时难以忍受的高温会带来海平面升高、极端气候、疾病和灾荒。然而气候灾害其实是一个指数级循序渐进的过程，血腥资源掠夺式的 &ldquo;Pre-Climate-Chaos-Chaos&rdquo; 会抢先开启，甚至已经在悄然行进。头条公众号上那些个骇人听闻的“震惊体”却有夸大其词的成份，但主流科学界对于人类未来生存环境的担忧还是普遍存在的。</p>
 <p>与其高喊拯救地球，不如先想想怎么救救自己。毕竟已经见证过五次生物灭绝的地球对去除体表过度繁殖菌群的经验那是驾轻就熟。人类作为生存适应力低下的生物种群，面对平均3℃的升温，迎来的至少都是社会崩塌、文明断层、物种多样性消失的&quot;Decimation&quot;。想要以目前的生物形态生存繁衍简直是痴心妄想。那么现在人类气候保卫战的最新战况如何了呢？咱就是说若干年后，“长命百岁”可能会从一句祝福变成一句咒语——越活你越会后悔，怎么当初就没投胎成一只水熊虫呢？</p>
@@ -213,8 +222,6 @@
 ​
 ​【热知识②】长期处于极端环境的水熊虫能够忍受极低或极高的温度、高剂量的辐射甚至真空环境，似乎没有任何自然灾害能够对其造成威胁。自然寿命超过200年，因此被誉为“地表最强生物”。</p>
 <p>#读书笔记 20</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-05-05/202405051229090.jpg"></p>
-
 
   </div>
 
@@ -224,7 +231,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

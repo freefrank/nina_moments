@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-03-26 10:00:00 +0800 +0800'>March 26, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-03-26/202403261317390.jpg&#34;,&#34;/Moments/photos/2024-03-26/202403261317391.jpg&#34;,&#34;/Moments/photos/2024-03-26/202403261317392.jpg&#34;,&#34;/Moments/photos/2024-03-26/202403261317393.jpg&#34;,&#34;/Moments/photos/2024-03-26/202403261317394.jpg&#34;,&#34;/Moments/photos/2024-03-26/202403261317395.jpg&#34;,&#34;/Moments/photos/2024-03-26/202403261317396.jpg&#34;,&#34;/Moments/photos/2024-03-26/202403261317397.jpg&#34;,&#34;/Moments/photos/2024-03-26/202403261317398.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-03-26/202403261317390.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-03-26/202403261317391.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-03-26/202403261317392.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-03-26/202403261317393.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-03-26/202403261317394.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-03-26/202403261317395.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-03-26/202403261317396.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-03-26/202403261317397.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-03-26/202403261317398.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🐟🍟 民选埃德蒙顿最好吃的炸鱼薯条
 ​
 ​昨晚在红迪闲逛，看到一个很多人参与回复的帖子：埃德蒙顿最好吃的炸鱼薯条是哪家？我对炸鱼薯条这个食物是没什么情怀的——虽然这可能是大家从英语课本上学来的第一个也是唯一一个edible的英国食物。2006年是我第一次在加拿大吃到炸鱼薯条，怎么说呢，多年对于大英帝国的尊贵滤镜究竟是错付了。
@@ -214,16 +247,6 @@
 <p>此外我们搭配购买了店里自制的奶油蛤蜊浓汤。鲜美浓稠，几乎每一勺都能捞起一只完整蛤蜊，也是性价比极高的选择。这家店不仅提供新鲜的渔获、肉制品和调味料，还配备数位厨师在现场制作即食日料和冷餐沙拉。我们也尝试了辣白菜凉拌螺肉和雪蟹腿沙拉，都十分新鲜美味，值得走过路过进去顺手牵鱼。
 ​
 ​#炸鱼薯条</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-03-26/202403261317390.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-03-26/202403261317391.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-03-26/202403261317392.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-03-26/202403261317393.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-03-26/202403261317394.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-03-26/202403261317395.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-03-26/202403261317396.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-03-26/202403261317397.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-03-26/202403261317398.jpg"></p>
-
 
   </div>
 
@@ -233,7 +256,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

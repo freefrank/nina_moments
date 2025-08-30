@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,27 @@
     <div class="post-meta"><span title='2023-05-06 13:00:00 +0800 +0800'>May 6, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-05-06/202305060750510.jpg&#34;,&#34;/Moments/photos/2023-05-06/202305060750511.jpg&#34;,&#34;/Moments/photos/2023-05-06/202305060750512.jpg&#34;,&#34;/Moments/photos/2023-05-06/202305060750513.jpg&#34;,&#34;/Moments/photos/2023-05-06/202305060750514.jpg&#34;,&#34;/Moments/photos/2023-05-06/202305060750515.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-05-06/202305060750510.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-05-06/202305060750511.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-05-06/202305060750512.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-05-06/202305060750513.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2023-05-06/202305060750514.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2023-05-06/202305060750515.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🥚 一枚蛋的奇遇 🥚
 ​
 ​今天我在草坪上巡逻的时候，捡到一枚弃蛋。根据蛋的大小、颜色和纹路，推定应该是绿头鸭 (Mallard Duck) 的蛋。
@@ -213,13 +237,6 @@
 网络上流传的猫咪孵蛋视频，似乎并不适用我家小六——她只是好奇地把这枚蛋像玩具一样刨来刨去，并没有任何母爱泛滥的迹象。可见繁衍和养育即使对于动物也并非天性使然，而是需要施加主观意愿和后天努力才能完成的伟大行为。</p>
 <p>话虽如此，小鲸鱼并没有真的选择把蛋吃掉（至少现在还没有），而是主动开始研究怎样将电脑主机的温度调试到适合孵蛋的温度。尽管他比我还不喜欢孩子。但如果我们真有了孩子，他会是一个比我更靠谱、更称职的好家长吧。🥹
 ​</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-05-06/202305060750510.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-05-06/202305060750511.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-05-06/202305060750512.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-05-06/202305060750513.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2023-05-06/202305060750514.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2023-05-06/202305060750515.jpg"></p>
-
 
   </div>
 
@@ -229,7 +246,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

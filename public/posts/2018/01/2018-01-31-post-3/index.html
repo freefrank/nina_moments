@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,18 @@
     <div class="post-meta"><span title='2018-01-31 13:00:00 +0800 +0800'>January 31, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>自己做的💦雨滴💦指甲～
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-01-31/201801310527500.jpg&#34;,&#34;/Moments/photos/2018-01-31/201801310527501.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-01-31/201801310527500.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2018-01-31/201801310527501.jpg" alt="图片 2" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">自己做的💦雨滴💦指甲～
 那些鼓起来的小水滴是硬的，做完就忍不住拿手去按，拿指甲去抠。每个水滴都可以从不同方位折射指甲的紫绿偏光，在强光下还会有镭射彩的出现。
-自己做指甲其实真得很好玩。特别是接触光疗甲以后。投资一个小的光疗灯才跟一瓶沙龙甲油的价格差不多，但是可以做的花样种类真是多了太多。经常在搬锅的时候被顾客问指甲哪里做的。[偷笑]</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-01-31/201801310527500.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2018-01-31/201801310527501.jpg"></p>
-
-
+自己做指甲其实真得很好玩。特别是接触光疗甲以后。投资一个小的光疗灯才跟一瓶沙龙甲油的价格差不多，但是可以做的花样种类真是多了太多。经常在搬锅的时候被顾客问指甲哪里做的。[偷笑]
   </div>
 
   <footer class="post-footer">
@@ -218,7 +226,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

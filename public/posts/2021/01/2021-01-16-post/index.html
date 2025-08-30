@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,20 +206,39 @@
     <div class="post-meta"><span title='2021-01-16 10:00:00 +0800 +0800'>January 16, 2021</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2021-01-16/202101160703410.jpg&#34;,&#34;/Moments/photos/2021-01-16/202101160703411.jpg&#34;,&#34;/Moments/photos/2021-01-16/202101160703412.jpg&#34;,&#34;/Moments/photos/2021-01-16/202101160703413.jpg&#34;,&#34;/Moments/photos/2021-01-16/202101160703414.jpg&#34;,&#34;/Moments/photos/2021-01-16/202101160703415.jpg&#34;,&#34;/Moments/photos/2021-01-16/202101160703416.jpg&#34;,&#34;/Moments/photos/2021-01-16/202101160703417.jpg&#34;,&#34;/Moments/photos/2021-01-16/202101160703418.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2021-01-16/202101160703410.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2021-01-16/202101160703411.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2021-01-16/202101160703412.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2021-01-16/202101160703413.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2021-01-16/202101160703414.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2021-01-16/202101160703415.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2021-01-16/202101160703416.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2021-01-16/202101160703417.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2021-01-16/202101160703418.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>『抽奖活动』蜀味送好礼啦！</p>
 <p>置办年货的时间到啦，还在烦恼不知给亲朋好友送什么礼物好？想要尝鲜风靡北美华人圈的蜀味香肠腊肉吗？快来点赞这条朋友圈吧！我将随机抽取一名幸运儿，赠送价值¥10元的蜀味购物折扣券。活动截止时间24小时后，留言增加一次中奖概率哦！香腊美味屯起来吧！</p>
 <p>⚠️ 活动仅限北美地区的小伙伴</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2021-01-16/202101160703410.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2021-01-16/202101160703411.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2021-01-16/202101160703412.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2021-01-16/202101160703413.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2021-01-16/202101160703414.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2021-01-16/202101160703415.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2021-01-16/202101160703416.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2021-01-16/202101160703417.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2021-01-16/202101160703418.jpg"></p>
-
 
   </div>
 
@@ -225,7 +248,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

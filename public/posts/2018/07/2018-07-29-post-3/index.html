@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,12 +206,15 @@
     <div class="post-meta"><span title='2018-07-29 13:00:00 +0800 +0800'>July 29, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-07-29/201807291150200.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-07-29/201807291150200.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>貌似自己高中同班同学唯一一个在成都的，就是只有你了，我的星标好友。</p>
 <p>一个做美食，一个做旅游，再缺一个骁斐的美妆，我们这三个高中时代的好姬友合在一起貌似可以打造一个享乐主义公众平台呢！命运真是神奇，我们能走到一起真是证明了一个道理：三观不同不相为谋。生性浪漫不羁爱自由的我们都选择了拿着高学历的毕业证去做一些外人看来“不正经”的工作，但只有我们懂得不用按时打卡上班，不用和同事勾心斗角，不用为升职加薪挤破脑袋这样自己热爱的职业做起来有多爽。可能会变成全高中班级最晚结婚的仨人儿，这辈子都无缘成为大家口中的“人生赢家”，但我们还可以一起携手擦着贵妇级彩妆游遍世界各国吃遍全球美食的嘛！</p>
 <p>手头一把“黑历史照”，小蓝偶像包袱太重不让发。重温当年一起走过的春熙路，香槟广场。过往的友情岁月再值得回味，也不及我们的充满未知的未来精彩纷呈呀！best wishes to my dearest friend ❤️</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-07-29/201807291150200.jpg"></p>
-
 
   </div>
 
@@ -217,7 +224,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

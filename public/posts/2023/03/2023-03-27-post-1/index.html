@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,27 @@
     <div class="post-meta"><span title='2023-03-27 11:00:00 +0800 +0800'>March 27, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-03-27/202303270442370.jpg&#34;,&#34;/Moments/photos/2023-03-27/202303270442371.jpg&#34;,&#34;/Moments/photos/2023-03-27/202303270442372.jpg&#34;,&#34;/Moments/photos/2023-03-27/202303270442373.jpg&#34;,&#34;/Moments/photos/2023-03-27/202303270442374.jpg&#34;,&#34;/Moments/photos/2023-03-27/202303270442375.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-03-27/202303270442370.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-03-27/202303270442371.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-03-27/202303270442372.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-03-27/202303270442373.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2023-03-27/202303270442374.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2023-03-27/202303270442375.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🥲 又一家埃德蒙顿的餐厅即将关闭
 ​
 这几日“网上冲浪”，意外得知了位于104 St.的咖啡厅A Bite of Brazil即将关店的消息。这家隶属于Pampa餐饮集团的特色咖啡厅在疫情前不久开业。当时我有幸去打卡过一次，被店内特色巴西风味的美食和店员热情友善的态度所惊艳。</p>
@@ -226,13 +250,6 @@
 不要小瞧了一座城市的人民在危难当前时爆发出的意志和韧性。收拾好遗憾的心情，满怀希望地伴随着埃德蒙顿的繁荣昌盛，一起走下去。</p>
 <p>​💚💚💚</p>
 <p>​🇧🇷 A Bite of Brazil将与3月29日（周三）正式结业，欢迎喜欢和对巴西街头美食感兴趣的朋友们，抓住这最后的机会前去品尝！</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-03-27/202303270442370.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-03-27/202303270442371.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-03-27/202303270442372.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-03-27/202303270442373.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2023-03-27/202303270442374.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2023-03-27/202303270442375.jpg"></p>
-
 
   </div>
 
@@ -242,7 +259,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

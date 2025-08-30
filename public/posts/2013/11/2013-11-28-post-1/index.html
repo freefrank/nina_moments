@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,16 @@
     <div class="post-meta"><span title='2013-11-28 11:00:00 +0800 +0800'>November 28, 2013</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>“当疯狂慢慢从爱情离开
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2013-11-28/201311280414510.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2013-11-28/201311280414510.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">“当疯狂慢慢从爱情离开
 还有什么你值得感慨
 如果风景早已都不存在
-我想我谁都不爱”</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2013-11-28/201311280414510.jpg"></p>
-
-
+我想我谁都不爱”
   </div>
 
   <footer class="post-footer">
@@ -218,7 +224,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

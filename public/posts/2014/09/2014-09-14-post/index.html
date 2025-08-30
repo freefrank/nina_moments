@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2014-09-14 10:00:00 +0800 +0800'>September 14, 2014</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2014-09-14/201409142323030.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2014-09-14/201409142323030.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>前方高能預警。單身狗表戳，以免閃瞎狗眼。😄</p>
 <p>&mdash;&mdash;&mdash;我是華麗麗滴分界線&mdash;&mdash;&mdash;</p>
 <p>今天是我們在一起的一百零一天，一些小感動在心裏憋不住，短短幾句感謝寫給你，因為你才是我人生中最美好的禮物。</p>
@@ -222,8 +231,6 @@
 <p>不管以前受過多少的委屈都瞬間充滿了愛的動力。和你在一起的這些日子都十分幸福快樂。比起你的成熟懂事，我覺得自己都沒有為你做什麼。細數下來，一只那麼不懂得浪漫的御宅居然為我做了很多改變，真得十分感激。真希望自己也能趕快成熟起來，不讓你再擔心，也不讓你再覺得麻煩。😢</p>
 <p>點點，小兔子愛你。</p>
 <p>❤️</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2014-09-14/201409142323030.jpg"></p>
-
 
   </div>
 
@@ -233,7 +240,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

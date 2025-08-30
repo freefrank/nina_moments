@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2023-07-07 10:00:00 +0800 +0800'>July 7, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-07-07/202307070801590.jpg&#34;,&#34;/Moments/photos/2023-07-07/202307070801591.jpg&#34;,&#34;/Moments/photos/2023-07-07/202307070801592.jpg&#34;,&#34;/Moments/photos/2023-07-07/202307070801593.jpg&#34;,&#34;/Moments/photos/2023-07-07/202307070801594.jpg&#34;,&#34;/Moments/photos/2023-07-07/202307070801595.jpg&#34;,&#34;/Moments/photos/2023-07-07/202307070801596.jpg&#34;,&#34;/Moments/photos/2023-07-07/202307070801597.jpg&#34;,&#34;/Moments/photos/2023-07-07/202307070801598.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-07-07/202307070801590.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-07-07/202307070801591.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-07-07/202307070801592.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-07-07/202307070801593.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2023-07-07/202307070801594.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2023-07-07/202307070801595.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2023-07-07/202307070801596.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2023-07-07/202307070801597.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2023-07-07/202307070801598.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>#我的那些花</p>
 <p>前几日经过 Century Park 的一片荒地时，瞥见一片原生态的野草。当日天气不佳，阴云密布，狂风大作，但我还是吸溜着鼻涕在风沙的裹挟下凌乱地抓了几张。</p>
 <p>拍着拍着居然出了太阳，脑补出一些个夏日校园偶像剧的美好，被迫接受了一些个生命中的 #serendipty</p>
@@ -225,16 +258,6 @@ Red Clover 粉花苜蓿
 Alfalfa 紫花苜蓿
 Curly Dock 皱叶酸模
 Perennial Sow Thistle 多年生野薊</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-07-07/202307070801590.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-07-07/202307070801591.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-07-07/202307070801592.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-07-07/202307070801593.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2023-07-07/202307070801594.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2023-07-07/202307070801595.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2023-07-07/202307070801596.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2023-07-07/202307070801597.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2023-07-07/202307070801598.jpg"></p>
-
 
   </div>
 
@@ -244,7 +267,17 @@ Perennial Sow Thistle 多年生野薊</p>
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

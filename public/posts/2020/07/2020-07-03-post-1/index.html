@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,16 +206,29 @@
     <div class="post-meta"><span title='2020-07-03 11:00:00 +0800 +0800'>July 3, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-07-03/202007031238530.jpg&#34;,&#34;/Moments/photos/2020-07-03/202007031238531.jpg&#34;,&#34;/Moments/photos/2020-07-03/202007031238532.jpg&#34;,&#34;/Moments/photos/2020-07-03/202007031238533.jpg&#34;,&#34;/Moments/photos/2020-07-03/202007031238534.jpg&#34;,&#34;/Moments/photos/2020-07-03/202007031238535.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-07-03/202007031238530.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2020-07-03/202007031238531.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2020-07-03/202007031238532.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2020-07-03/202007031238533.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2020-07-03/202007031238534.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2020-07-03/202007031238535.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>埃德蒙顿这里不能在室外养绣球着实是春夏季赏花的一大遗憾，不过好在我有蓬松软萌的风箱果。🥰 你可以想象到开出这样可爱半球状花序的树木，在冬日竟然能够耐受-50°C的严寒吗？</p>
 <p>这种原产于北美的树木在本地还是挺常见的，只可惜美中不足是她的花期并不算长。不过好在花后她会结出烧麦状的红色小果实，装饰在树梢直至深秋。另外我家也有种植紫红色叶子的版本，作为彩叶数种栽种在庭院中可增加景致的层次感，开花的时候也是极尽浪漫温柔的…</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-07-03/202007031238530.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2020-07-03/202007031238531.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2020-07-03/202007031238532.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2020-07-03/202007031238533.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2020-07-03/202007031238534.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2020-07-03/202007031238535.jpg"></p>
-
 
   </div>
 
@@ -221,7 +238,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,20 +206,39 @@
     <div class="post-meta"><span title='2021-12-09 11:00:00 +0800 +0800'>December 9, 2021</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2021-12-09/202112091630420.jpg&#34;,&#34;/Moments/photos/2021-12-09/202112091630421.jpg&#34;,&#34;/Moments/photos/2021-12-09/202112091630422.jpg&#34;,&#34;/Moments/photos/2021-12-09/202112091630423.jpg&#34;,&#34;/Moments/photos/2021-12-09/202112091630424.jpg&#34;,&#34;/Moments/photos/2021-12-09/202112091630425.jpg&#34;,&#34;/Moments/photos/2021-12-09/202112091630426.jpg&#34;,&#34;/Moments/photos/2021-12-09/202112091630427.jpg&#34;,&#34;/Moments/photos/2021-12-09/202112091630428.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2021-12-09/202112091630420.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2021-12-09/202112091630421.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2021-12-09/202112091630422.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2021-12-09/202112091630423.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2021-12-09/202112091630424.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2021-12-09/202112091630425.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2021-12-09/202112091630426.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2021-12-09/202112091630427.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2021-12-09/202112091630428.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>其实这是一个多月前吃的，但因为不是带的常用相机，所以拖到今天才开始修片😔。在等我照片的小伙伴对不起，希望这没有影响到我们的友谊。</p>
 <p>上次去吃牛角体验不太好，回家还拉了肚子。这次去发现品质下滑严重。已经气到没脾气发脾气了。吃完很饿，回家还啃了一袋薯片。</p>
 <p>#跟牛角八字不合</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2021-12-09/202112091630420.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2021-12-09/202112091630421.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2021-12-09/202112091630422.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2021-12-09/202112091630423.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2021-12-09/202112091630424.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2021-12-09/202112091630425.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2021-12-09/202112091630426.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2021-12-09/202112091630427.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2021-12-09/202112091630428.jpg"></p>
-
 
   </div>
 
@@ -225,7 +248,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

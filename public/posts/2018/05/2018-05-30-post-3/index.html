@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,12 +206,15 @@
     <div class="post-meta"><span title='2018-05-30 13:00:00 +0800 +0800'>May 30, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-05-30/201805300341520.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-05-30/201805300341520.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>这是情怀～❤️</p>
 <p>快到六一儿童节了。</p>
 <p>突然想起好多小时候的事情。我小时候真是一个很暖很善良的girl，我总是喜欢去陪伴班上那些被霸凌或者没朋友的小孩，和他们交朋友。虽说我也不是什么很有能力的人或者真的有力量去保护他们，但是我还是希望通过我的关心可以分担一点他们的孤独无助。不知道他们现在长大了有没有过上更自信美好的人生呢？真的就像那些花儿一样散落在天涯了。但愿他们已经强大到不再需要别人保护，但身边依然有愿意保护他们的人相伴。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-05-30/201805300341520.jpg"></p>
-
 
   </div>
 
@@ -217,7 +224,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

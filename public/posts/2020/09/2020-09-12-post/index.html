@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,21 +206,39 @@
     <div class="post-meta"><span title='2020-09-12 10:00:00 +0800 +0800'>September 12, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>幸福的人，一生都被童年治愈；
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-09-12/202009121054520.jpg&#34;,&#34;/Moments/photos/2020-09-12/202009121054521.jpg&#34;,&#34;/Moments/photos/2020-09-12/202009121054522.jpg&#34;,&#34;/Moments/photos/2020-09-12/202009121054523.jpg&#34;,&#34;/Moments/photos/2020-09-12/202009121054524.jpg&#34;,&#34;/Moments/photos/2020-09-12/202009121054525.jpg&#34;,&#34;/Moments/photos/2020-09-12/202009121054526.jpg&#34;,&#34;/Moments/photos/2020-09-12/202009121054527.jpg&#34;,&#34;/Moments/photos/2020-09-12/202009121054528.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-09-12/202009121054520.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2020-09-12/202009121054521.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2020-09-12/202009121054522.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2020-09-12/202009121054523.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2020-09-12/202009121054524.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2020-09-12/202009121054525.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2020-09-12/202009121054526.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2020-09-12/202009121054527.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2020-09-12/202009121054528.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">幸福的人，一生都被童年治愈；
 幸运的人，一路都有明灯指引。
-今天就给二字头的年华画上最闪耀的句点吧，三十岁的人生，新的篇章即将开启！🌟🌟🌟</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-09-12/202009121054520.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2020-09-12/202009121054521.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2020-09-12/202009121054522.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2020-09-12/202009121054523.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2020-09-12/202009121054524.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2020-09-12/202009121054525.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2020-09-12/202009121054526.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2020-09-12/202009121054527.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2020-09-12/202009121054528.jpg"></p>
-
-
+今天就给二字头的年华画上最闪耀的句点吧，三十岁的人生，新的篇章即将开启！🌟🌟🌟
   </div>
 
   <footer class="post-footer">
@@ -225,7 +247,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

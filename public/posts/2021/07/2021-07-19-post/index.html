@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,21 +206,40 @@
     <div class="post-meta"><span title='2021-07-19 10:00:00 +0800 +0800'>July 19, 2021</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2021-07-19/202107191117280.jpg&#34;,&#34;/Moments/photos/2021-07-19/202107191117281.jpg&#34;,&#34;/Moments/photos/2021-07-19/202107191117282.jpg&#34;,&#34;/Moments/photos/2021-07-19/202107191117283.jpg&#34;,&#34;/Moments/photos/2021-07-19/202107191117284.jpg&#34;,&#34;/Moments/photos/2021-07-19/202107191117285.jpg&#34;,&#34;/Moments/photos/2021-07-19/202107191117286.jpg&#34;,&#34;/Moments/photos/2021-07-19/202107191117287.jpg&#34;,&#34;/Moments/photos/2021-07-19/202107191117288.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2021-07-19/202107191117280.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2021-07-19/202107191117281.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2021-07-19/202107191117282.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2021-07-19/202107191117283.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2021-07-19/202107191117284.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2021-07-19/202107191117285.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2021-07-19/202107191117286.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2021-07-19/202107191117287.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2021-07-19/202107191117288.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>“大写的”敷衍 😡</p>
 <p>前年来这家餐厅被他们搭配用心的Chesse Board和分量惊人的低温牛排震撼到。结果这次回来吃却大失所望。可能是上次刚好赶上他们装修后重开的第一天，一切都是以最佳的状态呈现的。但这次由于疫情原因，材料和人工都削减了，所以整体质量很差，根本不值那个价格。</p>
 <p>最后一排是上一次享用的菜品。对比一下，都不像一家餐厅的出品。😤 如果你来水屯儿想要尝试一些类似马鹿肉和野牛肉的野味，不用在这里吃，山下有很多吃烟熏野味的店。</p>
 <p>📍Royal Steward Dining Room</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2021-07-19/202107191117280.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2021-07-19/202107191117281.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2021-07-19/202107191117282.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2021-07-19/202107191117283.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2021-07-19/202107191117284.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2021-07-19/202107191117285.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2021-07-19/202107191117286.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2021-07-19/202107191117287.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2021-07-19/202107191117288.jpg"></p>
-
 
   </div>
 
@@ -226,7 +249,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

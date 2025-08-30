@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2017-04-23 11:00:00 +0800 +0800'>April 23, 2017</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2017-04-23/201704232059390.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2017-04-23/201704232059390.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>人间四月芳菲尽，一夜愁白了少年头。</p>
 <p>昨天听李健的《三月的一整月》，感触颇深，歌词里唱到：</p>
 <p>“农历三月间，最是难熬倒春寒；
@@ -212,8 +221,6 @@
 <p>正是，好一个“严冬难去苦纠缠”。</p>
 <p>我出生在一个四季如春的小城，那里的人大部分从小到大都没有见过雪。那时候中国北方的重工业城市发展迅猛，于是我的父母将美好的期许寄予我，在我的名字里添了一个“雪”字，希望我将来能到看得见雪的北方大城市闯荡。</p>
 <p>后来，我完成了父母交给我的使命：我果然“闯荡”到了一个看得见雪，并且一年只下一次雪，一次下雪下一年的城市。也算是，替父母，把这辈子，下辈子，下下辈子的雪，都看得够够的了。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2017-04-23/201704232059390.jpg"></p>
-
 
   </div>
 
@@ -223,7 +230,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

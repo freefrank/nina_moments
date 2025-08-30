@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,24 +206,42 @@
     <div class="post-meta"><span title='2020-09-03 10:00:00 +0800 +0800'>September 3, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>抽空把摘下来吃不完的苹果做了瓶果酱😍
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-09-03/202009031108270.jpg&#34;,&#34;/Moments/photos/2020-09-03/202009031108271.jpg&#34;,&#34;/Moments/photos/2020-09-03/202009031108272.jpg&#34;,&#34;/Moments/photos/2020-09-03/202009031108273.jpg&#34;,&#34;/Moments/photos/2020-09-03/202009031108274.jpg&#34;,&#34;/Moments/photos/2020-09-03/202009031108275.jpg&#34;,&#34;/Moments/photos/2020-09-03/202009031108276.jpg&#34;,&#34;/Moments/photos/2020-09-03/202009031108277.jpg&#34;,&#34;/Moments/photos/2020-09-03/202009031108278.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-09-03/202009031108270.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2020-09-03/202009031108271.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2020-09-03/202009031108272.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2020-09-03/202009031108273.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2020-09-03/202009031108274.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2020-09-03/202009031108275.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2020-09-03/202009031108276.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2020-09-03/202009031108277.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2020-09-03/202009031108278.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">抽空把摘下来吃不完的苹果做了瓶果酱😍
 加了一点肉桂粉和姜末
 自己做的话可以不把果肉打太碎
 也可以不用加那么多砂糖
 味道更酸甜清新 🍎
-拿来抹面包或者做甜品的馅料都十分美味</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-09-03/202009031108270.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2020-09-03/202009031108271.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2020-09-03/202009031108272.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2020-09-03/202009031108273.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2020-09-03/202009031108274.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2020-09-03/202009031108275.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2020-09-03/202009031108276.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2020-09-03/202009031108277.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2020-09-03/202009031108278.jpg"></p>
-
-
+拿来抹面包或者做甜品的馅料都十分美味
   </div>
 
   <footer class="post-footer">
@@ -228,7 +250,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

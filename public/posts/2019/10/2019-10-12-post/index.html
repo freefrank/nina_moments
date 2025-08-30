@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2019-10-12 10:00:00 +0800 +0800'>October 12, 2019</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2019-10-12/201910120150110.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2019-10-12/201910120150110.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>路过校区门口瞧见这童年的挚爱——蜂蜜鸡蛋小蛋糕，不由地回忆起上小学时的情景：一群放了学的孩子们聚集在校门口，举着一块钱的纸币或硬币，围着推小三轮摊小蛋糕的叔叔阿姨，眼巴巴地等着下一屉快快煎好…但是煎好的下一屉似乎永远也轮不到自己！遇到插队的高年级学生只能气得咬牙吞口水撒气。</p>
 <p>最喜欢里面煎得有点溏心的口感，不过外皮酥脆起焦的部分也深得我心。对于那时零花钱不多还无法肆意消费校门口小零食的我们来说，没有什么玉盘珍馐比得上校门口“抢”来的小蛋糕那般味美。不过小时候朴素的六角形煎锅只能煎出最基本的蜂巢状小蛋糕，而现在不仅蛋糕的形状五花八门，口味更是丰富猎奇。那时候两块钱可以买一整张小蛋糕，而现在物价飞涨，已经硬生生飙到了六块钱一屉。</p>
 <p>如今二十多年已经过去，实现了“小蛋糕自由”的我再也不用担心父母给的零花钱不够。偶尔买来吃一口，虽然还是儿时的味道，但已经品尝不到那种放学后饥肠辘辘地站在寒风中焦急守候，从塑料袋里抓出热乎乎的小蛋糕迫不及待塞到嘴里，坐在校车上叽叽喳喳和小伙伴一起分享的那种喜悦…毕竟请了大伙儿吃小蛋糕的孩子，属于“德高望重”的掌权派，才有资格制定下课后跳皮筋儿踢毽子和“拍拍攒”的规矩。</p>
@@ -212,8 +221,6 @@
 <p>人生，每个年龄都拥有那个年龄段特有的幸福，只是当时的自己不自知，而事后难追寻。我的童年无疑时快乐富足的，但这也在无形中麻木了我对幸福感触。或许在很多本应该感受到幸福的时刻，我都太理所应当地接受了周围人对我的付出与关心。</p>
 <p>希望自己能够更加珍惜当下的幸福，拥有无限放大生活中蜜糖甜味浓度的味蕾神经。或许和你分享这幸福滋味的人不会永远陪伴在你的身边，但你的一生却一直幸运地有拥有如此多爱你的人，陪伴你创造了这无数段幸福的回忆。</p>
 <p>而我也会尽自己最大的努力，如同这蜂巢状煎蛋糕的绵密饱满的一小格，去丰富，去完整他们甜美如蜜糖般的生命。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2019-10-12/201910120150110.jpg"></p>
-
 
   </div>
 
@@ -223,7 +230,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

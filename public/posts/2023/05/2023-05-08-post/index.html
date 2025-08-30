@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,27 @@
     <div class="post-meta"><span title='2023-05-08 10:00:00 +0800 +0800'>May 8, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-05-08/202305080805370.jpg&#34;,&#34;/Moments/photos/2023-05-08/202305080805371.jpg&#34;,&#34;/Moments/photos/2023-05-08/202305080805372.jpg&#34;,&#34;/Moments/photos/2023-05-08/202305080805373.jpg&#34;,&#34;/Moments/photos/2023-05-08/202305080805374.jpg&#34;,&#34;/Moments/photos/2023-05-08/202305080805375.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-05-08/202305080805370.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-05-08/202305080805371.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-05-08/202305080805372.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-05-08/202305080805373.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2023-05-08/202305080805374.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2023-05-08/202305080805375.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>“杂碎菜”是中餐吗？
 ​
 ​我人生中第一次吃到杂碎餐还是在2008年的加拿大。当时我刚迈入 UA 的校园，碰见了 Hub Mall 里 Hoho Chinese Food 提供的自选套餐。于是作为中国留学生的我，第一次品尝到以橙味鸡（Orange Chicken）和西兰花牛肉（Beef Broccoli）为代表的的“北美中餐”。</p>
@@ -227,13 +251,6 @@
 <p>我问他到底什么是“杂碎”？他说不出个所以然。我想，可能是我用料太过丰盛，也可能是我芡勾得不像鼻涕。总之，没有受过苦日子熏陶的小留学生体会不到生活的艰辛，就像没有经过猛火燃气灶的历练，炒不出的那一缕沾染着焦糊味儿的锅气。
 ​
 ​#读书笔记</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-05-08/202305080805370.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-05-08/202305080805371.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-05-08/202305080805372.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-05-08/202305080805373.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2023-05-08/202305080805374.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2023-05-08/202305080805375.jpg"></p>
-
 
   </div>
 
@@ -243,7 +260,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

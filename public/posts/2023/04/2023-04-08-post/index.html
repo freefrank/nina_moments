@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2023-04-08 10:00:00 +0800 +0800'>April 8, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-04-08/202304080810170.jpg&#34;,&#34;/Moments/photos/2023-04-08/202304080810171.jpg&#34;,&#34;/Moments/photos/2023-04-08/202304080810172.jpg&#34;,&#34;/Moments/photos/2023-04-08/202304080810173.jpg&#34;,&#34;/Moments/photos/2023-04-08/202304080810174.jpg&#34;,&#34;/Moments/photos/2023-04-08/202304080810175.jpg&#34;,&#34;/Moments/photos/2023-04-08/202304080810176.jpg&#34;,&#34;/Moments/photos/2023-04-08/202304080810177.jpg&#34;,&#34;/Moments/photos/2023-04-08/202304080810178.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-04-08/202304080810170.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-04-08/202304080810171.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-04-08/202304080810172.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-04-08/202304080810173.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2023-04-08/202304080810174.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2023-04-08/202304080810175.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2023-04-08/202304080810176.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2023-04-08/202304080810177.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2023-04-08/202304080810178.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>Braven 🌟 是埃德蒙顿最近接米其林的餐厅吗？
 ​
 ​2022年，万众期待的米其林首次授予了加拿大安省的13家餐厅和卑诗省的8家餐厅星级头衔。经常被揶揄为“美食荒漠”的埃德蒙顿无一餐厅获此殊荣，算得上意料之中的事。而说起来，在如此谜之玄学的评判框架之下，埃德蒙顿最接近米其林星级的餐厅会是哪家呢？
@@ -230,16 +263,6 @@ Yarrow, The Butternut Tree​, RGE Road, 甚至已经死去的Hardware Grill…�
 ​🍸The West Edmonton Reviver
 🍸 Lucky 97
 🍷 Cabernet Sauvignon/Syrah, Wayne Gretzky, Okanagan Valley, BC</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-04-08/202304080810170.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-04-08/202304080810171.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-04-08/202304080810172.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-04-08/202304080810173.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2023-04-08/202304080810174.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2023-04-08/202304080810175.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2023-04-08/202304080810176.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2023-04-08/202304080810177.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2023-04-08/202304080810178.jpg"></p>
-
 
   </div>
 
@@ -249,7 +272,17 @@ Yarrow, The Butternut Tree​, RGE Road, 甚至已经死去的Hardware Grill…�
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

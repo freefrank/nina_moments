@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-07-21 11:00:00 +0800 +0800'>July 21, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-07-21/202407211036380.jpg&#34;,&#34;/Moments/photos/2024-07-21/202407211036381.jpg&#34;,&#34;/Moments/photos/2024-07-21/202407211036382.jpg&#34;,&#34;/Moments/photos/2024-07-21/202407211036383.jpg&#34;,&#34;/Moments/photos/2024-07-21/202407211036384.jpg&#34;,&#34;/Moments/photos/2024-07-21/202407211036385.jpg&#34;,&#34;/Moments/photos/2024-07-21/202407211036386.jpg&#34;,&#34;/Moments/photos/2024-07-21/202407211036387.jpg&#34;,&#34;/Moments/photos/2024-07-21/202407211036388.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-07-21/202407211036380.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-07-21/202407211036381.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-07-21/202407211036382.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-07-21/202407211036383.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-07-21/202407211036384.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-07-21/202407211036385.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-07-21/202407211036386.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-07-21/202407211036387.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-07-21/202407211036388.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🌊 人生海海，我在浪里。
 ​
 ​在县城居住的日子，拥有了一定程度上的情绪自由。沉浸在无所事事的闲暇时光，我完成了从废人到疯人的版本升级。从阴暗倦怠过度到明媚积极，迭代出传说中鲁棒性点满的“黑暗生命力”。在这块没有多少年轻人居住的僻壤，娱乐和社交，原始而克制。小鲸鱼时常骑上小电驴载着我，穿越郊区空旷的待封顶，穿越环线崭新的公路桥，穿越堤岸坑洼的田坎地，穿越椰林掩映的乱葬岗，最终来到这片缺乏监管的海滩。</p>
@@ -213,16 +246,6 @@
 波涛翻涌，​潮落潮起。无论是在岸上观光亦或是浪里拼杀，扮演好自己的角色，给出恰到好处的表情。公平公正，重在参与。悲观的人正确，正确没有奖励；乐观的人生存，生存为了下一轮潮汐的开启。此间种种，疾风细雨还是晴空万里，存在即合理。控制不了潮水和天气，起码可以试着控制看风景的心情。巨浪倾覆雷暴来袭的恐惧，也可以用兴奋和狂喜去代替。
 ​
 ​#四百击</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-07-21/202407211036380.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-07-21/202407211036381.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-07-21/202407211036382.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-07-21/202407211036383.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-07-21/202407211036384.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-07-21/202407211036385.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-07-21/202407211036386.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-07-21/202407211036387.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-07-21/202407211036388.jpg"></p>
-
 
   </div>
 
@@ -232,7 +255,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

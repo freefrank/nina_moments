@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,11 +206,13 @@
     <div class="post-meta"><span title='2017-05-31 12:00:00 +0800 +0800'>May 31, 2017</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>好消息‼️‼️《麻辣鮮》將於5月31日，本周三下午四點開始試營業。主打麻辣牛油老火鍋, 點餐形式。各種特色火鍋、涮菜品歡迎大家前來品嘗。地址：南邊3855 - 99 Street, Edmonton, AB, T6E 6H6 tel：780-988-5966</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2017-05-31/201705310710570.jpg"></p>
-
-
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2017-05-31/201705310710570.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2017-05-31/201705310710570.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">好消息‼️‼️《麻辣鮮》將於5月31日，本周三下午四點開始試營業。主打麻辣牛油老火鍋, 點餐形式。各種特色火鍋、涮菜品歡迎大家前來品嘗。地址：南邊3855 - 99 Street, Edmonton, AB, T6E 6H6 tel：780-988-5966
   </div>
 
   <footer class="post-footer">
@@ -215,7 +221,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

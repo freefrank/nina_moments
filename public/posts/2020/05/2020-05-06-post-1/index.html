@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,12 +206,15 @@
     <div class="post-meta"><span title='2020-05-06 11:00:00 +0800 +0800'>May 6, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-05-06/202005061427380.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-05-06/202005061427380.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>录完下一期的视频啦~</p>
 <p>这次是关于我的相机Lumix S1的使用心（吐）得（槽）。请对这部分内容感兴趣的朋友们记得收看我们下期的节目哦~
 鹅且<del>你们喜欢的小鲸鱼也有出场哦</del>💕</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-05-06/202005061427380.jpg"></p>
-
 
   </div>
 
@@ -217,7 +224,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

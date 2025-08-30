@@ -4,6 +4,12 @@
 <script src="{{ "js/social-feed.js" | relURL }}" defer></script>
 {{- end }}
 
+<!-- 图片九宫格样式和脚本 -->
+{{- if not .IsHome }}
+<link rel="stylesheet" href="{{ "css/image-grid.css" | relURL }}">
+<script src="{{ "js/image-grid.js" | relURL }}" defer></script>
+{{- end }}
+
 <!-- 优化移动端显示 -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 

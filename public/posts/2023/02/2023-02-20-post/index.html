@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2023-02-20 10:00:00 +0800 +0800'>February 20, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-02-20/202302200924370.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-02-20/202302200924370.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🗒️ 关于朋友圈“小作文”的一些絮絮叨叨</p>
 <p>我的先生和我不同，他是那种从来不发朋友圈的人——连我们结婚这样的人生大事都不值得他发送一次朋友圈。我和他探讨过这个问题：你就真的没有什么想和他人分享的吗？他说有，但只是不习惯用这样“社交凝视”的方式进行。</p>
 <p>朋友圈过去是个热闹的地方。大家在这里尽情分享着旅途中的风景和美食，日常生活中的见闻和感悟，对新闻事件发声，对娱乐明星八卦，以及和塑料frienemy进行商业吹捧和阴阳撕逼。但渐渐的，大家开始不爱发朋友圈了。</p>
@@ -221,8 +230,6 @@
 <p>📷 『照片故事』 我的主业是一名新媒体编辑，a.k.a. 被嫌弃的“震惊体”公众号小编。每天我都会处理上万字的文稿，获得上万次的流量，但这样的工作并没有消磨掉我对文字的热情。因为通常我并不被允许去针对事件发表自己的观点，即使文章为了流量带有明显煽动性的情绪。</p>
 <p>因此，我更能体会到拥有自己的表达是一种珍贵的权利，哪怕喝彩声寥寥，无人在意。我们的物质生活丰富多彩，内心却愈发荒芜贫瘠。当再多再贵的物质都难以刺激多巴胺的分泌，试着去创造。让思维开花孕育结果，让灵魂凝华析出结晶。至于别人是否能品尝出果实的甜美，认可结晶的纯净，此后都不需要，也不值得你的在意。
 ​</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-02-20/202302200924370.jpg"></p>
-
 
   </div>
 
@@ -232,7 +239,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

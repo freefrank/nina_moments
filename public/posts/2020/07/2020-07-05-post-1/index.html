@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,20 +206,39 @@
     <div class="post-meta"><span title='2020-07-05 11:00:00 +0800 +0800'>July 5, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-07-05/202007050854160.jpg&#34;,&#34;/Moments/photos/2020-07-05/202007050854161.jpg&#34;,&#34;/Moments/photos/2020-07-05/202007050854162.jpg&#34;,&#34;/Moments/photos/2020-07-05/202007050854163.jpg&#34;,&#34;/Moments/photos/2020-07-05/202007050854164.jpg&#34;,&#34;/Moments/photos/2020-07-05/202007050854165.jpg&#34;,&#34;/Moments/photos/2020-07-05/202007050854166.jpg&#34;,&#34;/Moments/photos/2020-07-05/202007050854167.jpg&#34;,&#34;/Moments/photos/2020-07-05/202007050854168.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-07-05/202007050854160.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2020-07-05/202007050854161.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2020-07-05/202007050854162.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2020-07-05/202007050854163.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2020-07-05/202007050854164.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2020-07-05/202007050854165.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2020-07-05/202007050854166.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2020-07-05/202007050854167.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2020-07-05/202007050854168.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>趁着阵雨前去收割了一些花材，配合闷热的低气压，完成了这一瓶花束。时间到了七月初，随着高温和雷雨季节的到来，可采用的花材种类在减少。不过各类塘草开始打籽，潇洒的穗序安排在花瓶中作为衬景独具韵味。</p>
 <p>花材采用了粉花苜蓿、白花苜蓿、绿叶和紫叶的风箱果，还有黄色的小金鱼草。小金鱼草在加拿大被归类为害草。今年开春我把大部分小金鱼草都药死了，只留了几棵观赏。因为数量少，开花的时候还宝贝得不得了。我还特意种了好些红色的大金鱼草来搭配，结果大金鱼草被我母爱泛滥地灌了太多肥，至今还没开出花来…🤣</p>
 <p>在花材的选择和颜色的搭配上极尽豪放，灯光却给得很节省。这样营造出复古又悠远的意境，具有荷兰花卉油画家博斯查尔特画作中那般静谧凝重的韵味。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-07-05/202007050854160.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2020-07-05/202007050854161.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2020-07-05/202007050854162.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2020-07-05/202007050854163.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2020-07-05/202007050854164.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2020-07-05/202007050854165.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2020-07-05/202007050854166.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2020-07-05/202007050854167.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2020-07-05/202007050854168.jpg"></p>
-
 
   </div>
 
@@ -225,7 +248,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

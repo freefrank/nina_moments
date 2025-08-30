@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,27 @@
     <div class="post-meta"><span title='2025-04-28 11:00:00 +0800 +0800'>April 28, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-04-28/202504282058100.jpg&#34;,&#34;/Moments/photos/2025-04-28/202504282058101.jpg&#34;,&#34;/Moments/photos/2025-04-28/202504282058102.jpg&#34;,&#34;/Moments/photos/2025-04-28/202504282058103.jpg&#34;,&#34;/Moments/photos/2025-04-28/202504282058104.jpg&#34;,&#34;/Moments/photos/2025-04-28/202504282058105.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-04-28/202504282058100.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-04-28/202504282058101.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-04-28/202504282058102.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-04-28/202504282058103.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-04-28/202504282058104.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-04-28/202504282058105.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>东南亚之旅美食篇 05 | 蘸拖鞋都好吃的新山金龙阿仔咖喱鱼头 ⭐⭐⭐⭐⭐
 ​
 在整个东南亚的旅行中，最让我念念不忘的一餐，就是新山阿福街的金龙阿仔咖喱鱼头。如果你打开新山的美食攻略，这家店大概率会名列其中。而且不同于许多“旅游区宰客餐厅”，金龙阿仔不仅价格亲民、分量实在，连本地人都是一边吃一边自来水地安利，是真正靠口碑撑起来的人气老店。</p>
@@ -211,13 +235,6 @@
 <p>不过，最让我惊艳的还得是吸饱了咖喱浓汁的腐皮。轻轻一咬，汤汁四溢，是这道菜的点睛之笔。吃不够的话，还可以单点腐皮泡进去，绝不让一滴灵魂酱汁被浪费。小鲸鱼说就算没有鱼头，这个底料都让人有动力刨三碗米饭下肚。传说中的蘸拖鞋都好吃，大抵如此。要不是有遥远的路途要奔波，真想顺几包冷冻真空装回家大快朵颐。
 ​
 ​#咖喱鱼头</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-04-28/202504282058100.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-04-28/202504282058101.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-04-28/202504282058102.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-04-28/202504282058103.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-04-28/202504282058104.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-04-28/202504282058105.jpg"></p>
-
 
   </div>
 
@@ -227,7 +244,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

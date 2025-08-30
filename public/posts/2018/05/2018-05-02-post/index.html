@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,17 @@
     <div class="post-meta"><span title='2018-05-02 10:00:00 +0800 +0800'>May 2, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-05-02/201805022327300.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-05-02/201805022327300.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>💛🧡💗💜💗🧡💛</p>
 <p>今天来讲讲Violet Voss的Hash Tag盘。这个配色上半部分是去年上半年最热门的橙黄日落色系；下半部分是去年下半年最热门的玫紫沙漠色系。😁这么不日常的颜色，简直就是我的日常啊！</p>
 <p>种草VV家的眼影有一阵子了。他们家配色神马的很大胆饱和鲜亮，是我的菜。之前种草的是有黄绿色系的Like A Boss盘，不过感觉那个色系的盘我有太多了。所以最后下单的是这盘。</p>
 <p>然而，对品质有点失望。其实她上色度很低，是欧美盘里我用过上色度相当低的了。长了一幅妖艳贱货的嘴脸你告诉我上色度那么低？会买这样配色眼影的人，当然期待高上色度啦！不能接受😠。目测需要用沾湿画法。除此之外晕染度还可以，也不飞粉。粉质细腻的同时没有掉粉问题，这个算是优点吧。</p>
 <p>包装的话有镜子是很方便啦，但是我没在care镜子，因为我镜子太多了😂。眼影的份量还可以，但是这也不是我在意的。包装那个纸壳看起来有点廉价，而且包装难拆到我指甲油都劈掉。总之没有达到我的预期。对这个牌子长草的同学可以拔了。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-05-02/201805022327300.jpg"></p>
-
 
   </div>
 
@@ -219,7 +226,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,12 +206,16 @@
     <div class="post-meta"><span title='2016-03-06 11:00:00 +0800 +0800'>March 6, 2016</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>春天的小院子真是一个生机勃勃的小天地。每天最大的乐趣就是和老妈拿个小铲子蹲在小院子里劳作。油菜花不施化肥却争气地长得比人还高；被寒冬蹂躏后的君子兰伴随着春风骄傲地抽出了双排的花件。小番茄和小辣椒的秧苗正蓄势待发准备破土而出；小芹菜和小白菜已经欣然地舒展开了自己的嫩叶。鸢尾的花苗和南瓜的种子刚被安置到土里；桂花和海棠的花期却已到了尾声。随手摘一把油菜用油盐清炒便成了一道清爽的美味；掐点春芽炒个鸡蛋是时令中不可多得的妙物。小麻雀呼朋引伴站在枝头叽叽喳喳地歌唱；小锦鲤成群结伴在池底悠然自得地徜徉。春日的早午餐需闻着花香晒着太阳坐在院子里享用；取一壶碧潭飘雪就这样悠闲地消磨了整个下午的时光。这样的生活太是安逸，巴适。想来所谓的“少不入蜀，老不离川”，意味地就是这样的心境吧。#知足常乐</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2016-03-06/201603061257120.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2016-03-06/201603061257121.jpg"></p>
-
-
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2016-03-06/201603061257120.jpg&#34;,&#34;/Moments/photos/2016-03-06/201603061257121.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2016-03-06/201603061257120.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2016-03-06/201603061257121.jpg" alt="图片 2" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">春天的小院子真是一个生机勃勃的小天地。每天最大的乐趣就是和老妈拿个小铲子蹲在小院子里劳作。油菜花不施化肥却争气地长得比人还高；被寒冬蹂躏后的君子兰伴随着春风骄傲地抽出了双排的花件。小番茄和小辣椒的秧苗正蓄势待发准备破土而出；小芹菜和小白菜已经欣然地舒展开了自己的嫩叶。鸢尾的花苗和南瓜的种子刚被安置到土里；桂花和海棠的花期却已到了尾声。随手摘一把油菜用油盐清炒便成了一道清爽的美味；掐点春芽炒个鸡蛋是时令中不可多得的妙物。小麻雀呼朋引伴站在枝头叽叽喳喳地歌唱；小锦鲤成群结伴在池底悠然自得地徜徉。春日的早午餐需闻着花香晒着太阳坐在院子里享用；取一壶碧潭飘雪就这样悠闲地消磨了整个下午的时光。这样的生活太是安逸，巴适。想来所谓的“少不入蜀，老不离川”，意味地就是这样的心境吧。#知足常乐
   </div>
 
   <footer class="post-footer">
@@ -216,7 +224,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

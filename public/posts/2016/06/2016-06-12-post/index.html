@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2016-06-12 10:00:00 +0800 +0800'>June 12, 2016</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2016-06-12/201606121245060.jpg&#34;,&#34;/Moments/photos/2016-06-12/201606121245061.jpg&#34;,&#34;/Moments/photos/2016-06-12/201606121245062.jpg&#34;,&#34;/Moments/photos/2016-06-12/201606121245063.jpg&#34;,&#34;/Moments/photos/2016-06-12/201606121245064.jpg&#34;,&#34;/Moments/photos/2016-06-12/201606121245065.jpg&#34;,&#34;/Moments/photos/2016-06-12/201606121245066.jpg&#34;,&#34;/Moments/photos/2016-06-12/201606121245067.jpg&#34;,&#34;/Moments/photos/2016-06-12/201606121245068.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2016-06-12/201606121245060.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2016-06-12/201606121245061.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2016-06-12/201606121245062.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2016-06-12/201606121245063.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2016-06-12/201606121245064.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2016-06-12/201606121245065.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2016-06-12/201606121245066.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2016-06-12/201606121245067.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2016-06-12/201606121245068.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>Maligne Canyon
 Athabasca Falls
 Athabasca Glacier
@@ -211,16 +244,6 @@ Columbia Icefield
 <p>十年后故地重游Jasper National Park。天还是那么蓝，冰山还是那么纯净。</p>
 <p>幸运地遇到小黑熊在马路边走路，默默地走，不理会围观的群众。
 还有萌萌哒小鹿，默默吃草。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2016-06-12/201606121245060.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2016-06-12/201606121245061.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2016-06-12/201606121245062.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2016-06-12/201606121245063.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2016-06-12/201606121245064.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2016-06-12/201606121245065.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2016-06-12/201606121245066.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2016-06-12/201606121245067.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2016-06-12/201606121245068.jpg"></p>
-
 
   </div>
 
@@ -230,7 +253,17 @@ Columbia Icefield
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2018-05-21 11:00:00 +0800 +0800'>May 21, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-05-21/201805210730340.jpg&#34;,&#34;/Moments/photos/2018-05-21/201805210730341.jpg&#34;,&#34;/Moments/photos/2018-05-21/201805210730342.jpg&#34;,&#34;/Moments/photos/2018-05-21/201805210730343.jpg&#34;,&#34;/Moments/photos/2018-05-21/201805210730344.jpg&#34;,&#34;/Moments/photos/2018-05-21/201805210730345.jpg&#34;,&#34;/Moments/photos/2018-05-21/201805210730346.jpg&#34;,&#34;/Moments/photos/2018-05-21/201805210730347.jpg&#34;,&#34;/Moments/photos/2018-05-21/201805210730348.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-05-21/201805210730340.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2018-05-21/201805210730341.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2018-05-21/201805210730342.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2018-05-21/201805210730343.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2018-05-21/201805210730344.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2018-05-21/201805210730345.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2018-05-21/201805210730346.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2018-05-21/201805210730347.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2018-05-21/201805210730348.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>昨天发的文章我说是我在食悦写的最后一篇关于吃的文章，很多人就跑来问我是怎么回事。其实由于我本人工作安排的原因，今后将不能继续在食悦的微信公众号和微博给热爱美食的各位带去更多的优质的原创作品和文章了。</p>
 <p>你们问我是不是老板对我不好，哈哈，其实并没有所谓的老板。食悦发表的任何内容和产品都是我自己freestyle的。我想借由这个平台去全方位地锻炼自己对于新媒体产业的学习和操作。食悦有它很多商业上的不成熟，也有坚持原创的难得可贵。</p>
 <p>这段时间非常感谢你们的关注和支持。食悦从一个只有一千多人关注的小账号到单篇文章阅读量突破5000纪录；从一个商业广告都没有到接下辻利茶铺在微信微博平台的华人独家宣传；从以前的一周一篇文章到如今的一周三四篇文章的更新频率，和你们的每一个默默的点赞和转发都是分不开的。</p>
@@ -210,16 +243,6 @@
 <p>伤感的话就不多说啦，希望在食悦陪伴你们，和我不能继续以食悦的身份陪伴你们的这段日子里，大家都能积极正能量的生活，纵情享受在屯子里吃喝玩乐的美好人生！</p>
 <p>❤️爱你们的Nina❤️
 2018.520.</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-05-21/201805210730340.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2018-05-21/201805210730341.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2018-05-21/201805210730342.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2018-05-21/201805210730343.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2018-05-21/201805210730344.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2018-05-21/201805210730345.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2018-05-21/201805210730346.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2018-05-21/201805210730347.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2018-05-21/201805210730348.jpg"></p>
-
 
   </div>
 
@@ -229,7 +252,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

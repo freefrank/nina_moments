@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,8 +206,37 @@
     <div class="post-meta"><span title='2017-10-27 11:00:00 +0800 +0800'>October 27, 2017</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>【帮转】
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2017-10-27/201710271409320.jpg&#34;,&#34;/Moments/photos/2017-10-27/201710271409321.jpg&#34;,&#34;/Moments/photos/2017-10-27/201710271409322.jpg&#34;,&#34;/Moments/photos/2017-10-27/201710271409323.jpg&#34;,&#34;/Moments/photos/2017-10-27/201710271409324.jpg&#34;,&#34;/Moments/photos/2017-10-27/201710271409325.jpg&#34;,&#34;/Moments/photos/2017-10-27/201710271409326.jpg&#34;,&#34;/Moments/photos/2017-10-27/201710271409327.jpg&#34;,&#34;/Moments/photos/2017-10-27/201710271409328.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2017-10-27/201710271409320.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2017-10-27/201710271409321.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2017-10-27/201710271409322.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2017-10-27/201710271409323.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2017-10-27/201710271409324.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2017-10-27/201710271409325.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2017-10-27/201710271409326.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2017-10-27/201710271409327.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2017-10-27/201710271409328.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">【帮转】
 ‼️诺亚万圣活动来袭‼️点开有惊喜🎃
 电脑前面转着 笔     窝在床上不想 起
 天天死宅在家 里     还说什么要控制你 寄几
@@ -221,18 +254,7 @@ wo～
 还得来诺  亚‼️
 wo～
 (强迫症的最后一张freestyle[捂脸])
-(帮转送吃喝)</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2017-10-27/201710271409320.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2017-10-27/201710271409321.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2017-10-27/201710271409322.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2017-10-27/201710271409323.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2017-10-27/201710271409324.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2017-10-27/201710271409325.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2017-10-27/201710271409326.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2017-10-27/201710271409327.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2017-10-27/201710271409328.jpg"></p>
-
-
+(帮转送吃喝)
   </div>
 
   <footer class="post-footer">
@@ -241,7 +263,17 @@ wo～
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

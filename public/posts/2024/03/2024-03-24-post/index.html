@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-03-24 10:00:00 +0800 +0800'>March 24, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-03-24/202403241131050.jpg&#34;,&#34;/Moments/photos/2024-03-24/202403241131051.jpg&#34;,&#34;/Moments/photos/2024-03-24/202403241131052.jpg&#34;,&#34;/Moments/photos/2024-03-24/202403241131053.jpg&#34;,&#34;/Moments/photos/2024-03-24/202403241131054.jpg&#34;,&#34;/Moments/photos/2024-03-24/202403241131055.jpg&#34;,&#34;/Moments/photos/2024-03-24/202403241131056.jpg&#34;,&#34;/Moments/photos/2024-03-24/202403241131057.jpg&#34;,&#34;/Moments/photos/2024-03-24/202403241131058.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-03-24/202403241131050.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-03-24/202403241131051.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-03-24/202403241131052.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-03-24/202403241131053.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-03-24/202403241131054.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-03-24/202403241131055.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-03-24/202403241131056.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-03-24/202403241131057.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-03-24/202403241131058.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🧑‍🌾👩‍🌾👨‍🌾 Bountiful Farmers&rsquo; Market
 ​
 ​记得08年刚来加拿大留学的时候，家人嘱咐我也不用所有的菜都在超市买。留意一下附近的农贸市场，或许可以买到更便宜的食材。农贸市场是被我找到了，但显然并不是我能消费得起的亚子。彼时的我们对“有机”这个词还没有概念，不知道任何事物一和这个可怕的词汇沾边都意味着至少两成的溢价，再叠加本地、手工、古法、原住民等一系列 Buff，结结实实地给我年幼的消费观造成了一些 PTSD。
@@ -215,16 +248,6 @@
 <p>这个集市拥有104个永久商铺，售卖从蔬果、肉类、奶制品、花卉、酒水到手工制品等各类日用百货。其中80%的商品由本地商家生产，其余也均产自加拿大，这反映了阿尔伯塔省丰富的农副传统和充满活力的社区氛围。此外该集市也提供儿童游乐场、音乐表演和就餐区，是周末家庭购物和社交休闲的理想场所。
 ​
 ​#农夫集市</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-03-24/202403241131050.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-03-24/202403241131051.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-03-24/202403241131052.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-03-24/202403241131053.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-03-24/202403241131054.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-03-24/202403241131055.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-03-24/202403241131056.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-03-24/202403241131057.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-03-24/202403241131058.jpg"></p>
-
 
   </div>
 
@@ -234,7 +257,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

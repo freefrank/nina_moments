@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2023-05-27 11:00:00 +0800 +0800'>May 27, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-05-27/202305270459500.jpg&#34;,&#34;/Moments/photos/2023-05-27/202305270459501.jpg&#34;,&#34;/Moments/photos/2023-05-27/202305270459502.jpg&#34;,&#34;/Moments/photos/2023-05-27/202305270459503.jpg&#34;,&#34;/Moments/photos/2023-05-27/202305270459504.jpg&#34;,&#34;/Moments/photos/2023-05-27/202305270459505.jpg&#34;,&#34;/Moments/photos/2023-05-27/202305270459506.jpg&#34;,&#34;/Moments/photos/2023-05-27/202305270459507.jpg&#34;,&#34;/Moments/photos/2023-05-27/202305270459508.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-05-27/202305270459500.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-05-27/202305270459501.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-05-27/202305270459502.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-05-27/202305270459503.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2023-05-27/202305270459504.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2023-05-27/202305270459505.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2023-05-27/202305270459506.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2023-05-27/202305270459507.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2023-05-27/202305270459508.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>埃德蒙顿市中心举办的 Downtown Spark 活动已经正式开始啦！大家的社交网络是不是已经被 Churchill Square 这几颗绚丽的彩色气泡装置刷屏了呢？</p>
 <p>今年夏天在埃德蒙顿的市区角落，你将“偶遇”到一些个奇奇怪怪的装置艺术。这些来自世界各地新锐艺术家天马行空的作品，将用色彩和创意点亮我们轻松愉快的节日季！</p>
 <p>📅 5月25日 - 6月5日的前一天</p>
@@ -222,16 +255,6 @@ Maybe it&rsquo;s our looseness
 ​🎵 Trash BY Suede
 ​
 ​#cellophanesounds</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-05-27/202305270459500.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-05-27/202305270459501.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-05-27/202305270459502.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-05-27/202305270459503.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2023-05-27/202305270459504.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2023-05-27/202305270459505.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2023-05-27/202305270459506.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2023-05-27/202305270459507.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2023-05-27/202305270459508.jpg"></p>
-
 
   </div>
 
@@ -241,7 +264,17 @@ Maybe it&rsquo;s our looseness
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

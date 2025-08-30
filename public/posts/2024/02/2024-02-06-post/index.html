@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2024-02-06 10:00:00 +0800 +0800'>February 6, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-02-06/202402060258160.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-02-06/202402060258160.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>✈️ 转机温哥华小记</p>
 <p>我去过温哥华很多次。雨雪夹杂的凛冬，乍暖还寒的早春，繁花似锦的初夏，唯独没有感受过秋天温哥华的湿冷细碎。这次回国从YVR转机行程中“偷”了三个小时外出放风的时光——清晨从飞机场托运寄存完行李，便兴高采烈地乘上SkyTrain，前往怀念甚久的麒麟广式早茶。</p>
 <p>这似乎还是我过去熟悉的那个温哥华。那种青涩又冒失的学生气儿在我跨上城铁站台的一刻从劳顿的躯壳中醒来。工作日晨间的班次座位紧张，但我们还是幸运地挤上车厢尾部，来到能够饱览海港和雪山盛景的景观窗前。我兴奋地遥望着天边阴沉的乌云像骑坐在群山万壑的妖物，具象化地演绎着“云谲波诡”这句成语。带有戏剧张力且压迫感强烈，像是自然界“邪魅狂狷”的霸道总裁。</p>
@@ -214,8 +223,6 @@
 <p>📍 帝苑皇宴, 5951 No. 3 Rd Unit 200, Richmond, BC V6X 2E3
 📸 2023-09-27</p>
 <p>📝 回国美食记录 04</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-02-06/202402060258160.jpg"></p>
-
 
   </div>
 
@@ -225,7 +232,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

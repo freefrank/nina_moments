@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2024-01-31 10:00:00 +0800 +0800'>January 31, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-01-31/202401310054590.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-01-31/202401310054590.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🍟 肉汁奶酪薯条算是正统加拿大菜吗？</p>
 <p>离开加拿大回国的那一晚时间非常充裕，我坐在在机场候机楼里认真地思考人类每日不得不面对的难题：吃什么。一想到未来数月都吃不上正统的加拿大菜就难过得潸然泪下——那是不可能的。🙃 毕竟正统的加拿大菜连加拿大人都怪嫌弃的。</p>
 <p>加拿大人到底爱吃加拿大菜吗？这是个值得考据的问题。知名的加拿大菜掰着十个手指头都能数过来，而其中毋庸置疑的断层C位还属 Poutine 肉汁奶酪薯条。 根据 Research Co. 2023年的调查显示，82%的加拿大人爱吃肉汁奶酪薯条，肉汁奶酪薯条也是他们最钟爱的加拿大菜，没有之一。虽然，魁北克人可能对此抱有异议——肉汁奶酪薯条是魁北克菜而不是加拿大菜。😅</p>
@@ -215,8 +224,6 @@
 <p>📷 2023.09.27
 📍 The Burger Federation, Concourse A, 2000 Airport Rd NE, Calgary, AB T2E 6W5</p>
 <p>📝 回国美食记录 03</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-01-31/202401310054590.jpg"></p>
-
 
   </div>
 
@@ -226,7 +233,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

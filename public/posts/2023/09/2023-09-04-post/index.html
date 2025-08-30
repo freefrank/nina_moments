@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2023-09-04 10:00:00 +0800 +0800'>September 4, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-09-04/202309040640210.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-09-04/202309040640210.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🤔 Whyte Avenue 为什么姓 Whyte？
 ​
 ​Whyte (82) Avenue 是埃德蒙顿艺术、社交和商业发展跳动的脉搏，具有不可替代的文化和历史意义。然而你知道为什么这条街道会以 &ldquo;Whyte&quot;来命名吗？这位大名鼎鼎的 &ldquo;Mr.Whyte&rdquo; 又是何许人也？
@@ -217,8 +226,6 @@
 ​
 『​以上文字来源于“NinaBot.GPT”』</p>
 <p>​用我的文章“喂”给GPT-4，调教出了一个以我写作风格批量出产赛博垃圾的废话生成器。😂😂😂 怎么样？我是不是可以提前退休啦？</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-09-04/202309040640210.jpg"></p>
-
 
   </div>
 
@@ -228,7 +235,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

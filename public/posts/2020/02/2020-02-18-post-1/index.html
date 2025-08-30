@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,7 @@
     <div class="post-meta"><span title='2020-02-18 11:00:00 +0800 +0800'>February 18, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
   <div class="post-content"><p>懒了好久终于把 Nina 和 Paul 的第二支Vlog视频剪出来啦！</p>
 <p>在这段视频中我们将揭秘美食博主的工作日常，大家传说中的只需要吃吃吃就能赚钱的工作真得存在吗？</p>
 <p>地处于埃德蒙顿市 / Edmonton 市中心的网红新餐厅 District 102近期隆重开业，他们邀请了Nina和Paul代表他们正在运行的ig美食主页 foodjoy.canada 前往进行试菜。</p>
@@ -210,7 +214,6 @@
 <p>4K全场视频观看地址
 国内：https://m.bilibili.com/video/av89790620
 国外：https://youtu.be/3O6pAhdV3FY</p>
-
 
   </div>
 
@@ -220,7 +223,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

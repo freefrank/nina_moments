@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2022-12-04 10:00:00 +0800 +0800'>December 4, 2022</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2022-12-04/202212041554030.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2022-12-04/202212041554030.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>😃 努力续命中
 这几天应该抽空把原作重温一遍 😎</p>
 <p>遥想2014年开始追弥留之国漫画，一度番冷到生肉出来一个月都没汉化组愿意翻，汉化权几度易主甚至需要个人汉化接力，贴吧三周没一个新贴，豆瓣读书还需要手动添加条目。感谢《鱿鱼游戏》让我家冷剧翻红 ❤️</p>
@@ -210,8 +219,6 @@
 🙏 剧情给力
 ​
 ​#弥留之国的爱丽丝2</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2022-12-04/202212041554030.jpg"></p>
-
 
   </div>
 
@@ -221,7 +228,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

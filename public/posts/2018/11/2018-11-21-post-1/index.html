@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,12 +206,15 @@
     <div class="post-meta"><span title='2018-11-21 11:00:00 +0800 +0800'>November 21, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-11-21/201811211402510.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-11-21/201811211402510.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>还记得你在Hoho吃的第一顿饭吗？我吃的是“屎浇排骨饭”。但后来我最常点的是牛腩云吞汤面，面条一定要换成弹牙的鸡蛋面，很长一段时间不用跟店员讲他们都会记得直接给我端这样的面出来。</p>
 <p>Hoho就是这样一个地方。出了学校回到国内再吃到这样的饭，你绝对想要端去倒掉。但多少年以后再重返母校，你却还是想要回到这个曾经熟悉的地方尝尝这学生时代天天吃年年吃吃到吐的东西。</p>
 <p>呵！这就是情怀！</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-11-21/201811211402510.jpg"></p>
-
 
   </div>
 
@@ -217,7 +224,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

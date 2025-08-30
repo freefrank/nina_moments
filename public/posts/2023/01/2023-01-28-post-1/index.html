@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,21 @@
     <div class="post-meta"><span title='2023-01-28 11:00:00 +0800 +0800'>January 28, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-01-28/202301280645040.jpg&#34;,&#34;/Moments/photos/2023-01-28/202301280645041.jpg&#34;,&#34;/Moments/photos/2023-01-28/202301280645042.jpg&#34;,&#34;/Moments/photos/2023-01-28/202301280645043.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-01-28/202301280645040.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-01-28/202301280645041.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-01-28/202301280645042.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-01-28/202301280645043.jpg" alt="图片 4" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>疫情之后屯子还是开了不少新餐厅的。它们有一些共同点，口味重且贵。🙃 ​</p>
 <p>新冠后遗症让许多人味觉灵敏度降低。不知是主厨自己的授意还是客人的要求，外食大多齁脏话咸，肾衰竭浓度的盐分堪比酒吧食品。咸到我怀疑人生的时候去刨两口工业化流水线生产的金拱门，出品一如既往的稳定。放心了。错的不是我是这个世界。
 ​
@@ -211,11 +229,6 @@
 ​📍Takopo, 1546 - 8882 170 ST NW, Edmonton, AB</p>
 <p>📝 从夜市餐车开进商场的美食广场是常见的商业扩张模式，在冰淇淋甜品和烧烤品类小吃中很常见，但这不见得是一种成功的转型。美食广场并不是什么烟火气息浓厚，有着边走边吃感官氛围加成的场所。不能在嘈杂的环境中近距离观赏商贩手中的花活儿，也不能闻到擦肩行人手中飘来的碳烤香味儿。大排长龙刺激出的FOMO心理在这样的应用场景中触发不同的消费意愿，没有咽下的一缕口水就带不来掏手机扫码下单的冲动。</p>
 <p>在美食广场用餐的诉求其实很简单：品质稳定、选择丰富，高效省力。所以一份软塌塌稀啦啦的章鱼小丸子要花费我25分钟的耐心等待，这就让人很难保持良好的品格，稳定自己的情绪。🤨</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-01-28/202301280645040.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-01-28/202301280645041.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-01-28/202301280645042.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-01-28/202301280645043.jpg"></p>
-
 
   </div>
 
@@ -225,7 +238,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

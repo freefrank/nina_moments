@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2024-04-14 10:00:00 +0800 +0800'>April 14, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-04-14/202404140911500.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-04-14/202404140911500.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>❤️🧠🦁🍀 “新造的人” ❤️🧠🦁🍀
 ​
 阔别半年多，终于捡起读书的爱好。😉 主要是之前游记的库存太多，没有时间精力在工作之余兼顾创作和学习。我还欠了两篇读书笔记没有发表，我会努力Push自己尽快完成，别把去年的分享欲拖到明年，因为我相信明年将会是十分值得分享的“精彩之年”！😄</p>
@@ -211,8 +220,6 @@
 <p>本质上极少有人能做到创业天资的充沛均衡。但当我们意识到自己的不足后可以通过后天的自我再教育进行调整。对于绝大部分人，尤其是女性，胆魄的缺乏是普遍的。因为我们从小受到家庭、学校和社会的教育实践都是以顺从的个人形象为蓝本来进行的，而挑战、危险和挫折都是应极力避免的。而当你天真地涌入社会这座毫无公平可言的“斗兽场”，遇到上述逆境的概率是100%。想要在残酷的竞争中不要败下阵来，你需要尽早，尽快地去自我培养锻炼，那些有意或无意，没能或者不想让你具备更多竞争力的素质。</p>
 <p>读这本书的本意肯定不是要给自己打什么不切实际的创业鸡血。哪怕用我捉襟见肘的统计学知识加以粗略计算都明白在这样的经济周期下能创业成功的概率是有多劝退。顺便掂量一下自己的斤两：如果要蹭团队作业的顺风车，哪样创业天资的队友才能最大化效率的周转。好在人生不比创业九死一生（人生是都要死），只要没有彻底断气都有逆风翻盘的可能。偶尔用勇敢代替理智去博一次“leap of faith”——你这么做不是因为你能，而是你相信你能。如果赢了，就是修正“回避型人格”的一次正反馈；哪怕输了，无非是又一次锻炼逆商的机会。里外里，都不会亏的。</p>
 <p>​#读书笔记</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-04-14/202404140911500.jpg"></p>
-
 
   </div>
 
@@ -222,7 +229,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

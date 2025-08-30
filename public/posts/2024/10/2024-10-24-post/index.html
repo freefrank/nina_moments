@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-10-24 10:00:00 +0800 +0800'>October 24, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-10-24/202410240914460.jpg&#34;,&#34;/Moments/photos/2024-10-24/202410240914461.jpg&#34;,&#34;/Moments/photos/2024-10-24/202410240914462.jpg&#34;,&#34;/Moments/photos/2024-10-24/202410240914463.jpg&#34;,&#34;/Moments/photos/2024-10-24/202410240914464.jpg&#34;,&#34;/Moments/photos/2024-10-24/202410240914465.jpg&#34;,&#34;/Moments/photos/2024-10-24/202410240914466.jpg&#34;,&#34;/Moments/photos/2024-10-24/202410240914467.jpg&#34;,&#34;/Moments/photos/2024-10-24/202410240914468.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-10-24/202410240914460.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-10-24/202410240914461.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-10-24/202410240914462.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-10-24/202410240914463.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-10-24/202410240914464.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-10-24/202410240914465.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-10-24/202410240914466.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-10-24/202410240914467.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-10-24/202410240914468.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>☕ 磨上的驴，和它的咖啡</p>
 <p>疫情后回国的一大感触是，国内的咖啡厅数量呈指数级飙涨，线下门店铺开的速率甚至远超奶茶。咖啡从过去揶揄周立波和上海人“假洋鬼子”的枪靶，降格为打工牛马流动的血液，不过十年。一同降级的还有咖啡厅的应用场景，从小资情调的约会过度到如今收留失业人口的“工位”。喝咖啡这个仪式在国人眼中彻底失去光环，各大品牌9.9元价格战让稳坐世界三大饮品之首的咖啡，跌下神坛。
 ​
@@ -217,16 +250,6 @@
 <p>这么说操作起来是悬浮的，因为社会显然还没有发展到可以为这些头不拉磨的倔驴兜底。但这至少可以让部分驴从心里悄悄明白磨和自己的关系，做好磨哪天凭空消失也不要哭天喊地的准备。失去你的磨，迎来广阔的草原。失去比命苦的黑咖，迎来咖啡的花式喝法。愿咖啡陪伴你的，不再是枯燥字符后浮动的光标，而是认知宇宙中燎原的火花。
 ​
 ​#咖啡</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-10-24/202410240914460.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-10-24/202410240914461.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-10-24/202410240914462.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-10-24/202410240914463.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-10-24/202410240914464.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-10-24/202410240914465.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-10-24/202410240914466.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-10-24/202410240914467.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-10-24/202410240914468.jpg"></p>
-
 
   </div>
 
@@ -236,7 +259,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-05-27 10:00:00 +0800 +0800'>May 27, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-05-27/202505271006270.jpg&#34;,&#34;/Moments/photos/2025-05-27/202505271006271.jpg&#34;,&#34;/Moments/photos/2025-05-27/202505271006272.jpg&#34;,&#34;/Moments/photos/2025-05-27/202505271006273.jpg&#34;,&#34;/Moments/photos/2025-05-27/202505271006274.jpg&#34;,&#34;/Moments/photos/2025-05-27/202505271006275.jpg&#34;,&#34;/Moments/photos/2025-05-27/202505271006276.jpg&#34;,&#34;/Moments/photos/2025-05-27/202505271006277.jpg&#34;,&#34;/Moments/photos/2025-05-27/202505271006278.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-05-27/202505271006270.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-05-27/202505271006271.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-05-27/202505271006272.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-05-27/202505271006273.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-05-27/202505271006274.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-05-27/202505271006275.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-05-27/202505271006276.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-05-27/202505271006277.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-05-27/202505271006278.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>东南亚之旅美食篇 16 | 马来西亚国菜 🍗 炸鸡椰浆饭
 ​
 ​如果要让马来西亚人选出一道最能代表自己国家的美食，许多人心中的答案应该都会是椰浆饭（Nasi Lemak）。虽然它最初起源于马来族群，但如今已经成为全民性的日常美食——从街头摊贩、咖啡店、小餐馆到高级酒店，你都能找到各式各样的椰浆饭。离开吉隆坡的那个早晨，我们终于把珍贵的早午餐配额留给了这道国民美食，专程去打卡吉隆坡最负盛名的椰浆饭顶流——Village Park。</p>
@@ -213,16 +246,6 @@
 <p>🍜 另一款是爪哇面。酸辣厚重，也十分美味！
 ​
 ​#炸鸡椰浆饭</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-05-27/202505271006270.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-05-27/202505271006271.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-05-27/202505271006272.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-05-27/202505271006273.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-05-27/202505271006274.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-05-27/202505271006275.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-05-27/202505271006276.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-05-27/202505271006277.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-05-27/202505271006278.jpg"></p>
-
 
   </div>
 
@@ -232,7 +255,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

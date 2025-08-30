@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,15 @@
     <div class="post-meta"><span title='2024-01-26 10:00:00 +0800 +0800'>January 26, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-01-26/202401260003380.jpg&#34;,&#34;/Moments/photos/2024-01-26/202401260003381.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-01-26/202401260003380.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-01-26/202401260003381.jpg" alt="图片 2" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>“白人饭”——餐饮消费中的“意识形态霸权”
 ​
 回国途径卡尔加里的行程中，去到了 CrossIron Mills 进货，午餐顺带在 food court 就地解决。选餐的时候偶遇一拨在此出差的白人精英。他们全都不约而同地相中了这家 Poke 店作为工作餐首选。要知道加拿大的 food court 可是一个国际化到过度ZZZQ的地方。看似选择琳琅满目，但对于年收入超六位数的精英群体来说不然。让这些身着 Ralph Lauren 职业套装的商场新贵们，嗦着油腻的炸鸡，嘬着全糖的可乐去探讨几个亿项目的推进，不符合他们的人设，不符合社会对他们的期待。</p>
@@ -217,9 +229,6 @@
 <p>【注】“白人饭”是中国人发明的略带种族歧视意味的词汇，玩梗时请注意尺度和场合。ANYWAY, NO LIVES MATTER.</p>
 <p>【热知识】Poke 为发源于美国夏威夷的一种美食。脱胎于台湾发迹的波里尼西亚后裔原住民的饮食习惯，受到日本饮食文化启发，由华裔混血厨师 Sam Choy 于上世纪70年代创造。&ldquo;Poke&rdquo; 在本地语言中是“切块”的意思。脑洞大开细思极恐，这让我不得不联想到这个词的词源，会不会来自汉语“剖开”？😃 传出去，Poke 从各个纬度上来说，都是“黄人饭”！
 ​</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-01-26/202401260003380.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-01-26/202401260003381.jpg"></p>
-
 
   </div>
 
@@ -229,7 +238,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

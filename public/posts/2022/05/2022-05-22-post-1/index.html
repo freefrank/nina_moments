@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2022-05-22 11:00:00 +0800 +0800'>May 22, 2022</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2022-05-22/202205220750480.jpg&#34;,&#34;/Moments/photos/2022-05-22/202205220750481.jpg&#34;,&#34;/Moments/photos/2022-05-22/202205220750482.jpg&#34;,&#34;/Moments/photos/2022-05-22/202205220750483.jpg&#34;,&#34;/Moments/photos/2022-05-22/202205220750484.jpg&#34;,&#34;/Moments/photos/2022-05-22/202205220750485.jpg&#34;,&#34;/Moments/photos/2022-05-22/202205220750486.jpg&#34;,&#34;/Moments/photos/2022-05-22/202205220750487.jpg&#34;,&#34;/Moments/photos/2022-05-22/202205220750488.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2022-05-22/202205220750480.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2022-05-22/202205220750481.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2022-05-22/202205220750482.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2022-05-22/202205220750483.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2022-05-22/202205220750484.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2022-05-22/202205220750485.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2022-05-22/202205220750486.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2022-05-22/202205220750487.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2022-05-22/202205220750488.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>二乔玉兰 / Chinese Magnolia 
 ​
 五月份装点初春多伦多街头的暖粉云雾，绝对不止专业营销大户樱花；原产于中国的二乔木兰在花量和氛围感上其实是艳压般的存在。</p>
@@ -211,16 +244,6 @@
 <p>位于尼亚加拉瀑布尽头的这片花圃鲜少有人到访，作为旅途中未曾提前计划的惊喜再合适不过。感受人生维度的方式多种多样，在春日玉兰花盛放的走廊下闲庭信步绝对是最悠然享乐之一。生命的日常终因琐事被迫陷入无止尽的内耗和磋磨，但玉兰那倾其所有不顾一切只为夺目绽放的英勇姿态，总是让站在树下的每一个人心生感叹敬仰：如果自己的人生也能过得如此快活敞亮，该是有多好。</p>
 <p>📍Floral Showhouse @ Niagara Falls
 ​</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2022-05-22/202205220750480.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2022-05-22/202205220750481.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2022-05-22/202205220750482.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2022-05-22/202205220750483.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2022-05-22/202205220750484.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2022-05-22/202205220750485.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2022-05-22/202205220750486.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2022-05-22/202205220750487.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2022-05-22/202205220750488.jpg"></p>
-
 
   </div>
 
@@ -230,7 +253,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

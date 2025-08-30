@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,13 +206,16 @@
     <div class="post-meta"><span title='2018-08-31 10:00:00 +0800 +0800'>August 31, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-08-31/201808312316550.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-08-31/201808312316550.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>昨日傍晚时分骤降暴雨。饭后雨住院内散步偶见栾华那“故事的小黄花”被雨滴均匀地打落一地，细细碎碎地铺满了浇稀的青石板路。</p>
 <p>趁汽车轮胎将之来回碾压渗入泥泞化作尘前抓拍了一张残景，却是个让人触景生情好生心疼的哀黯场面。</p>
 <p>高大挺拔的栾华是个玉树临风的酷盖，孤傲不羁地挺着胸膛瞭望着远方的天际，不曾像我们这些平凡人儿一样低头跪地，悲悯怜惜这美好年华的逝去。生命轮回的意义和使命他早已了然于心：既然决定好要过好这逍遥超脱风流倜傥树生了，便是，无论如何也要坚持下去的。</p>
 <p>😌</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-08-31/201808312316550.jpg"></p>
-
 
   </div>
 
@@ -218,7 +225,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,17 @@
     <div class="post-meta"><span title='2020-01-30 11:00:00 +0800 +0800'>January 30, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-01-30/202001300302500.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-01-30/202001300302500.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>一些朋友问到了关于这个拍摄场景的信息，我就在这里统一介绍一下吧。</p>
 <p>这是位于加拿大阿尔伯塔省清水镇落基山脉下的亚伯拉罕湖/Abraham Lake，也就是大家俗称的“气泡湖”。这个由土著群落命名的水库，是阿省最大的人造湖。因湖底植物腐烂释放出的甲烷气体在湖面层层冻结而形成独特的多层气泡现象。</p>
 <p>该地点距埃德蒙顿市区约三个半小时车程。景区的游览是免费的，游人也很稀少。同时景区没有相应的配套设备，周边旅馆和餐厅在这个季节都是关闭状态，进山前注意给车和人都补充好粮草。</p>
 <p>在这个季节车是可以开到湖面上的，但今年暖冬，冰面并不结实，所以不推荐这么做。游览时注意保暖，湖面风很大所以体感温度很低。你想下了那么多场大雪湖面都没有积雪，那风得多大？风不大的地方看不到冰面，就欣赏不到泡泡。冰面很滑，最好穿防滑一点的鞋子。</p>
 <p>越往湖中心走，泡泡就越清透漂亮，但是冰面不是很结实，所以最好也不要去浪。这个区域可以升降无人机，但是风很大，无人机可能会被吹飞。[捂脸]</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-01-30/202001300302500.jpg"></p>
-
 
   </div>
 
@@ -219,7 +226,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-05-30 10:00:00 +0800 +0800'>May 30, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-05-30/202505302101160.jpg&#34;,&#34;/Moments/photos/2025-05-30/202505302101161.jpg&#34;,&#34;/Moments/photos/2025-05-30/202505302101162.jpg&#34;,&#34;/Moments/photos/2025-05-30/202505302101163.jpg&#34;,&#34;/Moments/photos/2025-05-30/202505302101164.jpg&#34;,&#34;/Moments/photos/2025-05-30/202505302101165.jpg&#34;,&#34;/Moments/photos/2025-05-30/202505302101166.jpg&#34;,&#34;/Moments/photos/2025-05-30/202505302101167.jpg&#34;,&#34;/Moments/photos/2025-05-30/202505302101168.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-05-30/202505302101160.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-05-30/202505302101161.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-05-30/202505302101162.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-05-30/202505302101163.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-05-30/202505302101164.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-05-30/202505302101165.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-05-30/202505302101166.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-05-30/202505302101167.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-05-30/202505302101168.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>东南亚之行美食篇 18 | 🍓 到底是谁发明了金马伦高原草莓这么坑爹的物种
 ​
 ​当汽车驶入金马伦高原时，各种带着草莓标识的招牌便开始轮番登场。可想而知，草莓是这里的明星产品。金马伦高原位于马来西亚半岛中部，海拔约1,500米，气候凉爽湿润，全年温度大约在15°C到25°C之间，这在热带国家里相当罕见，也正是草莓得以扎根生长的原因。于是，尽管马来西亚大部分地区都不产草莓，金马伦却发展出了一个规模可观的草莓产业。</p>
@@ -221,16 +254,6 @@
 <p>P.S. 🌽 玉米还行
 ​
 味觉上的 ​#草莓刺客</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-05-30/202505302101160.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-05-30/202505302101161.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-05-30/202505302101162.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-05-30/202505302101163.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-05-30/202505302101164.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-05-30/202505302101165.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-05-30/202505302101166.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-05-30/202505302101167.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-05-30/202505302101168.jpg"></p>
-
 
   </div>
 
@@ -240,7 +263,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

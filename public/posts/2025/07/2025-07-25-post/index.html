@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-07-25 10:00:00 +0800 +0800'>July 25, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-07-25/202507251021240.jpg&#34;,&#34;/Moments/photos/2025-07-25/202507251021241.jpg&#34;,&#34;/Moments/photos/2025-07-25/202507251021242.jpg&#34;,&#34;/Moments/photos/2025-07-25/202507251021243.jpg&#34;,&#34;/Moments/photos/2025-07-25/202507251021244.jpg&#34;,&#34;/Moments/photos/2025-07-25/202507251021245.jpg&#34;,&#34;/Moments/photos/2025-07-25/202507251021246.jpg&#34;,&#34;/Moments/photos/2025-07-25/202507251021247.jpg&#34;,&#34;/Moments/photos/2025-07-25/202507251021248.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-07-25/202507251021240.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-07-25/202507251021241.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-07-25/202507251021242.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-07-25/202507251021243.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-07-25/202507251021244.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-07-25/202507251021245.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-07-25/202507251021246.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-07-25/202507251021247.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-07-25/202507251021248.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>【踏过浮世烟火，再识人间山河】风物篇 03 | 在春天等待一场盛开的雪：麻叶绣线菊
 ​
 ​在成都天府新区的秦皇湖畔，我偶遇了一株盛放中的麻叶绣线菊。阳光正好的春日下午，湖边景观道整洁幽静，一丛丛白色花朵如浪涌般从枝头泻下，洁白、密集，带着一种飘逸的动感。一瞬间它吸引了我的注意力。我停下脚步，拍了很多照片。</p>
@@ -211,16 +244,6 @@
 <p>五月，是白色云霞竞相盛放的季节。白丁香、喷雪花，还有溲疏，仿佛在春日的合奏段中齐声演绎高潮，带来一场清淡、柔和却又极具气势的视觉盛宴。走在这片白色波浪之中，心情都随之变得轻盈。春光无限，仿佛一串不断递进的旋律，把这些不起眼的灌木花，编写进城市的日常，也烙印进我的记忆的底片。
 ​
 ​#绣线菊</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-07-25/202507251021240.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-07-25/202507251021241.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-07-25/202507251021242.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-07-25/202507251021243.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-07-25/202507251021244.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-07-25/202507251021245.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-07-25/202507251021246.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-07-25/202507251021247.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-07-25/202507251021248.jpg"></p>
-
 
   </div>
 
@@ -230,7 +253,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

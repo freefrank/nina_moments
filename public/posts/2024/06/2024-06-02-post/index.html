@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2024-06-02 10:00:00 +0800 +0800'>June 2, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-06-02/202406021058400.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-06-02/202406021058400.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🚫 一款被妖魔化为“厌孩症”的社会问题</p>
 <p>每到六一国际儿童节，朋友圈总会被各种年龄段的“儿童”照片刷屏。我作为一个没有孩子的中年妇女，是不好意思再参与节日的庆祝活动，但我想借此机会，用我人生第一次在国内报警的体验来聊聊似乎是在日趋严重的“厌孩症”问题。</p>
 <p>去年年底在某地出入境大厅办理业务的时候遇到了这么一件事儿：一个学龄前女童在办证大厅里持续尖叫乱跑，而她的妈妈，姥姥和姥爷完全没有试图制止她的行为。周围人群怨声载道义愤填膺，但我先生正义感那个爆棚啊，挺身而出和家长正面理论，却引发对方轻微肢体推搡和语言攻击。机智如我，当即拨通了警察叔叔的热门连线110。</p>
@@ -216,8 +225,6 @@
 <p>当然，想要180°扭转民众从“厌孩”到“爱孩”​的心理也是不切实际。但部分舆论引导将“熊孩子”和其父母树靶成公共秩序的反面典型并不可取。少一份对立，少一份戾气；多一份宽容，多一份耐心，尽可能为育幼家庭提供更多的引导和支持才是我们整个社会应当做的事情。绝不厌孩，从我做起。毕竟负担我这种未来注定孤寡的老人，还得靠现在咕呱的这批孩子们努力。
 ​
 ​#厌孩症</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-06-02/202406021058400.jpg"></p>
-
 
   </div>
 
@@ -227,7 +234,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,22 @@
     <div class="post-meta"><span title='2018-06-15 10:00:00 +0800 +0800'>June 15, 2018</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>这家极具个性张力的小咖啡厅我从没向任何人提起过，但这已经不是我第一次造访。和现代在网络上疯狂扩张影响力的咖啡厅截然不同的是，这家店几乎从不更新社交平台，但店里永远人头攒动甚至到点一杯咖啡要排十分钟的队。门口没有招牌，你需要推门而入才知道这是一家咖啡厅。烂掉的沙发，破音响，掉了链条的自行车，不能用的咖啡机，还有被翻到纸面卷起的旧杂志……这些不知道从哪个拆迁户那里淘出来的破桌烂椅随便地被遗弃在过道上。凌乱又独具工业美感，让人不费吹灰之力地在一堆破铜烂铁里获得自我认同。不过这仿若流浪汉之家布局的咖啡厅中坐着的是那些崇尚艺术感的城市小资青年。正如这家店名字“偶像破坏者”所坚持的扭曲态度那样。它是一具让人难以捉摸的矛盾体。玩世不恭又酷得一逼，颓废消极又精致堂皇，叛逆于主流意识形态的同时完全迎合小众人群的脾胃。被人群用于对抗快节奏生活的时下流行，却时下流行于对抗快节奏生活的人群。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2018-06-15/201806151618150.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2018-06-15/201806151618151.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2018-06-15/201806151618152.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2018-06-15/201806151618153.jpg"></p>
-
-
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2018-06-15/201806151618150.jpg&#34;,&#34;/Moments/photos/2018-06-15/201806151618151.jpg&#34;,&#34;/Moments/photos/2018-06-15/201806151618152.jpg&#34;,&#34;/Moments/photos/2018-06-15/201806151618153.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2018-06-15/201806151618150.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2018-06-15/201806151618151.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2018-06-15/201806151618152.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2018-06-15/201806151618153.jpg" alt="图片 4" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">这家极具个性张力的小咖啡厅我从没向任何人提起过，但这已经不是我第一次造访。和现代在网络上疯狂扩张影响力的咖啡厅截然不同的是，这家店几乎从不更新社交平台，但店里永远人头攒动甚至到点一杯咖啡要排十分钟的队。门口没有招牌，你需要推门而入才知道这是一家咖啡厅。烂掉的沙发，破音响，掉了链条的自行车，不能用的咖啡机，还有被翻到纸面卷起的旧杂志……这些不知道从哪个拆迁户那里淘出来的破桌烂椅随便地被遗弃在过道上。凌乱又独具工业美感，让人不费吹灰之力地在一堆破铜烂铁里获得自我认同。不过这仿若流浪汉之家布局的咖啡厅中坐着的是那些崇尚艺术感的城市小资青年。正如这家店名字“偶像破坏者”所坚持的扭曲态度那样。它是一具让人难以捉摸的矛盾体。玩世不恭又酷得一逼，颓废消极又精致堂皇，叛逆于主流意识形态的同时完全迎合小众人群的脾胃。被人群用于对抗快节奏生活的时下流行，却时下流行于对抗快节奏生活的人群。
   </div>
 
   <footer class="post-footer">
@@ -218,7 +230,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

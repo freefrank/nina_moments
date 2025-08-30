@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,16 @@
     <div class="post-meta"><span title='2020-03-17 10:00:00 +0800 +0800'>March 17, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>今天悄咪咪地梭出门买了个菜。
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-03-17/202003171519540.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-03-17/202003171519540.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">今天悄咪咪地梭出门买了个菜。
 呜，激动滴都快哭了。
 我甚至拿纸质的小本本记下来了在这次宝贵得外出购物机会中我需要购买几根玉米，几颗土豆。[流泪][流泪][流泪]
-这次疫情让我认清了我到底是怎样的一个人：我不是深宅，我是社交狂魔。我需要出门，哪怕是去小区门口拿个快递…</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-03-17/202003171519540.jpg"></p>
-
-
+这次疫情让我认清了我到底是怎样的一个人：我不是深宅，我是社交狂魔。我需要出门，哪怕是去小区门口拿个快递…
   </div>
 
   <footer class="post-footer">
@@ -218,7 +224,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

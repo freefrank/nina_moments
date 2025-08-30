@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,27 @@
     <div class="post-meta"><span title='2020-06-14 10:00:00 +0800 +0800'>June 14, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-06-14/202006141204150.jpg&#34;,&#34;/Moments/photos/2020-06-14/202006141204151.jpg&#34;,&#34;/Moments/photos/2020-06-14/202006141204152.jpg&#34;,&#34;/Moments/photos/2020-06-14/202006141204153.jpg&#34;,&#34;/Moments/photos/2020-06-14/202006141204154.jpg&#34;,&#34;/Moments/photos/2020-06-14/202006141204155.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-06-14/202006141204150.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2020-06-14/202006141204151.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2020-06-14/202006141204152.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2020-06-14/202006141204153.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2020-06-14/202006141204154.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2020-06-14/202006141204155.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>前任屋主在院子里留下了一棵大黄。</p>
 <p>我们从来没有照看过这棵植物，结果她顽强地挨过一个个冬天，越长越茁壮。现在已经长成了直径一米多的一坨怪物，在春天抽出和人一般高矮，令人不悦的疣状花序。</p>
 <p>大黄在这个季节开出米白色的细细碎碎的小花朵。虽然人类闻不到她的香味，可对动物的吸引力蛮大。十里八乡的蜜蜂、苍蝇、甲虫、蚂蚁甚至蚊子都被它吸引，兴奋地绕着她爬来爬去，忙个不停。</p>
@@ -217,13 +241,6 @@
 我也突然理解猫为什么要啃她了，也是因为太招虫子了。
 我甚至知道她为什么会招虫子了，没错，因为虫子也要吃虫子！</p>
 <p>#大黄的迷思</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-06-14/202006141204150.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2020-06-14/202006141204151.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2020-06-14/202006141204152.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2020-06-14/202006141204153.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2020-06-14/202006141204154.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2020-06-14/202006141204155.jpg"></p>
-
 
   </div>
 
@@ -233,7 +250,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

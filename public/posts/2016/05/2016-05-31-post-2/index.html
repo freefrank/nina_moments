@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,15 +206,22 @@
     <div class="post-meta"><span title='2016-05-31 12:00:00 +0800 +0800'>May 31, 2016</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2016-05-31/201605310347590.jpg&#34;,&#34;/Moments/photos/2016-05-31/201605310347591.jpg&#34;,&#34;/Moments/photos/2016-05-31/201605310347592.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2016-05-31/201605310347590.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2016-05-31/201605310347591.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2016-05-31/201605310347592.jpg" alt="图片 3" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>今天应某人要求，做了口水鸡和鱼香肉丝。</p>
 <p>口水鸡就不说了，其实是很简单的，不信你去看菜谱。但是鱼香肉丝就麻烦一点了，虽然现在已经到处都能买到鱼香肉丝的调味酱了，但是菜总是要你自己切的吧？鱼香肉丝的酱料调配需要混合豆瓣酱和泡菜汁，都是咱川菜的灵魂。</p>
 <p>说到川味，很多人脑子里蹦出来的第一个字就是“辣”。其实川菜讲究的是“一菜一格，百菜百味”，这些蒜香啊，茄汁啊，和辣不沾边儿的，都是属于这传统“24味型”。</p>
 <p>做菜真是一件乐事，尤其是做带泡菜的菜肴。每当握着刀柄，感受到刃下“咔嚓咔嚓”脆嫩的泡姜，泡萝卜，泡豇豆被切成细丝丁沫的；每当滚油烧烫，一勺子泡菜“呲啦”一声倒在锅里，蒸腾气的雾气直窜鼻腔。那感觉，真，是，酸，爽。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2016-05-31/201605310347590.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2016-05-31/201605310347591.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2016-05-31/201605310347592.jpg"></p>
-
 
   </div>
 
@@ -220,7 +231,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

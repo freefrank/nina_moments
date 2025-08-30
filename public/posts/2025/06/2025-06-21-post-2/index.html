@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-06-21 12:00:00 +0800 +0800'>June 21, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-06-21/202506211406200.jpg&#34;,&#34;/Moments/photos/2025-06-21/202506211406201.jpg&#34;,&#34;/Moments/photos/2025-06-21/202506211406202.jpg&#34;,&#34;/Moments/photos/2025-06-21/202506211406203.jpg&#34;,&#34;/Moments/photos/2025-06-21/202506211406204.jpg&#34;,&#34;/Moments/photos/2025-06-21/202506211406205.jpg&#34;,&#34;/Moments/photos/2025-06-21/202506211406206.jpg&#34;,&#34;/Moments/photos/2025-06-21/202506211406207.jpg&#34;,&#34;/Moments/photos/2025-06-21/202506211406208.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-06-21/202506211406200.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-06-21/202506211406201.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-06-21/202506211406202.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-06-21/202506211406203.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-06-21/202506211406204.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-06-21/202506211406205.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-06-21/202506211406206.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-06-21/202506211406207.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-06-21/202506211406208.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>东南亚之行美食篇 25 | 怡保的天津茶室，和天津是什么关系？
 ​
 ​怡保是马来西亚第四大城市，霹雳州（Perak）的首府。人口约75万，却拥有超过60%的华人占比。在十九世纪，英国殖民政府曾将怡保打造为行政与商业重镇，留下了大量欧式建筑与规整街道。至今仍可见白色的英式法院大楼、火车站与钟楼等古迹，虽然多已年久失修，但斑驳的墙面与倾斜的圆柱反倒平添一股苍凉古韵。</p>
@@ -212,16 +245,6 @@
 <p>若论食物本身，天津茶室并非那种“非吃不可”的惊艳。但最令人念念不忘的，是它浓烈真挚的生活气息与保存完好的市井生态。身边围坐着来自不同族群的街坊邻里，用马来语、英语、粤语、普通话、客家话，甚至一些我听不懂的语言，毫无阻碍地畅聊着天气、物价、本地新闻……多元文化交融不是说说而已，那种不加修饰的真实与自在，让人心生感慨。而这正是怡保最动人的底色：它不急于追赶时代的喧嚣节奏，却以最朴素的方式，默默守护着那些正被世界悄悄遗忘的珍贵——人与人之间最本真的连接与情感。
 ​
 ​#天津茶室</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-06-21/202506211406200.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-06-21/202506211406201.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-06-21/202506211406202.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-06-21/202506211406203.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-06-21/202506211406204.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-06-21/202506211406205.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-06-21/202506211406206.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-06-21/202506211406207.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-06-21/202506211406208.jpg"></p>
-
 
   </div>
 
@@ -231,7 +254,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

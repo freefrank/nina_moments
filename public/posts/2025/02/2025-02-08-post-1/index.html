@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-02-08 11:00:00 +0800 +0800'>February 8, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-02-08/202502081034190.jpg&#34;,&#34;/Moments/photos/2025-02-08/202502081034191.jpg&#34;,&#34;/Moments/photos/2025-02-08/202502081034192.jpg&#34;,&#34;/Moments/photos/2025-02-08/202502081034193.jpg&#34;,&#34;/Moments/photos/2025-02-08/202502081034194.jpg&#34;,&#34;/Moments/photos/2025-02-08/202502081034195.jpg&#34;,&#34;/Moments/photos/2025-02-08/202502081034196.jpg&#34;,&#34;/Moments/photos/2025-02-08/202502081034197.jpg&#34;,&#34;/Moments/photos/2025-02-08/202502081034198.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-02-08/202502081034190.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-02-08/202502081034191.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-02-08/202502081034192.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-02-08/202502081034193.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-02-08/202502081034194.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-02-08/202502081034195.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-02-08/202502081034196.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-02-08/202502081034197.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-02-08/202502081034198.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🌹 一朵花，也能构建出一座花园</p>
 <p>每当被朋友问及如果被人工智能干失业了，最想从事什么新的职位？我的答案总是：“存在主义危机理疗师。”这时他们会开始担心我的精神状态，仿佛我误入了某个邪教流派。尽管我在过去的文章中曾多次提及存在主义危机这一名词，但大多数人还无法共情这种迷茫的袭来。他们仍被按在磨上追逐着眼前的胡萝卜旋转，无暇顾及这类宏大叙事的悄然展开。直到近期人工智能的肉眼可见的发展，把这一概念推上了风口浪尖。</p>
 <p>2025年1月，OpenAI o3 大语言模型在 ARC-AGI 测试中取得了87.5%的成绩，而人类的平均分为80%。这意味着，前沿人工智能在逻辑推理能力上或许已经超越了大部分人类，它何时完全取代脑力劳动者，只取决于成本效益的临界点。而根据 Scaling Law 的推演，我们能够调整心态去适应这一变革的时间，可能比想象中的还要短。</p>
@@ -214,16 +247,6 @@
 ​#存在主义危机
 ​#渺小叙事
 ​#向内生长</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-02-08/202502081034190.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-02-08/202502081034191.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-02-08/202502081034192.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-02-08/202502081034193.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-02-08/202502081034194.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-02-08/202502081034195.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-02-08/202502081034196.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-02-08/202502081034197.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-02-08/202502081034198.jpg"></p>
-
 
   </div>
 
@@ -233,7 +256,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

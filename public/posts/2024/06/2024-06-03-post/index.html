@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-06-03 10:00:00 +0800 +0800'>June 3, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-06-03/202406031107040.jpg&#34;,&#34;/Moments/photos/2024-06-03/202406031107041.jpg&#34;,&#34;/Moments/photos/2024-06-03/202406031107042.jpg&#34;,&#34;/Moments/photos/2024-06-03/202406031107043.jpg&#34;,&#34;/Moments/photos/2024-06-03/202406031107044.jpg&#34;,&#34;/Moments/photos/2024-06-03/202406031107045.jpg&#34;,&#34;/Moments/photos/2024-06-03/202406031107046.jpg&#34;,&#34;/Moments/photos/2024-06-03/202406031107047.jpg&#34;,&#34;/Moments/photos/2024-06-03/202406031107048.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-06-03/202406031107040.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-06-03/202406031107041.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-06-03/202406031107042.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-06-03/202406031107043.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-06-03/202406031107044.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-06-03/202406031107045.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-06-03/202406031107046.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-06-03/202406031107047.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-06-03/202406031107048.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>福清寻宗（四）
 ​
 ​《陈家二十字辈》
@@ -217,16 +250,6 @@
 ​我是陈家“学”字辈的六代传人。根据父辈的说法，因为“学”字不好起名（哪里不好起了），所以转音为“雪”。不过从我这一辈开始已经没有严格遵守字辈这种略显封建，跟不上时代格局的起名方式。老实讲，虽然我不太喜欢自己名字里“白雪无暇”的寓意，但我依然欣赏以字辈取名的家族传承方式。这是烈祖心怀福祈地留给后代的命题作文——勤学善思虽不能保证陈氏后人过得荣华富贵，但根骨里的智慧和认知是他人无法劫掠的财富，又何尝不是高贵和富有的呢？
 ​
 ​#福清陈氏</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-06-03/202406031107040.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-06-03/202406031107041.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-06-03/202406031107042.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-06-03/202406031107043.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-06-03/202406031107044.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-06-03/202406031107045.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-06-03/202406031107046.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-06-03/202406031107047.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-06-03/202406031107048.jpg"></p>
-
 
   </div>
 
@@ -236,7 +259,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

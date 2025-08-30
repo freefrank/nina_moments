@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2023-12-25 10:00:00 +0800 +0800'>December 25, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-12-25/202312252138350.jpg&#34;,&#34;/Moments/photos/2023-12-25/202312252138351.jpg&#34;,&#34;/Moments/photos/2023-12-25/202312252138352.jpg&#34;,&#34;/Moments/photos/2023-12-25/202312252138353.jpg&#34;,&#34;/Moments/photos/2023-12-25/202312252138354.jpg&#34;,&#34;/Moments/photos/2023-12-25/202312252138355.jpg&#34;,&#34;/Moments/photos/2023-12-25/202312252138356.jpg&#34;,&#34;/Moments/photos/2023-12-25/202312252138357.jpg&#34;,&#34;/Moments/photos/2023-12-25/202312252138358.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-12-25/202312252138350.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-12-25/202312252138351.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-12-25/202312252138352.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-12-25/202312252138353.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2023-12-25/202312252138354.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2023-12-25/202312252138355.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2023-12-25/202312252138356.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2023-12-25/202312252138357.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2023-12-25/202312252138358.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>时间都无法代谢的创伤，该怎样去疗愈？
 ​
 ​妈妈退休后搬到了乐山市下辖的峨眉山。对于前往峨眉探亲的行程，我是充满期待的。除了能陪妈妈过几日闲云野鹤的退休生活，还可以借机跑到临近的乐山游荡。乐山是四川省内公认的美食之乡：跷脚牛肉、钵钵鸡和甜皮鸭，这些颇负盛名的四川美食都出自乐山，而且我老公王鹤棣家开的炸串店也位于此地。游览他生活过的城市是此行的重点之一，尤其是他出生成长的长药社区。
@@ -221,16 +254,6 @@
 <p>不在乎于星辉斑斓处放歌能唤醒几只蚂蚁，想知道真被请去喝茶上的是大红袍还是铁观音。只管旁若无人地罩上那可笑的电饭锅去接收真理的召唤和宇宙的讯息，是这代人与时俱进的V脸面具。尽管不是症结所在，却化为痛苦的象征，他们要成为时间都无法治愈的创伤，成为这具躯体代谢不掉的结淤。在下一个不能被原谅的错误来临之际，无声地说到：“你看，我们一直都在这里。”
 ​
 ​#长药社区</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-12-25/202312252138350.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-12-25/202312252138351.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-12-25/202312252138352.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-12-25/202312252138353.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2023-12-25/202312252138354.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2023-12-25/202312252138355.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2023-12-25/202312252138356.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2023-12-25/202312252138357.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2023-12-25/202312252138358.jpg"></p>
-
 
   </div>
 
@@ -240,7 +263,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

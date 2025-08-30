@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-01-18 10:00:00 +0800 +0800'>January 18, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-01-18/202501180530400.jpg&#34;,&#34;/Moments/photos/2025-01-18/202501180530401.jpg&#34;,&#34;/Moments/photos/2025-01-18/202501180530402.jpg&#34;,&#34;/Moments/photos/2025-01-18/202501180530403.jpg&#34;,&#34;/Moments/photos/2025-01-18/202501180530404.jpg&#34;,&#34;/Moments/photos/2025-01-18/202501180530405.jpg&#34;,&#34;/Moments/photos/2025-01-18/202501180530406.jpg&#34;,&#34;/Moments/photos/2025-01-18/202501180530407.jpg&#34;,&#34;/Moments/photos/2025-01-18/202501180530408.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-01-18/202501180530400.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-01-18/202501180530401.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-01-18/202501180530402.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-01-18/202501180530403.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-01-18/202501180530404.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-01-18/202501180530405.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-01-18/202501180530406.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-01-18/202501180530407.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-01-18/202501180530408.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🍟 当海鸥失去了它的海。
 ​
 ​海鸥，是一种有趣的动物。它们带有对规则浑然天成的蔑视和对建制与生俱来的反叛。说它们恶霸，又干不过老鹰；说它们懦弱，分分钟蹬鼻子上脸骑你头顶。我喜欢坐在码头的长椅上观察这些神色狡黠的家伙们来回踱步，腆着肚子守卫着自己那主权神圣不可侵犯的领地。</p>
@@ -215,16 +248,6 @@
 ​你说我乳鸥乳得如此彻底，是和鸥有什么不共戴天的深仇大恨吗？未必。相反我很是欣赏海鸥绕着人类讨生活的能力。甭管是什么残羹冷炙，抢到就是赢到，都能叫它们甘之如饴。这叫什么？审时度势，顾全大局。鸟的秉性，大差不差，也不用神话出谁是大鹏，黑化出谁是殃鸡。天下乌鸦一般黑，细看五十度的灰。只要你不站在人的角度看，那都是存在即合理。
 ​
 ​#海鸥</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-01-18/202501180530400.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-01-18/202501180530401.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-01-18/202501180530402.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-01-18/202501180530403.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-01-18/202501180530404.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-01-18/202501180530405.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-01-18/202501180530406.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-01-18/202501180530407.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-01-18/202501180530408.jpg"></p>
-
 
   </div>
 
@@ -234,7 +257,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

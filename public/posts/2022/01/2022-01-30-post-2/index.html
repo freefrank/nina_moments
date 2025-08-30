@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,12 +206,11 @@
     <div class="post-meta"><span title='2022-01-30 12:00:00 +0800 +0800'>January 30, 2022</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
   <div class="post-content"><p>今天看了很多讨论人口拐卖的帖子，猛然意识到我在十几岁时”疑似”遇到拐卖团伙的经历。</p>
 <p>那年暑假，我在北京某学校密集的区域上语言培训班，有一天下课，在街上遇到两个进城寻子的老两口。两位老人拦住我说渴得受不了，可不可以把我手中的矿泉水送给他们喝。我把水递给他们，他们喝了一口向我诉苦是从某村镇来京寻子的，但不会坐公交车，问我可不可以带他们去地图上的某个地方。我看了一眼地图，来回起码俩小时，而且我对北京也不熟，那时候还没有电子支付，我身上现金就十块钱，也没钱给他们出车票，就婉拒了。</p>
 <p>现在想起来，真是后怕到吓出一身冷汗。以成年人的视角仔细回想一一下他们编造的故事背景，根本不具备合理性。但这些犯罪分子专门埋伏在学校云集的区域挑那些没有社会经验的，单独行动的未成年女孩下手，因为只有这些被家长保护得很好的孩子才会毫无戒心地履行学校里教导的“乐于助人”的优秀品质。而且那时候学生大多还没有自己的手机，无法及时和家人取得联络。</p>
 <p>他们首先用矿泉水试探对方的警惕性，再用“寻找走失的孩子”这种容易引发他人怜悯之心的幌子“道德绑架”对方进入圈套。不过也就十几年前，大白天在中国首都繁华区域的街上且还能发生这种事。幸好我当时真的没钱。但凡身上再多个五块十块，可能都逃不过这场劫难。</p>
-
 
   </div>
 
@@ -217,7 +220,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

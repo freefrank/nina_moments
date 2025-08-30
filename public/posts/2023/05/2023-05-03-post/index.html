@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,22 +206,41 @@
     <div class="post-meta"><span title='2023-05-03 10:00:00 +0800 +0800'>May 3, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-05-03/202305031053210.jpg&#34;,&#34;/Moments/photos/2023-05-03/202305031053211.jpg&#34;,&#34;/Moments/photos/2023-05-03/202305031053212.jpg&#34;,&#34;/Moments/photos/2023-05-03/202305031053213.jpg&#34;,&#34;/Moments/photos/2023-05-03/202305031053214.jpg&#34;,&#34;/Moments/photos/2023-05-03/202305031053215.jpg&#34;,&#34;/Moments/photos/2023-05-03/202305031053216.jpg&#34;,&#34;/Moments/photos/2023-05-03/202305031053217.jpg&#34;,&#34;/Moments/photos/2023-05-03/202305031053218.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-05-03/202305031053210.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-05-03/202305031053211.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-05-03/202305031053212.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-05-03/202305031053213.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2023-05-03/202305031053214.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2023-05-03/202305031053215.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2023-05-03/202305031053216.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2023-05-03/202305031053217.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2023-05-03/202305031053218.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>本质上我觉得这条租不出去的仿古欧洲街和义务小商品古城并没有实质上的区别。第三空间营销的就是一个氛围感。听我的，脸皮厚点，过来咔嚓拍完走人儿就行。饮料都别点，纯纯地浪费钱。💸</p>
 <p>🧊 Iced Coffee
 ☕ Cappuccino
 ​🧀 Grilled Brie and Breads
 ​🍝 Beef Pasta with Salad</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-05-03/202305031053210.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-05-03/202305031053211.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-05-03/202305031053212.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-05-03/202305031053213.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2023-05-03/202305031053214.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2023-05-03/202305031053215.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2023-05-03/202305031053216.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2023-05-03/202305031053217.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2023-05-03/202305031053218.jpg"></p>
-
 
   </div>
 
@@ -227,7 +250,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

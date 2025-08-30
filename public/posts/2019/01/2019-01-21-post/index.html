@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,21 @@
     <div class="post-meta"><span title='2019-01-21 10:00:00 +0800 +0800'>January 21, 2019</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2019-01-21/201901211458460.jpg&#34;,&#34;/Moments/photos/2019-01-21/201901211458461.jpg&#34;,&#34;/Moments/photos/2019-01-21/201901211458462.jpg&#34;,&#34;/Moments/photos/2019-01-21/201901211458463.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2019-01-21/201901211458460.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2019-01-21/201901211458461.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2019-01-21/201901211458462.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2019-01-21/201901211458463.jpg" alt="图片 4" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>前几天，接到一个遗憾的通知。我最喜欢的埃德蒙顿西餐厅要在近日停业了。</p>
 <p>每次别人问到我最喜欢的埃德蒙顿西餐厅，我都会毅然决然地回答到：“Solstice，没有之一。”然而，这个问题在几天后将遗憾地失去那个曾经坚定不移的答案。</p>
 <p>因为工作的性质，我很少重复光临一家餐厅。能让我去了再去的西餐更是少之又少。而这家餐厅却是唯一我吃遍了其春夏秋冬菜单每一碟菜，而依然想要再次光顾的地方。</p>
@@ -214,11 +232,6 @@
 <p>你再也想不出哪个餐厅才是你的真爱，你能回答的只是：“新开的那家我刚去过。一般。”你再也吃不到好吃的东西，或许你也不在乎它好不好吃，因为你在乎的只是好不好看。你对食物的记忆不再是留存在是舌尖的一丝回味，而变成了手机里保存的一张张急于刊登在社交平台的照片。</p>
 <p>吃过的餐厅不计其数，身边的人走了又换；人总要为自己那一点小情怀找个寄托；而下一个纪念日，我又该去往哪里吃饭？</p>
 <p>或许这样的告别也是好的。因为，我也害怕我终有一日再去到这里，也无法再念想起当初的那一丝悸动和惊艳。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2019-01-21/201901211458460.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2019-01-21/201901211458461.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2019-01-21/201901211458462.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2019-01-21/201901211458463.jpg"></p>
-
 
   </div>
 
@@ -228,7 +241,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

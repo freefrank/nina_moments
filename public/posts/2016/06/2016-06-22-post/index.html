@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2016-06-22 10:00:00 +0800 +0800'>June 22, 2016</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2016-06-22/201606220852260.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2016-06-22/201606220852260.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>感谢妈咪，最优秀的摄影师。有一个爱给女儿拍照的妈咪真是太幸福了😌！在旅程安排得异常紧凑的状况下还是为我拍出了很多美美的皂片😚。
 这两周多以来，</p>
 <p>照片是我妈拍的！
@@ -210,8 +219,6 @@
 照片是我妈拍的！</p>
 <p>（重要的事说三遍！）</p>
 <p>不是男朋友拍的！！！😒</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2016-06-22/201606220852260.jpg"></p>
-
 
   </div>
 
@@ -221,7 +228,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

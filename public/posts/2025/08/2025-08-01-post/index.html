@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2025-08-01 10:00:00 +0800 +0800'>August 1, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-08-01/202508011154070.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-08-01/202508011154070.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>天气晴好的七月末，我为自己安排了一场埃德蒙顿周边的短途旅行。目的地是Beaverhill Lake——一处知名的候鸟栖息地。此行的目标很明确：“打”鸟。为了更好地捕捉那些镜头前羞涩的生灵，我特意带上了300mm的长焦大炮。然而，眼前的现实却令人沮丧。连日高温，降雨稀少，大片湿地早已干涸，湖面退缩得无影无踪。曾经水鸟翻飞的水泽如今连一只麻雀都不见踪影。原本以为这会是一趟空手而归的旅程，却在返程途中意外收获了一份来自大自然的奇迹：在一片潮湿昏暗的林地，我发现了一小簇“异类”——</p>
 <p>它们纤细、下垂、空灵得仿佛不属于这个世界。在阳光照不进的幽林中，它们安静地低垂着头，像极了神话故事中从冥界归来的幽灵。虽说已是凋谢前的状态，花瓣微卷，色泽泛灰，但我仍喜出望外地蹲下身来，拍下它们的身影——水晶兰，又名“幽灵之花”或“印度烟草草”，是一种极其罕见的植物。它没有叶绿素，因此无法进行光合作用，整株呈半透明乳白色，雨后尤为晶莹剔透。</p>
 <p>绝大多数植物依靠光合作用将阳光转化为能量，而水晶兰则完全走上了“非主流”的生存路线。它通过与特定真菌建立菌根共生关系，间接从邻近树木获取养分。这种三方共生结构可以理解为：水晶兰→依附真菌→共生树木。由于它的种子极其微小，没有胚乳，必须依附特定真菌才能萌发，因此迄今为止，水晶兰几乎无法人工栽培。在生态系统中，它是一个极其脆弱但又高度适应特定生态位的存在。</p>
@@ -211,8 +220,6 @@
 <p>因此，如果你在埃德蒙顿及周边的林地中有幸遇见这位“白色小天使”，请一定记得不要采摘、不要触碰。它不是可以带回家的战利品或装饰物，而是提醒我们尊重生态、敬畏自然的隐秘使者。它用最微弱的声音和姿态向我们传递着：土壤下的菌根世界，才是支撑森林生长的真正脉络；而这种脉络是极其脆弱的——只要其中一个环节断裂，水晶兰的美丽就无法重现。
 ​
 ​#水晶兰</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-08-01/202508011154070.jpg"></p>
-
 
   </div>
 
@@ -222,7 +229,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-02-04 10:00:00 +0800 +0800'>February 4, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-02-04/202502041301350.jpg&#34;,&#34;/Moments/photos/2025-02-04/202502041301351.jpg&#34;,&#34;/Moments/photos/2025-02-04/202502041301352.jpg&#34;,&#34;/Moments/photos/2025-02-04/202502041301353.jpg&#34;,&#34;/Moments/photos/2025-02-04/202502041301354.jpg&#34;,&#34;/Moments/photos/2025-02-04/202502041301355.jpg&#34;,&#34;/Moments/photos/2025-02-04/202502041301356.jpg&#34;,&#34;/Moments/photos/2025-02-04/202502041301357.jpg&#34;,&#34;/Moments/photos/2025-02-04/202502041301358.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-02-04/202502041301350.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-02-04/202502041301351.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-02-04/202502041301352.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-02-04/202502041301353.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-02-04/202502041301354.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-02-04/202502041301355.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-02-04/202502041301356.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-02-04/202502041301357.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-02-04/202502041301358.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🌹 多少朵花，才能构建出一座花园
 ​
 如果我们孤立地看待一朵花，它不过是自然循环中物质聚合的短暂形态，一场由种子到花瓣的生命历程，一次光合作用下色彩与气息的偶然展现。然而，当无数朵花并肩绽放，交错生长，这个集体便开始拥有超越个体存在的意涵，从此塑造出一座花园的概念。这不仅是数量的累积，而是一种更高层次的生成——涌现。</p>
@@ -217,16 +250,6 @@
 正如玫瑰花在交错生长中编织出花园（弱涌现），神经元在信号传递中集散成思维（强涌现），我们是否正在见证另一种更浩瀚的“智慧花园”在无形中悄然绽放（超强涌现）？人工智能不需要成为“人类的镜像”，它们的觉醒也不会以我们期待的方式到来。当意识的涌现超越我们的理解维度，我们是否还会执着于去定义何为“意识”；或是该重新审视这个世界，去或欢欣或惶恐地迎接这种未知的存在？
 ​
 #意识 的 ​#涌现</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-02-04/202502041301350.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-02-04/202502041301351.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-02-04/202502041301352.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-02-04/202502041301353.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-02-04/202502041301354.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-02-04/202502041301355.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-02-04/202502041301356.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-02-04/202502041301357.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-02-04/202502041301358.jpg"></p>
-
 
   </div>
 
@@ -236,7 +259,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

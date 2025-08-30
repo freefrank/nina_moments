@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,22 @@
     <div class="post-meta"><span title='2016-06-02 11:00:00 +0800 +0800'>June 2, 2016</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
-  <div class="post-content"><p>【Elm Café】期待来这家咖啡厅好一段时间了，但每次来访，队伍都排到门外。入选加拿大最棒的咖啡厅；Zomato的评分高达4.4/5。这家名声大噪的café或是随性得因门口的两棵古老浪漫的榆木得名，然而店铺却小巧得容不得双人并走。美式浓缩的甘苦和酸涩；卡布奇诺的香醇和柔滑，入口的滋味都十分饱满。他们家的三明治也是大爱：罗勒青酱羊肉泥、美奶滋腌椒熏牛肉片和洋蓟蕊意式香肠，每一款的味道都经过细心且创意的搭配，甚是惊艳。门口的露台上稀拉放的几把椅子似乎永远都不得空闲，而食客们宁愿站在门外大排长队也不愿错过这小巧精致的美味。要说咖啡和食物的味道有多妙，或许仁者见仁；但那种调调：推开咖啡店扑面而来的醇香，掀开咖啡杯盖时升腾起的雾气，坐在阳光下忙里偷闲地享受一份美味三明治的惬意，或许才是大家最珍赏的吧。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2016-06-02/201606020750510.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2016-06-02/201606020750511.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2016-06-02/201606020750512.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2016-06-02/201606020750513.jpg"></p>
-
-
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2016-06-02/201606020750510.jpg&#34;,&#34;/Moments/photos/2016-06-02/201606020750511.jpg&#34;,&#34;/Moments/photos/2016-06-02/201606020750512.jpg&#34;,&#34;/Moments/photos/2016-06-02/201606020750513.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2016-06-02/201606020750510.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2016-06-02/201606020750511.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2016-06-02/201606020750512.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2016-06-02/201606020750513.jpg" alt="图片 4" loading="lazy">
+    </div>
+  </div>
+  <div class="post-content">【Elm Café】期待来这家咖啡厅好一段时间了，但每次来访，队伍都排到门外。入选加拿大最棒的咖啡厅；Zomato的评分高达4.4/5。这家名声大噪的café或是随性得因门口的两棵古老浪漫的榆木得名，然而店铺却小巧得容不得双人并走。美式浓缩的甘苦和酸涩；卡布奇诺的香醇和柔滑，入口的滋味都十分饱满。他们家的三明治也是大爱：罗勒青酱羊肉泥、美奶滋腌椒熏牛肉片和洋蓟蕊意式香肠，每一款的味道都经过细心且创意的搭配，甚是惊艳。门口的露台上稀拉放的几把椅子似乎永远都不得空闲，而食客们宁愿站在门外大排长队也不愿错过这小巧精致的美味。要说咖啡和食物的味道有多妙，或许仁者见仁；但那种调调：推开咖啡店扑面而来的醇香，掀开咖啡杯盖时升腾起的雾气，坐在阳光下忙里偷闲地享受一份美味三明治的惬意，或许才是大家最珍赏的吧。
   </div>
 
   <footer class="post-footer">
@@ -218,7 +230,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

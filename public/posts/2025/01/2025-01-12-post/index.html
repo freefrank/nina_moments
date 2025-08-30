@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-01-12 10:00:00 +0800 +0800'>January 12, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-01-12/202501120645350.jpg&#34;,&#34;/Moments/photos/2025-01-12/202501120645351.jpg&#34;,&#34;/Moments/photos/2025-01-12/202501120645352.jpg&#34;,&#34;/Moments/photos/2025-01-12/202501120645353.jpg&#34;,&#34;/Moments/photos/2025-01-12/202501120645354.jpg&#34;,&#34;/Moments/photos/2025-01-12/202501120645355.jpg&#34;,&#34;/Moments/photos/2025-01-12/202501120645356.jpg&#34;,&#34;/Moments/photos/2025-01-12/202501120645357.jpg&#34;,&#34;/Moments/photos/2025-01-12/202501120645358.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-01-12/202501120645350.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-01-12/202501120645351.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-01-12/202501120645352.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-01-12/202501120645353.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-01-12/202501120645354.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-01-12/202501120645355.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-01-12/202501120645356.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-01-12/202501120645357.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-01-12/202501120645358.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>Machef 🔴 是需要怎样的文化自信</p>
 <p>坐落于埃德蒙顿城南的 Machef 是一家开业于2019年的韩餐私房菜馆。我算不上什么韩餐爱好者，即便听到过关于这家餐厅的许多称赞，也是等到了2024年才前往打卡。韩国传统菜肴受限于食材和味型的花样，很难带给我想象的空间；但不得不承认的是，近年来数次享用韩餐的经历带给我的思考也是最多的。</p>
 <p>埃德蒙顿的韩裔人数不到一万，不足华裔人口的1/6。但韩国餐饮在本地餐饮市场的影响力和接纳程度却完全不输中餐。作为华人我们似乎总会不自觉地带着一些错位的文化自信，去鄙视别人是用“一碟碟泡菜”堆出的软实力。即便是食材和味型的局限也没有限制住他们用更精致的摆盘和设计去彰显用心，用更积极有效的营销去开拓市场，以更高的留存率和口碑赢得更多本地消费者的亲睐。</p>
@@ -211,16 +244,6 @@
 <p>如果无视问题就能解决问题，​如果拉踩同行就能保持前进，那我只能祝君好运。加油，使劲！遥遥领先，宇宙第一！
 ​
 ​#文化自信</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-01-12/202501120645350.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-01-12/202501120645351.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-01-12/202501120645352.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-01-12/202501120645353.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-01-12/202501120645354.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-01-12/202501120645355.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-01-12/202501120645356.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-01-12/202501120645357.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-01-12/202501120645358.jpg"></p>
-
 
   </div>
 
@@ -230,7 +253,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-03-08 11:00:00 +0800 +0800'>March 8, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-03-08/202403081130120.jpg&#34;,&#34;/Moments/photos/2024-03-08/202403081130121.jpg&#34;,&#34;/Moments/photos/2024-03-08/202403081130122.jpg&#34;,&#34;/Moments/photos/2024-03-08/202403081130123.jpg&#34;,&#34;/Moments/photos/2024-03-08/202403081130124.jpg&#34;,&#34;/Moments/photos/2024-03-08/202403081130125.jpg&#34;,&#34;/Moments/photos/2024-03-08/202403081130126.jpg&#34;,&#34;/Moments/photos/2024-03-08/202403081130127.jpg&#34;,&#34;/Moments/photos/2024-03-08/202403081130128.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-03-08/202403081130120.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-03-08/202403081130121.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-03-08/202403081130122.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-03-08/202403081130123.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-03-08/202403081130124.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-03-08/202403081130125.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-03-08/202403081130126.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-03-08/202403081130127.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-03-08/202403081130128.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🍂 荒野の国的奇幻冒险 🍂
 ​
 ​荒野之国是麓湖文旅联合艺术家乔小刀设计打造的一座装置艺术园区。是一个占地2万平米，由260+座房子，50+辆怪车和8个秘密基地组成的主题乐园。其实远在丽江雪山艺术村的荒野之国才是这套装置艺术群的1.0版本。2020年乔小刀的女儿出生，他希望为她打造一片可以释放天性的小小王国。</p>
@@ -213,16 +246,6 @@
 <p>#不必成为有用的人</p>
 <p>​P7. “龙虎斗”
 ​P9. 岛上仙葩——野生灵芝</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-03-08/202403081130120.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-03-08/202403081130121.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-03-08/202403081130122.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-03-08/202403081130123.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-03-08/202403081130124.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-03-08/202403081130125.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-03-08/202403081130126.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-03-08/202403081130127.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-03-08/202403081130128.jpg"></p>
-
 
   </div>
 
@@ -232,7 +255,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

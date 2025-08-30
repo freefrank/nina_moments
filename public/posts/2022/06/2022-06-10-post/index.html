@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,21 +206,40 @@
     <div class="post-meta"><span title='2022-06-10 10:00:00 +0800 +0800'>June 10, 2022</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2022-06-10/202206101608320.jpg&#34;,&#34;/Moments/photos/2022-06-10/202206101608321.jpg&#34;,&#34;/Moments/photos/2022-06-10/202206101608322.jpg&#34;,&#34;/Moments/photos/2022-06-10/202206101608323.jpg&#34;,&#34;/Moments/photos/2022-06-10/202206101608324.jpg&#34;,&#34;/Moments/photos/2022-06-10/202206101608325.jpg&#34;,&#34;/Moments/photos/2022-06-10/202206101608326.jpg&#34;,&#34;/Moments/photos/2022-06-10/202206101608327.jpg&#34;,&#34;/Moments/photos/2022-06-10/202206101608328.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2022-06-10/202206101608320.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2022-06-10/202206101608321.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2022-06-10/202206101608322.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2022-06-10/202206101608323.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2022-06-10/202206101608324.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2022-06-10/202206101608325.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2022-06-10/202206101608326.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2022-06-10/202206101608327.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2022-06-10/202206101608328.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>『存货』在大多的旅行过程中唯一一顿早茶的配额给了名门金宴。把我那个悔的，属于是整趟旅程吃到倒数第二令人失望的饭。这样的鬼东西是这个价位和定位的餐厅应该端出来的吗？大统华的超市冷柜都吊着你们打晓得伐？屎一样的服务品质还好意思直接把小费加到账单里。搞得我连拍照的过程都很暴躁。要不是坐在旁边桌的小姐姐实在太美，我可能没吃完饭已经愤怒地掀桌走人了。😡</p>
 <p>#美具有安抚人心的力量
 ​
 ​😁 你们想知道最让我失望的是哪家吗？哈~</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2022-06-10/202206101608320.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2022-06-10/202206101608321.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2022-06-10/202206101608322.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2022-06-10/202206101608323.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2022-06-10/202206101608324.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2022-06-10/202206101608325.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2022-06-10/202206101608326.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2022-06-10/202206101608327.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2022-06-10/202206101608328.jpg"></p>
-
 
   </div>
 
@@ -226,7 +249,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

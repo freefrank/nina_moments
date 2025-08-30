@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,17 @@
     <div class="post-meta"><span title='2022-12-16 10:00:00 +0800 +0800'>December 16, 2022</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2022-12-16/202212160754210.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2022-12-16/202212160754210.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>没有深思熟虑过，真的不要养小动物。这些天，真是把我难过坏了。[大哭]</p>
 <p>宠物和人一样，吃太好运动少就各种“富贵病”一起来。猫因为太胖舔不到自己屁眼儿，于是罹患肛门腺溃疡是种怎样的体验？好在小家伙恢复得不错，再过一周就可以拆线摘头罩了。但是陪伴终身的漫长减肥道路才刚刚开始。</p>
 <p>​每当她饿了就会缠在我脚边，用头顶我，用尾巴扫我，用爪爪扒拉我，还翻出肚皮小声“喵喵“撒娇，我就心疼得受不了。</p>
 <p>🥲 宠物不就是用来溺爱的吗？小鱼干小饼干小罐头都不能吃饱，还要每天被逼着做复健运动，这样的猫生活着还有什么意思？我苦命的猫儿唉……</p>
 <p>而我做为一个爱心泛滥的铲屎官，每天都要帮猫挤比翔还臭100倍的肛门腺，我又做错了什么？…🥹</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2022-12-16/202212160754210.jpg"></p>
-
 
   </div>
 
@@ -219,7 +226,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

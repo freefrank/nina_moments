@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,22 +206,41 @@
     <div class="post-meta"><span title='2021-07-02 10:00:00 +0800 +0800'>July 2, 2021</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2021-07-02/202107021225210.jpg&#34;,&#34;/Moments/photos/2021-07-02/202107021225211.jpg&#34;,&#34;/Moments/photos/2021-07-02/202107021225212.jpg&#34;,&#34;/Moments/photos/2021-07-02/202107021225213.jpg&#34;,&#34;/Moments/photos/2021-07-02/202107021225214.jpg&#34;,&#34;/Moments/photos/2021-07-02/202107021225215.jpg&#34;,&#34;/Moments/photos/2021-07-02/202107021225216.jpg&#34;,&#34;/Moments/photos/2021-07-02/202107021225217.jpg&#34;,&#34;/Moments/photos/2021-07-02/202107021225218.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2021-07-02/202107021225210.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2021-07-02/202107021225211.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2021-07-02/202107021225212.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2021-07-02/202107021225213.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2021-07-02/202107021225214.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2021-07-02/202107021225215.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2021-07-02/202107021225216.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2021-07-02/202107021225217.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2021-07-02/202107021225218.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🍅 实现欢茄自由 🍅</p>
 <p>我种的番茄苗开始收获小番茄啦~
 这几天气温炎热，日照充足，所以番茄成熟得很快~
 自己种的小番茄确实比超市买到的风味浓郁饱满很多，因为她们可以挂在枝头等待完全成熟才被采收，而不是在刚泛红时就被机器连根拔起运送到超市中。
 如果你想在家里随便重点什么果蔬，番茄绝对是一个好选择。无需打理，无需授粉，病虫害少，收获周期短，而且产量很高。红红的果子挂在枝头看了就特别有成就感，更别说还可以摘来美美地享用上几顿了。🥰</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2021-07-02/202107021225210.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2021-07-02/202107021225211.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2021-07-02/202107021225212.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2021-07-02/202107021225213.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2021-07-02/202107021225214.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2021-07-02/202107021225215.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2021-07-02/202107021225216.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2021-07-02/202107021225217.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2021-07-02/202107021225218.jpg"></p>
-
 
   </div>
 
@@ -227,7 +250,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

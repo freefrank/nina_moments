@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-04-22 10:00:00 +0800 +0800'>April 22, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-04-22/202404220704300.jpg&#34;,&#34;/Moments/photos/2024-04-22/202404220704301.jpg&#34;,&#34;/Moments/photos/2024-04-22/202404220704302.jpg&#34;,&#34;/Moments/photos/2024-04-22/202404220704303.jpg&#34;,&#34;/Moments/photos/2024-04-22/202404220704304.jpg&#34;,&#34;/Moments/photos/2024-04-22/202404220704305.jpg&#34;,&#34;/Moments/photos/2024-04-22/202404220704306.jpg&#34;,&#34;/Moments/photos/2024-04-22/202404220704307.jpg&#34;,&#34;/Moments/photos/2024-04-22/202404220704308.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-04-22/202404220704300.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-04-22/202404220704301.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-04-22/202404220704302.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-04-22/202404220704303.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-04-22/202404220704304.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-04-22/202404220704305.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-04-22/202404220704306.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-04-22/202404220704307.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-04-22/202404220704308.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>第二站 ‖ 扬州 • 瘦西湖
 ​
 南下旅行的第二天来到了扬州。距离晚餐还有几个小时，索性来到了瘦西湖边走走。初冬是瘦西湖的淡季，除了个别主要景点，几乎没有什么游客。毕竟“烟花三月下扬州”的诗句早已深入人心，在这种芳菲落尽的时日来到这里，对于大部分人来说，不知道该看些什么。</p>
@@ -230,16 +263,6 @@
 ​
 《​方舟遗留物》 - 昨夜派对</p>
 <p>​#瘦西湖</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-04-22/202404220704300.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-04-22/202404220704301.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-04-22/202404220704302.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-04-22/202404220704303.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-04-22/202404220704304.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-04-22/202404220704305.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-04-22/202404220704306.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-04-22/202404220704307.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-04-22/202404220704308.jpg"></p>
-
 
   </div>
 
@@ -249,7 +272,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

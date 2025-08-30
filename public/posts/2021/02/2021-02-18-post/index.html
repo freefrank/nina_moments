@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,19 +206,38 @@
     <div class="post-meta"><span title='2021-02-18 10:00:00 +0800 +0800'>February 18, 2021</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2021-02-18/202102181520310.jpg&#34;,&#34;/Moments/photos/2021-02-18/202102181520311.jpg&#34;,&#34;/Moments/photos/2021-02-18/202102181520312.jpg&#34;,&#34;/Moments/photos/2021-02-18/202102181520313.jpg&#34;,&#34;/Moments/photos/2021-02-18/202102181520314.jpg&#34;,&#34;/Moments/photos/2021-02-18/202102181520315.jpg&#34;,&#34;/Moments/photos/2021-02-18/202102181520316.jpg&#34;,&#34;/Moments/photos/2021-02-18/202102181520317.jpg&#34;,&#34;/Moments/photos/2021-02-18/202102181520318.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2021-02-18/202102181520310.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2021-02-18/202102181520311.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2021-02-18/202102181520312.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2021-02-18/202102181520313.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2021-02-18/202102181520314.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2021-02-18/202102181520315.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2021-02-18/202102181520316.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2021-02-18/202102181520317.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2021-02-18/202102181520318.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>一直想配合着年味儿做一套国风美甲，但是一直没憋出来。国风元素很丰富，但一个不小心就会搞得很土…前几天看到妈妈拍的院子里傲雪欺霜的红梅，最后决定就以风骨高洁的梅花做为主题。</p>
 <p>另外这几天沉迷观看各种宝石鉴赏的材料，尤其醉心于中国传统艺术品中出现的那些宝石矿物。白玉、玛瑙、砗磲、珊瑚、云母、花岗岩…在甲面上模拟其纹路，或温润或晶莹，或深邃或清透。每一笔下去都会产生独一无二的纹理效果。体会到雕琢珍宝般的乐趣，特别有意思。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2021-02-18/202102181520310.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2021-02-18/202102181520311.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2021-02-18/202102181520312.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2021-02-18/202102181520313.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2021-02-18/202102181520314.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2021-02-18/202102181520315.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2021-02-18/202102181520316.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2021-02-18/202102181520317.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2021-02-18/202102181520318.jpg"></p>
-
 
   </div>
 
@@ -224,7 +247,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

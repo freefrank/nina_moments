@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2023-11-21 11:00:00 +0800 +0800'>November 21, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-11-21/202311211348190.jpg&#34;,&#34;/Moments/photos/2023-11-21/202311211348191.jpg&#34;,&#34;/Moments/photos/2023-11-21/202311211348192.jpg&#34;,&#34;/Moments/photos/2023-11-21/202311211348193.jpg&#34;,&#34;/Moments/photos/2023-11-21/202311211348194.jpg&#34;,&#34;/Moments/photos/2023-11-21/202311211348195.jpg&#34;,&#34;/Moments/photos/2023-11-21/202311211348196.jpg&#34;,&#34;/Moments/photos/2023-11-21/202311211348197.jpg&#34;,&#34;/Moments/photos/2023-11-21/202311211348198.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-11-21/202311211348190.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2023-11-21/202311211348191.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2023-11-21/202311211348192.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2023-11-21/202311211348193.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2023-11-21/202311211348194.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2023-11-21/202311211348195.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2023-11-21/202311211348196.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2023-11-21/202311211348197.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2023-11-21/202311211348198.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🤫 事关信仰
 ​
 ​大部分老钟人，是不信教的。根据非官方调查，超过60%的老钟宣称自己是“无神论”者；而日常履行教仪的人口比例低于10%。这提供给某些镜外噬力口诛笔伐的绝佳素材——老钟人缺乏信仰，没有普世价值观的规范，因此信念薄弱，道德败坏，素质低下。</p>
@@ -222,16 +255,6 @@
 报国寺最初名“会宗堂”。明代万历四十三年（公元1615年），明光道人建于伏虎寺右的虎头山下，取儒、释、道“三教”会宗的意思。
 ​
 ​#在一个只允许吃火锅的地方偷偷吃碗面</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-11-21/202311211348190.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2023-11-21/202311211348191.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2023-11-21/202311211348192.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2023-11-21/202311211348193.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2023-11-21/202311211348194.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2023-11-21/202311211348195.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2023-11-21/202311211348196.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2023-11-21/202311211348197.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2023-11-21/202311211348198.jpg"></p>
-
 
   </div>
 
@@ -241,7 +264,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

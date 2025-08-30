@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,21 @@
     <div class="post-meta"><span title='2025-02-17 10:00:00 +0800 +0800'>February 17, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-02-17/202502170942260.jpg&#34;,&#34;/Moments/photos/2025-02-17/202502170942261.jpg&#34;,&#34;/Moments/photos/2025-02-17/202502170942262.jpg&#34;,&#34;/Moments/photos/2025-02-17/202502170942263.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-02-17/202502170942260.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-02-17/202502170942261.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-02-17/202502170942262.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-02-17/202502170942263.jpg" alt="图片 4" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>☕ 小布尔乔亚的身份证（明）</p>
 <p>加东旅行的第五天，我们来到了多伦多市区。走在人群涌动的街头，总觉得手里和嘴里少了点什么，索性随机拐进一家左手边的地下咖啡厅。这家名为 Goldstruck Coffee 的门店，曾被 BlogTo 杂志评选为多伦多排名前30的咖啡厅。当然，你要问我它比其他1300家到底好在哪里？我也是说不出来的。</p>
 <p>多伦多和加拿大的其他城市一样，拥有极其生动富饶的咖啡文化。根据 Statista 2022年的调查，加拿大咖啡饮用者平均每天摄入2.7杯咖啡。这个数字已经够吓人了，但实际上还比2008年的日均3.6杯下降了不少。在咖啡于东亚市场疯狂开疆拓土、厮杀抢地盘的同时，加拿大人手中的咖啡似乎失去了一些原有的香气。</p>
@@ -216,11 +234,6 @@
 📅 2024-06
 ​
 ​#小布尔乔亚 的 #咖啡</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-02-17/202502170942260.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-02-17/202502170942261.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-02-17/202502170942262.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-02-17/202502170942263.jpg"></p>
-
 
   </div>
 
@@ -230,7 +243,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

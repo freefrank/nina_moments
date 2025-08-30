@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-02-15 10:00:00 +0800 +0800'>February 15, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-02-15/202502150607120.jpg&#34;,&#34;/Moments/photos/2025-02-15/202502150607121.jpg&#34;,&#34;/Moments/photos/2025-02-15/202502150607122.jpg&#34;,&#34;/Moments/photos/2025-02-15/202502150607123.jpg&#34;,&#34;/Moments/photos/2025-02-15/202502150607124.jpg&#34;,&#34;/Moments/photos/2025-02-15/202502150607125.jpg&#34;,&#34;/Moments/photos/2025-02-15/202502150607126.jpg&#34;,&#34;/Moments/photos/2025-02-15/202502150607127.jpg&#34;,&#34;/Moments/photos/2025-02-15/202502150607128.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-02-15/202502150607120.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-02-15/202502150607121.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-02-15/202502150607122.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-02-15/202502150607123.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-02-15/202502150607124.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-02-15/202502150607125.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-02-15/202502150607126.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-02-15/202502150607127.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-02-15/202502150607128.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🥟 中国胃的舒适圈</p>
 <p>加拿大的本土美食虽显单薄，难登大雅之堂，但这个移民国家最大的城市多伦多，却汇聚了全球各国的风味。这次旅行是带着妈妈同行，自然不能太过放纵地挑战那些异域“黑暗料理”，还是要考虑到她的“中国胃”。即便是米其林大厨调制的沙拉和寿司，也因过于生冷而难合她胃口，还是需要安排一些温热熟悉的家乡风味，才能让她享受到正确地打开这座美食之都的美妙。</p>
 <p>说起“中国胃”，其实我个人并没有太多切身体会：五岁离开故乡，高中入读寄宿学校，未成年便独自出国生活，陪伴我成长的饮食文化是杂糅而多元的。 我没有特别偏爱的地域美食，也不拘泥于某种味型或食材。在吃上面我更像是一个无所畏惧的“E人”，勇于尝试各种看似鬼畜的搭配，因为我拥有漂泊的味蕾。</p>
@@ -216,16 +249,6 @@
 <p>🥠 聚龙轩 The ONE Fusion Cuisine
 📍 地址：9019 Bayview Ave Unit 9, Richmond Hill, ON L4B 1Y3
 ​📅 2024-06</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-02-15/202502150607120.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-02-15/202502150607121.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-02-15/202502150607122.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-02-15/202502150607123.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-02-15/202502150607124.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-02-15/202502150607125.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-02-15/202502150607126.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-02-15/202502150607127.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-02-15/202502150607128.jpg"></p>
-
 
   </div>
 
@@ -235,7 +258,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

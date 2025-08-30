@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-12-03 10:00:00 +0800 +0800'>December 3, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-12-03/202412031151050.jpg&#34;,&#34;/Moments/photos/2024-12-03/202412031151051.jpg&#34;,&#34;/Moments/photos/2024-12-03/202412031151052.jpg&#34;,&#34;/Moments/photos/2024-12-03/202412031151053.jpg&#34;,&#34;/Moments/photos/2024-12-03/202412031151054.jpg&#34;,&#34;/Moments/photos/2024-12-03/202412031151055.jpg&#34;,&#34;/Moments/photos/2024-12-03/202412031151056.jpg&#34;,&#34;/Moments/photos/2024-12-03/202412031151057.jpg&#34;,&#34;/Moments/photos/2024-12-03/202412031151058.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-12-03/202412031151050.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-12-03/202412031151051.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-12-03/202412031151052.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-12-03/202412031151053.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-12-03/202412031151054.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-12-03/202412031151055.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-12-03/202412031151056.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-12-03/202412031151057.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-12-03/202412031151058.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🍀 全加拿大最大的亚洲超市 Lucky，达到你的预期了吗？
 ​
 ​11月28日，全加拿大最大的亚洲超市 —— Lucky 埃德蒙顿南部分店迎来了盛大开业。之前开车经过这个地方很多次只看到里面在灯火通明加班加点地装修。从夏天等到冬天，终于等到了这一天。相信很多小伙伴已经和我一样迫不及待去打过卡了。🎤 采访一下，这个新开业的超市有达到大家的预期吗？
@@ -217,16 +250,6 @@
 <p>💰『价格』贵。而且因为刚开业没有多少库存的积压，所以折扣商品不多。如果你和我一样消费习惯是盯着打折的价签下手，建议是不用在刚开业期间去浪费时间了。</p>
 <p>💬『吐槽』貌似人手不够的样子，货架不够整齐，很多商品被顾客摆弄地歪歪扭扭，或者被塞在错误的地方也没有雇员来整理。虽然这在刚开业阶段都是可以理解的状况，但我希望这些问题今后可以得到改善吧。</p>
 <p>​#超市一日游</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-12-03/202412031151050.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-12-03/202412031151051.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-12-03/202412031151052.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-12-03/202412031151053.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-12-03/202412031151054.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-12-03/202412031151055.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-12-03/202412031151056.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-12-03/202412031151057.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-12-03/202412031151058.jpg"></p>
-
 
   </div>
 
@@ -236,7 +259,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

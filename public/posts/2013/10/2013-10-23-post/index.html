@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,15 @@
     <div class="post-meta"><span title='2013-10-23 10:00:00 +0800 +0800'>October 23, 2013</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2013-10-23/201310230829090.jpg&#34;,&#34;/Moments/photos/2013-10-23/201310230829091.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2013-10-23/201310230829090.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2013-10-23/201310230829091.jpg" alt="图片 2" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>说出7条你喜欢什么样的男生/女生          -男生。       <br>
 1 帅
 2 瘦
@@ -222,9 +234,6 @@
 7 有气魄有眼界
 8 具体请参照兔爷       <br>
 大家要被我的自恋程度吓哭了么？哈哈哈〜被点的人必须答题 游戏不得停止 必须再点十个人</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2013-10-23/201310230829090.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2013-10-23/201310230829091.jpg"></p>
-
 
   </div>
 
@@ -234,7 +243,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

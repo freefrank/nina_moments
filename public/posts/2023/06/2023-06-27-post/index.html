@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,17 @@
     <div class="post-meta"><span title='2023-06-27 10:00:00 +0800 +0800'>June 27, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-06-27/202306271353050.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-06-27/202306271353050.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>最近剧荒的小伙伴，可以去试试《羊毛战记 | Silo》。虽然这个剧评分没到神作，但设定很有意思。对种种不可说议题的影射既深刻又应景，对SH阶层的挖掘和对QL结构的批判也是真实又犀利。轻科幻重人性，废土堡垒，末日生存，反乌托邦，意识觉醒，秩序崩坏与重构（与再次崩坏）… 总之就是把戳人爽点的科幻悬疑元素都给融完了。</p>
 <p>虽然部分剧情节奏拖沓，但整体观影体验还过得去。全程我心中最大的疑惑是：这剧怎么还没有被禁。😂 一是不剧透，二是为避免被关小黑屋，这次我就不写观影心得了。该剧第一季本周日收官。如果你喜欢《西部世界》和《饥饿游戏》，对这种严肃科幻题材感兴趣，可冲！</p>
 <p>#拯救剧荒
 #羊毛战记
 ​#不再沉默的羔羊</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-06-27/202306271353050.jpg"></p>
-
 
   </div>
 
@@ -219,7 +226,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

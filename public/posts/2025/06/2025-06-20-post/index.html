@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-06-20 10:00:00 +0800 +0800'>June 20, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-06-20/202506201936470.jpg&#34;,&#34;/Moments/photos/2025-06-20/202506201936471.jpg&#34;,&#34;/Moments/photos/2025-06-20/202506201936472.jpg&#34;,&#34;/Moments/photos/2025-06-20/202506201936473.jpg&#34;,&#34;/Moments/photos/2025-06-20/202506201936474.jpg&#34;,&#34;/Moments/photos/2025-06-20/202506201936475.jpg&#34;,&#34;/Moments/photos/2025-06-20/202506201936476.jpg&#34;,&#34;/Moments/photos/2025-06-20/202506201936477.jpg&#34;,&#34;/Moments/photos/2025-06-20/202506201936478.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-06-20/202506201936470.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-06-20/202506201936471.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-06-20/202506201936472.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-06-20/202506201936473.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-06-20/202506201936474.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-06-20/202506201936475.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-06-20/202506201936476.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-06-20/202506201936477.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-06-20/202506201936478.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>东南亚之行景点篇 24 | 槟城记忆，我最喜欢的马来西亚城市是哪座？
 ​
 ​在这趟马来西亚行程中，槟城无疑是我最期待的城市之一。这里的历史文化、建筑美学、宗教氛围，以及街头美食，都令我心驰神往。虽然遗憾未能前往东马感受热带雨林和海岛天堂的风情，但整体而言，这趟马来之旅还是相对完整地展现了这座南阳明珠多样而生动的风土人情。</p>
@@ -216,16 +249,6 @@
 <p>读万卷书，不如行万里路。旅行，是一场短暂却真切的出走，它让人跳脱日常的惯性，直面他处的烟火与肌理。在马来西亚这段旅途中，我不仅收获了味蕾的欢愉与文化的滋养，更在一幕幕真实的经历中，悄然校准了对生活的期待与判断。关于未来的答案，从来没有写好在某页书本里，而藏在每一段陌生街巷的发现中、对话中，甚至是一场不期而遇的困境中。世界辽阔，我也将继续行走，去找寻那个最适合安放人生的角落。
 ​
 ​#槟城</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-06-20/202506201936470.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-06-20/202506201936471.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-06-20/202506201936472.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-06-20/202506201936473.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-06-20/202506201936474.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-06-20/202506201936475.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-06-20/202506201936476.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-06-20/202506201936477.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-06-20/202506201936478.jpg"></p>
-
 
   </div>
 
@@ -235,7 +258,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

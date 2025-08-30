@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2023-03-22 11:00:00 +0800 +0800'>March 22, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-03-22/202303220505560.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-03-22/202303220505560.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>现在奶茶真是越来越像“粥”了…🤔
 ​
 ​📸 拍这张照片的时候，发生了一个有意思的插曲。当时我正举着相机拍这两杯奶茶，一个商场里的安保人员突然走进店里问我有没有在商场管理处登记。她说商场里不能未经许可拍照。</p>
@@ -215,8 +224,6 @@
 ​总结起来，CF Chinook Centre理论上确实可以在购物中心指南里限制我在商场中的拍摄行为，哪怕我的拍摄对象是奶茶。不过截至到今天，该商场指南中并没有标示出任何关于拍照的限制。因此，只要我的拍摄行为不涉及版权相关的商业牟利或影响商场的正常经营，都不需要在拍摄前向商场进行报备。😉
 ​
 ​#每天get一个用不到的小知识点</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-03-22/202303220505560.jpg"></p>
-
 
   </div>
 
@@ -226,7 +233,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

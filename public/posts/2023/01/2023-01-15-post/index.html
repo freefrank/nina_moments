@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2023-01-15 10:00:00 +0800 +0800'>January 15, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-01-15/202301150849110.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-01-15/202301150849110.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>#一些关于“存在主义危机”的ShowerThoughts
 ​
 ​昨天晚上吃饭的时候，和逍哥讨论到了人工智能。这阵子也上手玩了一下OpenAI开发的那些工具。怎么说呢，我感觉作为没有站上金字塔顶的那批内容创作者，都可以开始撕着日历等失业了。
@@ -215,8 +224,6 @@
 <p>​然而，人类劳动的价值不会随着科技的进步而消失，反而会显得更加珍贵——当然是仅对于一小部分人而言。技能型的人工资源成为富裕阶级标榜身份的奢侈品，而服务性的人工资源会成为权贵阶级彰显权威的消耗品。人工智能是廉价的，但比之更廉价的是我们这些效率和能力被人工智能碾压的普通人，连参与劳动的资格都不配拥有。
 ​
 然而人工智能发展最严重的“副作用”不在于替代了人类的劳动，而在于“无意义化了人类的存在”。当你的创造不再被认同，当你的价值无法被衡量，当你的自我无法被定义，你要如何去回答那句经典的：“Who Am I?”</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-01-15/202301150849110.jpg"></p>
-
 
   </div>
 
@@ -226,7 +233,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

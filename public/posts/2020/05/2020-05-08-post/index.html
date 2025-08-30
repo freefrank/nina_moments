@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,16 +206,29 @@
     <div class="post-meta"><span title='2020-05-08 10:00:00 +0800 +0800'>May 8, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-05-08/202005080756400.jpg&#34;,&#34;/Moments/photos/2020-05-08/202005080756401.jpg&#34;,&#34;/Moments/photos/2020-05-08/202005080756402.jpg&#34;,&#34;/Moments/photos/2020-05-08/202005080756403.jpg&#34;,&#34;/Moments/photos/2020-05-08/202005080756404.jpg&#34;,&#34;/Moments/photos/2020-05-08/202005080756405.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-05-08/202005080756400.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2020-05-08/202005080756401.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2020-05-08/202005080756402.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2020-05-08/202005080756403.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2020-05-08/202005080756404.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2020-05-08/202005080756405.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>第一次看见小龙虾味儿的螺蛳粉就觉得怎么会有这么拉郎配的CP，吃完发现味道还是很不错的。一袋不到4刀的价格实在良心，配料也很足。除了不够臭以外，各方面都很好。</p>
 <p>小龙虾是我额外加的，不是螺蛳粉里自带的！😅</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-05-08/202005080756400.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2020-05-08/202005080756401.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2020-05-08/202005080756402.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2020-05-08/202005080756403.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2020-05-08/202005080756404.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2020-05-08/202005080756405.jpg"></p>
-
 
   </div>
 
@@ -221,7 +238,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

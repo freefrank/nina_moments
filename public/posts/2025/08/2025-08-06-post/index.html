@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2025-08-06 10:00:00 +0800 +0800'>August 6, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-08-06/202508060415410.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-08-06/202508060415410.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>【踏过浮世烟火，再识人间山河】景物篇 • 06 | 瞿上田园一日：油菜花、博物馆与航班起落的牧歌</p>
 <p>瞿（qú）上田园，是成都及周边的一个“真”•小众景点。如若不是油菜花盛开的短暂时节，它的名字几乎不曾被提起。这里古称“瞿上城”，位于今日四川省双流区牧马山一带。但和牧马山捆绑的，没有几个能捞上条好命。</p>
 <p>爸爸说这里设施很好，还推荐我去参观那座免费的广都博物馆。作为一个酷爱逛博物馆的人，我不得不承认，广都博物馆恰恰是我最喜欢的那一类——藏品不算稀世珍宝，但种类丰富、陈设用心，展览方式灵活不呆板，最重要的是：不大，不累，人少。少到包括我和爸爸在内，全馆同时段的游客也不超过五人。这种“包场式”参观体验，和后来我在成都博物馆里人挤人、走马观花的场面，形成了鲜明对比。</p>
@@ -213,8 +222,6 @@
 <p>但我仍然非常享受这趟旅程。这里离双流机场很近，每隔几分钟就有一架飞机从头顶掠过。“婉转空灵”的工业化牧歌响彻田野和天际，成为更具着眼点的风景。我和爸爸坐在露台上，兴致勃勃地猜测下一架飞机属于哪家航空公司。看飞机，是一种简单又童趣的游戏，可以激发出一些框架内的想象力，甚至比园区那些复杂的文旅规划还令人着迷。我们不知道那些飞机从哪里来、飞向哪里去，但那密集起落的繁忙，叫人踏实安心。从飞机在天上划出的轨迹去推测出一条轨道，寄希望于一切还在沿着它从容运行。
 ​
 ​#瞿上田园</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-08-06/202508060415410.jpg"></p>
-
 
   </div>
 
@@ -224,7 +231,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

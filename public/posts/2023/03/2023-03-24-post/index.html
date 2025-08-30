@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,15 +206,18 @@
     <div class="post-meta"><span title='2023-03-24 10:00:00 +0800 +0800'>March 24, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-03-24/202303241841530.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-03-24/202303241841530.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>📸 屯人极光秀基础操作篇（标准化流程版）
 📅 2023-03-23</p>
 <p>挨得猛冻的冬天虽然寒冷，但能看见极光也算是一大幸事。尽管并不罕见，但每次极光的出现，总是伴随着光友们理智丧失的冲动：不惧零下十几度的严寒，启动预测雷达随时监控信号强弱，熬夜驱车数十公里扎堆麋鹿岛，祭出平时懒得组装的相机三脚架一顿狂秀。刚到家就迫不及待地打开修图APP，色温降噪对比度参数咱早已轻车熟路，最后配上一段凡尔赛的文案花式刷屏朋友圈，五秒一刷新地守在手机旁准备收获来自世界各地小伙伴的实名羡慕。这样标准化的流程，只能说是屯里人儿观赏极光的基操勿6。😏</p>
 <p>亲眼观测过极光的人，很难不被她的绚烂多姿的身影所折服。她是天幕之上流光溢彩的水墨，是星河之下波澜不惊的暗涌，是俯身亲吻大地的神祇，是自由跳跃舞动的精灵，是自然界伟大又难以捉摸的奇迹，也是几乎每日都会环绕守护在我们美丽星球之上，普通得不能再普通的天象景观。</p>
 <p>纵使极光出现的原理已经被科学解释得十分清楚，但当你被这神圣的光芒所温柔笼罩，仰起脸庞接受她对灵魂的净化洗涤，如此超然尘世的震撼和感动，依然让人愿意去迷信这只有少数人能够亲身体会的际遇所被赋予的寓意：传说中，极光能为所见之人带去幸运之神的庇护；为热恋情侣送去婚姻美满的祝福；也能替你和逝者进行灵魂沟通，将你的思念传递给另一个世界的亲眷，让同样思念着你的他们也能得到一丝心灵的慰抚。</p>
 <p>🙏 极光的盛大和灵动无法被镜头全方位捕捉，但这份真挚的祝福却可以毫无保留地传递给屏幕前的每一位亲友。希望她可以为你们带来幸运的眷顾和美好的祈愿，让我们永远和所在乎的人互相关爱，互相珍惜，互相守护。❤️</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-03-24/202303241841530.jpg"></p>
-
 
   </div>
 
@@ -220,7 +227,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

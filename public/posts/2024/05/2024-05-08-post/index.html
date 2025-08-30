@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2024-05-08 10:00:00 +0800 +0800'>May 8, 2024</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2024-05-08/202405080753470.jpg&#34;,&#34;/Moments/photos/2024-05-08/202405080753471.jpg&#34;,&#34;/Moments/photos/2024-05-08/202405080753472.jpg&#34;,&#34;/Moments/photos/2024-05-08/202405080753473.jpg&#34;,&#34;/Moments/photos/2024-05-08/202405080753474.jpg&#34;,&#34;/Moments/photos/2024-05-08/202405080753475.jpg&#34;,&#34;/Moments/photos/2024-05-08/202405080753476.jpg&#34;,&#34;/Moments/photos/2024-05-08/202405080753477.jpg&#34;,&#34;/Moments/photos/2024-05-08/202405080753478.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2024-05-08/202405080753470.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2024-05-08/202405080753471.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2024-05-08/202405080753472.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2024-05-08/202405080753473.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2024-05-08/202405080753474.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2024-05-08/202405080753475.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2024-05-08/202405080753476.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2024-05-08/202405080753477.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2024-05-08/202405080753478.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🧭 南下美食记录 • 浙江篇 （下）
 ​
 🥴 清淡，是对浙菜最大的误解。
@@ -225,16 +258,6 @@
 ​
 ​#浙江菜
 ​#格局 🤌🫴</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2024-05-08/202405080753470.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2024-05-08/202405080753471.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2024-05-08/202405080753472.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2024-05-08/202405080753473.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2024-05-08/202405080753474.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2024-05-08/202405080753475.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2024-05-08/202405080753476.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2024-05-08/202405080753477.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2024-05-08/202405080753478.jpg"></p>
-
 
   </div>
 
@@ -244,7 +267,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

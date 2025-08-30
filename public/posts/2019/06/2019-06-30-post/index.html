@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,16 +206,29 @@
     <div class="post-meta"><span title='2019-06-30 10:00:00 +0800 +0800'>June 30, 2019</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2019-06-30/201906300721250.jpg&#34;,&#34;/Moments/photos/2019-06-30/201906300721251.jpg&#34;,&#34;/Moments/photos/2019-06-30/201906300721252.jpg&#34;,&#34;/Moments/photos/2019-06-30/201906300721253.jpg&#34;,&#34;/Moments/photos/2019-06-30/201906300721254.jpg&#34;,&#34;/Moments/photos/2019-06-30/201906300721255.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2019-06-30/201906300721250.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2019-06-30/201906300721251.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2019-06-30/201906300721252.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2019-06-30/201906300721253.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2019-06-30/201906300721254.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2019-06-30/201906300721255.jpg" alt="图片 6" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>这次在PEI岛旅行正好碰上了羽扇豆盛放的季节，田间路埂到处布满了这色彩粉紫斑斓，生命力旺盛植物的身影。说到这种植物的中文俗名，大家都不会陌生。传说中“「爷爷」想起妈妈的话，闪闪的泪光鲁冰花”中的“鲁冰花”就是她啦～那为什么叫鲁冰花呢？因为她的英文名称是“Lupine”。不是解开了多年来的未解之谜？😂😂😂</p>
 <p>在PEI环岛的两天几乎都是阴雨天，所以每张照片的天空都是用Quickshot App合成的。现代科技真是太强大了！😂</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2019-06-30/201906300721250.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2019-06-30/201906300721251.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2019-06-30/201906300721252.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2019-06-30/201906300721253.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2019-06-30/201906300721254.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2019-06-30/201906300721255.jpg"></p>
-
 
   </div>
 
@@ -221,7 +238,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

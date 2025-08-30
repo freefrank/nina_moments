@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-05-02 11:00:00 +0800 +0800'>May 2, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-05-02/202505021906570.jpg&#34;,&#34;/Moments/photos/2025-05-02/202505021906571.jpg&#34;,&#34;/Moments/photos/2025-05-02/202505021906572.jpg&#34;,&#34;/Moments/photos/2025-05-02/202505021906573.jpg&#34;,&#34;/Moments/photos/2025-05-02/202505021906574.jpg&#34;,&#34;/Moments/photos/2025-05-02/202505021906575.jpg&#34;,&#34;/Moments/photos/2025-05-02/202505021906576.jpg&#34;,&#34;/Moments/photos/2025-05-02/202505021906577.jpg&#34;,&#34;/Moments/photos/2025-05-02/202505021906578.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-05-02/202505021906570.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-05-02/202505021906571.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-05-02/202505021906572.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-05-02/202505021906573.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-05-02/202505021906574.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-05-02/202505021906575.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-05-02/202505021906576.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-05-02/202505021906577.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-05-02/202505021906578.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>东南亚之旅景点篇 07 | 马六甲王朝的今生旧梦
 ​
 ​我们在马六甲入住的Riviera Suites Melaka，是一家坐落于人工岛上的酒店，四周环绕着烂尾楼与空置建筑。最初吸引我的是那片带有欧洲风情的步行街，以及可远眺马六甲市区与海河交汇处的景色。四星级的开发定位，宽敞明亮的房间、配有阳台的设计，而实际入住价格却出奇地亲民。性价比的王者。</p>
@@ -214,16 +247,6 @@
 <p>这一刻的马六甲海峡显得意外地鲜活。它依然在流动，依然在呼吸，仿佛在悄然述说着一座城市尚未被扼死的生命。海港失去了船舶，也少有人迹，但潮水照常起伏，岁月也未曾停靠在这里。社会的兴衰，并不如我们以为的那般明朗清晰，而是无数偶然、妥协、利益与抉择交织而成的宿命。身处其中的个体，却常常被这宏大的叙事所淹没——为一些想象的耻辱而痛苦，为一些虚构的荣耀而拼搏。流芳百世还是遗臭万年，终归是海上的泡沫。
 ​
 ​#马六甲</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-05-02/202505021906570.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-05-02/202505021906571.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-05-02/202505021906572.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-05-02/202505021906573.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-05-02/202505021906574.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-05-02/202505021906575.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-05-02/202505021906576.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-05-02/202505021906577.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-05-02/202505021906578.jpg"></p>
-
 
   </div>
 
@@ -233,7 +256,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

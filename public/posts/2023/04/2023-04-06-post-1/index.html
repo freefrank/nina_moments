@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2023-04-06 11:00:00 +0800 +0800'>April 6, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-04-06/202304060730420.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-04-06/202304060730420.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🎬《继承之战》最终季剧情上来就好猛。
 喜欢~🥰
 我最欣赏这个剧的一点就是：
@@ -210,8 +219,6 @@
 <p>由《大空头》导演执导，对​阶级矛盾，白人至上，职场霸凌，政斗商战，豪门恩怨和狗血情爱的描写那叫一个真实、精彩又充满讽刺。“老钱”们的世界表面光鲜亮丽，背地龌龊卑鄙。满足大家想要窥探有钱人生活方式的一些个小好奇。</p>
 <p>⭐⭐⭐⭐⭐
 墙裂推荐，保证你听到片头曲就爱上这部剧。</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-04-06/202304060730420.jpg"></p>
-
 
   </div>
 
@@ -221,7 +228,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

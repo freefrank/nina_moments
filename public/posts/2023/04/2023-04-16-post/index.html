@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2023-04-16 10:00:00 +0800 +0800'>April 16, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-04-16/202304160749180.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-04-16/202304160749180.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🎉 foodjoy.canada 迎来2000粉啦！
 ​
 ​感谢大家的支持 🥰 ​虽然2000粉的关注度对于很多平台上的大V来说根本相当于没有流量，但这对于foodjoy这个几乎不做抽奖让利活动的“抠门+社恐”号来，说却莫大的支持与鼓励。</p>
@@ -214,8 +223,6 @@
 ​
 如今大部分的广域社交平台在注意力经济的荼毒下几乎都已陷入为商业互吹的陷阱，bot横行的算法压制已经无法让商家和内容创作者收割实际收益。内卷的推送机制让用户不得不通过砸钱买关注的方式一次次投放收效甚微的推广，但总是有那么一批单纯凭借着爱好的驱动，不问功禄，不问名望的傻X，还在坚持履行着天真到约等于自我感动的愚蠢行径。</p>
 <p>伴随着foodjoy的成长，我收获了付出的快乐和自我的成就。若一切都没有意义，对信念的实践和其过程带来享受，便成为最能满足自我认可，也是最无可取代的意义。❤️</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-04-16/202304160749180.jpg"></p>
-
 
   </div>
 
@@ -225,7 +232,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

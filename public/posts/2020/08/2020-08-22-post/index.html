@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,19 +206,38 @@
     <div class="post-meta"><span title='2020-08-22 10:00:00 +0800 +0800'>August 22, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-08-22/202008220625300.jpg&#34;,&#34;/Moments/photos/2020-08-22/202008220625301.jpg&#34;,&#34;/Moments/photos/2020-08-22/202008220625302.jpg&#34;,&#34;/Moments/photos/2020-08-22/202008220625303.jpg&#34;,&#34;/Moments/photos/2020-08-22/202008220625304.jpg&#34;,&#34;/Moments/photos/2020-08-22/202008220625305.jpg&#34;,&#34;/Moments/photos/2020-08-22/202008220625306.jpg&#34;,&#34;/Moments/photos/2020-08-22/202008220625307.jpg&#34;,&#34;/Moments/photos/2020-08-22/202008220625308.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-08-22/202008220625300.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2020-08-22/202008220625301.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2020-08-22/202008220625302.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2020-08-22/202008220625303.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2020-08-22/202008220625304.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2020-08-22/202008220625305.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2020-08-22/202008220625306.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2020-08-22/202008220625307.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2020-08-22/202008220625308.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>恐龙谷这个荒凉的地方前不着村后不着店，许多居住在阿尔伯塔省多年的人都没有机会去到。路过没有准备什么服装道具，随便拍拍也没出什么好片儿，倒是被风反卷个稀碎。😅</p>
 <p>想来这片埋葬着大量恐龙遗骸和丰富矿藏的土地，在千百万年前竟是个植物茂盛水量充沛的亚热带森林，孕育出了独特又多样的物种种群，又因为众说纷纭的原因悄无声息地消逝而去。随着不同时代的气候变迁，这里的地质地貌被水流和风沙无声地雕琢，刻画出如今这般神秘又苍凉的自然风貌。这些沉积在干涸河床上数百万年的巨石们从未停止诉说它们的过往，只可惜我们或许永远也听求不懂呀…</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-08-22/202008220625300.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2020-08-22/202008220625301.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2020-08-22/202008220625302.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2020-08-22/202008220625303.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2020-08-22/202008220625304.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2020-08-22/202008220625305.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2020-08-22/202008220625306.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2020-08-22/202008220625307.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2020-08-22/202008220625308.jpg"></p>
-
 
   </div>
 
@@ -224,7 +247,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

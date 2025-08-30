@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,14 +206,23 @@
     <div class="post-meta"><span title='2020-07-10 10:00:00 +0800 +0800'>July 10, 2020</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2020-07-10/202007101146070.jpg&#34;,&#34;/Moments/photos/2020-07-10/202007101146071.jpg&#34;,&#34;/Moments/photos/2020-07-10/202007101146072.jpg&#34;,&#34;/Moments/photos/2020-07-10/202007101146073.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2020-07-10/202007101146070.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2020-07-10/202007101146071.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2020-07-10/202007101146072.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2020-07-10/202007101146073.jpg" alt="图片 4" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>#裂丝盖伞</p>
 <p>接连两日下雨。午后在院子里转悠，发现了这几只新冒出来的小玩意儿。裂丝盖伞和杨树形成外生菌根，菌帽上的纹理和皲裂的伞盖十分具有辨识度。闻起来具极其芳香悦人的“野生菌鲜香”，但实际上是造成神经精神性中毒的毒蘑菇，也就是俗称的“见小人”菇。其实“幻视”不过是蘑菇中毒症状中很小的一部分副作用，上吐下泄四肢痉挛才是痛苦的主要症状，所以千万不要为了追求刺激去进行“trip”，救治不及时当真会嗝屁的。💀💀💀</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2020-07-10/202007101146070.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2020-07-10/202007101146071.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2020-07-10/202007101146072.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2020-07-10/202007101146073.jpg"></p>
-
 
   </div>
 
@@ -219,7 +232,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

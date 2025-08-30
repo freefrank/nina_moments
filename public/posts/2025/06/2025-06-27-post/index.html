@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2025-06-27 10:00:00 +0800 +0800'>June 27, 2025</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2025-06-27/202506271947400.jpg&#34;,&#34;/Moments/photos/2025-06-27/202506271947401.jpg&#34;,&#34;/Moments/photos/2025-06-27/202506271947402.jpg&#34;,&#34;/Moments/photos/2025-06-27/202506271947403.jpg&#34;,&#34;/Moments/photos/2025-06-27/202506271947404.jpg&#34;,&#34;/Moments/photos/2025-06-27/202506271947405.jpg&#34;,&#34;/Moments/photos/2025-06-27/202506271947406.jpg&#34;,&#34;/Moments/photos/2025-06-27/202506271947407.jpg&#34;,&#34;/Moments/photos/2025-06-27/202506271947408.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2025-06-27/202506271947400.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2025-06-27/202506271947401.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2025-06-27/202506271947402.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2025-06-27/202506271947403.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2025-06-27/202506271947404.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2025-06-27/202506271947405.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2025-06-27/202506271947406.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2025-06-27/202506271947407.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2025-06-27/202506271947408.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>【踏过浮世烟火，再识人间山河】食物篇 • 02 | 翠满珑的破•破•破•酥包</p>
 <p>💥 破酥包：一个“破”字，写尽滇味的酥香
 初代探店博主、带货达人汪曾祺曾在《翠湖心影》里点名的破酥包，原是云南八珍之首，历史可追溯至清末。以手工起酥、蒸汽催香见长。皮酥馅厚，咸甜适口。但它并不轻盈——猪油涂层反复开酥，使得整只包子层次分明却也颇为油重，吃一只就很饱足。理论上推荐搭配胡辣汤解腻，但我们这次没敢点，怕口味太重，只点了抄手作为缓冲，很普。</p>
@@ -222,16 +255,6 @@
 ​
 ​#破酥包
 ​#黄公东街</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2025-06-27/202506271947400.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2025-06-27/202506271947401.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2025-06-27/202506271947402.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2025-06-27/202506271947403.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2025-06-27/202506271947404.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2025-06-27/202506271947405.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2025-06-27/202506271947406.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2025-06-27/202506271947407.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2025-06-27/202506271947408.jpg"></p>
-
 
   </div>
 
@@ -241,7 +264,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

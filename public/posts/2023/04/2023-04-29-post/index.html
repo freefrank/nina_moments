@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,12 @@
     <div class="post-meta"><span title='2023-04-29 10:00:00 +0800 +0800'>April 29, 2023</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2023-04-29/202304291410440.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2023-04-29/202304291410440.jpg" alt="图片 1" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>🔥 淄博烧烤怎么突然就火了？
 ​
 ​2019年去淄博玩的时候，吃到过淄博烧烤，而且连着吃了三次。说实话，好吃是好吃的，但火成这样，引得全国人民专程买车票去排队打卡，是让我看不懂的。但今天读到淄博185身高公务员接站集美的新闻，大概是品出了一些个端倪。</p>
@@ -217,8 +226,6 @@
 <p>所以，淄博必须得火。不管是因为烧烤还是博山菜，不管是因为陶瓷还是蒲松龄。淄博火什么并不重要，重要的是，作为中国女孩，你需要到淄博去。
 ​
 ​#每一个中国女孩都应该去淄博接受“孝妇”文化的学洗</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2023-04-29/202304291410440.jpg"></p>
-
 
   </div>
 
@@ -228,7 +235,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

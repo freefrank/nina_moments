@@ -58,6 +58,10 @@
 </noscript>
 
 
+<link rel="stylesheet" href="/css/image-grid.css">
+<script src="/js/image-grid.js" defer></script>
+
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 
@@ -202,7 +206,36 @@
     <div class="post-meta"><span title='2022-05-18 10:00:00 +0800 +0800'>May 18, 2022</span>&nbsp;·&nbsp;Me
 
 </div>
-  </header> 
+  </header>
+  <div class="post-images-grid" data-images="[&#34;/Moments/photos/2022-05-18/202205181431380.jpg&#34;,&#34;/Moments/photos/2022-05-18/202205181431381.jpg&#34;,&#34;/Moments/photos/2022-05-18/202205181431382.jpg&#34;,&#34;/Moments/photos/2022-05-18/202205181431383.jpg&#34;,&#34;/Moments/photos/2022-05-18/202205181431384.jpg&#34;,&#34;/Moments/photos/2022-05-18/202205181431385.jpg&#34;,&#34;/Moments/photos/2022-05-18/202205181431386.jpg&#34;,&#34;/Moments/photos/2022-05-18/202205181431387.jpg&#34;,&#34;/Moments/photos/2022-05-18/202205181431388.jpg&#34;]">
+    <div class="post-image-item" data-index="0">
+      <img src="/Moments/photos/2022-05-18/202205181431380.jpg" alt="图片 1" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="1">
+      <img src="/Moments/photos/2022-05-18/202205181431381.jpg" alt="图片 2" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="2">
+      <img src="/Moments/photos/2022-05-18/202205181431382.jpg" alt="图片 3" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="3">
+      <img src="/Moments/photos/2022-05-18/202205181431383.jpg" alt="图片 4" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="4">
+      <img src="/Moments/photos/2022-05-18/202205181431384.jpg" alt="图片 5" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="5">
+      <img src="/Moments/photos/2022-05-18/202205181431385.jpg" alt="图片 6" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="6">
+      <img src="/Moments/photos/2022-05-18/202205181431386.jpg" alt="图片 7" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="7">
+      <img src="/Moments/photos/2022-05-18/202205181431387.jpg" alt="图片 8" loading="lazy">
+    </div>
+    <div class="post-image-item" data-index="8">
+      <img src="/Moments/photos/2022-05-18/202205181431388.jpg" alt="图片 9" loading="lazy">
+    </div>
+  </div>
   <div class="post-content"><p>• 书接上回 •
 ​
 经历了这次过程心酸的忘记带相机事件，我其实是非常自责难过的。坐在飞机场里百感交集，感觉仿佛失去了此次出行的意义和目的。同时，也深刻地检讨了自己进入的误区。</p>
@@ -217,16 +250,6 @@
 <p>PS. ​
 问：多伦多哪里是看小姐姐的好地方呢？
 ​答：春天的樱花树下。每棵樱花树下都长了一圈儿好好看的小姐姐呢。🥰</p>
-<p><img alt="Media 1" loading="lazy" src="/Moments/photos/2022-05-18/202205181431380.jpg">
-<img alt="Media 2" loading="lazy" src="/Moments/photos/2022-05-18/202205181431381.jpg">
-<img alt="Media 3" loading="lazy" src="/Moments/photos/2022-05-18/202205181431382.jpg">
-<img alt="Media 4" loading="lazy" src="/Moments/photos/2022-05-18/202205181431383.jpg">
-<img alt="Media 5" loading="lazy" src="/Moments/photos/2022-05-18/202205181431384.jpg">
-<img alt="Media 6" loading="lazy" src="/Moments/photos/2022-05-18/202205181431385.jpg">
-<img alt="Media 7" loading="lazy" src="/Moments/photos/2022-05-18/202205181431386.jpg">
-<img alt="Media 8" loading="lazy" src="/Moments/photos/2022-05-18/202205181431387.jpg">
-<img alt="Media 9" loading="lazy" src="/Moments/photos/2022-05-18/202205181431388.jpg"></p>
-
 
   </div>
 
@@ -236,7 +259,17 @@
       <li><a href="http://localhost:8080/tags/%E7%94%9F%E6%B4%BB%E8%AE%B0%E5%BD%95/">生活记录</a></li>
     </ul>
   </footer>
-</article>
+</article><div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
     </main>
     
 <footer class="footer">

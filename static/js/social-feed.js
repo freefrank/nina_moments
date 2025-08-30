@@ -64,14 +64,31 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     function loadNextPage() {
-        let nextUrl = loadMoreBtn.getAttribute('data-next-url');
-        if (!nextUrl) {
+        let nextUrlString = loadMoreBtn.getAttribute('data-next-url');
+        if (!nextUrlString) {
             return;
         }
-        
-        // 确保URL使用HTTPS协议，避免混合内容错误
-        if (window.location.protocol === 'https:' && nextUrl.startsWith('http:')) {
-            nextUrl = nextUrl.replace('http:', 'https:');
+
+        // 修正URL以处理本地开发环境中的http/https混合内容问题
+        const normalizeUrl = (urlStr) => {
+            try {
+                const url = new URL(urlStr);
+                // 在本地开发时，强制协议和主机与当前窗口匹配，以避免CORS错误
+                if (window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1') {
+                    url.protocol = window.location.protocol;
+                    url.host = window.location.host;
+                }
+                return url.toString();
+            } catch (e) {
+                console.error("无效的URL:", urlStr, e);
+                return null; // 返回null表示URL无效
+            }
+        };
+
+        const finalUrl = normalizeUrl(nextUrlString);
+        if (!finalUrl) {
+            console.error('无法加载下一页，URL无效。');
+            return;
         }
         
         // 设置加载状态
@@ -80,10 +97,11 @@ document.addEventListener('DOMContentLoaded', function() {
         loadMoreBtn.textContent = '加载中';
         
         // 发送请求获取下一页
-        fetch(nextUrl)
+        fetch(finalUrl)
             .then(response => {
                 if (!response.ok) {
-                    throw new Error('网络请求失败');
+                    // 抛出错误，包含状态码，以便更好地调试
+                    throw new Error(`网络请求失败，状态码: ${response.status}`);
                 }
                 return response.text();
             })
@@ -120,13 +138,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 // 检查是否还有下一页
                 const nextLoadMoreBtn = doc.getElementById('load-more-btn');
                 if (nextLoadMoreBtn) {
-                    let nextNextUrl = nextLoadMoreBtn.getAttribute('data-next-url');
-                    if (nextNextUrl) {
-                        // 确保URL使用HTTPS协议
-                        if (window.location.protocol === 'https:' && nextNextUrl.startsWith('http:')) {
-                            nextNextUrl = nextNextUrl.replace('http:', 'https:');
+                    const nextNextUrlString = nextLoadMoreBtn.getAttribute('data-next-url');
+                    if (nextNextUrlString) {
+                        const finalNextNextUrl = normalizeUrl(nextNextUrlString);
+                        if (finalNextNextUrl) {
+                            loadMoreBtn.setAttribute('data-next-url', finalNextNextUrl);
+                        } else {
+                            loadMoreContainer.style.display = 'none';
                         }
-                        loadMoreBtn.setAttribute('data-next-url', nextNextUrl);
                     } else {
                         // 没有更多页面了
                         loadMoreContainer.style.display = 'none';
@@ -192,14 +211,12 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
     
-    // 可以取消注释下面的代码来启用无限滚动
-    /*
+    // 无限滚动已启用
     let scrollTimeout;
     window.addEventListener('scroll', function() {
         clearTimeout(scrollTimeout);
         scrollTimeout = setTimeout(checkAutoLoad, 200);
     });
-    */
     
     // 添加键盘快捷键支持（可选）
     document.addEventListener('keydown', function(e) {
@@ -220,44 +237,58 @@ document.addEventListener('DOMContentLoaded', function() {
         
         console.log('初始化侧边栏'); // 调试日志
         
-        // 年份展开/折叠功能
         const yearButtons = sidebar.querySelectorAll('.year-btn');
-        console.log(`找到 ${yearButtons.length} 个年份按钮`); // 调试日志
-        
+        const monthButtons = sidebar.querySelectorAll('.month-btn');
+
+        // 年份筛选和展开/折叠功能
         yearButtons.forEach((btn, index) => {
             const year = btn.dataset.year;
-            console.log(`年份按钮 ${index}: ${year}`); // 调试日志
+            const expandIcon = btn.querySelector('.expand-icon');
+
+            // 为展开图标添加单独的点击事件
+            if (expandIcon) {
+                expandIcon.addEventListener('click', function(e) {
+                    e.stopPropagation(); // 阻止事件冒泡到年份按钮
+                    const monthList = sidebar.querySelector(`.month-list[data-year="${year}"]`);
+                    const isExpanded = btn.classList.toggle('expanded');
+                    monthList.style.display = isExpanded ? 'block' : 'none';
+                });
+            }
+
+            // 为整个年份按钮添加筛选功能
             btn.addEventListener('click', function() {
-                const year = this.dataset.year;
-                const monthList = sidebar.querySelector(`.month-list[data-year="${year}"]`);
-                const isExpanded = this.classList.contains('expanded');
+                console.log(`点击年份按钮进行筛选 - Year: "${year}"`);
                 
-                if (isExpanded) {
-                    // 折叠
-                    this.classList.remove('expanded');
-                    monthList.style.display = 'none';
-                } else {
-                    // 展开
-                    this.classList.add('expanded');
-                    monthList.style.display = 'block';
-                }
+                // 更新活跃状态
+                yearButtons.forEach(b => b.classList.remove('active'));
+                monthButtons.forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+
+                // 加载该年份的文章
+                loadPostsByYear(year);
             });
         });
         
         // 月份筛选功能
-        const monthButtons = sidebar.querySelectorAll('.month-btn');
         monthButtons.forEach(btn => {
-            btn.addEventListener('click', function() {
+            btn.addEventListener('click', function(e) {
+                e.stopPropagation(); // 防止冒泡到年份按钮
                 const year = this.dataset.year;
                 const month = this.dataset.month;
                 
-                console.log(`点击月份按钮 - Year: "${year}", Month: "${month}"`); // 调试日志
+                console.log(`点击月份按钮 - Year: "${year}", Month: "${month}"`);
                 
                 // 更新活跃状态
+                yearButtons.forEach(b => b.classList.remove('active'));
                 monthButtons.forEach(b => b.classList.remove('active'));
                 this.classList.add('active');
                 
-                // 动态加载目标月份的文章
+                // 激活父年份按钮
+                const parentYearBtn = this.closest('.year-group').querySelector('.year-btn');
+                if (parentYearBtn) {
+                    parentYearBtn.classList.add('active');
+                }
+                
                 loadPostsByYearMonth(year, month);
             });
         });
@@ -317,6 +348,31 @@ document.addEventListener('DOMContentLoaded', function() {
             return null;
         }
     }
+
+    // 按年份加载文章
+    async function loadPostsByYear(year) {
+        const data = await loadPostsData();
+        if (!data) {
+            console.error('无法加载文章数据');
+            return;
+        }
+        
+        console.log(`筛选 ${year} 年的文章`); // 调试日志
+        
+        // 筛选指定年份的文章
+        const filteredPosts = data.posts.filter(post => post.year === year);
+        
+        console.log(`找到 ${filteredPosts.length} 篇文章`); // 调试日志
+        
+        // 渲染筛选后的文章
+        renderPosts(filteredPosts, `${year}年`);
+        
+        // 隐藏加载更多按钮
+        const loadMoreContainer = document.getElementById('load-more-container');
+        if (loadMoreContainer) {
+            loadMoreContainer.style.display = 'none';
+        }
+    }
     
     // 按年月加载文章
     async function loadPostsByYearMonth(year, month) {
@@ -349,54 +405,61 @@ document.addEventListener('DOMContentLoaded', function() {
     function renderPosts(posts, titleText = null) {
         const socialFeed = document.getElementById('social-feed');
         if (!socialFeed) return;
-        
-        // 如果没有找到文章
-        if (posts.length === 0) {
-            socialFeed.innerHTML = `
-                <div class="no-results">
-                    <div class="no-results-content">
-                        <h3>😔 没有找到文章</h3>
-                        <p>${titleText}没有发布的文章</p>
+
+        // 1. 添加class触发淡出
+        socialFeed.classList.add('is-filtering');
+
+        // 2. 等待动画结束后更新内容
+        setTimeout(() => {
+            // 如果没有找到文章
+            if (posts.length === 0) {
+                socialFeed.innerHTML = `
+                    <div class="no-results">
+                        <div class="no-results-content">
+                            <h3>😔 没有找到文章</h3>
+                            <p>${titleText}没有发布的文章</p>
+                        </div>
                     </div>
-                </div>
-            `;
-            return;
-        }
-        
-        // 生成文章HTML
-        let postsHTML = '';
-        posts.forEach((post, index) => {
-            const isFirst = index === 0;
-            const isLast = index === posts.length - 1;
-            let borderClass = '';
-            if (isFirst && isLast) {
-                borderClass = 'style="border-radius: 12px;"';
-            } else if (isFirst) {
-                borderClass = 'style="border-radius: 12px 12px 0 0;"';
-            } else if (isLast) {
-                borderClass = 'style="border-radius: 0 0 12px 12px;"';
+                `;
+            } else {
+                // 生成文章HTML
+                let postsHTML = '';
+                posts.forEach((post, index) => {
+                    const isFirst = index === 0;
+                    const isLast = index === posts.length - 1;
+                    let borderClass = '';
+                    if (isFirst && isLast) {
+                        borderClass = 'style="border-radius: 12px;"';
+                    } else if (isFirst) {
+                        borderClass = 'style="border-radius: 12px 12px 0 0;"';
+                    } else if (isLast) {
+                        borderClass = 'style="border-radius: 0 0 12px 12px;"';
+                    }
+                    
+                    postsHTML += `
+                        <article class="feed-entry home-feed" ${borderClass}>
+                            <div class="feed-content">
+                                <p>${post.summary}</p>
+                            </div>
+                            <footer class="feed-footer">
+                                <span>${post.dateFormatted}</span>
+                            </footer>
+                            <a class="feed-link" aria-label="查看完整内容" href="${post.url}"></a>
+                        </article>
+                    `;
+                });
+                socialFeed.innerHTML = postsHTML;
             }
             
-            postsHTML += `
-                <article class="feed-entry home-feed" ${borderClass}>
-                    <div class="feed-content">
-                        <p>${post.summary}</p>
-                    </div>
-                    <footer class="feed-footer">
-                        <span>${post.dateFormatted}</span>
-                    </footer>
-                    <a class="feed-link" aria-label="查看完整内容" href="${post.url}"></a>
-                </article>
-            `;
-        });
-        
-        socialFeed.innerHTML = postsHTML;
-        
-        // 重新添加点击事件处理
-        addFeedEntryClickHandlers();
-        
-        // 滚动到顶部
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+            // 重新添加点击事件处理
+            addFeedEntryClickHandlers();
+            
+            // 3. 移除class触发淡入
+            socialFeed.classList.remove('is-filtering');
+
+            // 滚动到顶部
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 200); // 延迟时间应与CSS中的transition持续时间匹配
     }
     
     // 恢复原始文章
@@ -406,34 +469,44 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('恢复原始文章'); // 调试日志
         
         const socialFeed = document.getElementById('social-feed');
-        if (socialFeed && originalPostsHTML.feedContent) {
-            socialFeed.innerHTML = originalPostsHTML.feedContent;
-        }
-        
-        // 恢复加载更多按钮
-        if (originalPostsHTML.loadMoreContent) {
-            let loadMoreContainer = document.getElementById('load-more-container');
-            if (!loadMoreContainer && socialFeed.parentNode) {
-                socialFeed.parentNode.insertAdjacentHTML('afterend', originalPostsHTML.loadMoreContent);
-                // 重新绑定加载更多事件
-                const newLoadMoreBtn = document.getElementById('load-more-btn');
-                if (newLoadMoreBtn) {
-                    newLoadMoreBtn.addEventListener('click', function(e) {
-                        e.preventDefault();
-                        e.stopPropagation();
-                        loadNextPage();
-                    });
-                }
-            } else if (loadMoreContainer) {
-                loadMoreContainer.style.display = 'block';
+        if (!socialFeed) return;
+
+        // 添加淡出效果
+        socialFeed.classList.add('is-filtering');
+
+        setTimeout(() => {
+            if (originalPostsHTML.feedContent) {
+                socialFeed.innerHTML = originalPostsHTML.feedContent;
             }
-        }
-        
-        // 重新添加点击事件处理
-        addFeedEntryClickHandlers();
-        
-        // 滚动到顶部
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+            
+            // 恢复加载更多按钮
+            if (originalPostsHTML.loadMoreContent) {
+                let loadMoreContainer = document.getElementById('load-more-container');
+                if (!loadMoreContainer && socialFeed.parentNode) {
+                    socialFeed.parentNode.insertAdjacentHTML('afterend', originalPostsHTML.loadMoreContent);
+                    // 重新绑定加载更多事件
+                    const newLoadMoreBtn = document.getElementById('load-more-btn');
+                    if (newLoadMoreBtn) {
+                        newLoadMoreBtn.addEventListener('click', function(e) {
+                            e.preventDefault();
+                            e.stopPropagation();
+                            loadNextPage();
+                        });
+                    }
+                } else if (loadMoreContainer) {
+                    loadMoreContainer.style.display = 'block';
+                }
+            }
+            
+            // 重新添加点击事件处理
+            addFeedEntryClickHandlers();
+
+            // 移除淡出，触发淡入
+            socialFeed.classList.remove('is-filtering');
+            
+            // 滚动到顶部
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }, 200);
     }
     
     // 在页面加载时缓存原始内容

@@ -131,6 +131,12 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+
+/* 用于筛选时平滑过渡 */
+.social-feed.is-filtering {
+    opacity: 0;
 }
 
 .feed-entry {
@@ -150,21 +156,8 @@
     justify-content: space-between;
 }
 
-.feed-entry:first-child {
-    border-top: 1px solid var(--border);
-    border-radius: 12px 12px 0 0;
-}
-
-.feed-entry:last-child {
-    border-radius: 0 0 12px 12px;
-}
-
-.feed-entry:only-child {
-    border-radius: 12px;
-}
-
-.feed-entry:hover {
-    background: var(--hljs-bg);
+.feed-entry .feed-footer {
+    transition: background-color 0.2s ease, border-color 0.2s ease;
 }
 
 .feed-content {
@@ -317,16 +310,31 @@
 }
 
 /* 暗色模式优化 */
-[data-theme="dark"] .feed-entry {
+.dark .feed-entry {
     border-color: #2f3336;
 }
 
-[data-theme="dark"] .feed-entry:hover {
-    background: #1a1a1a;
+.dark .feed-footer {
+    border-color: #2f3336;
 }
 
-[data-theme="dark"] .feed-footer {
-    border-color: #2f3336;
+/* 优化暗色模式下加载更多按钮的可见性 (增强) */
+.dark .load-more-btn {
+    background: #252525 !important; /* 比纯黑背景稍亮的深灰色 */
+    color: #e0e0e0 !important; /* 浅灰色文字以保证对比度 */
+    border: 1px solid #3a3a3a !important; /* 添加边框以增加轮廓感 */
+}
+
+.dark .load-more-btn:hover {
+    background: #3a3a3a !important; /* 悬停时背景变亮 */
+    color: #ffffff !important; /* 悬停时文字变白 */
+    border-color: #555555 !important;
+}
+
+.dark .load-more-btn:disabled {
+    background: #1e1e1e !important;
+    color: #555 !important;
+    border-color: #2a2a2a !important;
 }
 
 /* 覆盖原始的post-entry样式 */
@@ -382,4 +390,24 @@
 .show-all-btn:hover {
     transform: translateY(-2px);
     box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* 恢复基础的悬停效果 */
+.feed-entry:hover {
+    background: var(--hljs-bg);
+}
+
+.dark .feed-entry:hover {
+    background: #1a1a1a;
+}
+
+/* hover时footer背景色与entry保持一致 */
+.feed-entry:hover .feed-footer {
+    background: var(--hljs-bg);
+    border-color: var(--hljs-bg);
+}
+
+.dark .feed-entry:hover .feed-footer {
+    background: #1a1a1a;
+    border-color: #1a1a1a;
 }

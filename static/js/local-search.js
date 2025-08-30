@@ -55,12 +55,16 @@
     async function loadSearchData() {
         if (searchData) return searchData;
         
-        // 尝试多个可能的JSON路径
+        // 使用Hugo的absURL来生成正确的路径
+        const jsonPath = window.location.pathname.endsWith('/') 
+            ? window.location.pathname + 'index.json'
+            : window.location.pathname.replace(/\/$/, '') + '/index.json';
+        
+        // 备用路径，包括基本路径
         const possiblePaths = [
-            '/index.json',
-            '../index.json',
-            './index.json',
-            window.location.origin + '/index.json'
+            '/index.json', // 根路径
+            jsonPath,      // 当前页面路径
+            window.location.origin + '/index.json' // 绝对路径
         ];
         
         for (const path of possiblePaths) {
@@ -70,15 +74,27 @@
                 const response = await fetch(path, {
                     method: 'GET',
                     headers: { 'Accept': 'application/json' },
-                    mode: 'cors',
                     cache: 'default'
                 });
                 
                 if (response.ok) {
                     const data = await response.json();
+                    console.log('📦 收到的数据结构:', data);
+                    
+                    // 检查数据结构
+                    let posts = [];
                     if (data && data.posts && Array.isArray(data.posts)) {
-                        console.log(`✅ 成功加载 ${data.posts.length} 条搜索数据`);
-                        searchData = data.posts;
+                        posts = data.posts;
+                    } else if (Array.isArray(data)) {
+                        posts = data;
+                    } else {
+                        console.warn('⚠️ 未知的数据结构:', data);
+                        continue;
+                    }
+                    
+                    if (posts.length > 0) {
+                        console.log(`✅ 成功加载 ${posts.length} 条搜索数据`);
+                        searchData = posts;
                         return searchData;
                     }
                 }

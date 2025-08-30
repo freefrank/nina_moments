@@ -256,8 +256,15 @@ document.addEventListener('DOMContentLoaded', function() {
             }
 
             // 为整个年份按钮添加筛选功能
-            btn.addEventListener('click', function() {
+            btn.addEventListener('click', async function() {
                 console.log(`点击年份按钮进行筛选 - Year: "${year}"`);
+                
+                // 检查数据是否可用
+                const data = await loadPostsData();
+                if (!data) {
+                    console.log('数据加载失败，跳过筛选');
+                    return;
+                }
                 
                 // 更新活跃状态
                 yearButtons.forEach(b => b.classList.remove('active'));
@@ -336,16 +343,67 @@ document.addEventListener('DOMContentLoaded', function() {
         
         try {
             console.log('加载文章数据...'); // 调试日志
-            const response = await fetch('/index.json');
+            
+            // 构建完整URL，兼容本地开发和生产环境
+            const baseUrl = window.location.origin;
+            const jsonUrl = `${baseUrl}/index.json`;
+            
+            console.log(`请求URL: ${jsonUrl}`); // 调试信息
+            
+            const response = await fetch(jsonUrl, {
+                method: 'GET',
+                headers: {
+                    'Accept': 'application/json',
+                    'Content-Type': 'application/json',
+                },
+                // 本地开发环境的兼容设置
+                mode: 'cors',
+                cache: 'default'
+            });
+            
             if (!response.ok) {
-                throw new Error('无法加载文章数据');
+                throw new Error(`HTTP错误: ${response.status} - ${response.statusText}`);
             }
+            
+            const contentType = response.headers.get('content-type');
+            if (!contentType || !contentType.includes('application/json')) {
+                console.warn('响应可能不是JSON格式:', contentType);
+            }
+            
             allPostsData = await response.json();
-            console.log(`加载了 ${allPostsData.posts.length} 篇文章数据`); // 调试日志
+            console.log(`✅ 成功加载 ${allPostsData.posts.length} 篇文章数据`); // 调试日志
             return allPostsData;
         } catch (error) {
-            console.error('加载文章数据失败:', error);
+            console.error('❌ 加载文章数据失败:', error);
+            console.log('尝试显示错误提示给用户...');
+            
+            // 显示用户友好的错误信息
+            showSearchError(error.message);
             return null;
+        }
+    }
+    
+    // 显示搜索错误提示
+    function showSearchError(errorMessage) {
+        const sidebar = document.getElementById('sidebar');
+        if (sidebar) {
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'search-error';
+            errorDiv.innerHTML = `
+                <div style="
+                    background: var(--code-bg, #f5f5f5);
+                    border: 1px solid var(--border);
+                    border-radius: 8px;
+                    padding: 12px;
+                    margin: 10px 0;
+                    font-size: 14px;
+                    color: var(--secondary);
+                ">
+                    <strong>⚠️ 搜索功能暂不可用</strong><br>
+                    <small>本地开发环境限制，部署后可正常使用</small>
+                </div>
+            `;
+            sidebar.appendChild(errorDiv);
         }
     }
 

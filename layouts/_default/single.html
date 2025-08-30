@@ -1,0 +1,113 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title entry-hint-parent">
+      {{ .Title }}
+      {{- if .Draft }}
+      <span class="entry-hint" title="Draft">
+        <svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" fill="currentColor">
+          <path
+            d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+        </svg>
+      </span>
+      {{- end }}
+    </h1>
+    {{- if not (.Param "hideMeta") }}
+    <div class="post-meta">
+      {{- partial "post_meta.html" . -}}
+      {{- partial "translation_list.html" . -}}
+      {{- partial "edit_post.html" . -}}
+      {{- partial "post_canonical.html" . -}}
+    </div>
+    {{- end }}
+  </header>
+
+  {{- /* 提取所有图片 */ -}}
+  {{- $images := slice -}}
+  {{- $content := .RawContent -}}
+  {{- range $i := seq 1 20 -}}
+    {{- $mediaPattern := printf `!\[Media %d\]\(([^)]+)\)` $i -}}
+    {{- if findRE $mediaPattern $content 1 -}}
+      {{- $imageMatches := findRE $mediaPattern $content 1 -}}
+      {{- if index $imageMatches 0 -}}
+        {{- $imageMatch := index $imageMatches 0 -}}
+        {{- $imageURL := replaceRE $mediaPattern "$1" $imageMatch -}}
+        {{- $images = $images | append $imageURL -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- /* 图片九宫格 */ -}}
+  {{- if $images }}
+  <div class="post-images-grid" data-images="{{ jsonify $images }}">
+    {{- range $index, $image := $images }}
+    <div class="post-image-item" data-index="{{ $index }}">
+      <img src="{{ $image }}" alt="图片 {{ add $index 1 }}" loading="lazy">
+      {{- if gt (len $images) 9 }}
+      {{- if eq $index 8 }}
+      <div class="more-images-overlay">
+        <span class="more-count">+{{ sub (len $images) 9 }}</span>
+      </div>
+      {{- end }}
+      {{- end }}
+    </div>
+    {{- if eq $index 8 }}{{ break }}{{- end }}
+    {{- end }}
+  </div>
+  {{- end }}
+
+  {{- /* 文本内容 */ -}}
+  {{- if .Content }}
+  <div class="post-content">
+    {{- /* 移除图片后的纯文本内容 */ -}}
+    {{- $textContent := .RawContent -}}
+    {{- range $i := seq 1 20 -}}
+      {{- $mediaPattern := printf `!\[Media %d\]\([^)]+\)` $i -}}
+      {{- $textContent = replaceRE $mediaPattern "" $textContent -}}
+    {{- end -}}
+    {{- $textContent = replaceRE `\n\n+` "\n\n" $textContent -}}
+    {{- $textContent = trim $textContent "\n " -}}
+    
+    {{- if $textContent }}
+      {{- $textContent | markdownify }}
+    {{- end }}
+  </div>
+  {{- end }}
+
+  <footer class="post-footer">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "post_nav_links.html" . }}
+    {{- end }}
+    {{- if (and site.Params.ShowShareButtons (ne .Params.disableShare true)) }}
+    {{- partial "share_icons.html" . -}}
+    {{- end }}
+  </footer>
+
+  {{- if (.Param "comments") }}
+  {{- partial "comments.html" . }}
+  {{- end }}
+</article>
+
+{{- /* 图片预览弹窗 */ -}}
+<div id="image-modal" class="image-modal">
+  <div class="modal-content">
+    <span class="modal-close">&times;</span>
+    <button class="modal-nav modal-prev" aria-label="上一张">&lt;</button>
+    <button class="modal-nav modal-next" aria-label="下一张">&gt;</button>
+    <img class="modal-image" src="" alt="">
+    <div class="modal-info">
+      <span class="modal-counter"></span>
+    </div>
+  </div>
+</div>
+
+{{- end }}{{/* end main */}}

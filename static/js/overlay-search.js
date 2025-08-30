@@ -522,34 +522,50 @@
         }
     }
     
-    // 加载搜索数据 - 复用local-search.js的成功逻辑
+    // 加载搜索数据 - 使用与local-search.js相同的逻辑
     async function loadSearchData() {
         if (postsData.length > 0) return postsData;
         
-        // 尝试多个可能的JSON路径
+        // 使用Hugo的absURL来生成正确的路径
+        const jsonPath = window.location.pathname.endsWith('/') 
+            ? window.location.pathname + 'index.json'
+            : window.location.pathname.replace(/\/$/, '') + '/index.json';
+        
+        // 备用路径，包括基本路径
         const possiblePaths = [
-            '/index.json',
-            '../index.json',
-            './index.json',
-            window.location.origin + '/index.json'
+            '/index.json', // 根路径
+            jsonPath,      // 当前页面路径
+            window.location.origin + '/index.json' // 绝对路径
         ];
         
         for (const path of possiblePaths) {
             try {
-                console.log(`🔄 尝试加载搜索数据: ${path}`);
+                console.log(`🔄 弹窗搜索尝试加载数据: ${path}`);
                 
                 const response = await fetch(path, {
                     method: 'GET',
                     headers: { 'Accept': 'application/json' },
-                    mode: 'cors',
                     cache: 'default'
                 });
                 
                 if (response.ok) {
                     const data = await response.json();
+                    console.log('📦 弹窗搜索收到的数据结构:', data);
+                    
+                    // 检查数据结构
+                    let posts = [];
                     if (data && data.posts && Array.isArray(data.posts)) {
-                        console.log(`✅ 成功加载 ${data.posts.length} 条搜索数据`);
-                        postsData = data.posts;
+                        posts = data.posts;
+                    } else if (Array.isArray(data)) {
+                        posts = data;
+                    } else {
+                        console.warn('⚠️ 弹窗搜索未知的数据结构:', data);
+                        continue;
+                    }
+                    
+                    if (posts.length > 0) {
+                        console.log(`✅ 弹窗搜索成功加载 ${posts.length} 条搜索数据`);
+                        postsData = posts;
                         
                         // 初始化Fuse搜索
                         await loadFuseJS();
@@ -560,18 +576,18 @@
                             distance: 1000,
                             threshold: 0.4,
                             minMatchCharLength: 1,
-                            keys: ["title", "permalink", "summary", "content"]
+                            keys: ["title", "url", "permalink", "summary", "content"]
                         });
                         
                         return postsData;
                     }
                 }
             } catch (error) {
-                console.warn(`⚠️ 路径 ${path} 加载失败:`, error.message);
+                console.warn(`⚠️ 弹窗搜索路径 ${path} 加载失败:`, error.message);
             }
         }
         
-        throw new Error('所有路径都无法加载搜索数据');
+        throw new Error('弹窗搜索：所有路径都无法加载搜索数据');
     }
     
     // 动态加载Fuse.js

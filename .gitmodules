@@ -1,3 +1,8 @@
 [submodule "themes/PaperMod"]
 	path = themes/PaperMod
 	url = https://github.com/adityatelange/hugo-PaperMod.git
+	shallow = true
+[submodule "media"]
+	path = media
+	url = https://github.com/freefrank/nina_moments_media.git
+	shallow = true

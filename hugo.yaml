@@ -3,6 +3,17 @@ languageCode: 'zh-cn'
 title: '我的朋友圈时光机'
 theme: 'PaperMod'
 
+# 媒体文件在独立仓库（submodule 挂载于 media/），构建时合并进 static/
+# 本地构建前需初始化 submodule: git submodule update --init
+module:
+  mounts:
+    - source: static
+      target: static
+    - source: media/Moments
+      target: static/Moments
+    - source: media/link_content
+      target: static/link_content
+
 params:
   env: production
   title: '我的朋友圈时光机'

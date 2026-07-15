@@ -17,6 +17,10 @@ module:
 params:
   env: production
   title: '我的朋友圈时光机'
+
+  # Y2K 单主题：固定浅色，隐藏主题切换按钮
+  defaultTheme: light
+  disableThemeToggle: true
   description: '整理的社交媒体内容归档'
   keywords: [朋友圈, 社交媒体, 归档, 时光机]
   author: 'Me'

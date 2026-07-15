@@ -54,6 +54,15 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
+<!-- Y2K 跑马灯公告栏 -->
+{{- if eq $paginator.PageNumber 1 }}
+<div class="y2k-marquee" aria-hidden="true">
+  <div class="y2k-marquee-track">
+    ☆゜・。。・゜゜・。。・゜★ 欢迎光临我的空间 ★ 这里收藏着 {{ len site.RegularPages }} 条时光碎片 ★ 常来坐坐哦 ★゜・。。・゜゜・。。・゜☆
+  </div>
+</div>
+{{- end }}
+
 <!-- 侧边栏 + 信息流布局 -->
 <div class="page-layout">
   <!-- 左侧时间线侧边栏 -->

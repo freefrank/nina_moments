@@ -426,18 +426,19 @@
             // 提取第一张图片
             const firstImage = item.firstImage || extractFirstImage(item.content);
             
-            // 清理并高亮内容
+            // 清理内容：先截断、转义，最后才插入高亮标签。
+            // （顺序很重要：如果先插 <mark> 再截断，截断点落在标签中间会产生
+            //   未闭合元素，后续所有结果项都会被浏览器嵌进这一条里）
             let cleanedContent = cleanContent(item.content || item.summary || '');
-            let highlightedContent = cleanedContent;
-            
+            if (cleanedContent.length > 300) {
+                cleanedContent = cleanedContent.substring(0, 300) + '...';
+            }
+            cleanedContent = cleanedContent
+                .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
             // 关键词高亮
             const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
-            highlightedContent = highlightedContent.replace(regex, '<mark>$1</mark>');
-            
-            // 截断内容到300字符
-            if (highlightedContent.length > 300) {
-                highlightedContent = highlightedContent.substring(0, 300) + '...';
-            }
+            const highlightedContent = cleanedContent.replace(regex, '<mark>$1</mark>');
             
             // 格式化日期
             const dateObj = new Date(item.date);

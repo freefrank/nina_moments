@@ -491,7 +491,10 @@ h1, h2, h3, .logo a, .post-title, .timeline-sidebar h3 {
 .post-single {
     border-radius: 20px !important;
     box-shadow: 0 6px 0 rgba(255, 79, 192, .28), 0 16px 36px rgba(160, 108, 255, .32) !important;
-    padding: 26px 30px;
+    padding: 26px 30px !important;
+    /* image-grid.css 加载在后且把 margin 归零，需 !important；宽度与首页内容区(1160)统一 */
+    margin: 28px auto 36px !important;
+    max-width: 1160px !important;
     position: relative;
 }
 
@@ -613,6 +616,52 @@ h1, h2, h3, .logo a, .post-title, .timeline-sidebar h3 {
 
 #search-input { border: 2px solid var(--y2k-pink) !important; }
 
+/* 修复结果项布局：注入样式的行数截断写给了不存在的 p 标签，
+   且缩略图/正文缺少 flex 约束，长摘要会把卡片撑爆 */
+#search-results .search-result-item { display: block !important; }
+
+#search-results .search-result-content {
+    display: flex !important;
+    gap: 12px;
+    align-items: flex-start;
+}
+
+#search-results .search-result-thumbnail {
+    flex: 0 0 60px;
+    width: 60px !important;
+    height: 60px !important;
+    border: 3px solid #fff;
+    border-radius: 8px !important;
+    box-shadow: 0 2px 8px rgba(160, 108, 255, .35);
+}
+
+#search-results .search-result-text {
+    flex: 1;
+    min-width: 0;
+}
+
+#search-results .search-result-body {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--content);
+}
+
+#search-results .search-result-date {
+    font-family: "VT323", monospace;
+    color: var(--y2k-pink-deep);
+    font-size: 16px;
+}
+
+#search-results mark {
+    background: linear-gradient(180deg, #ffd93d, #ffb300);
+    color: #5b1e8e;
+    border-radius: 4px;
+}
+
 /* ---------- 页脚 ---------- */
 .footer {
     color: var(--y2k-purple-deep);
@@ -621,6 +670,46 @@ h1, h2, h3, .logo a, .post-title, .timeline-sidebar h3 {
 
 .footer::before { content: "★ ";  color: var(--y2k-gold); animation: y2k-blink 1.3s steps(2, start) infinite; display: inline-block; }
 .footer::after { content: " ★"; color: var(--y2k-gold); animation: y2k-blink 1.3s steps(2, start) infinite; display: inline-block; }
+
+/* ---------- 火星文悬浮按钮 ---------- */
+.y2k-hxw-btn {
+    position: fixed;
+    left: 18px;
+    bottom: 22px;
+    z-index: 900;
+    padding: 11px 18px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(70, 0, 120, .6);
+    background: var(--y2k-candy-purple);
+    border: 2px solid #fff;
+    border-radius: 999px;
+    box-shadow: 0 4px 0 rgba(122, 63, 242, .45), inset 0 2px 3px rgba(255,255,255,.7), 0 0 18px rgba(160, 108, 255, .55);
+    transition: transform .18s ease, box-shadow .18s ease;
+    animation: y2k-bounce 3s ease-in-out infinite;
+}
+
+.y2k-hxw-btn:hover {
+    transform: translateY(-2px) scale(1.05);
+    animation-play-state: paused;
+}
+
+.y2k-hxw-btn:active { transform: translateY(1px); }
+
+.y2k-hxw-btn.hxw-on {
+    background: var(--y2k-candy);
+    box-shadow: 0 4px 0 rgba(216, 27, 154, .5), inset 0 2px 3px rgba(255,255,255,.7), 0 0 22px rgba(255, 79, 192, .8);
+}
+
+@media (max-width: 768px) {
+    .y2k-hxw-btn { left: 12px; bottom: 14px; padding: 9px 14px; font-size: 13px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .y2k-hxw-btn { animation: none; transition: none; }
+}
 
 /* ---------- 通用动画 ---------- */
 @keyframes y2k-twinkle {

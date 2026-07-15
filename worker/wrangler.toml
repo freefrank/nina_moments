@@ -1,0 +1,13 @@
+name = "nina-moments"
+main = "worker.js"
+compatibility_date = "2026-07-01"
+workers_dev = false
+
+routes = [
+  { pattern = "nina.zkx.ca/*", zone_name = "zkx.ca" }
+]
+
+# 密码用 Secret 存储，不入库：
+#   cd worker && npx wrangler secret put ACCESS_PASSWORD
+# DNS: nina CNAME freefrank.github.io（橙云代理），Worker 经路由拦截并在
+# 验证通过后 fetch(request) 透传到 GitHub Pages 源站

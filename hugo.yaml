@@ -3,16 +3,9 @@ languageCode: 'zh-cn'
 title: '我的朋友圈时光机'
 theme: 'PaperMod'
 
-# 媒体文件在独立仓库（submodule 挂载于 media/），构建时合并进 static/
-# 本地构建前需初始化 submodule: git submodule update --init
-module:
-  mounts:
-    - source: static
-      target: static
-    - source: media/Moments
-      target: static/Moments
-    - source: media/link_content
-      target: static/link_content
+# 媒体文件在独立私有仓库 nina_moments_media，不参与构建：
+# 线上由 Cloudflare Worker（worker/）代理 /Moments/* 与 /link_content/*，
+# 本地预览如需图片可临时 ln -s ../nina_moments_media/Moments static/Moments
 
 params:
   env: production

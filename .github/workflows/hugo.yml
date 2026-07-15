@@ -36,18 +36,8 @@ jobs:
       - name: 检出代码
         uses: actions/checkout@v4
         with:
+          submodules: true
           fetch-depth: 1
-
-      - name: 检出子模块（媒体仓库为私有，经部署密钥走 SSH）
-        env:
-          MEDIA_DEPLOY_KEY: ${{ secrets.MEDIA_DEPLOY_KEY }}
-        run: |
-          mkdir -p ~/.ssh
-          ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
-          eval "$(ssh-agent -s)"
-          echo "$MEDIA_DEPLOY_KEY" | ssh-add -
-          git config --global url."git@github.com:freefrank/nina_moments_media.git".insteadOf "https://github.com/freefrank/nina_moments_media.git"
-          git submodule update --init --recursive
 
       - name: 安装Hugo CLI
         run: |

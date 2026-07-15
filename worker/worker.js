@@ -1,12 +1,28 @@
-// nina.zkx.ca 密码门 Worker
-// 验证通过 → 请求透传到源站（GitHub Pages）；未验证 → Y2K 风格密码页
-// 密码存放在 Worker Secret：ACCESS_PASSWORD（wrangler secret put ACCESS_PASSWORD）
+// nina.zkx.ca 密码门 + 媒体代理 Worker
+// - 未验证 → Y2K 风格密码页
+// - /Moments/* 与 /link_content/* → 从私有媒体仓库代理（GitHub raw + 边缘缓存），
+//   媒体因此不必进入 GitHub Pages 构建产物，部署从十几分钟降到约一分钟
+// - 其余路径 → 透传 GitHub Pages 源站
+// Secrets: ACCESS_PASSWORD（访问密码）、GITHUB_TOKEN（媒体仓库只读 PAT）
 
 const COOKIE_NAME = 'nina_auth';
 const COOKIE_MAX_AGE = 7 * 24 * 60 * 60; // 7 天
 
+const MEDIA_PREFIXES = ['/Moments/', '/link_content/'];
+const MEDIA_REPO_RAW = 'https://raw.githubusercontent.com/freefrank/nina_moments_media/master';
+
+const MIME = {
+    jpg: 'image/jpeg', jpeg: 'image/jpeg', png: 'image/png', gif: 'image/gif',
+    webp: 'image/webp', svg: 'image/svg+xml', ico: 'image/x-icon',
+    html: 'text/html; charset=utf-8', htm: 'text/html; charset=utf-8',
+    css: 'text/css; charset=utf-8', js: 'text/javascript; charset=utf-8',
+    json: 'application/json; charset=utf-8', txt: 'text/plain; charset=utf-8',
+    md: 'text/plain; charset=utf-8', mp4: 'video/mp4', mp3: 'audio/mpeg',
+    pdf: 'application/pdf', woff: 'font/woff', woff2: 'font/woff2',
+};
+
 export default {
-    async fetch(request, env) {
+    async fetch(request, env, ctx) {
         const url = new URL(request.url);
 
         // 登录提交
@@ -44,10 +60,53 @@ export default {
             return passwordPage(false);
         }
 
-        // 已验证：透传到源站
+        // 已验证：媒体走私有仓库代理，其余透传源站
+        if (MEDIA_PREFIXES.some(p => url.pathname.startsWith(p))) {
+            return serveMedia(url, env, ctx);
+        }
         return fetch(request);
     },
 };
+
+async function serveMedia(url, env, ctx) {
+    let path = url.pathname;
+    if (path.endsWith('/')) path += 'index.html';
+
+    // 缓存键不含查询串与 cookie；媒体内容不可变，命中即直出
+    const cacheKey = new Request(url.origin + path);
+    const cache = caches.default;
+    const hit = await cache.match(cacheKey);
+    if (hit) {
+        const res = new Response(hit.body, hit);
+        res.headers.set('X-Media-Cache', 'HIT');
+        return res;
+    }
+
+    const gh = await fetch(MEDIA_REPO_RAW + path, {
+        headers: {
+            'Authorization': 'Bearer ' + env.GITHUB_TOKEN,
+            'User-Agent': 'nina-moments-media-proxy',
+        },
+    });
+    if (!gh.ok) {
+        return new Response('媒体不存在: ' + path, {
+            status: gh.status === 404 ? 404 : 502,
+            headers: { 'Content-Type': 'text/plain; charset=utf-8' },
+        });
+    }
+
+    const ext = path.split('.').pop().toLowerCase();
+    const res = new Response(gh.body, {
+        status: 200,
+        headers: {
+            'Content-Type': MIME[ext] || 'application/octet-stream',
+            'Cache-Control': 'public, max-age=31536000, immutable',
+            'X-Media-Cache': 'MISS',
+        },
+    });
+    ctx.waitUntil(cache.put(cacheKey, res.clone()));
+    return res;
+}
 
 async function sha256Hex(text) {
     const digest = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text));

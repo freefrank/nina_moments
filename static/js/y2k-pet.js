@@ -35,7 +35,7 @@
 
     var hasMouse = window.matchMedia('(pointer: fine)').matches;
 
-    var pet, sprite;
+    var pet, walker, sprite;
     var petX = 30;
     var targetX = Math.min(window.innerWidth / 2, 600);
     var mouseNearPet = false;
@@ -118,8 +118,9 @@
             }
         }
 
-        petX = Math.max(0, Math.min(window.innerWidth - W, petX));
-        pet.style.transform = 'translateX(' + petX.toFixed(1) + 'px)';
+        // 用 clientWidth（不含滚动条）做边界，且猫在裁剪轨道内移动
+        petX = Math.max(0, Math.min(document.documentElement.clientWidth - W, petX));
+        walker.style.transform = 'translateX(' + petX.toFixed(1) + 'px)';
         stepFrames(nowHr);
         requestAnimationFrame(tick);
     }
@@ -137,7 +138,7 @@
 
     // 触屏设备：随机溜达
     function wander() {
-        targetX = 10 + Math.random() * (window.innerWidth - W - 20);
+        targetX = 10 + Math.random() * (document.documentElement.clientWidth - W - 20);
         setTimeout(wander, 7000 + Math.random() * 10000);
     }
 
@@ -145,17 +146,20 @@
         pet = document.createElement('div');
         pet.className = 'y2k-pet';
         pet.setAttribute('aria-hidden', 'true');
+        walker = document.createElement('div');
+        walker.className = 'y2k-pet-walker';
         sprite = document.createElement('div');
         sprite.className = 'y2k-pet-sprite';
         sprite.style.width = W + 'px';
         sprite.style.height = (FH * SCALE) + 'px';
         sprite.style.backgroundImage = 'url("' + SPRITE + '")';
         sprite.style.backgroundSize = (SHEET_W * SCALE) + 'px ' + (SHEET_H * SCALE) + 'px';
-        pet.appendChild(sprite);
+        walker.appendChild(sprite);
+        pet.appendChild(walker);
         document.body.appendChild(pet);
 
         setAnim('idle');
-        pet.style.transform = 'translateX(' + petX + 'px)';
+        walker.style.transform = 'translateX(' + petX + 'px)';
 
         if (hasMouse) {
             document.addEventListener('mousemove', onMouseMove, { passive: true });

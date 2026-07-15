@@ -671,13 +671,24 @@ h1, h2, h3, .logo a, .post-title, .timeline-sidebar h3 {
 .footer::before { content: "★ ";  color: var(--y2k-gold); animation: y2k-blink 1.3s steps(2, start) infinite; display: inline-block; }
 .footer::after { content: " ★"; color: var(--y2k-gold); animation: y2k-blink 1.3s steps(2, start) infinite; display: inline-block; }
 
-/* ---------- 底部桌宠（弟弟didi，y2k-pet.js 精灵图驱动） ---------- */
+/* ---------- 底部桌宠（弟弟didi，y2k-pet.js 精灵图驱动） ----------
+   .y2k-pet 是全宽裁剪轨道，猫在 .y2k-pet-walker 里移动，
+   保证任何情况下都不会把页面撑出横向滚动 */
 .y2k-pet {
     position: fixed;
     left: 0;
+    right: 0;
     bottom: 0;
+    height: 96px;
+    overflow: hidden;
     z-index: 899;
     pointer-events: none;
+}
+
+.y2k-pet-walker {
+    position: absolute;
+    bottom: 0;
+    left: 0;
     line-height: 0;
     will-change: transform;
 }
@@ -686,6 +697,23 @@ h1, h2, h3, .logo a, .post-title, .timeline-sidebar h3 {
     background-repeat: no-repeat;
     image-rendering: pixelated;
     filter: drop-shadow(0 2px 4px rgba(90, 30, 142, .3));
+}
+
+/* 特效裁剪层：飘落星星（背景层）与鼠标尾迹/点击爆炸（前景层） */
+.y2k-fx-back, .y2k-fx-front {
+    position: fixed;
+    inset: 0;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.y2k-fx-back { z-index: 3; }
+.y2k-fx-front { z-index: 9998; }
+
+.y2k-fx-back .y2k-sparkle,
+.y2k-fx-front .y2k-trail,
+.y2k-fx-front .y2k-burst {
+    position: absolute;
 }
 
 /* ---------- 火星文悬浮按钮 ---------- */

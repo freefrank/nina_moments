@@ -10,6 +10,12 @@
 
     var FLAVORS = ['', ' pink', ' blue', ' heart'];
 
+    // 裁剪容器：所有特效元素装进 overflow:hidden 的固定层，绝不撑大页面
+    var fxBack = document.createElement('div');
+    fxBack.className = 'y2k-fx-back';
+    var fxFront = document.createElement('div');
+    fxFront.className = 'y2k-fx-front';
+
     /* ---------- 漫天飘落星星 ---------- */
     var SPARKLE_COUNT = window.innerWidth < 768 ? 8 : 18;
 
@@ -24,7 +30,7 @@
         var dur = 8 + Math.random() * 10;
         el.style.animationDuration = dur.toFixed(1) + 's, 1.6s';
         el.style.animationDelay = (-Math.random() * dur).toFixed(1) + 's, ' + (Math.random() * 1.6).toFixed(1) + 's';
-        document.body.appendChild(el);
+        fxBack.appendChild(el);
     }
 
     /* ---------- 鼠标星星尾迹（节流 + 上限） ---------- */
@@ -40,7 +46,7 @@
         el.className = 'y2k-trail' + TRAIL_FLAVORS[Math.floor(Math.random() * TRAIL_FLAVORS.length)];
         el.style.left = x + 'px';
         el.style.top = y + 'px';
-        document.body.appendChild(el);
+        fxFront.appendChild(el);
         setTimeout(function () {
             el.remove();
             trailCount--;
@@ -70,12 +76,14 @@
             el.style.setProperty('--by', Math.sin(angle) * dist + 'px');
             el.style.left = (e.clientX - 5) + 'px';
             el.style.top = (e.clientY - 5) + 'px';
-            document.body.appendChild(el);
+            fxFront.appendChild(el);
             setTimeout(function (node) { node.remove(); }, 700, el);
         }
     }
 
     function init() {
+        document.body.appendChild(fxBack);
+        document.body.appendChild(fxFront);
         for (var i = 0; i < SPARKLE_COUNT; i++) makeFaller();
         if (finePointer.matches) {
             document.addEventListener('mousemove', onMove, { passive: true });

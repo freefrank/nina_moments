@@ -54,7 +54,7 @@
 {{- partial "home_info.html" . }}
 {{- end }}
 
-<!-- Y2K 跑马灯公告栏 -->
+{{- /* Y2K 跑马灯公告栏（与 page-layout 同宽） */}}
 {{- if eq $paginator.PageNumber 1 }}
 <div class="y2k-marquee" aria-hidden="true">
   <div class="y2k-marquee-track">

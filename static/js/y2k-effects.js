@@ -30,23 +30,30 @@
     /* ---------- 鼠标星星尾迹（节流 + 上限） ---------- */
     var lastTrail = 0;
     var trailCount = 0;
-    var TRAIL_MAX = 24;
+    var TRAIL_MAX = 48;
     var TRAIL_FLAVORS = ['', ' gold', ' blue'];
 
-    function onMove(e) {
-        var now = Date.now();
-        if (now - lastTrail < 70 || trailCount >= TRAIL_MAX) return;
-        lastTrail = now;
+    function spawnTrail(x, y) {
+        if (trailCount >= TRAIL_MAX) return;
         trailCount++;
         var el = document.createElement('div');
         el.className = 'y2k-trail' + TRAIL_FLAVORS[Math.floor(Math.random() * TRAIL_FLAVORS.length)];
-        el.style.left = (e.clientX + 4 + Math.random() * 10) + 'px';
-        el.style.top = (e.clientY + 8 + Math.random() * 10) + 'px';
+        el.style.left = x + 'px';
+        el.style.top = y + 'px';
         document.body.appendChild(el);
         setTimeout(function () {
             el.remove();
             trailCount--;
-        }, 760);
+        }, 900);
+    }
+
+    function onMove(e) {
+        var now = Date.now();
+        if (now - lastTrail < 36) return;
+        lastTrail = now;
+        // 每次撒 2 颗，围绕魔棒星尖散开
+        spawnTrail(e.clientX + 10 + Math.random() * 14, e.clientY + 12 + Math.random() * 14);
+        spawnTrail(e.clientX - 2 + Math.random() * 8, e.clientY + 20 + Math.random() * 10);
     }
 
     /* ---------- 点击星星爆炸 ---------- */

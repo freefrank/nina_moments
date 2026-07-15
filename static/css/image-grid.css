@@ -340,3 +340,54 @@ body.is-single-page .main {
 .dark .post-image-item:hover .more-images-overlay {
     background: rgba(0, 0, 0, 0.85);
 }
+/* 分享链接卡片（数据来自 front matter link 字段） */
+.post-link-card {
+    margin: 24px 0;
+    padding: 16px 20px;
+    background: var(--code-bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+}
+
+.post-link-card .link-card-label {
+    font-size: 12px;
+    color: var(--secondary);
+    margin-bottom: 8px;
+}
+
+.post-link-card .link-card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+.post-link-card .link-card-source {
+    font-size: 13px;
+    color: var(--secondary);
+    margin-bottom: 8px;
+}
+
+.post-link-card .link-card-summary {
+    font-size: 14px;
+    color: var(--content);
+    line-height: 1.6;
+    margin: 0 0 12px;
+}
+
+.post-link-card .link-card-actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.post-link-card .link-card-actions a {
+    font-size: 14px;
+    color: var(--tertiary-link, #1da1f2);
+    text-decoration: none;
+}
+
+.post-link-card .link-card-actions a:hover {
+    text-decoration: underline;
+}

@@ -125,17 +125,9 @@
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   
-  {{- /* 提取第一张图片 (Media 1) */ -}}
+  {{- /* 缩略图取 front matter images 的第一张 */ -}}
   {{- $firstImage := "" }}
-  {{- $content := .RawContent }}
-  {{- $imageRegex := `!\[Media 1\]\(([^)]+)\)` }}
-  {{- if findRE $imageRegex $content 1 }}
-    {{- $imageMatches := findRE $imageRegex $content 1 }}
-    {{- if index $imageMatches 0 }}
-      {{- $firstImageMatch := index $imageMatches 0 }}
-      {{- $firstImage = replaceRE $imageRegex "$1" $firstImageMatch }}
-    {{- end }}
-  {{- end }}
+  {{- with .Params.images }}{{ $firstImage = index . 0 }}{{ end }}
   
   <div class="feed-entry-content">
     <!-- 缩略图 -->
@@ -148,7 +140,10 @@
     <!-- 文本内容 -->
     {{- if (ne (.Param "hideSummary") true) }}
     <div class="feed-content">
-      {{- $fullContent := .Content | plainify | htmlUnescape }}
+      {{- $fullContent := .Content | plainify | htmlUnescape | strings.TrimSpace }}
+      {{- if and (not $fullContent) .Params.link }}
+        {{- $fullContent = .Params.link.title | default "" }}
+      {{- end }}
       {{- $contentLength := len $fullContent }}
       {{- if gt $contentLength 300 }}
         {{- /* 截取前300个字符 */ -}}

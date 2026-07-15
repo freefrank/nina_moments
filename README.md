@@ -40,7 +40,7 @@ python3 scripts/import_wechat.py --media-dir <媒体仓库路径> <导出目录1
 
 ## 素材署名
 
-- `static/pets/` 桌宠精灵图来自 [webpets](https://github.com/sankalpaacharya/webpets) 项目（CC BY-ND 4.0）
+- `static/pets/didi/` 桌宠「弟弟」精灵图来自 [petdex.dev/pets/didi](https://petdex.dev/pets/didi)（作者 styh1997）
 - `static/js/huoxingwen-lib.js` 火星文字符表来自 [Niefee/textConversion](https://github.com/Niefee/textConversion)
 
 ## scripts/

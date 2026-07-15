@@ -671,7 +671,7 @@ h1, h2, h3, .logo a, .post-title, .timeline-sidebar h3 {
 .footer::before { content: "★ ";  color: var(--y2k-gold); animation: y2k-blink 1.3s steps(2, start) infinite; display: inline-block; }
 .footer::after { content: " ★"; color: var(--y2k-gold); animation: y2k-blink 1.3s steps(2, start) infinite; display: inline-block; }
 
-/* ---------- 底部桌宠（小灰猫，y2k-pet.js） ---------- */
+/* ---------- 底部桌宠（弟弟didi，y2k-pet.js 精灵图驱动） ---------- */
 .y2k-pet {
     position: fixed;
     left: 0;
@@ -682,10 +682,9 @@ h1, h2, h3, .logo a, .post-title, .timeline-sidebar h3 {
     will-change: transform;
 }
 
-.y2k-pet img {
-    height: 64px;
-    width: auto;
-    image-rendering: auto;
+.y2k-pet-sprite {
+    background-repeat: no-repeat;
+    image-rendering: pixelated;
     filter: drop-shadow(0 2px 4px rgba(90, 30, 142, .3));
 }
 

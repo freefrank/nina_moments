@@ -32,14 +32,16 @@
 
     var SKIP_TAGS = { SCRIPT: 1, STYLE: 1, NOSCRIPT: 1, CODE: 1, PRE: 1, TEXTAREA: 1, INPUT: 1 };
 
+    function convertible(node) {
+        var p = node.parentElement;
+        return p && !SKIP_TAGS[p.tagName] && !p.closest('.y2k-hxw-btn') &&
+               /\S/.test(node.nodeValue);
+    }
+
     function eachTextNode(root, fn) {
         var walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
             acceptNode: function (node) {
-                var p = node.parentElement;
-                if (!p || SKIP_TAGS[p.tagName] || p.closest('.y2k-hxw-btn')) {
-                    return NodeFilter.FILTER_REJECT;
-                }
-                return /\S/.test(node.nodeValue) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_SKIP;
+                return convertible(node) ? NodeFilter.FILTER_ACCEPT : NodeFilter.FILTER_REJECT;
             }
         });
         var n;
@@ -61,8 +63,11 @@
         observer = new MutationObserver(function (mutations) {
             for (var m of mutations) {
                 for (var node of m.addedNodes) {
-                    if (node.nodeType === Node.TEXT_NODE) convertNode(node);
-                    else if (node.nodeType === Node.ELEMENT_NODE) eachTextNode(node, convertNode);
+                    if (node.nodeType === Node.TEXT_NODE) {
+                        if (convertible(node)) convertNode(node);
+                    } else if (node.nodeType === Node.ELEMENT_NODE) {
+                        eachTextNode(node, convertNode);
+                    }
                 }
             }
         });

@@ -38,6 +38,11 @@ python3 scripts/import_wechat.py --media-dir <媒体仓库路径> <导出目录1
 按时间戳增量导入（已存在的帖子自动跳过），照片会复制进媒体仓库，
 之后分别提交两个仓库并推送（媒体仓库单次 push 不要超过 2GB）。
 
+## 素材署名
+
+- `static/pets/` 桌宠精灵图来自 [webpets](https://github.com/sankalpaacharya/webpets) 项目（CC BY-ND 4.0）
+- `static/js/huoxingwen-lib.js` 火星文字符表来自 [Niefee/textConversion](https://github.com/Niefee/textConversion)
+
 ## scripts/
 
 - `import_wechat.py` — 从微信导出包导入新帖子（见上）

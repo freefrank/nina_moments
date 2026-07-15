@@ -46,7 +46,7 @@ jobs:
           ssh-keyscan github.com >> ~/.ssh/known_hosts 2>/dev/null
           eval "$(ssh-agent -s)"
           echo "$MEDIA_DEPLOY_KEY" | ssh-add -
-          git config url."git@github.com:freefrank/nina_moments_media.git".insteadOf "https://github.com/freefrank/nina_moments_media.git"
+          git config --global url."git@github.com:freefrank/nina_moments_media.git".insteadOf "https://github.com/freefrank/nina_moments_media.git"
           git submodule update --init --recursive
 
       - name: 安装Hugo CLI

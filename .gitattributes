@@ -1,0 +1,8 @@
+# 仓库内一律以 LF 存储、检出时也用 LF。
+# Windows 侧的工作副本曾把 content 整体改写成 CRLF，导致 5000 多个
+# 文件凭空显示为已修改；固定 eol 可避免两侧副本再次互相打架。
+* text=auto eol=lf
+
+# 二进制文件不做任何行尾转换
+*.webp binary
+*.ico binary

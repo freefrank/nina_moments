@@ -229,13 +229,21 @@
 
 /* 使用JavaScript来处理作者信息，这里先用CSS作为备用 */
 
-/* 隐藏链接但保留在DOM中用于筛选 */
+/* 覆盖整个条目的真实链接：让中键、Shift/Ctrl+点击、右键复制链接都走浏览器原生行为。
+   层级须高于 .feed-footer 的 z-index: 2，否则页脚会挡住点击 */
 .feed-link {
     position: absolute;
-    left: -9999px;
-    width: 1px;
-    height: 1px;
+    inset: 0;
+    z-index: 3;
+    font-size: 0;
     overflow: hidden;
+}
+
+/* 条目内自身可交互的元素需要浮在覆盖链接之上 */
+.feed-entry a:not(.feed-link),
+.feed-entry button {
+    position: relative;
+    z-index: 4;
 }
 
 .feed-entry {

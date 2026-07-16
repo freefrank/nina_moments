@@ -19,35 +19,11 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // 添加feed条目点击事件
+    // 条目的跳转由 .feed-link 这个覆盖整个卡片的 <a> 原生承担，这里只做内容清理
     function addFeedEntryClickHandlers() {
-        const feedEntries = document.querySelectorAll('.feed-entry');
-        feedEntries.forEach(entry => {
-            if (!entry.classList.contains('clickable')) {
-                entry.classList.add('clickable');
-                entry.addEventListener('click', function(e) {
-                    // 如果点击的是按钮或链接，不处理
-                    if (e.target.tagName === 'BUTTON' || e.target.tagName === 'A' || 
-                        e.target.closest('button') || e.target.closest('a')) {
-                        return;
-                    }
-                    
-                    const feedLink = entry.querySelector('.feed-link');
-                    if (feedLink) {
-                        console.log(`点击文章，跳转到: ${feedLink.href}`); // 调试日志
-                        window.location.href = feedLink.href;
-                    } else {
-                        console.log('未找到 .feed-link 元素'); // 调试日志
-                    }
-                });
-            }
-        });
-        
-        // 清理作者信息
         removeAuthorInfo();
     }
-    
-    // 初始化现有条目的点击处理
+
     addFeedEntryClickHandlers();
     
     // 初始化侧边栏功能
@@ -62,7 +38,89 @@ document.addEventListener('DOMContentLoaded', function() {
         e.stopPropagation();
         loadNextPage();
     });
-    
+
+    // ===== 列表状态的保存与恢复 =====
+    // 信息流是 JS 逐页追加的，返回时浏览器只会重建第一页，
+    // 于是滚动位置无处可落、页面弹回最新的一天。这里自己把状态存起来。
+    const FEED_STATE_KEY = 'feed-state:' + window.location.pathname;
+    const FEED_STATE_MAX = 2 * 1024 * 1024; // 超过就放弃保存，避免撑爆 sessionStorage
+
+    if ('scrollRestoration' in history) {
+        history.scrollRestoration = 'manual';
+    }
+
+    function saveFeedState() {
+        try {
+            const html = socialFeed.innerHTML;
+            if (html.length > FEED_STATE_MAX) {
+                sessionStorage.removeItem(FEED_STATE_KEY);
+                return;
+            }
+            const activeYearBtn = document.querySelector('.year-btn.active');
+            const activeMonthBtn = document.querySelector('.month-btn.active');
+            sessionStorage.setItem(FEED_STATE_KEY, JSON.stringify({
+                html: html,
+                scrollY: window.scrollY,
+                nextUrl: loadMoreBtn.getAttribute('data-next-url'),
+                hasMore: loadMoreContainer ? loadMoreContainer.style.display !== 'none' : false,
+                activeYear: activeYearBtn ? activeYearBtn.dataset.year : null,
+                activeMonth: activeMonthBtn ? activeMonthBtn.dataset.month : null
+            }));
+        } catch (e) {
+            // 配额超限或隐私模式下禁用了 storage，放弃保存即可
+        }
+    }
+
+    function restoreFeedState() {
+        // 只有后退/前进和刷新才恢复；主动导航回首页时应当看到最新内容
+        const navEntry = performance.getEntriesByType('navigation')[0];
+        const navType = navEntry ? navEntry.type : '';
+        if (navType !== 'back_forward' && navType !== 'reload') return;
+
+        let raw = null;
+        try {
+            raw = sessionStorage.getItem(FEED_STATE_KEY);
+        } catch (e) {
+            return;
+        }
+        if (!raw) return;
+
+        let state;
+        try {
+            state = JSON.parse(raw);
+        } catch (e) {
+            return;
+        }
+        if (!state || !state.html) return;
+
+        socialFeed.innerHTML = state.html;
+        if (state.nextUrl) {
+            loadMoreBtn.setAttribute('data-next-url', state.nextUrl);
+        }
+        if (loadMoreContainer) {
+            loadMoreContainer.style.display = state.hasMore ? '' : 'none';
+        }
+
+        // 恢复侧边栏的筛选高亮，使其与信息流内容一致
+        if (state.activeYear) {
+            const yearBtn = document.querySelector(`.year-btn[data-year="${state.activeYear}"]`);
+            if (yearBtn) yearBtn.classList.add('active');
+        }
+        if (state.activeMonth && state.activeYear) {
+            const monthBtn = document.querySelector(
+                `.month-btn[data-year="${state.activeYear}"][data-month="${state.activeMonth}"]`);
+            if (monthBtn) monthBtn.classList.add('active');
+        }
+
+        addFeedEntryClickHandlers();
+
+        // 等一帧让恢复出来的条目完成布局，滚动位置才落得准
+        requestAnimationFrame(() => window.scrollTo(0, state.scrollY || 0));
+    }
+
+    // pagehide 对 bfcache 友好；点开 post、刷新、关闭标签页都会触发
+    window.addEventListener('pagehide', saveFeedState);
+
     function loadNextPage() {
         let nextUrlString = loadMoreBtn.getAttribute('data-next-url');
         if (!nextUrlString) {
@@ -578,4 +636,7 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // 在页面加载时缓存原始内容
     cacheOriginalPosts();
+
+    // 必须在 cacheOriginalPosts 之后：「全部」按钮要恢复的是首页原始内容，不是上次滚动到的位置
+    restoreFeedState();
 });

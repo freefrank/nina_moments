@@ -49,3 +49,8 @@ Thumbs.db
 
 # Hugo部署相关
 deploy.log
+
+# 媒体仓库（独立私有仓库 nina_moments_media，本地 clone 于此，仅供导入/预览，不进主仓库）
+/nina_moments_media/
+# 微信导出包（体积大，不入库）
+/import/
